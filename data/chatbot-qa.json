@@ -1,0 +1,93 @@
+[
+  {
+    "id": "qa-001",
+    "keywords": ["pháp", "xâm lược", "bắt đầu", "1858"],
+    "question": "Pháp bắt đầu xâm lược Việt Nam khi nào?",
+    "quickAnswer": "Pháp bắt đầu xâm lược Việt Nam năm 1858, tấn công Đà Nẵng.",
+    "detailedAnswer": "Ngày 1/9/1858, hạm đội Pháp-Tây Ban Nha do đô đốc Rigault de Genouilly chỉ huy tấn công và chiếm cảng Đà Nẵng. Đây là sự kiện mở đầu cuộc xâm lược của Pháp đối với Việt Nam, đánh dấu bước đầu của thời kỳ Pháp thuộc kéo dài gần 100 năm.",
+    "relatedEventIds": ["event-001"],
+    "relatedCharacterIds": []
+  },
+  {
+    "id": "qa-002",
+    "keywords": ["nguyễn trung trực", "đốt tàu", "l'espérance"],
+    "question": "Nguyễn Trung Trực đốt tàu gì?",
+    "quickAnswer": "Nguyễn Trung Trực đốt tàu chiến Pháp L'Espérance năm 1861.",
+    "detailedAnswer": "Năm 1861, nghĩa quân do Nguyễn Trung Trực lãnh đạo đã đốt cháy tàu chiến Pháp L'Espérance tại sông Nhật Tảo. Đây là chiến công lớn, gây tổn thất nặng nề cho Pháp và khích lệ tinh thần kháng chiến của nhân dân Nam Kỳ.",
+    "relatedEventIds": ["event-003"],
+    "relatedCharacterIds": ["char-001"]
+  },
+  {
+    "id": "qa-003",
+    "keywords": ["cần vương", "hàm nghi", "1885"],
+    "question": "Phong trào Cần Vương là gì?",
+    "quickAnswer": "Phong trào Cần Vương do vua Hàm Nghi phát động năm 1885, kêu gọi toàn dân chống Pháp.",
+    "detailedAnswer": "Tháng 7/1885, vua Hàm Nghi ra chiếu Cần Vương (nghĩa là 'Cần giúp vua, Vương đuổi giặc'), kêu gọi toàn dân đứng lên chống Pháp. Phong trào lan rộng khắp cả nước, với sự tham gia của nhiều nghĩa quân do các sĩ phu, quan lại yêu nước lãnh đạo như Phan Đình Phùng, Nguyễn Thiện Thuật. Phong trào kéo dài đến 1896.",
+    "relatedEventIds": ["event-008"],
+    "relatedCharacterIds": ["char-003", "char-004"]
+  },
+  {
+    "id": "qa-004",
+    "keywords": ["hoàng hoa thám", "yên thế", "đề đốc"],
+    "question": "Hoàng Hoa Thám là ai?",
+    "quickAnswer": "Hoàng Hoa Thám là Đề Đốc nghĩa quân Yên Thế, chống Pháp 30 năm (1884-1913).",
+    "detailedAnswer": "Hoàng Hoa Thám, còn gọi là Đề Đốc Hoàng Hoa Thám, lãnh đạo khởi nghĩa Yên Thế ở Bắc Giang từ 1884 đến 1913. Ông sử dụng địa hình hiểm trở của vùng núi Yên Thế để chống Pháp hiệu quả. Đây là cuộc khởi nghĩa kéo dài nhất chống Pháp, thể hiện ý chí kiên cường của nhân dân.",
+    "relatedEventIds": ["event-009"],
+    "relatedCharacterIds": ["char-005"]
+  },
+  {
+    "id": "qa-005",
+    "keywords": ["đông du", "phan bội châu", "nhật bản", "du học"],
+    "question": "Phong trào Đông Du là gì?",
+    "quickAnswer": "Phong trào Đông Du do Phan Bội Châu khởi xướng năm 1905, đưa thanh niên sang Nhật học tập.",
+    "detailedAnswer": "Năm 1905, Phan Bội Châu sang Nhật Bản, thành lập Duy Tân Hội và tổ chức đưa thanh niên Việt Nam sang Nhật học tập. Đông Du nghĩa là 'Du học phương Đông' (Nhật Bản). Hơn 200 học sinh tham gia. Phong trào bị Pháp đàn áp, Nhật Bản khuất phục Pháp trục xuất du học sinh năm 1909. Đây là bước chuyển từ phong trào chống Pháp kiểu cũ sang phong trào duy tân, cận đại hóa.",
+    "relatedEventIds": ["event-010"],
+    "relatedCharacterIds": ["char-006"]
+  },
+  {
+    "id": "qa-006",
+    "keywords": ["đông kinh nghĩa thục", "phan châu trinh", "duy tân"],
+    "question": "Đông Kinh Nghĩa Thục là gì?",
+    "quickAnswer": "Đông Kinh Nghĩa Thục là trường học do Phan Châu Trinh mở năm 1907, dạy chữ quốc ngữ và kiến thức mới.",
+    "detailedAnswer": "Năm 1907, các nhà yêu nước mở trường Đông Kinh Nghĩa Thục ở Hà Nội, dạy chữ quốc ngữ và kiến thức mới, miễn phí cho học sinh. Trường thu hút hàng trăm học sinh, góp phần đánh thức dân trí. Pháp đóng cửa trường sau 1 năm và bắt giữ nhiều nhà yêu nước. Dù chỉ tồn tại ngắn ngủi, Đông Kinh Nghĩa Thục có ảnh hưởng rất lớn đến phong trào duy tân văn hóa, giáo dục.",
+    "relatedEventIds": ["event-011"],
+    "relatedCharacterIds": ["char-007"]
+  },
+  {
+    "id": "qa-007",
+    "keywords": ["đảng cộng sản", "1930", "nguyễn ái quốc", "hồ chí minh"],
+    "question": "Đảng Cộng sản Việt Nam thành lập khi nào?",
+    "quickAnswer": "Đảng Cộng sản Việt Nam thành lập ngày 3/2/1930 tại Hương Cảng.",
+    "detailedAnswer": "Ngày 3/2/1930, tại Hương Cảng (Hong Kong), Nguyễn Ái Quốc (Hồ Chí Minh) chủ trì hội nghị hợp nhất ba tổ chức cộng sản thành Đảng Cộng sản Việt Nam. Tháng 10/1930, Đảng đổi tên thành Đảng Cộng sản Đông Dương. Đây là sự kiện có ý nghĩa lịch sử vô cùng quan trọng, mở ra kỷ nguyên mới cho cách mạng Việt Nam.",
+    "relatedEventIds": ["event-014"],
+    "relatedCharacterIds": ["char-008"]
+  },
+  {
+    "id": "qa-008",
+    "keywords": ["xô viết nghệ tĩnh", "1930", "nông dân"],
+    "question": "Xô viết Nghệ Tĩnh là gì?",
+    "quickAnswer": "Xô viết Nghệ Tĩnh là phong trào cách mạng lớn năm 1930, nông dân thành lập chính quyền Xô viết.",
+    "detailedAnswer": "Từ tháng 9/1930, do ảnh hưởng của khủng hoảng kinh tế và sự lãnh đạo của Đảng Cộng sản mới thành lập, nông dân Nghệ An, Hà Tĩnh nổi dậy, thành lập chính quyền Xô viết ở 535 xã với hơn 100.000 người tham gia. Pháp đàn áp dã man, phong trào bị dập tắt đầu 1931. Đây là phong trào cách mạng đầu tiên do Đảng Cộng sản lãnh đạo.",
+    "relatedEventIds": ["event-015"],
+    "relatedCharacterIds": ["char-008"]
+  },
+  {
+    "id": "qa-009",
+    "keywords": ["khác biệt", "phan bội châu", "phan châu trinh"],
+    "question": "Phan Bội Châu và Phan Châu Trinh khác nhau như thế nào?",
+    "quickAnswer": "Phan Bội Châu chủ trương vũ trang, Phan Châu Trinh chủ trương duy tân hòa bình.",
+    "detailedAnswer": "Phan Bội Châu chủ trương vũ trang đấu tranh, lật đổ thực dân Pháp bằng bạo lực, thành lập Việt Nam Quang Phục Hội. Phan Châu Trinh chủ trương duy tân hòa bình, cải cách giáo dục và xã hội, phát triển dân trí trước, mở trường Đông Kinh Nghĩa Thục. Cả hai đều là những nhà yêu nước lớn nhưng có con đường đấu tranh khác nhau.",
+    "relatedEventIds": ["event-010", "event-011", "event-013"],
+    "relatedCharacterIds": ["char-006", "char-007"]
+  },
+  {
+    "id": "qa-010",
+    "keywords": ["nam kỳ", "bắc kỳ", "trung kỳ", "khác nhau"],
+    "question": "Nam Kỳ, Bắc Kỳ, Trung Kỳ khác nhau như thế nào?",
+    "quickAnswer": "Pháp chia Việt Nam thành 3 kỳ: Nam Kỳ (thuộc địa), Trung Kỳ và Bắc Kỳ (bảo hộ).",
+    "detailedAnswer": "Pháp chia Việt Nam thành 3 kỳ với chế độ cai trị khác nhau: Nam Kỳ (miền Nam) là thuộc địa trực tiếp, do toàn quyền Pháp cai trị. Trung Kỳ (miền Trung) và Bắc Kỳ (miền Bắc) là xứ bảo hộ, vẫn giữ bộ máy triều đình nhưng thực quyền thuộc về Pháp. Việc chia cắt này nhằm chia để trị, dễ dàng kiểm soát.",
+    "relatedEventIds": ["event-001", "event-002", "event-007"],
+    "relatedCharacterIds": []
+  }
+]
+

@@ -1,0 +1,1317 @@
+[
+  {
+    "id": "char-001",
+    "name": "Nguyễn Trung Trực",
+    "avatar": "/images/characters/nguyen-trung-truc.jpg",
+    "birthYear": 1838,
+    "deathYear": 1868,
+    "biography": "Nguyễn Trung Trực (1838-1868) là anh hùng dân tộc, lãnh đạo nghĩa quân chống Pháp ở Rạch Giá – Hà Tiên. Ông nổi tiếng với chiến công đốt tàu chiến Pháp L'Espérance tại Nhựt Tảo (10/12/1868) – lần đầu tiên trong lịch sử Việt Nam nghĩa quân đốt tàu phương Tây. Bị bắt tháng 10/1868, ông từ chối đầu hàng và bị xử chém tại Rạch Giá ngày 27/10/1868. Trước khi hy sinh, ông để lại câu nói bất hủ: 'Bao giờ Tây nhổ hết cỏ nước Nam, thì mới hết người Nam đánh Tây.' Được dân lập đền thờ khắp Nam Bộ.",
+    "role": "Lãnh tụ nghĩa quân Rạch Giá - Anh hùng dân tộc",
+    "achievements": [
+      "Lãnh đạo nghĩa quân Rạch Giá – Hà Tiên (1861-1868)",
+      "Đốt tàu chiến Pháp L'Espérance tại Nhựt Tảo (10/12/1868)",
+      "Lần đầu tiên nghĩa quân Việt Nam đốt tàu chiến phương Tây",
+      "Để lại câu nói bất hủ về tinh thần kháng chiến",
+      "Được dân lập đền thờ, biểu tượng người nông dân bất khuất"
+    ],
+    "relatedEvents": ["event-003", "event-046", "event-047", "event-048"],
+    "journey": [
+      {
+        "eventId": "event-003",
+        "year": 1861,
+        "location": [10.5359, 106.4137],
+        "description": "Khởi nghĩa tại Tân An"
+      },
+      {
+        "eventId": "event-046",
+        "year": 1865,
+        "location": [10.0103, 105.0806],
+        "description": "Hoạt động kháng chiến tại Rạch Giá"
+      },
+      {
+        "eventId": "event-047",
+        "year": 1866,
+        "location": [10.0103, 105.0806],
+        "description": "Mở rộng vùng kiểm soát, chuẩn bị trận lớn"
+      },
+      {
+        "eventId": "event-048",
+        "year": 1868,
+        "location": [10.7769, 106.6577],
+        "description": "Đốt tàu Espérance tại Nhựt Tảo, bị bắt và tuẫn tiết tại Rạch Giá"
+      }
+    ]
+  },
+  {
+    "id": "char-002",
+    "name": "Trương Định",
+    "avatar": "/images/characters/truong-dinh.jpg",
+    "birthYear": 1820,
+    "deathYear": 1864,
+    "biography": "Trương Định là võ quan triều Nguyễn, lãnh tụ nghĩa quân chống Pháp ở Gò Công – Tân Hòa. Sau Hòa ước Nhâm Tuất 1862, ông từ chối lệnh bãi binh, tuyên bố: 'Dân còn, giặc chưa hết, sao thần dám lui!' Ông tự xưng 'Bình Tây Đại Nguyên Soái', dựng căn cứ vững chắc ở Gò Công. Đêm 19/8/1864, bị quân Pháp bao vây tại Tân Phước, ông tự vẫn giữ khí tiết, trở thành biểu tượng lòng trung nghĩa.",
+    "role": "Bình Tây Đại Nguyên Soái",
+    "achievements": [
+      "Từ chối lệnh bãi binh, tiếp tục kháng chiến (1862-1864)",
+      "Tự xưng 'Bình Tây Đại Nguyên Soái', được dân tôn kính",
+      "Dựng căn cứ Gò Công – Tân Hòa vững chắc nhất Nam Kỳ",
+      "Tự vẫn giữ khí tiết (19/8/1864), không chịu đầu hàng",
+      "Được vua Tự Đức truy phong 'Trung dũng tướng quân'"
+    ],
+    "relatedEvents": ["event-016", "event-043", "event-045", "event-054", "event-055"],
+    "journey": [
+      {
+        "eventId": "event-016",
+        "year": 1862,
+        "location": [10.38, 106.67],
+        "description": "Từ chối lệnh bãi binh tại Gò Công"
+      },
+      {
+        "eventId": "event-043",
+        "year": 1861,
+        "location": [10.38, 106.67],
+        "description": "Tiếp tục kháng chiến sau trận Kỳ Hòa"
+      },
+      {
+        "eventId": "event-045",
+        "year": 1864,
+        "location": [10.39, 106.48],
+        "description": "Tuẫn tiết tại Tân Phước, Gò Công"
+      }
+    ]
+  },
+  {
+    "id": "char-003",
+    "name": "Vua Hàm Nghi",
+    "avatar": "/images/characters/ham-nghi.jpg",
+    "birthYear": 1872,
+    "deathYear": 1943,
+    "biography": "Vua Hàm Nghi là vị vua thứ 8 của triều Nguyễn. Năm 1885, khi mới 13 tuổi, ông ra chiếu Cần Vương, kêu gọi toàn dân chống Pháp. Sau khi bị bắt năm 1888, ông bị đày sang Algeria.",
+    "role": "Vua triều Nguyễn",
+    "achievements": [
+      "Phát động phong trào Cần Vương (1885)",
+      "Biểu tượng của tinh thần yêu nước hoàng gia",
+      "Kiên trì chống Pháp dù còn rất trẻ"
+    ],
+    "relatedEvents": ["event-008"],
+    "journey": [
+      {
+        "eventId": "event-008",
+        "year": 1885,
+        "location": [16.4637, 107.5909],
+        "description": "Ra chiếu Cần Vương tại Huế"
+      }
+    ]
+  },
+  {
+    "id": "char-004",
+    "name": "Phan Đình Phùng",
+    "avatar": "/images/characters/phan-dinh-phung.jpg",
+    "birthYear": 1847,
+    "deathYear": 1896,
+    "biography": "Phan Đình Phùng là bậc kỳ tài của triều Nguyễn, lãnh đạo nghĩa quân Cần Vương ở Hà Tĩnh. Ông nổi tiếng với ý chí kiên cường, từ chối mọi lời mời chào hàng của Pháp.",
+    "role": "Lãnh đạo nghĩa quân Cần Vương",
+    "achievements": [
+      "Lãnh đạo nghĩa quân Hương Khê (1885-1896)",
+      "Xây dựng căn cứ Vũ Quang vững chắc",
+      "Kiên trì chống Pháp 11 năm"
+    ],
+    "relatedEvents": ["event-008"],
+    "journey": [
+      {
+        "eventId": "event-008",
+        "year": 1885,
+        "location": [18.3, 105.9],
+        "description": "Khởi nghĩa tại Hà Tĩnh"
+      }
+    ]
+  },
+  {
+    "id": "char-005",
+    "name": "Hoàng Hoa Thám",
+    "avatar": "/images/characters/hoang-hoa-tham.jpg",
+    "birthYear": 1858,
+    "deathYear": 1913,
+    "biography": "Hoàng Hoa Thám, còn gọi là Đề Đốc Hoàng Hoa Thám, lãnh đạo khởi nghĩa Yên Thế kéo dài 30 năm. Ông sử dụng địa hình hiểm trở của Yên Thế để chống Pháp hiệu quả.",
+    "role": "Đề Đốc nghĩa quân Yên Thế",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Yên Thế 30 năm (1884-1913)",
+      "Xây dựng căn cứ Yên Thế vững chắc",
+      "Biểu tượng của tinh thần kiên trì chống Pháp"
+    ],
+    "relatedEvents": ["event-009"],
+    "journey": [
+      {
+        "eventId": "event-009",
+        "year": 1884,
+        "location": [21.4, 106.5],
+        "description": "Khởi nghĩa tại Yên Thế, Bắc Giang"
+      }
+    ]
+  },
+  {
+    "id": "char-006",
+    "name": "Phan Bội Châu",
+    "avatar": "/images/characters/phan-boi-chau.jpg",
+    "birthYear": 1867,
+    "deathYear": 1940,
+    "biography": "Phan Bội Châu là nhà yêu nước, nhà cách mạng tiền bối. Ông khởi xướng phong trào Đông Du, thành lập Việt Nam Quang Phục Hội, hoạt động cách mạng suốt đời.",
+    "role": "Nhà cách mạng tiền bối",
+    "achievements": [
+      "Khởi xướng phong trào Đông Du (1905)",
+      "Thành lập Việt Nam Quang Phục Hội (1912)",
+      "Tác giả nhiều tác phẩm yêu nước"
+    ],
+    "relatedEvents": ["event-010", "event-013"],
+    "journey": [
+      {
+        "eventId": "event-010",
+        "year": 1905,
+        "location": [35.6762, 139.6503],
+        "description": "Sang Nhật Bản, khởi xướng Đông Du"
+      },
+      {
+        "eventId": "event-013",
+        "year": 1912,
+        "location": [23.1291, 113.2644],
+        "description": "Thành lập Quang Phục Hội tại Quảng Châu"
+      }
+    ]
+  },
+  {
+    "id": "char-007",
+    "name": "Phan Châu Trinh",
+    "avatar": "/images/characters/phan-chau-trinh.jpg",
+    "birthYear": 1872,
+    "deathYear": 1926,
+    "biography": "Phan Châu Trinh là nhà yêu nước, nhà cải cách xã hội. Ông chủ trương duy tân, cải cách giáo dục, phát triển dân trí. Ông là người sáng lập trường Đông Kinh Nghĩa Thục.",
+    "role": "Nhà cải cách, giáo dục",
+    "achievements": [
+      "Sáng lập Đông Kinh Nghĩa Thục (1907)",
+      "Lãnh đạo phong trào Duy Tân",
+      "Đề xướng cải cách giáo dục, xã hội"
+    ],
+    "relatedEvents": ["event-011"],
+    "journey": [
+      {
+        "eventId": "event-011",
+        "year": 1907,
+        "location": [21.0285, 105.8542],
+        "description": "Mở trường Đông Kinh Nghĩa Thục tại Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": "char-008",
+    "name": "Nguyễn Ái Quốc (Hồ Chí Minh)",
+    "avatar": "/images/characters/ho-chi-minh.jpg",
+    "birthYear": 1890,
+    "deathYear": 1969,
+    "biography": "Nguyễn Ái Quốc, sau này lấy tên Hồ Chí Minh, là lãnh tụ vĩ đại của dân tộc Việt Nam. Ông sáng lập Đảng Cộng sản Việt Nam, lãnh đạo cách mạng giải phóng dân tộc.",
+    "role": "Lãnh tụ cách mạng",
+    "achievements": [
+      "Sáng lập Đảng Cộng sản Việt Nam (1930)",
+      "Lãnh đạo Cách mạng Tháng Tám (1945)",
+      "Chủ tịch nước Việt Nam Dân chủ Cộng hòa"
+    ],
+    "relatedEvents": ["event-014", "event-015", "event-026", "event-027", "event-028"],
+    "journey": [
+      {
+        "eventId": "event-026",
+        "year": 1919,
+        "location": [48.8049, 2.1204],
+        "description": "Gửi Bản yêu sách tại Versailles"
+      },
+      {
+        "eventId": "event-027",
+        "year": 1920,
+        "location": [47.3941, 0.6848],
+        "description": "Tham gia Đảng Cộng sản Pháp tại Tours"
+      },
+      {
+        "eventId": "event-028",
+        "year": 1925,
+        "location": [23.1291, 113.2644],
+        "description": "Thành lập Hội Thanh niên tại Quảng Châu"
+      },
+      {
+        "eventId": "event-014",
+        "year": 1930,
+        "location": [22.3193, 114.1694],
+        "description": "Chủ trì hội nghị thành lập Đảng tại Hương Cảng"
+      }
+    ]
+  },
+  {
+    "id": "char-009",
+    "name": "Nguyễn Thái Học",
+    "avatar": "/images/characters/nguyen-thai-hoc.jpg",
+    "birthYear": 1902,
+    "deathYear": 1930,
+    "biography": "Nguyễn Thái Học là nhà cách mạng, người sáng lập Việt Nam Quốc dân Đảng. Ông lãnh đạo khởi nghĩa Yên Bái năm 1930, hy sinh khi mới 28 tuổi với câu nói bất hủ: 'Tôi chết vì Tổ quốc, tôi chết vì dân tộc'.",
+    "role": "Lãnh tụ VNQDĐ",
+    "achievements": [
+      "Sáng lập Việt Nam Quốc dân Đảng (1927)",
+      "Lãnh đạo khởi nghĩa Yên Bái (1930)",
+      "Biểu tượng của tinh thần hy sinh vì Tổ quốc"
+    ],
+    "relatedEvents": ["event-031", "event-032"],
+    "journey": [
+      {
+        "eventId": "event-031",
+        "year": 1927,
+        "location": [21.0285, 105.8542],
+        "description": "Thành lập VNQDĐ tại Hà Nội"
+      },
+      {
+        "eventId": "event-032",
+        "year": 1930,
+        "location": [21.7167, 104.9111],
+        "description": "Lãnh đạo khởi nghĩa Yên Bái"
+      }
+    ]
+  },
+  {
+    "id": "char-010",
+    "name": "Đinh Công Tráng",
+    "avatar": "/images/characters/dinh-cong-trang.jpg",
+    "birthYear": 1850,
+    "deathYear": 1887,
+    "biography": "Đinh Công Tráng là võ sinh triều Nguyễn, lãnh đạo khởi nghĩa Ba Đình thuộc phong trào Cần Vương. Ông xây dựng thành Ba Đình kiên cố, chống Pháp kiên cường đến hơi thở cuối cùng.",
+    "role": "Lãnh đạo khởi nghĩa Ba Đình",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Ba Đình (1886-1887)",
+      "Xây dựng thành trì Ba Đình kiên cố",
+      "Hy sinh anh dũng trong chiến đấu"
+    ],
+    "relatedEvents": ["event-020"],
+    "journey": [
+      {
+        "eventId": "event-020",
+        "year": 1886,
+        "location": [19.8, 105.8],
+        "description": "Khởi nghĩa tại Ba Đình, Thanh Hóa"
+      }
+    ]
+  },
+  {
+    "id": "char-011",
+    "name": "Lương Ngọc Quyến",
+    "avatar": "/images/characters/luong-ngoc-quyen.jpg",
+    "birthYear": 1890,
+    "deathYear": 1917,
+    "biography": "Lương Ngọc Quyến là lính tập người Việt, lãnh đạo khởi nghĩa Thái Nguyên năm 1917. Ông cùng Trịnh Văn Cấn (Đội Cấn) chiếm thị xã Thái Nguyên, giữ thành nhiều tháng trước khi hy sinh.",
+    "role": "Lãnh đạo khởi nghĩa Thái Nguyên",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Thái Nguyên (1917)",
+      "Chiếm và giữ thị xã Thái Nguyên hơn 2 tháng",
+      "Biểu tượng tinh thần chống Pháp của quân nhân"
+    ],
+    "relatedEvents": ["event-025"],
+    "journey": [
+      {
+        "eventId": "event-025",
+        "year": 1917,
+        "location": [21.5671, 105.8252],
+        "description": "Khởi nghĩa tại Thái Nguyên"
+      }
+    ]
+  },
+  {
+    "id": "char-012",
+    "name": "Lương Văn Can",
+    "avatar": "/images/characters/luong-van-can.jpg",
+    "birthYear": 1854,
+    "deathYear": 1927,
+    "biography": "Lương Văn Can là nhà giáo dục, nhà cải cách. Ông là người sáng lập trường Đông Kinh Nghĩa Thục, đào tạo thế hệ trẻ yêu nước. Ông cùng Phan Châu Trinh lãnh đạo phong trào duy tân.",
+    "role": "Nhà giáo dục, cải cách",
+    "achievements": [
+      "Sáng lập Đông Kinh Nghĩa Thục (1907)",
+      "Đề xướng dạy chữ quốc ngữ",
+      "Góp phần đánh thức dân trí"
+    ],
+    "relatedEvents": ["event-023"],
+    "journey": [
+      {
+        "eventId": "event-023",
+        "year": 1907,
+        "location": [21.0285, 105.8542],
+        "description": "Mở trường Đông Kinh Nghĩa Thục"
+      }
+    ]
+  },
+  {
+    "id": "char-013",
+    "name": "Cao Thắng",
+    "avatar": "/images/characters/cao-thang.jpg",
+    "birthYear": 1860,
+    "deathYear": 1893,
+    "biography": "Cao Thắng là võ tướng tài ba, cánh tay phải của Phan Đình Phùng trong khởi nghĩa Hương Khê. Ông nổi tiếng với tài dũng cảm và lòng trung thành với nghĩa quân Cần Vương.",
+    "role": "Võ tướng nghĩa quân Cần Vương",
+    "achievements": [
+      "Cánh tay phải của Phan Đình Phùng",
+      "Nhiều chiến công chống Pháp",
+      "Hy sinh anh dũng năm 1893"
+    ],
+    "relatedEvents": ["event-021"],
+    "journey": [
+      {
+        "eventId": "event-021",
+        "year": 1885,
+        "location": [18.3, 105.7],
+        "description": "Tham gia khởi nghĩa Hương Khê"
+      }
+    ]
+  },
+  {
+    "id": "char-014",
+    "name": "Tôn Thất Thuyết",
+    "avatar": "/images/characters/ton-that-thuyet.jpg",
+    "birthYear": 1839,
+    "deathYear": 1913,
+    "biography": "Tôn Thất Thuyết là đại thần triều Nguyễn, người chủ trương chống Pháp kiên quyết. Ông phò vua Hàm Nghi ra chiếu Cần Vương, lãnh đạo phong trào kháng chiến.",
+    "role": "Đại thần triều Nguyễn",
+    "achievements": [
+      "Phò vua Hàm Nghi phát động Cần Vương",
+      "Tổ chức lực lượng kháng chiến",
+      "Kiên trì chống Pháp đến cuối đời"
+    ],
+    "relatedEvents": ["event-008"],
+    "journey": [
+      {
+        "eventId": "event-008",
+        "year": 1885,
+        "location": [16.4637, 107.5909],
+        "description": "Phò vua Hàm Nghi ra chiếu Cần Vương"
+      }
+    ]
+  },
+  {
+    "id": "char-015",
+    "name": "Trần Phú",
+    "avatar": "/images/characters/tran-phu.jpg",
+    "birthYear": 1904,
+    "deathYear": 1931,
+    "biography": "Trần Phú là Tổng Bí thư đầu tiên của Đảng Cộng sản Đông Dương. Ông soạn thảo Luận cương chính trị đầu tiên của Đảng (10/1930), hy sinh khi mới 27 tuổi.",
+    "role": "Tổng Bí thư ĐCSĐD",
+    "achievements": [
+      "Tổng Bí thư đầu tiên của Đảng (1930)",
+      "Soạn thảo Luận cương chính trị",
+      "Lãnh đạo phong trào cách mạng 1930-1931"
+    ],
+    "relatedEvents": ["event-014", "event-015"],
+    "journey": [
+      {
+        "eventId": "event-014",
+        "year": 1930,
+        "location": [2002.3193, 114.1694],
+        "description": "Tham gia thành lập Đảng"
+      }
+    ]
+  },
+  {
+    "id": "char-016",
+    "name": "Nguyễn Tri Phương",
+    "avatar": "/images/characters/nguyen-tri-phuong.jpg",
+    "birthYear": 1800,
+    "deathYear": 1873,
+    "biography": "Nguyễn Tri Phương là danh tướng triều Nguyễn, nổi tiếng với tài cầm quân và lòng trung nghĩa. Ông chỉ huy phòng thủ Đà Nẵng (1858), vây hãm liên quân Pháp-TBN khiến địch sa lầy. Sau đó chỉ huy Hà Nội (1873), kiên cường chống Pháp đến hơi thở cuối cùng.",
+    "role": "Tổng chỉ huy - Danh tướng triều Nguyễn",
+    "achievements": [
+      "Vây hãm liên quân Pháp-TBN tại Đà Nẵng (cuối 1858)",
+      "Dùng chiến thuật 'vườn không nhà trống', cắt tiếp tế",
+      "Chỉ huy phòng thủ Hà Nội chống Garnier (1873)",
+      "Hy sinh anh dũng tại Hà Nội năm 1873"
+    ],
+    "relatedEvents": ["event-001", "event-005"],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1858,
+        "location": [16.0755, 108.2240],
+        "description": "Tổ chức vây hãm liên quân tại Cửa Hàn"
+      },
+      {
+        "eventId": "event-005",
+        "year": 1873,
+        "location": [21.0285, 105.8542],
+        "description": "Chỉ huy phòng thủ Hà Nội, hy sinh"
+      }
+    ]
+  },
+  {
+    "id": "char-017",
+    "name": "Vua Tự Đức",
+    "avatar": "/images/characters/tu-duc.jpg",
+    "birthYear": 1829,
+    "deathYear": 1883,
+    "biography": "Vua Tự Đức là vị vua thứ 4 của triều Nguyễn, trị vì 1847-1883 trong thời kỳ khó khăn nhất của triều đại. Dưới thời ông, Pháp bắt đầu xâm lược (1858). Ông ban chỉ dụ 'kiên thủ, không giao chiến trực diện' và điều tướng Nguyễn Tri Phương chỉ huy phòng thủ Đà Nẵng.",
+    "role": "Quốc vương Đại Nam",
+    "achievements": [
+      "Trị vì 36 năm trong thời kỳ xâm lược",
+      "Điều tướng Nguyễn Tri Phương phòng thủ Đà Nẵng",
+      "Duy trì kháng chiến chống Pháp đến cuối đời"
+    ],
+    "relatedEvents": ["event-001", "event-002", "event-054", "event-055", "event-056", "event-057", "event-058", "event-059", "event-060", "event-061", "event-062", "event-063"],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1858,
+        "location": [16.4637, 107.5909],
+        "description": "Ban chỉ dụ phòng thủ Đà Nẵng từ Huế"
+      },
+      {
+        "eventId": "event-054",
+        "year": 1874,
+        "location": [16.4637, 107.5909],
+        "description": "Ký Hiệp ước Giáp Tuất, mất chủ quyền ngoại giao"
+      },
+      {
+        "eventId": "event-055",
+        "year": 1875,
+        "location": [16.4637, 107.5909],
+        "description": "Ban dụ khuyến học, khuyến nông nhưng chần chừ, sợ thay đổi"
+      },
+      {
+        "eventId": "event-056",
+        "year": 1876,
+        "location": [16.4637, 107.5909],
+        "description": "Cử sứ đoàn đi Trung Hoa học 'Tự cường vận động', ban dụ học kỹ nghệ"
+      },
+      {
+        "eventId": "event-057",
+        "year": 1877,
+        "location": [16.4637, 107.5909],
+        "description": "Ban chiếu 'Khuyến nông, trọng học' nhưng cải cách nửa vời, không dám phản ứng Pháp"
+      },
+      {
+        "eventId": "event-058",
+        "year": 1878,
+        "location": [16.4637, 107.5909],
+        "description": "Nỗ lực canh tân lần cuối, cử Khâm sai ra Bắc, nhưng ngày càng bất lực"
+      },
+      {
+        "eventId": "event-059",
+        "year": 1879,
+        "location": [16.4637, 107.5909],
+        "description": "Bệnh nặng, sức yếu, quyền lực chuyển sang Nguyễn Văn Tường và Tôn Thất Thuyết"
+      },
+      {
+        "eventId": "event-060",
+        "year": 1880,
+        "location": [16.4637, 107.5909],
+        "description": "Bệnh nặng, gần như không còn điều hành, triều đình chia rẽ gay gắt, ngọn đèn leo lét"
+      },
+      {
+        "eventId": "event-061",
+        "year": 1881,
+        "location": [16.4637, 107.5909],
+        "description": "Hấp hối, viết: 'Non sông sẽ đổi chủ, trẫm biết nhưng lực bất tòng tâm' - Năm cuối còn sống"
+      },
+      {
+        "eventId": "event-062",
+        "year": 1882,
+        "location": [16.4637, 107.5909],
+        "description": "Nghe tin Hà Nội thất thủ, than: 'Thương thay trung thần, đau thay xã tắc' - Chứng kiến Bắc Kỳ mất"
+      },
+      {
+        "eventId": "event-063",
+        "year": 1883,
+        "location": [16.4637, 107.5909],
+        "description": "17/7/1883 - Băng hà, vị vua cuối cùng có quyền thực sự - Kết thúc một triều đại"
+      }
+    ]
+  },
+  {
+    "id": "char-018",
+    "name": "Rigault de Genouilly",
+    "avatar": "/images/characters/genouilly.jpg",
+    "birthYear": 1807,
+    "deathYear": 1873,
+    "biography": "Rigault de Genouilly là đô đốc hải quân Pháp, tổng chỉ huy chiến dịch xâm lược Việt Nam 1858. Ông cầm đầu hạm đội 17 tàu chiến (14 Pháp + 3 TBN), 2.500 lính, nổ súng ngày 1/9/1858 tại Đà Nẵng. Khi bị sa lầy do bệnh tật và phòng thủ kiên cường, ông rút quân đánh Gia Định 1859.",
+    "role": "Đô đốc hải quân Pháp - Tổng chỉ huy xâm lược",
+    "achievements": [
+      "Chỉ huy hạm đội tấn công Đà Nẵng (1/9/1858)",
+      "Chiếm Sơn Trà, đồn An Hải, thành Điện Hải",
+      "Chuyển hướng đánh Gia Định (1859)"
+    ],
+    "relatedEvents": ["event-001", "event-002"],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1858,
+        "location": [16.0755, 108.2240],
+        "description": "Chỉ huy liên quân tấn công Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": "char-019",
+    "name": "Phạm Thế Hiển",
+    "avatar": "/images/characters/pham-the-hien.jpg",
+    "birthYear": 1820,
+    "deathYear": 1880,
+    "biography": "Phạm Thế Hiển là Tổng đốc Quảng Nam – Quảng Ngãi thời Tự Đức. Ông phụ trách điều phối lương thảo, nhân lực cho mặt trận Đà Nẵng, hỗ trợ Nguyễn Tri Phương củng cố phòng tuyến Hòa Vang và các tuyến phòng thủ khác.",
+    "role": "Tổng đốc Quảng Nam - Quảng Ngãi",
+    "achievements": [
+      "Điều phối lương thảo cho mặt trận Đà Nẵng",
+      "Hỗ trợ củng cố phòng tuyến Hòa Vang",
+      "Tổ chức dân binh địa phương chống Pháp"
+    ],
+    "relatedEvents": ["event-001"],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1858,
+        "location": [15.5717, 108.4764],
+        "description": "Điều phối hậu cần từ Quảng Nam"
+      }
+    ]
+  },
+  {
+    "id": "char-020",
+    "name": "Lê Đình Lý",
+    "avatar": "/images/characters/le-dinh-ly.jpg",
+    "birthYear": 1810,
+    "deathYear": 1859,
+    "biography": "Lê Đình Lý là tướng triều Nguyễn, chỉ huy phòng tuyến Thanh Khê – vòng ngoài cùng sát trung tâm Đà Nẵng. Ông trực tiếp chống trả các đợt tấn công của Pháp, hy sinh trong trận phản kích đầu năm 1859.",
+    "role": "Tướng chỉ huy phòng tuyến Thanh Khê",
+    "achievements": [
+      "Chỉ huy tuyến Thanh Khê sát trung tâm Đà Nẵng",
+      "Chống trả các đợt tấn công của Pháp",
+      "Hy sinh anh dũng đầu năm 1859"
+    ],
+    "relatedEvents": ["event-001"],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1858,
+        "location": [16.0652, 108.2111],
+        "description": "Trấn thủ phòng tuyến Thanh Khê"
+      }
+    ]
+  },
+  {
+    "id": "char-021",
+    "name": "Nguyễn Duy",
+    "avatar": "/images/characters/nguyen-duy.jpg",
+    "birthYear": 1815,
+    "deathYear": 1859,
+    "biography": "Nguyễn Duy là quan trấn thủ địa phương, chỉ huy phòng tuyến Cẩm Lệ – tuyến giữa ngăn quân Pháp tiến về nam. Ông kiên cường chống giữ, hy sinh trong các trận đánh cuối 1858.",
+    "role": "Quan chỉ huy phòng tuyến Cẩm Lệ",
+    "achievements": [
+      "Chỉ huy tuyến Cẩm Lệ ngăn Pháp tiến nam",
+      "Kiên cường chống giữ suốt nhiều tháng",
+      "Hy sinh anh dũng cuối 1858"
+    ],
+    "relatedEvents": ["event-001"],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1858,
+        "location": [15.9997, 108.1800],
+        "description": "Trấn thủ phòng tuyến Cẩm Lệ"
+      }
+    ]
+  },
+  {
+    "id": "char-022",
+    "name": "Nguyễn Đức Huy",
+    "avatar": "/images/characters/nguyen-duc-huy.jpg",
+    "birthYear": 1818,
+    "deathYear": 1859,
+    "biography": "Nguyễn Đức Huy là tướng địa phương, tham gia chỉ huy phòng tuyến Hòa Vang – đại bản doanh của Nguyễn Tri Phương. Ông bị thương nặng trong các trận phản kích năm 1859.",
+    "role": "Tướng phòng tuyến Hòa Vang",
+    "achievements": [
+      "Tham gia chỉ huy tuyến Hòa Vang",
+      "Hỗ trợ Nguyễn Tri Phương tổ chức phòng thủ",
+      "Bị thương nặng trong chiến đấu"
+    ],
+    "relatedEvents": ["event-001"],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1858,
+        "location": [15.9660, 108.2108],
+        "description": "Phòng thủ tại Hòa Vang"
+      }
+    ]
+  },
+  {
+    "id": "char-023",
+    "name": "Nguyễn Văn Nhàn",
+    "avatar": "/images/characters/nguyen-van-nhan.jpg",
+    "birthYear": 1812,
+    "deathYear": 1859,
+    "biography": "Nguyễn Văn Nhàn là quan chỉ huy đồn nhỏ bảo vệ sườn tây-tây bắc Đà Nẵng (khu Hòa Khánh, Liên Chiểu). Ông kiên trì chống giữ, hy sinh trong các trận chiến năm 1859.",
+    "role": "Quan chỉ huy phòng tuyến Hòa Khánh",
+    "achievements": [
+      "Chỉ huy đồn bảo vệ sườn tây Đà Nẵng",
+      "Kiên cường chống giữ phòng tuyến",
+      "Hy sinh anh dũng năm 1859"
+    ],
+    "relatedEvents": ["event-001"],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1858,
+        "location": [16.1481, 108.0956],
+        "description": "Trấn thủ sườn tây Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": "char-024",
+    "name": "Lanzarote (Tây Ban Nha)",
+    "avatar": "/images/characters/lanzarote.jpg",
+    "birthYear": 1805,
+    "deathYear": 1870,
+    "biography": "Lanzarote là đại tá chỉ huy hải quân Tây Ban Nha, hỗ trợ Pháp trong chiến dịch Đà Nẵng 1858. Ông dẫn 1.000 quân (chủ yếu Philippines), đóng vai trò bộ binh đổ bộ và chiếm đóng căn cứ Tourane.",
+    "role": "Đại tá hải quân Tây Ban Nha",
+    "achievements": [
+      "Chỉ huy 1.000 quân TBN từ Philippines",
+      "Hỗ trợ Pháp chiếm Sơn Trà và Đà Nẵng",
+      "Tham chiến tiếp ở Nam Kỳ (1859-1862)"
+    ],
+    "relatedEvents": ["event-001", "event-002"],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1858,
+        "location": [16.0755, 108.2240],
+        "description": "Hỗ trợ liên quân tấn công Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": "char-025",
+    "name": "Tôn Thất Hiệp",
+    "avatar": "/images/characters/ton-that-hiep.jpg",
+    "birthYear": 1820,
+    "deathYear": 1865,
+    "biography": "Tôn Thất Hiệp là tướng triều Nguyễn, giữ thành Gia Định trong trận Kỳ Hòa năm 1861. Ông phối hợp phòng thủ với Nguyễn Tri Phương, kiên cường chống giữ trước hỏa lực Pháp. Sau thất bại, ông tiếp tục kháng chiến đến hy sinh.",
+    "role": "Tướng giữ thành Gia Định",
+    "achievements": [
+      "Phối hợp phòng thủ trận Kỳ Hòa (1861)",
+      "Kiên cường chống giữ thành Gia Định",
+      "Tiếp tục kháng chiến sau thất bại"
+    ],
+    "relatedEvents": ["event-043"],
+    "journey": [
+      {
+        "eventId": "event-043",
+        "year": 1861,
+        "location": [10.7769, 106.6577],
+        "description": "Giữ thành Gia Định, phối hợp trận Kỳ Hòa"
+      }
+    ]
+  },
+  {
+    "id": "char-026",
+    "name": "Nguyễn Lâm",
+    "avatar": "/images/characters/nguyen-lam.jpg",
+    "birthYear": 1830,
+    "deathYear": 1861,
+    "biography": "Nguyễn Lâm là con trai của danh tướng Nguyễn Tri Phương. Ông chỉ huy đạo quân Biên Hòa trong trận Kỳ Hòa (1861), chiến đấu anh dũng bên cạnh cha. Sau trận Kỳ Hòa thất thủ, ông hy sinh vì bị thương nặng.",
+    "role": "Tướng chỉ huy quân Biên Hòa",
+    "achievements": [
+      "Chỉ huy quân Biên Hòa trận Kỳ Hòa",
+      "Chiến đấu bên cạnh cha Nguyễn Tri Phương",
+      "Hy sinh anh dũng sau trận Kỳ Hòa"
+    ],
+    "relatedEvents": ["event-043"],
+    "journey": [
+      {
+        "eventId": "event-043",
+        "year": 1861,
+        "location": [10.95, 106.8],
+        "description": "Chỉ huy quân Biên Hòa, hy sinh"
+      }
+    ]
+  },
+  {
+    "id": "char-027",
+    "name": "Léonard Charner",
+    "avatar": "/images/characters/charner.jpg",
+    "birthYear": 1797,
+    "deathYear": 1869,
+    "biography": "Léonard Charner là đô đốc hải quân Pháp, chỉ huy chiến dịch Nam Kỳ năm 1861. Ông được viện binh từ châu Âu, dẫn 3.500 quân tinh nhuệ tấn công và đập tan pháo đài Kỳ Hòa (24-25/2/1861). Chiến thắng này mở đường cho Pháp chiếm toàn bộ miền Đông Nam Kỳ.",
+    "role": "Đô đốc hải quân Pháp - Chỉ huy Nam Kỳ",
+    "achievements": [
+      "Chỉ huy chiến dịch Nam Kỳ (1861)",
+      "Đập tan pháo đài Kỳ Hòa (24-25/2/1861)",
+      "Chiếm 3 tỉnh miền Đông Nam Kỳ trong 5 tháng"
+    ],
+    "relatedEvents": ["event-043"],
+    "journey": [
+      {
+        "eventId": "event-043",
+        "year": 1861,
+        "location": [10.7769, 106.6577],
+        "description": "Chỉ huy tấn công pháo đài Kỳ Hòa"
+      }
+    ]
+  },
+  {
+    "id": "char-028",
+    "name": "Võ Duy Dương (Thiên hộ Dương)",
+    "avatar": "/images/characters/vo-duy-duong.jpg",
+    "birthYear": 1828,
+    "deathYear": 1867,
+    "biography": "Võ Duy Dương, được dân gian tôn là 'Thiên hộ Dương', là lãnh đạo nghĩa quân ở Đồng Tháp Mười. Sau khi triều đình ký Hòa ước Nhâm Tuất (1862), ông dựng căn cứ trong rừng tràm, đầm lầy, đánh du kích chống Pháp kiên cường.",
+    "role": "Lãnh đạo nghĩa quân Đồng Tháp Mười",
+    "achievements": [
+      "Dựng căn cứ Đồng Tháp Mười",
+      "Đánh du kích trong rừng tràm, đầm lầy",
+      "Tiếp tục kháng chiến sau Hòa ước 1862"
+    ],
+    "relatedEvents": ["event-043", "event-016"],
+    "journey": [
+      {
+        "eventId": "event-043",
+        "year": 1861,
+        "location": [10.5, 105.6],
+        "description": "Dựng căn cứ Đồng Tháp Mười"
+      }
+    ]
+  },
+  {
+    "id": "char-029",
+    "name": "Huỳnh Mẫn Đạt",
+    "avatar": "/images/characters/huynh-man-dat.jpg",
+    "birthYear": 1830,
+    "deathYear": 1865,
+    "biography": "Huỳnh Mẫn Đạt là lãnh đạo nghĩa dũng ở Mỹ Tho, tổ chức nghĩa quân đánh tàu Pháp trên sông. Sau trận Kỳ Hòa và Hòa ước Nhâm Tuất, ông tiếp tục kháng chiến bằng chiến thuật du kích sông nước.",
+    "role": "Lãnh đạo nghĩa dũng Mỹ Tho",
+    "achievements": [
+      "Tổ chức nghĩa dũng đánh tàu Pháp trên sông",
+      "Chiến thuật du kích sông nước hiệu quả",
+      "Kiên trì chống Pháp sau Hòa ước 1862"
+    ],
+    "relatedEvents": ["event-043", "event-016"],
+    "journey": [
+      {
+        "eventId": "event-043",
+        "year": 1861,
+        "location": [10.35, 106.35],
+        "description": "Tổ chức nghĩa quân tại Mỹ Tho"
+      }
+    ]
+  },
+  {
+    "id": "char-030",
+    "name": "Phan Thanh Giản",
+    "avatar": "/images/characters/phan-thanh-gian.jpg",
+    "birthYear": 1796,
+    "deathYear": 1867,
+    "biography": "Phan Thanh Giản là đại thần toàn quyền triều Nguyễn, trưởng phái bộ thương thảo ký Hòa ước Nhâm Tuất (5/6/1862) và Chánh sứ phái đoàn sang Paris chuộc đất (1863). Ông bị xem là 'người ký nhục ước' và mang nỗi day dứt vì không chuộc được đất. Năm 1867, khi Pháp chiếm nốt 3 tỉnh miền Tây, ông tự sát để tạ tội với tổ tiên.",
+    "role": "Đại thần toàn quyền - Trưởng phái bộ",
+    "achievements": [
+      "Đại thần học vấn uyên thâm",
+      "Trưởng phái bộ ký Hòa ước Nhâm Tuất (1862)",
+      "Chánh sứ phái đoàn sang Paris chuộc đất (1863)",
+      "Tự sát để tạ tội năm 1867"
+    ],
+    "relatedEvents": ["event-016", "event-017", "event-044"],
+    "journey": [
+      {
+        "eventId": "event-016",
+        "year": 1862,
+        "location": [10.8231, 106.6297],
+        "description": "Ký Hòa ước Nhâm Tuất tại Sài Gòn"
+      },
+      {
+        "eventId": "event-044",
+        "year": 1863,
+        "location": [48.8566, 2.3522],
+        "description": "Chánh sứ phái đoàn sang Paris chuộc đất"
+      },
+      {
+        "eventId": "event-017",
+        "year": 1867,
+        "location": [16.4637, 107.5909],
+        "description": "Tự sát tại Huế để tạ tội"
+      }
+    ]
+  },
+  {
+    "id": "char-031",
+    "name": "Lâm Duy Hiệp",
+    "avatar": "/images/characters/lam-duy-hiep.jpg",
+    "birthYear": 1800,
+    "deathYear": 1870,
+    "biography": "Lâm Duy Hiệp là đồng phái viên ký Hòa ước Nhâm Tuất cùng Phan Thanh Giản (5/6/1862). Ông cũng chịu cảnh bị chỉ trích là 'người ký nhục ước', dù chỉ làm theo lệnh triều đình trong hoàn cảnh bất đắc dĩ.",
+    "role": "Phái viên triều Nguyễn",
+    "achievements": [
+      "Đồng phái viên ký Hòa ước Nhâm Tuất",
+      "Thương thảo với Pháp tại Sài Gòn",
+      "Chịu gánh nặng lịch sử với Phan Thanh Giản"
+    ],
+    "relatedEvents": ["event-016"],
+    "journey": [
+      {
+        "eventId": "event-016",
+        "year": 1862,
+        "location": [10.8231, 106.6297],
+        "description": "Ký Hòa ước tại Sài Gòn"
+      }
+    ]
+  },
+  {
+    "id": "char-032",
+    "name": "Louis-Adolphe Bonard",
+    "avatar": "/images/characters/bonard.jpg",
+    "birthYear": 1805,
+    "deathYear": 1867,
+    "biography": "Louis-Adolphe Bonard là đô đốc hải quân Pháp, đại diện Pháp ký Hòa ước Nhâm Tuất (5/6/1862). Sau đó ông được giao cai trị trực tiếp Nam Kỳ với chức Thống đốc, thiết lập nền cai trị thuộc địa đầu tiên của Pháp tại Việt Nam.",
+    "role": "Đô đốc Pháp - Thống đốc Nam Kỳ",
+    "achievements": [
+      "Đại diện Pháp ký Hòa ước Nhâm Tuất (1862)",
+      "Thống đốc Nam Kỳ đầu tiên",
+      "Thiết lập nền cai trị thuộc địa"
+    ],
+    "relatedEvents": ["event-016"],
+    "journey": [
+      {
+        "eventId": "event-016",
+        "year": 1862,
+        "location": [10.8231, 106.6297],
+        "description": "Ký Hòa ước và cai trị Nam Kỳ"
+      }
+    ]
+  },
+  {
+    "id": "char-033",
+    "name": "Phan Tôn",
+    "avatar": "/images/characters/phan-ton.jpg",
+    "birthYear": 1825,
+    "deathYear": 1866,
+    "biography": "Phan Tôn là lãnh đạo nghĩa quân ở vùng Châu Đốc, An Giang. Cùng với Võ Duy Dương, ông dựng căn cứ trong vùng đầm lầy, tổ chức du kích chống Pháp sau khi Hòa ước Nhâm Tuất được ký.",
+    "role": "Lãnh đạo nghĩa quân Châu Đốc",
+    "achievements": [
+      "Dựng căn cứ vùng Châu Đốc - An Giang",
+      "Phối hợp với Võ Duy Dương kháng chiến",
+      "Đánh du kích trong đầm lầy"
+    ],
+    "relatedEvents": ["event-043", "event-016"],
+    "journey": [
+      {
+        "eventId": "event-016",
+        "year": 1862,
+        "location": [10.7, 105.1],
+        "description": "Kháng chiến tại Châu Đốc"
+      }
+    ]
+  },
+  {
+    "id": "char-034",
+    "name": "Phạm Phú Thứ",
+    "avatar": "/images/characters/pham-phu-thu.jpg",
+    "birthYear": 1821,
+    "deathYear": 1883,
+    "biography": "Phạm Phú Thứ là nhà trí thức canh tân, Phó sứ trong phái đoàn sang Paris năm 1863. Ông ghi chép tường tận chuyến đi trong 'Tây hành nhật ký', mở tầm nhìn về văn minh phương Tây. Sau chuyến đi, ông trở thành người đề xướng cải cách giáo dục, học tập khoa học kỹ thuật phương Tây.",
+    "role": "Phó sứ - Nhà trí thức canh tân",
+    "achievements": [
+      "Phó sứ phái đoàn sang Paris (1863)",
+      "Tác giả 'Tây hành nhật ký' ghi chép văn minh phương Tây",
+      "Đề xướng cải cách giáo dục và học tập khoa học Tây"
+    ],
+    "relatedEvents": ["event-044"],
+    "journey": [
+      {
+        "eventId": "event-044",
+        "year": 1863,
+        "location": [48.8566, 2.3522],
+        "description": "Phó sứ phái đoàn sang Paris"
+      }
+    ]
+  },
+  {
+    "id": "char-035",
+    "name": "Nguyễn Khắc Đản",
+    "avatar": "/images/characters/nguyen-khac-dan.jpg",
+    "birthYear": 1825,
+    "deathYear": 1870,
+    "biography": "Nguyễn Khắc Đản là Bồi sứ trong phái đoàn sang Paris năm 1863, phụ trách phiên dịch và ghi biên bản. Ông thông thạo tiếng Pháp, là cầu nối quan trọng giữa phái đoàn Đại Nam và chính phủ Pháp trong các cuộc thương thuyết.",
+    "role": "Bồi sứ - Phiên dịch viên",
+    "achievements": [
+      "Bồi sứ phái đoàn sang Paris (1863)",
+      "Phụ trách phiên dịch và ghi biên bản",
+      "Thông thạo tiếng Pháp, hỗ trợ thương thuyết"
+    ],
+    "relatedEvents": ["event-044"],
+    "journey": [
+      {
+        "eventId": "event-044",
+        "year": 1863,
+        "location": [48.8566, 2.3522],
+        "description": "Bồi sứ, phiên dịch tại Paris"
+      }
+    ]
+  },
+  {
+    "id": "char-036",
+    "name": "Napoléon III",
+    "avatar": "/images/characters/napoleon-iii.jpg",
+    "birthYear": 1808,
+    "deathYear": 1873,
+    "biography": "Napoléon III là Hoàng đế Pháp (1852-1870), người chủ trương mở rộng thuộc địa ở Đông Dương. Ông tiếp đón sứ bộ Đại Nam tại điện Tuileries năm 1863 nhưng từ chối thẳng thừng yêu cầu chuộc lại Nam Kỳ. Dưới thời ông, Pháp thiết lập quyền kiểm soát hoàn toàn ở Nam Kỳ và bảo hộ Campuchia.",
+    "role": "Hoàng đế Pháp",
+    "achievements": [
+      "Hoàng đế Pháp (1852-1870)",
+      "Chủ trương mở rộng thuộc địa Đông Dương",
+      "Từ chối yêu cầu chuộc đất của Đại Nam (1863)"
+    ],
+    "relatedEvents": ["event-044"],
+    "journey": [
+      {
+        "eventId": "event-044",
+        "year": 1863,
+        "location": [48.8566, 2.3522],
+        "description": "Tiếp sứ bộ Đại Nam tại Paris"
+      }
+    ]
+  },
+  {
+    "id": "char-037",
+    "name": "Đại tá Barbé",
+    "avatar": "/images/characters/barbe.jpg",
+    "birthYear": 1820,
+    "deathYear": 1880,
+    "biography": "Barbé là đại tá quân đội Pháp, chỉ huy chiến dịch đàn áp nghĩa quân Gò Công năm 1864. Ông điều phối 3 cánh quân tấn công từ Tân An, Mỹ Tho và Sài Gòn, bao vây và tiêu diệt căn cứ Trương Định. Chiến thắng này giúp Pháp tạm ổn định được Nam Kỳ.",
+    "role": "Đại tá quân đội Pháp",
+    "achievements": [
+      "Chỉ huy chiến dịch đàn áp Gò Công (1864)",
+      "Điều phối 3 cánh quân bao vây Trương Định",
+      "Góp phần ổn định cai trị Pháp ở Nam Kỳ"
+    ],
+    "relatedEvents": ["event-045"],
+    "journey": [
+      {
+        "eventId": "event-045",
+        "year": 1864,
+        "location": [10.38, 106.67],
+        "description": "Chỉ huy chiến dịch đàn áp Gò Công"
+      }
+    ]
+  },
+  {
+    "id": "char-038",
+    "name": "Thiếu tá Bourdais",
+    "avatar": "/images/characters/bourdais.jpg",
+    "birthYear": 1825,
+    "deathYear": 1885,
+    "biography": "Bourdais là thiếu tá quân đội Pháp, phó chỉ huy chiến dịch đàn áp nghĩa quân Gò Công năm 1864. Ông chỉ huy trực tiếp các trận càn trong rừng Tân Hòa và trận cuối cùng tại Tân Phước khiến Trương Định tuẫn tiết.",
+    "role": "Thiếu tá quân đội Pháp",
+    "achievements": [
+      "Phó chỉ huy chiến dịch Gò Công (1864)",
+      "Chỉ huy trận càn tại Tân Phước",
+      "Đàn áp nghĩa quân Trương Định"
+    ],
+    "relatedEvents": ["event-045"],
+    "journey": [
+      {
+        "eventId": "event-045",
+        "year": 1864,
+        "location": [10.39, 106.48],
+        "description": "Chỉ huy trận càn Tân Phước"
+      }
+    ]
+  },
+  {
+    "id": "char-039",
+    "name": "Pierre Paul Marie de La Grandière",
+    "avatar": "/images/characters/de-la-grandiere.jpg",
+    "birthYear": 1807,
+    "deathYear": 1876,
+    "biography": "De La Grandière là Thống đốc Nam Kỳ (1863-1868), người kế nhiệm Bonard. Ông được giao nhiệm vụ 'chấm dứt ảnh hưởng của triều Nguyễn ở miền Tây Nam Bộ'. Năm 1867, ông ép Phan Thanh Giản bàn giao 3 tỉnh miền Tây (Vĩnh Long, An Giang, Hà Tiên), hoàn tất việc chiếm trọn Nam Kỳ lục tỉnh.",
+    "role": "Thống đốc Nam Kỳ",
+    "achievements": [
+      "Thống đốc Nam Kỳ (1863-1868)",
+      "Lập kế hoạch chiếm trọn Nam Kỳ lục tỉnh",
+      "Ép triều đình bàn giao 3 tỉnh miền Tây (1867)"
+    ],
+    "relatedEvents": ["event-047", "event-017"],
+    "journey": [
+      {
+        "eventId": "event-047",
+        "year": 1866,
+        "location": [10.8231, 106.6297],
+        "description": "Chuẩn bị chiến dịch chiếm miền Tây"
+      },
+      {
+        "eventId": "event-017",
+        "year": 1867,
+        "location": [10.8231, 106.6297],
+        "description": "Ép bàn giao 3 tỉnh miền Tây"
+      }
+    ]
+  },
+  {
+    "id": "char-040",
+    "name": "Nguyễn Hữu Huân (Thủ Khoa Huân)",
+    "avatar": "/images/characters/nguyen-huu-huan.jpg",
+    "birthYear": 1841,
+    "deathYear": 1870,
+    "biography": "Nguyễn Hữu Huân, còn gọi là Thủ Khoa Huân, là sĩ phu yêu nước, từng là học trò giỏi của Phan Thanh Giản. Sau khi thầy tự vẫn vì mất Nam Kỳ (4/8/1867), ông phẫn nộ khởi nghĩa ở Tân An – Mỹ Tho, kêu gọi dân chúng chống Pháp. Bị bắt nhiều lần nhưng vẫn kiên cường, không khai, không hàng. Bị bắt lần thứ ba năm 1869 và xử chém năm 1870.",
+    "role": "Sĩ phu yêu nước - Thủ lĩnh khởi nghĩa",
+    "achievements": [
+      "Học trò giỏi của Phan Thanh Giản",
+      "Khởi nghĩa ở Tân An – Mỹ Tho sau khi thầy tự vẫn (1867)",
+      "Kêu gọi dân chúng chống Pháp",
+      "Bị bắt nhiều lần nhưng không khai, không hàng",
+      "Bị bắt lần thứ ba năm 1869 và xử chém năm 1870"
+    ],
+    "relatedEvents": ["event-017", "event-049"],
+    "journey": [
+      {
+        "eventId": "event-017",
+        "year": 1867,
+        "location": [10.7769, 106.6577],
+        "description": "Khởi nghĩa ở Tân An – Mỹ Tho"
+      },
+      {
+        "eventId": "event-049",
+        "year": 1869,
+        "location": [10.35, 106.35],
+        "description": "Bị bắt lần thứ ba tại Mỹ Tho"
+      }
+    ]
+  },
+  {
+    "id": "char-041",
+    "name": "Trần Văn Thành",
+    "avatar": "/images/characters/tran-van-thanh.jpg",
+    "birthYear": 1835,
+    "deathYear": 1873,
+    "biography": "Trần Văn Thành (1835-1873) là nghĩa sĩ người Châu Đốc, cùng với Nguyễn Trung Trực và Võ Duy Dương là một trong ba thủ lĩnh lớn miền Tây. Sau năm 1867, ông xây dựng căn cứ Bảy Thưa tại vùng Thất Sơn (Tịnh Biên, An Giang). Dân gọi ông là 'Đức Cố Quản Thành'. Ông liên kết với dân Khmer và Chăm, tập hợp hàng ngàn nghĩa sĩ, lãnh đạo khởi nghĩa 4 năm (1870-1873). Tháng 5/1873, ông bị thương nặng tại Gò Cây Da, tự rút gươm tuẫn tiết để giữ trọn lòng trung nghĩa. Sau khi hi sinh, dân lập miếu thờ, gọi ông là vị thánh cứu dân.",
+    "role": "Nghĩa sĩ Châu Đốc - Thủ lĩnh căn cứ Bảy Thưa",
+    "achievements": [
+      "Xây dựng căn cứ Bảy Thưa tại Thất Sơn (1867-1873)",
+      "Được dân gọi là 'Đức Cố Quản Thành'",
+      "Liên kết với dân Khmer và Chăm chống Pháp",
+      "Lãnh đạo khởi nghĩa Bảy Thưa 4 năm (1870-1873)",
+      "Tự rút gươm tuẫn tiết tại Gò Cây Da (5/1873)",
+      "Được dân lập miếu thờ như vị thánh cứu dân"
+    ],
+    "relatedEvents": ["event-017", "event-046", "event-047", "event-048", "event-049", "event-050", "event-051", "event-052", "event-053"],
+    "journey": [
+      {
+        "eventId": "event-046",
+        "year": 1865,
+        "location": [10.35, 106.35],
+        "description": "Hoạt động kháng Pháp miền Tây"
+      },
+      {
+        "eventId": "event-047",
+        "year": 1866,
+        "location": [10.35, 106.35],
+        "description": "Cùng phong trào kháng chiến"
+      },
+      {
+        "eventId": "event-017",
+        "year": 1867,
+        "location": [10.7, 105.1],
+        "description": "Xây căn cứ Bảy Thưa sau khi mất Nam Kỳ"
+      },
+      {
+        "eventId": "event-048",
+        "year": 1868,
+        "location": [10.7, 105.1],
+        "description": "Tiếp tục củng cố căn cứ Bảy Thưa"
+      },
+      {
+        "eventId": "event-049",
+        "year": 1869,
+        "location": [10.7, 105.1],
+        "description": "Nghĩa quân Bảy Thưa lớn mạnh, liên kết dân Khmer"
+      },
+      {
+        "eventId": "event-050",
+        "year": 1870,
+        "location": [10.7, 105.1],
+        "description": "Phát động Khởi nghĩa Bảy Thưa lần thứ nhất, dựng cờ 'Bình Tây Sát Tả'"
+      },
+      {
+        "eventId": "event-051",
+        "year": 1871,
+        "location": [10.7, 105.1],
+        "description": "Lập 'Giáo binh đội', biến Bảy Thưa thành 'một quốc gia kháng chiến thu nhỏ'"
+      },
+      {
+        "eventId": "event-052",
+        "year": 1872,
+        "location": [10.7, 105.1],
+        "description": "Chiến đấu trong vòng vây, phản công Châu Đốc, kiên định đến cùng"
+      },
+      {
+        "eventId": "event-053",
+        "year": 1873,
+        "location": [10.7, 105.1],
+        "description": "Trận chiến cuối tại Gò Cây Da, tự rút gươm tuẫn tiết, trở thành 'Đức Cố Quản Thành'"
+      }
+    ]
+  },
+  {
+    "id": "char-042",
+    "name": "Lâm Quang Ky",
+    "avatar": "/images/characters/lam-quang-ky.jpg",
+    "birthYear": 1840,
+    "deathYear": 1870,
+    "biography": "Lâm Quang Ky là phó tướng trung thành của Nguyễn Trung Trực, cùng ông hoạt động kháng Pháp ở vùng Rạch Giá – Hà Tiên. Ông là người chỉ huy trực tiếp trận phục kích đốt tàu Espérance tại Nhựt Tảo (10/12/1868). Sau khi Nguyễn Trung Trực hy sinh, ông tiếp tục đánh du kích cho đến khi bị bắt và xử tử năm 1870.",
+    "role": "Phó tướng nghĩa quân Rạch Giá",
+    "achievements": [
+      "Phó tướng trung thành của Nguyễn Trung Trực",
+      "Chỉ huy trực tiếp trận đốt tàu Espérance (10/12/1868)",
+      "Tiếp tục kháng chiến sau khi Nguyễn Trung Trực mất",
+      "Bị bắt và xử tử năm 1870"
+    ],
+    "relatedEvents": ["event-048", "event-046", "event-047"],
+    "journey": [
+      {
+        "eventId": "event-046",
+        "year": 1865,
+        "location": [10.0103, 105.0806],
+        "description": "Cùng Nguyễn Trung Trực hoạt động tại Rạch Giá"
+      },
+      {
+        "eventId": "event-047",
+        "year": 1866,
+        "location": [10.0103, 105.0806],
+        "description": "Phó tướng nghĩa quân Rạch Giá"
+      },
+      {
+        "eventId": "event-048",
+        "year": 1868,
+        "location": [10.7769, 106.6577],
+        "description": "Chỉ huy đốt tàu Espérance tại Nhựt Tảo"
+      }
+    ]
+  },
+  {
+    "id": "char-043",
+    "name": "Thiếu tá Luro",
+    "avatar": "/images/characters/luro.jpg",
+    "birthYear": 1835,
+    "deathYear": 1897,
+    "biography": "Luro là sĩ quan Pháp, chỉ huy chiến dịch tấn công căn cứ Bảy Thưa năm 1870. Ông được De La Grandière giao nhiệm vụ 'dẹp Bảy Thưa', điều quân từ Châu Đốc – Rạch Giá – Long Xuyên với pháo binh và tàu chiến. Tuy đánh chiếm lại vùng đồng bằng nhưng không thể tiêu diệt được căn cứ Thất Sơn của nghĩa quân.",
+    "role": "Sĩ quan Pháp - Chỉ huy chiến dịch đàn áp Bảy Thưa",
+    "achievements": [
+      "Chỉ huy chiến dịch tấn công Bảy Thưa (1870)",
+      "Điều quân từ 3 hướng tấn công nghĩa quân",
+      "Chiếm lại vùng đồng bằng An Giang",
+      "Không thể tiêu diệt được căn cứ Thất Sơn"
+    ],
+    "relatedEvents": ["event-050"],
+    "journey": [
+      {
+        "eventId": "event-050",
+        "year": 1870,
+        "location": [10.7, 105.1],
+        "description": "Chỉ huy chiến dịch tấn công Bảy Thưa"
+      }
+    ]
+  },
+  {
+    "id": "char-044",
+    "name": "Marie Jules Dupré",
+    "avatar": "/images/characters/dupre.jpg",
+    "birthYear": 1813,
+    "deathYear": 1881,
+    "biography": "Marie Jules Dupré là Thống đốc Nam Kỳ (1871-1874), kế nhiệm De La Grandière. Ông ra lệnh tổng phản công Bảy Thưa cuối năm 1871 với pháo binh và tàu chiến, đốt làng, phá ruộng để triệt nguồn tiếp tế. Tuy chiếm được phần ngoài căn cứ nhưng không thể diệt nghĩa quân. Ông chuyển chiến lược sang 'bao vây kinh tế và tôn giáo'.",
+    "role": "Thống đốc Nam Kỳ",
+    "achievements": [
+      "Thống đốc Nam Kỳ (1871-1874)",
+      "Kế nhiệm De La Grandière",
+      "Ra lệnh tổng phản công Bảy Thưa (1871)",
+      "Chuyển chiến lược sang 'bao vây kinh tế và tôn giáo'"
+    ],
+    "relatedEvents": ["event-051", "event-052", "event-053", "event-055", "event-056", "event-058"],
+    "journey": [
+      {
+        "eventId": "event-051",
+        "year": 1871,
+        "location": [10.7, 105.1],
+        "description": "Ra lệnh tổng phản công Bảy Thưa"
+      },
+      {
+        "eventId": "event-052",
+        "year": 1872,
+        "location": [10.7, 105.1],
+        "description": "Chỉ huy bao vây chặt chẽ Bảy Thưa từ 3 hướng"
+      },
+      {
+        "eventId": "event-053",
+        "year": 1873,
+        "location": [10.7, 105.1],
+        "description": "Mở chiến dịch 'Thanh toán Bảy Thưa', tiêu diệt căn cứ"
+      },
+      {
+        "eventId": "event-055",
+        "year": 1875,
+        "location": [10.8231, 106.6297],
+        "description": "Củng cố hệ thống cai trị, 'Pháp hóa' Nam Kỳ"
+      },
+      {
+        "eventId": "event-056",
+        "year": 1876,
+        "location": [10.8231, 106.6297],
+        "description": "Mở đường sắt ngắn, bến tàu, kho xăng dầu, khai thác thuộc địa"
+      },
+      {
+        "eventId": "event-058",
+        "year": 1878,
+        "location": [10.8231, 106.6297],
+        "description": "Áp thuế thân, thuế muối, mở đồn điền, lập Tòa án Pháp"
+      }
+    ]
+  },
+  {
+    "id": "char-045",
+    "name": "Đại úy Léopold Piquet",
+    "avatar": "/images/characters/piquet.jpg",
+    "birthYear": 1840,
+    "deathYear": 1895,
+    "biography": "Léopold Piquet là sĩ quan Pháp, chỉ huy chiến dịch đàn áp An Giang đầu năm 1871. Ông kéo quân từ Châu Đốc xuống Thất Sơn để bao vây Bảy Thưa. Tuy nhiên, địa hình phức tạp, rừng rậm – đầm nước, sốt rét, bệnh tật khiến quân Pháp sa lầy. Sau 3 tháng càn quét thất bại, ông phải rút về Châu Đốc.",
+    "role": "Sĩ quan Pháp - Chỉ huy chiến dịch đàn áp An Giang",
+    "achievements": [
+      "Chỉ huy chiến dịch đàn áp An Giang (1871)",
+      "Bao vây Bảy Thưa 3 tháng",
+      "Thất bại nặng nề do địa hình và bệnh tật",
+      "Rút quân về Châu Đốc"
+    ],
+    "relatedEvents": ["event-051"],
+    "journey": [
+      {
+        "eventId": "event-051",
+        "year": 1871,
+        "location": [10.7, 105.1],
+        "description": "Chỉ huy tấn công Bảy Thưa lần đầu"
+      }
+    ]
+  },
+  {
+    "id": "char-046",
+    "name": "Paul Philastre",
+    "avatar": "/images/characters/philastre.jpg",
+    "birthYear": 1837,
+    "deathYear": 1902,
+    "biography": "Paul Philastre là viên chức Pháp, thông thạo tiếng Việt và chính trị Việt Nam. Sau cái chết của Garnier (21/12/1873), ông được Thống đốc Dupré cử ra Huế 'thương lượng hòa bình'. Ông hứa 'trả lại Bắc Kỳ' nếu triều đình chấp thuận các điều khoản mới. Ngày 15/3/1874, ông là người đại diện Pháp ký Hiệp ước Giáp Tuất với Nguyễn Văn Tường và Phạm Thận Duật - văn bản đánh dấu Việt Nam mất chủ quyền ngoại giao.",
+    "role": "Viên chức Pháp - Đại diện ký Hiệp ước Giáp Tuất",
+    "achievements": [
+      "Thông thạo tiếng Việt và chính trị Việt Nam",
+      "Đại diện Pháp thương thuyết với triều đình Huế (1874)",
+      "Người ký Hiệp ước Giáp Tuất (15/3/1874)",
+      "Hứa 'trả lại Bắc Kỳ' để ép triều đình chấp nhận điều khoản"
+    ],
+    "relatedEvents": ["event-054"],
+    "journey": [
+      {
+        "eventId": "event-054",
+        "year": 1874,
+        "location": [16.4637, 107.5909],
+        "description": "Đại diện Pháp ký Hiệp ước Giáp Tuất tại Huế"
+      }
+    ]
+  }
+]
+

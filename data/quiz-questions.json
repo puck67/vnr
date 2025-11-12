@@ -1,0 +1,203 @@
+[
+  {
+    "id": "quiz-001",
+    "question": "Pháp bắt đầu xâm lược Việt Nam vào năm nào?",
+    "options": ["1856", "1858", "1860", "1862"],
+    "correctAnswer": 1,
+    "explanation": "Ngày 1/9/1858, quân Pháp tấn công Đà Nẵng, mở đầu cuộc xâm lược Việt Nam.",
+    "relatedEventId": "event-001"
+  },
+  {
+    "id": "quiz-001-detail-1",
+    "question": "Ai là đô đốc chỉ huy hạm đội liên quân Pháp-Tây Ban Nha tấn công Đà Nẵng năm 1858?",
+    "options": ["Charles de Gaulle", "Rigault de Genouilly", "Francis Garnier", "Jean Dupuis"],
+    "correctAnswer": 1,
+    "explanation": "Đô đốc Rigault de Genouilly chỉ huy hạm đội liên quân gồm 14 tàu chiến Pháp và 3 tàu Tây Ban Nha tấn công Đà Nẵng đêm 31/8 - 1/9/1858.",
+    "relatedEventId": "event-001"
+  },
+  {
+    "id": "quiz-001-detail-2",
+    "question": "Hai pháo đài quan trọng bảo vệ cửa Hàn năm 1858 là gì?",
+    "options": ["An Hải và Điện Hải", "Sơn Trà và Tiên Sa", "Hải Vân và Hải Châu", "Cẩm Lệ và Hòa Vang"],
+    "correctAnswer": 0,
+    "explanation": "Đồn An Hải (bờ Đông sông Hàn) và Thành Điện Hải (bờ Tây) là hai pháo đài kiểm soát cửa sông Hàn, tạo thế 'gọng kìm' chặn địch.",
+    "relatedEventId": "event-001"
+  },
+  {
+    "id": "quiz-001-detail-3",
+    "question": "Liên quân Pháp-Tây Ban Nha có bao nhiêu tàu chiến khi tấn công Đà Nẵng 1858?",
+    "options": ["10 tàu", "17 tàu", "20 tàu", "25 tàu"],
+    "correctAnswer": 1,
+    "explanation": "Liên quân có 14 tàu chiến Pháp và 3 tàu Tây Ban Nha, tổng cộng 17 tàu chiến với khoảng 2.500 lính, chủ lực từ Philippines.",
+    "relatedEventId": "event-001"
+  },
+  {
+    "id": "quiz-001-detail-4",
+    "question": "Nguyên nhân trực tiếp khiến Pháp lấy cớ tấn công Việt Nam năm 1858 là gì?",
+    "options": ["Tranh chấp lãnh thổ", "Giáo sĩ bị xử tử", "Tranh giành thương mại", "Xung đột biên giới"],
+    "correctAnswer": 1,
+    "explanation": "Triều Tự Đức siết chặt đạo Thiên Chúa, nhiều giáo sĩ bị xử tử (1857: Giám mục TBN bị giết ở Nam Định). Pháp thời Napoleon III lấy cớ 'bảo hộ giáo sĩ, mở cửa thương mại' để xâm lược.",
+    "relatedEventId": "event-001"
+  },
+  {
+    "id": "quiz-001-detail-5",
+    "question": "Người Pháp gọi Đà Nẵng là gì trong thời kỳ xâm lược?",
+    "options": ["Saigon", "Tourane", "Hanoi", "Hue"],
+    "correctAnswer": 1,
+    "explanation": "Pháp gọi Đà Nẵng là Tourane và xây dựng căn cứ quân sự tại đây sau khi chiếm Sơn Trà và cửa Hàn.",
+    "relatedEventId": "event-001"
+  },
+  {
+    "id": "quiz-001-detail-6",
+    "question": "Ai là tướng triều đình ra Đà Nẵng tổ chức kháng chiến cuối tháng 9/1858?",
+    "options": ["Trương Định", "Nguyễn Tri Phương", "Phan Thanh Giản", "Lê Văn Duyệt"],
+    "correctAnswer": 1,
+    "explanation": "Nguyễn Tri Phương ra Đà Nẵng cuối tháng 9/1858, tổ chức chiến thuật 'vườn không nhà trống - vây lỏng - chặn tiếp tế', không cho Pháp mở rộng vào Quảng Nam.",
+    "relatedEventId": "event-001"
+  },
+  {
+    "id": "quiz-001-detail-7",
+    "question": "Tỷ lệ thương vong do bệnh tật so với chiến đấu của quân Pháp ở Đà Nẵng 1858 là?",
+    "options": ["Bằng nhau", "Gấp 2 lần", "Gấp 3-4 lần", "Gấp 10 lần"],
+    "correctAnswer": 2,
+    "explanation": "Thương vong do bệnh tật (sốt rét, dịch đường ruột) gấp 3-4 lần thương vong chiến đấu, khiến quân Pháp sa lầy tại Đà Nẵng.",
+    "relatedEventId": "event-001"
+  },
+  {
+    "id": "quiz-001-detail-8",
+    "question": "Kết quả chiến dịch Đà Nẵng 1858 của quân Pháp là gì?",
+    "options": ["Chiếm toàn bộ Đà Nẵng", "Chỉ giữ được đầu cầu ven biển", "Chiếm cả Quảng Nam", "Chiếm đến Huế"],
+    "correctAnswer": 1,
+    "explanation": "Liên quân KHÔNG đạt mục tiêu 'đánh nhanh thắng nhanh', chỉ kiểm soát được cửa Hàn-Sơn Trà, bị Nguyễn Tri Phương vây hãm. Đà Nẵng thành 'điểm giam chân' quân Pháp.",
+    "relatedEventId": "event-001"
+  },
+  {
+    "id": "quiz-001-detail-9",
+    "question": "Tây Ban Nha tham gia tấn công Việt Nam 1858 vì lý do gì?",
+    "options": ["Muốn thuộc địa", "Giáo sĩ TBN bị hại", "Tranh chấp thương mại", "Đồng minh với Pháp"],
+    "correctAnswer": 1,
+    "explanation": "Tây Ban Nha tham chiến vì giáo sĩ của họ cũng bị triều Tự Đức xử tử, điều quân từ Philippines sang hỗ trợ Pháp.",
+    "relatedEventId": "event-001"
+  },
+  {
+    "id": "quiz-001-detail-10",
+    "question": "Ý nghĩa lịch sử của năm 1858 đối với Việt Nam là gì?",
+    "options": ["Năm mất lãnh thổ đầu tiên", "Điểm nổ cuộc xâm lược Pháp", "Năm ký hiệp ước đầu tiên", "Năm kết thúc triều Nguyễn"],
+    "correctAnswer": 1,
+    "explanation": "Năm 1858 là điểm nổ cuộc xâm lược, chuyển từ 'căng thẳng ngoại giao' sang 'chiến tranh thật sự'. Đây là năm mở cửa cuộc chiến, chưa phải năm mất lãnh thổ.",
+    "relatedEventId": "event-001"
+  },
+  {
+    "id": "quiz-002",
+    "question": "Ai là người đốt tàu chiến Pháp L'Espérance?",
+    "options": ["Hoàng Hoa Thám", "Nguyễn Trung Trực", "Phan Đình Phùng", "Trương Định"],
+    "correctAnswer": 1,
+    "explanation": "Nguyễn Trung Trực đốt tàu L'Espérance năm 1861, gây tổn thất lớn cho Pháp.",
+    "relatedEventId": "event-003"
+  },
+  {
+    "id": "quiz-002-detail-1",
+    "question": "Thành Gia Định thất thủ vào ngày nào?",
+    "options": ["1/2/1859", "17/2/1859", "2/3/1859", "17/3/1859"],
+    "correctAnswer": 1,
+    "explanation": "Rạng sáng 17/2/1859, liên quân Pháp-Tây Ban Nha theo sông Lòng Tàu tiến vào, pháo kích dữ dội và chiếm thành Gia Định chỉ sau vài giờ.",
+    "relatedEventId": "event-002"
+  },
+  {
+    "id": "quiz-002-detail-2",
+    "question": "Tại sao Pháp quyết định rút khỏi Đà Nẵng và đánh Gia Định năm 1859?",
+    "options": ["Đà Nẵng quá nóng", "Bị vây lỏng và sa lầy ở Đà Nẵng", "Vua Tự Đức đề nghị hòa ước", "Hết đạn dược"],
+    "correctAnswer": 1,
+    "explanation": "Sau 6 tháng bị Nguyễn Tri Phương vây lỏng, cắt tiếp tế, cộng với bệnh tật quật mạnh, Pháp sa lầy ở Đà Nẵng. Họ quyết định đổi chiến lược, đánh vào Nam Kỳ - nơi phòng thủ yếu hơn.",
+    "relatedEventId": "event-002"
+  },
+  {
+    "id": "quiz-002-detail-3",
+    "question": "Pháp mất bao lâu để đi từ Đà Nẵng xuống đánh Gia Định?",
+    "options": ["5 ngày", "15 ngày", "30 ngày", "60 ngày"],
+    "correctAnswer": 1,
+    "explanation": "Liên quân rút khỏi Đà Nẵng ngày 2/2/1859, đánh Gia Định ngày 17/2/1859 - chỉ 15 ngày sau, cho thấy sự di chuyển nhanh chóng của hạm đội.",
+    "relatedEventId": "event-002"
+  },
+  {
+    "id": "quiz-002-detail-4",
+    "question": "Pháp làm gì với thành Gia Định sau khi chiếm được?",
+    "options": ["Giữ nguyên làm trụ sở", "Sửa chữa thành lũy", "Phá hủy hoàn toàn", "Giao cho Tây Ban Nha"],
+    "correctAnswer": 2,
+    "explanation": "Pháp cho san phẳng hoàn toàn thành Gia Định để tránh quân triều đình tái chiếm, biến nơi này thành đống gạch vụn và lập căn cứ mới tại khu cảng Sài Gòn.",
+    "relatedEventId": "event-002"
+  },
+  {
+    "id": "quiz-002-detail-5",
+    "question": "Ý nghĩa lịch sử của năm 1859 là gì?",
+    "options": ["Năm mất toàn bộ Nam Kỳ", "Năm bản lề - Pháp chuyển từ Trung Kỳ sang Nam Kỳ", "Năm ký Hòa ước Nhâm Tuất", "Năm Nguyễn Tri Phương hy sinh"],
+    "correctAnswer": 1,
+    "explanation": "1859 là năm bản lề: (1) Kết thúc giai đoạn 'giữ được Đà Nẵng nhưng mất dần thế chủ động'; (2) Mở đầu giai đoạn Pháp từng bước chiếm Nam Kỳ. Chưa mất toàn bộ, nhưng Pháp đã có chỗ đứng chân đầu tiên.",
+    "relatedEventId": "event-002"
+  },
+  {
+    "id": "quiz-003",
+    "question": "Phong trào Cần Vương được phát động bởi ai?",
+    "options": ["Vua Tự Đức", "Vua Hàm Nghi", "Vua Duy Tân", "Vua Thành Thái"],
+    "correctAnswer": 1,
+    "explanation": "Vua Hàm Nghi ra chiếu Cần Vương năm 1885, kêu gọi toàn dân chống Pháp.",
+    "relatedEventId": "event-008"
+  },
+  {
+    "id": "quiz-004",
+    "question": "Khởi nghĩa Yên Thế kéo dài bao nhiêu năm?",
+    "options": ["10 năm", "20 năm", "30 năm", "40 năm"],
+    "correctAnswer": 2,
+    "explanation": "Khởi nghĩa Yên Thế do Hoàng Hoa Thám lãnh đạo kéo dài từ 1884 đến 1913, tổng cộng 30 năm.",
+    "relatedEventId": "event-009"
+  },
+  {
+    "id": "quiz-005",
+    "question": "Phong trào Đông Du có nghĩa là gì?",
+    "options": ["Du học phương Đông", "Du lịch phương Đông", "Đi về phía Đông", "Học tập ở Đông Âu"],
+    "correctAnswer": 0,
+    "explanation": "Đông Du nghĩa là 'Du học phương Đông' (Nhật Bản), do Phan Bội Châu khởi xướng năm 1905.",
+    "relatedEventId": "event-010"
+  },
+  {
+    "id": "quiz-006",
+    "question": "Trường Đông Kinh Nghĩa Thục tồn tại trong bao lâu?",
+    "options": ["6 tháng", "1 năm", "2 năm", "3 năm"],
+    "correctAnswer": 1,
+    "explanation": "Đông Kinh Nghĩa Thục chỉ tồn tại 1 năm (1907) trước khi bị Pháp đóng cửa.",
+    "relatedEventId": "event-011"
+  },
+  {
+    "id": "quiz-007",
+    "question": "Đảng Cộng sản Việt Nam được thành lập ở đâu?",
+    "options": ["Hà Nội", "Sài Gòn", "Hương Cảng", "Quảng Châu"],
+    "correctAnswer": 2,
+    "explanation": "Đảng Cộng sản Việt Nam được thành lập tại Hương Cảng (Hong Kong) ngày 3/2/1930.",
+    "relatedEventId": "event-014"
+  },
+  {
+    "id": "quiz-008",
+    "question": "Xô viết Nghệ Tĩnh diễn ra vào năm nào?",
+    "options": ["1928", "1929", "1930", "1931"],
+    "correctAnswer": 2,
+    "explanation": "Phong trào Xô viết Nghệ Tĩnh bùng nổ từ tháng 9/1930.",
+    "relatedEventId": "event-015"
+  },
+  {
+    "id": "quiz-009",
+    "question": "Ai là người sáng lập Việt Nam Quang Phục Hội?",
+    "options": ["Phan Châu Trinh", "Phan Bội Châu", "Nguyễn Ái Quốc", "Lương Văn Can"],
+    "correctAnswer": 1,
+    "explanation": "Phan Bội Châu thành lập Việt Nam Quang Phục Hội năm 1912 tại Quảng Châu.",
+    "relatedEventId": "event-013"
+  },
+  {
+    "id": "quiz-010",
+    "question": "Câu nói 'Tôi chỉ chết, chứ không hàng' là của ai?",
+    "options": ["Hoàng Hoa Thám", "Nguyễn Trung Trực", "Phan Đình Phùng", "Trương Định"],
+    "correctAnswer": 1,
+    "explanation": "Đây là câu nói bất hủ của Nguyễn Trung Trực trước khi hy sinh năm 1868.",
+    "relatedEventId": "event-003"
+  }
+]
+

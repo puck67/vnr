@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cung Cấp Tài Khoản AI Premium</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+            animation: fadeInDown 1s ease;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1.3em;
+            opacity: 0.9;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: fadeInUp 1s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+        }
+
+        .product-icon {
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .product-title {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .product-features {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .product-features li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            color: #666;
+        }
+
+        .product-features li:before {
+            content: "✓ ";
+            color: #4CAF50;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .price {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .price-amount {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .price-period {
+            color: #999;
+            font-size: 1.1em;
+        }
+
+        .btn-order {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-order:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .contact-section {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            animation: fadeInUp 1.2s ease;
+        }
+
+        .contact-section h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 30px;
+            background: #f5f5f5;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .contact-item i {
+            font-size: 1.5em;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 15px;
+            background: #4CAF50;
+            color: white;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            header p {
+                font-size: 1em;
+            }
+
+            .products {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Tài Khoản AI Premium</h1>
+            <p>Giải pháp AI chuyên nghiệp cho mọi nhu cầu</p>
+        </header>
+
+        <div class="products">
+            <!-- Cursor Pro -->
+            <div class="product-card">
+                <div class="product-icon">💻</div>
+                <div class="badge">Unlimited</div>
+                <h3 class="product-title">Cursor Pro</h3>
+                <ul class="product-features">
+                    <li>Không giới hạn sử dụng</li>
+                    <li>AI Code Assistant mạnh mẽ</li>
+                    <li>Hỗ trợ tất cả ngôn ngữ lập trình</li>
+                    <li>Auto-complete thông minh</li>
+                    <li>Refactor code tự động</li>
+                </ul>
+                <div class="price">
+                    <div class="price-amount">Liên hệ</div>
+                    <div class="price-period">/ tháng</div>
+                </div>
+                <button class="btn-order" onclick="order('Cursor Pro')">Đặt Ngay</button>
+            </div>
+
+            <!-- Augment -->
+            <div class="product-card">
+                <div class="product-icon">⚡</div>
+                <div class="badge">Unlimited</div>
+                <h3 class="product-title">Augment</h3>
+                <ul class="product-features">
+                    <li>Không giới hạn sử dụng</li>
+                    <li>AI Development Assistant</li>
+                    <li>Context-aware suggestions</li>
+                    <li>Code generation nhanh chóng</li>
+                    <li>Multi-language support</li>
+                </ul>
+                <div class="price">
+                    <div class="price-amount">Liên hệ</div>
+                    <div class="price-period">/ tháng</div>
+                </div>
+                <button class="btn-order" onclick="order('Augment')">Đặt Ngay</button>
+            </div>
+
+            <!-- Windsurf -->
+            <div class="product-card">
+                <div class="product-icon">🌊</div>
+                <div class="badge">Unlimited</div>
+                <h3 class="product-title">Windsurf</h3>
+                <ul class="product-features">
+                    <li>Không giới hạn sử dụng</li>
+                    <li>AI-powered development</li>
+                    <li>Smart code completion</li>
+                    <li>Real-time collaboration</li>
+                    <li>Advanced debugging</li>
+                </ul>
+                <div class="price">
+                    <div class="price-amount">Liên hệ</div>
+                    <div class="price-period">/ tháng</div>
+                </div>
+                <button class="btn-order" onclick="order('Windsurf')">Đặt Ngay</button>
+            </div>
+
+            <!-- ChatGPT -->
+            <div class="product-card">
+                <div class="product-icon">🤖</div>
+                <div class="badge">Premium</div>
+                <h3 class="product-title">ChatGPT</h3>
+                <ul class="product-features">
+                    <li>ChatGPT Plus hoặc Team</li>
+                    <li>GPT-4 Turbo & GPT-4o</li>
+                    <li>DALL-E 3 tạo ảnh</li>
+                    <li>Browse internet real-time</li>
+                    <li>Advanced data analysis</li>
+                </ul>
+                <div class="price">
+                    <div class="price-amount">60k</div>
+                    <div class="price-period">/ tháng</div>
+                </div>
+                <button class="btn-order" onclick="order('ChatGPT')">Đặt Ngay</button>
+            </div>
+
+            <!-- Claude Pro -->
+            <div class="product-card">
+                <div class="product-icon">🧠</div>
+                <div class="badge">Pro</div>
+                <h3 class="product-title">Claude Pro</h3>
+                <ul class="product-features">
+                    <li>Claude 3.5 Sonnet</li>
+                    <li>Context window lớn (200K tokens)</li>
+                    <li>Phân tích tài liệu phức tạp</li>
+                    <li>Code generation xuất sắc</li>
+                    <li>Reasoning logic mạnh mẽ</li>
+                </ul>
+                <div class="price">
+                    <div class="price-amount">200k</div>
+                    <div class="price-period">/ tháng</div>
+                </div>
+                <button class="btn-order" onclick="order('Claude Pro')">Đặt Ngay</button>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h2>📞 Liên Hệ Đặt Hàng</h2>
+            <p style="color: #666; margin-bottom: 20px;">Hỗ trợ 24/7 - Giao hàng nhanh chóng</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>📱</span>
+                    <strong>Zalo/Phone: 0123456789</strong>
+                </div>
+                <div class="contact-item">
+                    <span>💬</span>
+                    <strong>Telegram: @yourusername</strong>
+                </div>
+                <div class="contact-item">
+                    <span>📧</span>
+                    <strong>Email: your@email.com</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function order(product) {
+            // Thay đổi số điện thoại và thông tin liên hệ của bạn ở đây
+            const phoneNumber = "0123456789"; // Thay bằng số của bạn
+            const message = `Xin chào, tôi muốn đặt ${product}`;
+            
+            // Mở Zalo hoặc có thể dùng alert
+            alert(`Cảm ơn bạn đã quan tâm đến ${product}!\n\nVui lòng liên hệ:\n- Zalo/Phone: ${phoneNumber}\n- Hoặc dùng form liên hệ bên dưới`);
+            
+            // Hoặc mở link Zalo (nếu có)
+            // window.open(`https://zalo.me/${phoneNumber}`, '_blank');
+        }
+    </script>
+</body>
+</html>
+
+

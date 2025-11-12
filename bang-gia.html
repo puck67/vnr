@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Giá Dịch Vụ AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .pricing-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .pricing-table thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .pricing-table th {
+            padding: 24px 16px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 14px;
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .pricing-table th:first-child {
+            text-align: left;
+            padding-left: 32px;
+        }
+
+        .service-name {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .service-type {
+            font-size: 11px;
+            opacity: 0.9;
+            font-weight: 400;
+        }
+
+        .pricing-table tbody tr {
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .pricing-table tbody tr:hover {
+            background: #f9fafb;
+        }
+
+        .pricing-table td {
+            padding: 20px 16px;
+            text-align: center;
+            position: relative;
+        }
+
+        .pricing-table td:first-child {
+            text-align: left;
+            padding-left: 32px;
+            font-weight: 600;
+            color: #374151;
+            font-size: 14px;
+        }
+
+        .price {
+            font-size: 28px;
+            font-weight: 700;
+            color: #667eea;
+            display: block;
+        }
+
+        .requests {
+            font-size: 11px;
+            color: #9ca3af;
+            margin-top: 4px;
+            display: block;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-popular {
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            color: white;
+        }
+
+        .badge-premium {
+            background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
+            color: white;
+        }
+
+        .badge-best {
+            background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
+            color: white;
+        }
+
+        .highlight-row {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+        }
+
+        .special-offer {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(5, 150, 105, 0.08) 100%);
+        }
+
+        .empty-cell {
+            color: #d1d5db;
+        }
+
+        @media (max-width: 768px) {
+            .pricing-table {
+                font-size: 12px;
+            }
+
+            .pricing-table th,
+            .pricing-table td {
+                padding: 12px 8px;
+            }
+
+            .pricing-table th:first-child,
+            .pricing-table td:first-child {
+                padding-left: 16px;
+            }
+
+            .price {
+                font-size: 20px;
+            }
+
+            .service-name {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table class="pricing-table">
+            <thead>
+                <tr>
+                    <th>
+                        <div class="service-name">Gói / Thời gian</div>
+                    </th>
+                    <th>
+                        <div class="service-name">Cursor Pro</div>
+                        <div class="service-type">Vô hạn Request</div>
+                    </th>
+                    <th>
+                        <div class="service-name">Augment Code</div>
+                        <div class="service-type">Vô hạn Request</div>
+                    </th>
+                    <th>
+                        <div class="service-name">Windsurf</div>
+                        <div class="service-type">Code Editor AI</div>
+                    </th>
+                    <th>
+                        <div class="service-name">Claude Code Max</div>
+                    </th>
+                    <th>
+                        <div class="service-name">Chat  JPT </div>
+                        <div class="service-type">Chính chủ</div>
+                    </th>
+                    <th>
+                        <div class="service-name">Warp.dev Pro</div>
+                        <div class="service-type">Terminal AI</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 1 Ngày -->
+                <tr>
+                    <td>1 Ngày</td>
+                    <td>
+                        <span class="price">50k</span>
+                    </td>
+                    <td>
+                        <span class="price">50k</span>
+                    </td>
+                    <td>
+                        <span class="price">50k</span>
+                        <span class="requests">500 requests</span>
+                    </td>
+                    <td class="empty-cell">—</td>
+                    <td class="empty-cell">—</td>
+                    <td class="empty-cell">—</td>
+                </tr>
+
+                <!-- 1 Tuần -->
+                <tr>
+                    <td>1 Tuần</td>
+                    <td>
+                        <span class="price">150k</span>
+                    </td>
+                    <td>
+                        <span class="price">130k</span>
+                    </td>
+                    <td>
+                        <span class="price">150k</span>
+                        <span class="requests">2,000 requests</span>
+                    </td>
+                    <td class="empty-cell">—</td>
+                    <td class="empty-cell">—</td>
+                    <td class="empty-cell">—</td>
+                </tr>
+
+                <!-- 1 Tháng - Highlight Row -->
+                <tr class="highlight-row">
+                    <td>1 Tháng</td>
+                    <td>
+                        <span class="price">270k</span>
+                    </td>
+                    <td>
+                        <span class="badge badge-popular">PHỔ BIẾN</span>
+                        <span class="price">270k</span>
+                    </td>
+                    <td>
+                        <span class="badge badge-popular">PHỔ BIẾN</span>
+                        <span class="price">270k</span>
+                        <span class="requests">10,000 requests</span>
+                    </td>
+                    <td>
+                        <span class="badge badge-premium">PREMIUM</span>
+                        <span class="price">1.3M</span>
+                    </td>
+                    <td>
+                        <span class="badge badge-best">RẺ NHẤT</span>
+                        <span class="price">60k</span>
+                    </td>
+                    <td class="empty-cell">—</td>
+                </tr>
+
+                <!-- 3 Tháng -->
+                <tr>
+                    <td>3 Tháng</td>
+                    <td>
+                        <span class="badge badge-popular">PHỔ BIẾN</span>
+                        <span class="price">600k</span>
+                    </td>
+                    <td class="empty-cell">—</td>
+                    <td class="empty-cell">—</td>
+                    <td class="empty-cell">—</td>
+                    <td class="empty-cell">—</td>
+                    <td class="empty-cell">—</td>
+                </tr>
+
+                <!-- Đặc biệt -->
+                <tr class="special-offer">
+                    <td>Đặc biệt</td>
+                    <td class="empty-cell">—</td>
+                    <td class="empty-cell">—</td>
+                    <td class="empty-cell">—</td>
+                    <td class="empty-cell">—</td>
+                    <td class="empty-cell">—</td>
+                    <td>
+                        <span class="price">30k</span>
+                        <span class="requests">2,500 req - 2h dùng âm tiền</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
