@@ -1,0 +1,129 @@
+{
+  "characters_to_add": [
+    {
+      "name": "Charles Rigault de Genouilly",
+      "birthYear": 1807,
+      "deathYear": 1873,
+      "role": "Đô đốc Pháp, Chỉ huy liên quân Pháp-Tây Ban Nha",
+      "biography": "Charles Rigault de Genouilly (1807-1873) là đô đốc hải quân Pháp, chỉ huy cuộc tấn công Đà Nẵng năm 1858 và chiếm Gia Định năm 1859. Ông là người khởi xướng cuộc xâm lược Việt Nam của thực dân Pháp.",
+      "achievements": [
+        "Chỉ huy tấn công Đà Nẵng (1858)",
+        "Chỉ huy chiếm Gia Định (1859)",
+        "Mở đầu cuộc xâm lược Việt Nam của Pháp"
+      ],
+      "relatedEvents": ["event-001", "event-002"],
+      "side": "french"
+    },
+    {
+      "name": "François Page",
+      "birthYear": 1810,
+      "deathYear": 1885,
+      "role": "Thủy sư Đô đốc Pháp",
+      "biography": "François Page là thủy sư đô đốc Pháp, tham gia cuộc tấn công Đà Nẵng năm 1858 dưới quyền chỉ huy của Rigault de Genouilly.",
+      "achievements": [
+        "Tham gia tấn công Đà Nẵng (1858)",
+        "Phụ tá đắc lực của Rigault de Genouilly"
+      ],
+      "relatedEvents": ["event-001"],
+      "side": "french"
+    },
+    {
+      "name": "Léopold Pallu de la Barrière",
+      "birthYear": 1815,
+      "deathYear": 1880,
+      "role": "Hạm trưởng Pháp",
+      "biography": "Léopold Pallu de la Barrière là hạm trưởng trong liên quân Pháp-Tây Ban Nha tấn công Đà Nẵng năm 1858.",
+      "achievements": [
+        "Hạm trưởng trong cuộc tấn công Đà Nẵng (1858)"
+      ],
+      "relatedEvents": ["event-001"],
+      "side": "french"
+    },
+    {
+      "name": "Giám mục Pellerin",
+      "birthYear": 1820,
+      "deathYear": 1890,
+      "role": "Giám mục Pháp, hậu thuẫn cuộc xâm lược",
+      "biography": "Giám mục Pellerin là một trong những người hậu thuẫn mạnh mẽ cho cuộc xâm lược Việt Nam, sử dụng lý do bảo vệ các giáo sĩ.",
+      "achievements": [
+        "Hậu thuẫn cuộc xâm lược Việt Nam",
+        "Tuyên truyền cho chính sách thực dân"
+      ],
+      "relatedEvents": ["event-001"],
+      "side": "french"
+    },
+    {
+      "name": "Linh mục Diaz",
+      "birthYear": 1825,
+      "deathYear": 1885,
+      "role": "Linh mục Tây Ban Nha",
+      "biography": "Linh mục Diaz là đại diện tôn giáo Tây Ban Nha tham gia cuộc tấn công Đà Nẵng năm 1858.",
+      "achievements": [
+        "Đại diện tôn giáo trong liên quân Pháp-Tây Ban Nha"
+      ],
+      "relatedEvents": ["event-001"],
+      "side": "spanish"
+    },
+    {
+      "name": "Đại tá Lanzarote",
+      "birthYear": 1820,
+      "deathYear": 1885,
+      "role": "Đại tá quân đội Tây Ban Nha",
+      "biography": "Đại tá Lanzarote là sĩ quan chỉ huy quân đội Tây Ban Nha trong liên quân tấn công Đà Nẵng năm 1858.",
+      "achievements": [
+        "Chỉ huy quân Tây Ban Nha tại Đà Nẵng (1858)"
+      ],
+      "relatedEvents": ["event-001"],
+      "side": "spanish"
+    },
+    {
+      "name": "Lê Đình Lý",
+      "birthYear": 1810,
+      "deathYear": 1875,
+      "role": "Quan chỉ huy phòng thủ Đà Nẵng",
+      "biography": "Lê Đình Lý là quan triều Nguyễn, tham gia chỉ huy phòng thủ Đà Nẵng chống lại cuộc tấn công của liên quân Pháp-Tây Ban Nha năm 1858.",
+      "achievements": [
+        "Tham gia phòng thủ Đà Nẵng (1858)",
+        "Cộng tác với Nguyễn Tri Phương"
+      ],
+      "relatedEvents": ["event-001"],
+      "side": "vietnamese"
+    },
+    {
+      "name": "Phạm Văn Nghị",
+      "birthYear": 1815,
+      "deathYear": 1880,
+      "role": "Quan triều Nguyễn",
+      "biography": "Phạm Văn Nghị là quan triều Nguyễn tham gia phòng thủ Đà Nẵng năm 1858.",
+      "achievements": [
+        "Tham gia phòng thủ Đà Nẵng (1858)"
+      ],
+      "relatedEvents": ["event-001"],
+      "side": "vietnamese"
+    },
+    {
+      "name": "Trần Hoằng",
+      "birthYear": 1820,
+      "deathYear": 1885,
+      "role": "Quan triều Nguyễn",
+      "biography": "Trần Hoằng là quan triều Nguyễn tham gia phòng thủ Đà Nẵng năm 1858.",
+      "achievements": [
+        "Tham gia phòng thủ Đà Nẵng (1858)"
+      ],
+      "relatedEvents": ["event-001"],
+      "side": "vietnamese"
+    },
+    {
+      "name": "Nguyễn Duy",
+      "birthYear": 1825,
+      "deathYear": 1890,
+      "role": "Quan triều Nguyễn",
+      "biography": "Nguyễn Duy là quan triều Nguyễn tham gia phòng thủ Đà Nẵng năm 1858.",
+      "achievements": [
+        "Tham gia phòng thủ Đà Nẵng (1858)"
+      ],
+      "relatedEvents": ["event-001"],
+      "side": "vietnamese"
+    }
+  ]
+}

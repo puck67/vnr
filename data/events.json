@@ -25,11 +25,19 @@
     },
     "images": [],
     "relatedCharacters": [
+      "char-605",
+      "char-606",
+      "char-607",
+      "char-608",
+      "char-609",
+      "char-014",
       "char-017",
-      "char-016",
-      "char-018",
-      "char-019",
-      "char-020"
+      "char-610",
+      "char-611",
+      "char-710",
+      "char-711",
+      "char-712",
+      "char-713"
     ],
     "relatedEvents": [
       "event-002"
@@ -73,11 +81,12 @@
     },
     "images": [],
     "relatedCharacters": [
+      "char-612",
+      "char-613",
       "char-017",
-      "char-016",
-      "char-021",
-      "char-022",
-      "char-023"
+      "char-614",
+      "char-615",
+      "char-710"
     ],
     "relatedEvents": [
       "event-001",
@@ -374,12 +383,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
-      "char-006",
-      "char-007",
-      "char-024",
-      "char-025",
-      "char-026"
+      "char-001",
+      "char-616",
+      "char-002",
+      "char-617",
+      "char-618",
+      "char-715"
     ],
     "relatedEvents": [
       "event-080"
@@ -416,10 +425,9 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-002",
-      "char-027",
-      "char-028",
-      "char-029"
+      "char-629",
+      "char-630",
+      "char-716"
     ],
     "relatedEvents": [
       "event-003"
@@ -457,10 +465,11 @@
     },
     "images": [],
     "relatedCharacters": [
+      "char-635",
+      "char-636",
       "char-017",
-      "char-036",
-      "char-037",
-      "char-038"
+      "char-637",
+      "char-717"
     ],
     "relatedEvents": [
       "event-006"
@@ -498,9 +507,7 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-538",
       "char-017",
-      "char-037",
       "char-049",
       "char-050"
     ],
@@ -542,11 +549,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-538",
       "char-605",
       "char-017",
       "char-051",
-      "char-052"
+      "char-052",
+      "char-014",
+      "char-003"
     ],
     "relatedEvents": [
       "event-006",
@@ -585,12 +593,9 @@
     "images": [],
     "relatedCharacters": [
       "char-004",
-      "char-538",
-      "char-003",
-      "char-064",
-      "char-065",
-      "char-066",
-      "char-067"
+      "char-013",
+      "char-646",
+      "char-066"
     ],
     "relatedEvents": [
       "event-007",
@@ -629,11 +634,10 @@
     "images": [],
     "relatedCharacters": [
       "char-005",
-      "char-006",
-      "char-600",
-      "char-068",
-      "char-069",
-      "char-070"
+      "char-641",
+      "char-642",
+      "char-643",
+      "char-600"
     ],
     "relatedEvents": [
       "event-008"
@@ -675,7 +679,9 @@
       "char-535",
       "char-536",
       "char-537",
-      "char-538"
+      "char-661",
+      "char-662",
+      "char-663"
     ],
     "relatedEvents": [
       "event-011"
@@ -713,11 +719,13 @@
     "images": [],
     "relatedCharacters": [
       "char-007",
-      "char-008",
       "char-011",
       "char-012",
-      "char-538",
-      "char-539"
+      "char-658",
+      "char-664",
+      "char-665",
+      "char-666",
+      "char-667"
     ],
     "relatedEvents": [
       "event-010",
@@ -755,7 +763,9 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008"
+      "char-668",
+      "char-007",
+      "char-658"
     ],
     "relatedEvents": [
       "event-011"
@@ -792,7 +802,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-006"
+      "char-006",
+      "char-536",
+      "char-671",
+      "char-663",
+      "char-672"
     ],
     "relatedEvents": [
       "event-010"
@@ -831,7 +845,8 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008"
+      "char-056",
+      "char-687"
     ],
     "relatedEvents": [
       "event-015"
@@ -869,7 +884,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008"
+      "char-015",
+      "char-700",
+      "char-701",
+      "char-702",
+      "char-703"
     ],
     "relatedEvents": [
       "event-014"
@@ -908,8 +927,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-002",
-      "char-001"
+      "char-620",
+      "char-621",
+      "char-619",
+      "char-622",
+      "char-714",
+      "char-713"
     ],
     "relatedEvents": [
       "event-002",
@@ -1275,10 +1298,9 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-001",
-      "char-004",
-      "char-005",
-      "char-006"
+      "char-619",
+      "char-622",
+      "char-714"
     ],
     "relatedEvents": [
       "event-016",
@@ -1529,10 +1551,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-606",
-      "char-017",
-      "char-071",
-      "char-072"
+      "char-638",
+      "char-639",
+      "char-640",
+      "char-718"
     ],
     "relatedEvents": [
       "event-005",
@@ -1572,14 +1594,9 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-529",
-      "char-530",
-      "char-531",
-      "char-003",
-      "char-004",
-      "char-005",
-      "char-006",
-      "char-007"
+      "char-644",
+      "char-645",
+      "char-014"
     ],
     "relatedEvents": [
       "event-007",
@@ -1617,14 +1634,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-531",
-      "char-532",
-      "char-533",
-      "char-603",
-      "char-604",
       "char-010",
-      "char-073",
-      "char-074"
+      "char-648",
+      "char-649",
+      "char-650",
+      "char-604"
     ],
     "relatedEvents": [
       "event-008"
@@ -1705,10 +1719,9 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-003",
-      "char-004",
-      "char-005",
-      "char-006"
+      "char-651",
+      "char-652",
+      "char-653"
     ],
     "relatedEvents": [
       "event-019"
@@ -1750,7 +1763,12 @@
       "char-005",
       "char-006",
       "char-007",
-      "char-008"
+      "char-658",
+      "char-012",
+      "char-664",
+      "char-665",
+      "char-666",
+      "char-667"
     ],
     "relatedEvents": [
       "event-011"
@@ -1791,7 +1809,8 @@
       "char-003",
       "char-006",
       "char-007",
-      "char-008"
+      "char-675",
+      "char-668"
     ],
     "relatedEvents": [
       "event-025"
@@ -1833,7 +1852,10 @@
       "char-003",
       "char-006",
       "char-007",
-      "char-008"
+      "char-676",
+      "char-542",
+      "char-677",
+      "char-678"
     ],
     "relatedEvents": [
       "event-024"
@@ -1871,10 +1893,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008",
       "char-003",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-679"
     ],
     "relatedEvents": [
       "event-027"
@@ -1912,9 +1934,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008",
       "char-080",
-      "char-081"
+      "char-081",
+      "char-679",
+      "char-680",
+      "char-681"
     ],
     "relatedEvents": [
       "event-026",
@@ -1953,10 +1977,13 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008",
       "char-009",
       "char-082",
-      "char-083"
+      "char-083",
+      "char-661",
+      "char-684",
+      "char-686",
+      "char-687"
     ],
     "relatedEvents": [
       "event-027",
@@ -2035,11 +2062,12 @@
     "images": [],
     "relatedCharacters": [
       "char-007",
-      "char-008",
       "char-009",
       "char-010",
       "char-084",
-      "char-085"
+      "char-085",
+      "char-006",
+      "char-688"
     ],
     "relatedEvents": [
       "event-011"
@@ -2078,10 +2106,15 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008",
       "char-011",
       "char-086",
-      "char-087"
+      "char-087",
+      "char-689",
+      "char-690",
+      "char-691",
+      "char-692",
+      "char-693",
+      "char-694"
     ],
     "relatedEvents": [
       "event-032"
@@ -2120,11 +2153,13 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008",
       "char-001",
       "char-002",
       "char-003",
-      "char-005"
+      "char-005",
+      "char-689",
+      "char-690",
+      "char-692"
     ],
     "relatedEvents": [
       "event-031",
@@ -2163,7 +2198,9 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008"
+      "char-704",
+      "char-705",
+      "char-706"
     ],
     "relatedEvents": [
       "event-014"
@@ -2202,11 +2239,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-001",
-      "char-002",
-      "char-004",
-      "char-005",
-      "char-010"
+      "char-605",
+      "char-017",
+      "char-610",
+      "char-710"
     ],
     "relatedEvents": [
       "event-001",
@@ -2542,12 +2578,9 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
-      "char-006",
-      "char-601",
       "char-003",
-      "char-076",
-      "char-077"
+      "char-654",
+      "char-655"
     ],
     "relatedEvents": [
       "event-079",
@@ -2596,7 +2629,7 @@
       "char-005",
       "char-006",
       "char-007",
-      "char-008"
+      "char-013"
     ],
     "relatedEvents": [
       "event-008",
@@ -2640,7 +2673,9 @@
       "char-003",
       "char-005",
       "char-007",
-      "char-008"
+      "char-536",
+      "char-660",
+      "char-537"
     ],
     "relatedEvents": [
       "event-010"
@@ -2685,7 +2720,8 @@
       "char-003",
       "char-006",
       "char-007",
-      "char-008"
+      "char-673",
+      "char-674"
     ],
     "relatedEvents": [
       "event-009"
@@ -2728,7 +2764,12 @@
     "relatedCharacters": [
       "char-031",
       "char-088",
-      "char-089"
+      "char-089",
+      "char-682",
+      "char-683",
+      "char-661",
+      "char-684",
+      "char-685"
     ],
     "relatedEvents": [
       "event-028"
@@ -2772,7 +2813,6 @@
       "char-003",
       "char-006",
       "char-007",
-      "char-008",
       "char-012"
     ],
     "relatedEvents": [],
@@ -2812,8 +2852,7 @@
     "images": [],
     "relatedCharacters": [
       "char-003",
-      "char-006",
-      "char-008"
+      "char-006"
     ],
     "relatedEvents": [
       "event-032"
@@ -2852,9 +2891,16 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008",
       "char-003",
-      "char-006"
+      "char-006",
+      "char-695",
+      "char-696",
+      "char-697",
+      "char-687",
+      "char-698",
+      "char-699",
+      "char-661",
+      "char-684"
     ],
     "relatedEvents": [
       "event-028",
@@ -2896,10 +2942,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-001",
-      "char-002",
-      "char-004",
-      "char-005"
+      "char-619",
+      "char-612",
+      "char-613",
+      "char-017",
+      "char-002"
     ],
     "relatedEvents": [
       "event-002",
@@ -3319,10 +3366,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-001",
-      "char-002",
-      "char-004",
-      "char-005"
+      "char-625",
+      "char-622",
+      "char-714",
+      "char-623",
+      "char-624"
     ],
     "relatedEvents": [
       "event-016",
@@ -3600,10 +3648,8 @@
     "images": [],
     "relatedCharacters": [
       "char-002",
-      "char-001",
-      "char-602",
-      "char-078",
-      "char-079"
+      "char-626",
+      "char-627"
     ],
     "relatedEvents": [
       "event-016",
@@ -3918,8 +3964,9 @@
     "images": [],
     "relatedCharacters": [
       "char-001",
-      "char-004",
-      "char-005"
+      "char-621",
+      "char-628",
+      "char-715"
     ],
     "relatedEvents": [
       "event-045",
@@ -4218,8 +4265,8 @@
     "images": [],
     "relatedCharacters": [
       "char-001",
-      "char-004",
-      "char-005"
+      "char-041",
+      "char-715"
     ],
     "relatedEvents": [
       "event-046",
@@ -4514,9 +4561,7 @@
     "images": [],
     "relatedCharacters": [
       "char-001",
-      "char-004",
-      "char-005",
-      "char-006"
+      "char-631"
     ],
     "relatedEvents": [
       "event-017",
@@ -4742,9 +4787,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-004",
-      "char-005",
-      "char-006"
+      "char-041",
+      "char-632",
+      "char-633",
+      "char-634"
     ],
     "relatedEvents": [
       "event-048",
@@ -4993,9 +5039,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-004",
-      "char-005",
-      "char-006"
+      "char-041",
+      "char-632",
+      "char-633",
+      "char-634"
     ],
     "relatedEvents": [
       "event-049",
@@ -5332,9 +5379,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-004",
-      "char-005",
-      "char-006"
+      "char-041",
+      "char-632",
+      "char-633",
+      "char-634"
     ],
     "relatedEvents": [
       "event-050",
@@ -5647,11 +5695,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-003",
-      "char-004",
-      "char-005",
-      "char-006",
-      "char-007"
+      "char-041",
+      "char-632",
+      "char-633",
+      "char-634"
     ],
     "relatedEvents": [
       "event-051",
@@ -5988,11 +6035,7 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-003",
-      "char-004",
-      "char-005",
-      "char-006",
-      "char-007"
+      "char-041"
     ],
     "relatedEvents": [
       "event-052",
@@ -7599,7 +7642,8 @@
       "char-004",
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-014"
     ],
     "relatedEvents": [
       "event-058",
@@ -7877,7 +7921,8 @@
       "char-004",
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-014"
     ],
     "relatedEvents": [
       "event-059",
@@ -8126,13 +8171,13 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-538",
       "char-600",
       "char-003",
       "char-004",
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-014"
     ],
     "relatedEvents": [
       "event-060",
@@ -9294,7 +9339,6 @@
     "relatedCharacters": [
       "char-004",
       "char-005",
-      "char-538",
       "char-003",
       "char-006",
       "char-007"
@@ -10045,7 +10089,10 @@
       "char-003",
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-013",
+      "char-656",
+      "char-603"
     ],
     "relatedEvents": [
       "event-068",
@@ -10264,11 +10311,10 @@
     "relatedCharacters": [
       "char-004",
       "char-005",
-      "char-538",
       "char-003",
       "char-006",
       "char-007",
-      "char-008"
+      "char-603"
     ],
     "relatedEvents": [
       "event-069",
@@ -10527,11 +10573,11 @@
     "relatedCharacters": [
       "char-004",
       "char-005",
-      "char-538",
       "char-003",
       "char-006",
       "char-007",
-      "char-008"
+      "char-603",
+      "char-648"
     ],
     "relatedEvents": [
       "event-070",
@@ -10741,7 +10787,7 @@
   },
   {
     "id": "event-072",
-    "name": "Phản công Hương Khê - Tống Duy Tân hy sinh: 'Thà chết vì nước, còn hơn sống nhục với giặc'",
+    "name": "Phản công Ba Đình - Tống Duy Tân hy sinh: 'Thà chết vì nước, còn hơn sống nhục với giặc'",
     "type": "resistance_movement",
     "date": {
       "year": 1892,
@@ -10749,19 +10795,19 @@
       "day": 5
     },
     "location": {
-      "name": "Hương Khê - Thanh Hóa",
+      "name": "Ba Đình, Thanh Hóa",
       "coordinates": [
-        18.3,
-        105.9
+        19.8067,
+        105.7851
       ],
-      "region": "trung_ky"
+      "region": "bac_ky"
     },
-    "shortDescription": "Năm 1892, phong trào Cần Vương phản công mạnh nhất. Hương Khê: Phan Đình Phùng chia quân 3 đạo, đánh 17 trận, thắng đồn Phú Gia. 5/7/1892: Tống Duy Tân bị bắt và xử chém tại Thanh Hóa, nói: 'Thà chết vì nước, còn hơn sống nhục với giặc.' Cao Thắng tự đúc 200 khẩu súng. Năm phản công quyết liệt.",
+    "shortDescription": "Năm 1892, Tống Duy Tân lãnh đạo phản công cuối cùng tại Ba Đình (Thanh Hóa). Thành trì Ba Đình thất thủ, Tống Duy Tân hy sinh với lời nói bất hủ: 'Thà chết vì nước, còn hơn sống nhục với giặc'. Kết thúc khởi nghĩa Ba Đình.",
     "fullContent": {
       "causes": "Sau thất bại ở Ba Đình năm 1891, thực dân Pháp tin rằng phong trào Cần Vương sắp tàn. Nhưng Phan Đình Phùng – lãnh tụ Hương Khê – lại biến miền Tây Nghệ Tĩnh thành pháo đài kháng chiến. Hàng nghìn nghĩa quân tập hợp dưới cờ của ông, trong đó có nhiều thủ lĩnh mới từ Quảng Bình, Quảng Trị, Thanh Hóa kéo đến. Pháp lo sợ phong trào phục hồi nên mở chiến dịch 'truy diệt Hương Khê' với quy mô lớn nhất từ trước đến nay, dựng thêm hàng trăm đồn binh ở Nghệ – Tĩnh – Quảng Bình, ra lệnh bắt toàn bộ thân nhân, gia đình nghĩa sĩ, cướp lương thực để triệt đường tiếp tế. Tuy nhiên, chính sách tàn bạo này lại khiến lòng dân càng sục sôi căm giận.",
-      "events": "Tháng 1-4/1892 - Hương Khê mở đợt phản công đầu tiên: Phan Đình Phùng chia quân làm ba đạo: Đạo Đông (tấn công Nghệ An, do Cao Thắng chỉ huy), Đạo Tây (đánh Quảng Bình, do Nguyễn Tất Tố chỉ huy), Đạo Trung tâm (do chính Phan Đình Phùng chỉ huy, phòng thủ Hương Khê). Nghĩa quân đánh liên hoàn 17 trận lớn nhỏ, tập kích các đồn Pháp ở Hương Sơn, Đức Thọ, Minh Cầm. Thắng lợi vang dội nhất là trận đánh đồn Phú Gia (Hà Tĩnh), tiêu diệt hàng chục lính Pháp, thu nhiều súng. Pháp bị bất ngờ, phải rút quân về tập trung ở thành Vinh và Đồng Hới.\n\n5/7/1892 - Sự hy sinh của Tống Duy Tân: Sau khi Ba Đình thất thủ, Tống Duy Tân rút về vùng Trà Lý – Yên Định (Thanh Hóa), tiếp tục tổ chức nghĩa quân nhỏ, kết hợp với dân làng đánh du kích. Pháp tung quân bao vây suốt nhiều tháng. Ngày 5 tháng 7 năm 1892, Tống Duy Tân bị bắt sau một trận phục kích. Trước khi bị xử chém tại Thanh Hóa, ông bình tĩnh nói: 'Thà chết vì nước, còn hơn sống nhục với giặc.' Sự hy sinh của ông khiến dân chúng cả miền Bắc thương tiếc, gọi ông là 'vị quan không khuất phục.'\n\nTháng 9-12/1892 - Pháp phản công, nghĩa quân cầm cự: Pháp tung chiến dịch mùa đông 1892, mang theo đại bác, bao vây vùng Hương Khê, hòng tiêu diệt toàn bộ nghĩa quân. Phan Đình Phùng chủ trương chia nhỏ lực lượng, rút sâu vào rừng Vũ Quang, vừa đánh vừa lui, chờ thời cơ. Cao Thắng, học trò xuất sắc của ông, tự đúc được hơn 200 khẩu súng theo mẫu Lebel, giúp nghĩa quân có thể chống trả tốt hơn. Dù chịu tổn thất, phong trào vẫn đứng vững, khiến Pháp phải kéo dài chiến dịch sang năm 1893.",
-      "results": "Phong trào Cần Vương chịu tổn thất nặng: Tống Duy Tân hi sinh, nhiều căn cứ bị tàn phá. Tuy nhiên, Hương Khê vẫn đứng vững, tiếp tục giữ vai trò trung tâm đến năm 1895. Pháp không thể 'bình định' miền Trung như kế hoạch. Pháp phải thay đổi chiến thuật: từ tấn công trực diện sang 'chia rẽ và phong tỏa kinh tế.' Phong trào Cần Vương dần chuyển sang giai đoạn cầm cự và phân tán (1893–1895). Tư tưởng 'yêu nước bằng hành động, không cần vua' bắt đầu nảy nở, mở đường cho các phong trào Duy Tân và Đông Du đầu thế kỷ XX.",
-      "significance": "Cái chết của Tống Duy Tân là minh chứng cho tinh thần trung nghĩa của sĩ phu Việt Nam cuối thế kỷ XIX. Hương Khê chứng minh rằng ý chí nhân dân mạnh hơn vũ khí xâm lược. 1892 trở thành một trong những năm kháng chiến quyết liệt nhất của Cần Vương. Năm phản công - những con người bình dị (thầy đồ, nông dân, quan lại) đã làm nên một bản hùng ca bi tráng. 'Thà chết vì nước, còn hơn sống nhục với giặc.'"
+      "events": "Năm 1892, sau 6 năm kháng chiến kiên cường, thành trì Ba Đình bị Pháp vây hãm khốc liệt. Tống Duy Tân tổ chức phản công cuối cùng nhưng lực lượng quá mỏng. Thành Ba Đình thất thủ, Tống Duy Tân hy sinh anh dũng với lời nói bất hủ: 'Thà chết vì nước, còn hơn sống nhục với giặc'. Đinh Công Tráng đã hy sinh từ năm 1887.",
+      "results": "Khởi nghĩa Ba Đình chính thức kết thúc. Tống Duy Tân trở thành biểu tượng của tinh thần bất khuất, kiên trì chống giặc ngoại xâm. Thành trì Ba Đình bị phá hủy hoàn toàn.",
+      "significance": "Tống Duy Tân là biểu tượng của lòng yêu nước và tinh thần hy sinh. Câu nói 'Thà chết vì nước, còn hơn sống nhục với giặc' trở thành khẩu hiệu bất hủ của phong trào Cần Vương."
     },
     "images": [],
     "relatedCharacters": [
@@ -10770,7 +10816,7 @@
       "char-005",
       "char-006",
       "char-007",
-      "char-008"
+      "char-603"
     ],
     "relatedEvents": [
       "event-071",
@@ -10977,8 +11023,7 @@
       "char-003",
       "char-005",
       "char-006",
-      "char-007",
-      "char-008"
+      "char-007"
     ],
     "relatedEvents": [
       "event-072",
@@ -11197,12 +11242,10 @@
     "relatedCharacters": [
       "char-004",
       "char-535",
-      "char-538",
       "char-003",
       "char-005",
       "char-006",
-      "char-007",
-      "char-008"
+      "char-007"
     ],
     "relatedEvents": [
       "event-073",
@@ -11413,12 +11456,10 @@
     "relatedCharacters": [
       "char-004",
       "char-537",
-      "char-538",
       "char-003",
       "char-005",
       "char-006",
-      "char-007",
-      "char-008"
+      "char-007"
     ],
     "relatedEvents": [
       "event-074",
@@ -11640,8 +11681,7 @@
       "char-005",
       "char-537",
       "char-003",
-      "char-007",
-      "char-008"
+      "char-007"
     ],
     "relatedEvents": [
       "event-075",
@@ -11879,7 +11919,9 @@
       "char-003",
       "char-005",
       "char-007",
-      "char-008"
+      "char-657",
+      "char-658",
+      "char-659"
     ],
     "relatedEvents": [
       "event-076",
@@ -12115,8 +12157,7 @@
       "char-005",
       "char-006",
       "char-003",
-      "char-007",
-      "char-008"
+      "char-007"
     ],
     "relatedEvents": [
       "event-077",
@@ -12361,7 +12402,7 @@
       "char-006",
       "char-003",
       "char-007",
-      "char-008"
+      "char-657"
     ],
     "relatedEvents": [
       "event-078",
@@ -12612,11 +12653,10 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-539",
       "char-535",
       "char-003",
       "char-007",
-      "char-008"
+      "char-657"
     ],
     "relatedEvents": [
       "event-079",
@@ -12829,10 +12869,7 @@
       "char-005",
       "char-006",
       "char-007",
-      "char-538",
       "char-535",
-      "char-539",
-      "char-540",
       "char-003"
     ],
     "relatedEvents": [
@@ -13071,9 +13108,7 @@
       "char-006",
       "char-007",
       "char-537",
-      "char-539",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-081"
@@ -13343,11 +13378,9 @@
       "char-005",
       "char-006",
       "char-007",
-      "char-541",
       "char-542",
       "char-537",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-082"
@@ -13641,10 +13674,8 @@
       "char-005",
       "char-006",
       "char-007",
-      "char-541",
       "char-536",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-083"
@@ -13908,10 +13939,7 @@
       "char-006",
       "char-007",
       "char-534",
-      "char-536",
-      "char-540",
-      "char-541",
-      "char-539"
+      "char-536"
     ],
     "relatedEvents": [
       "event-084"
@@ -14157,10 +14185,7 @@
       "char-006",
       "char-007",
       "char-536",
-      "char-539",
-      "char-540",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-085"
@@ -14458,8 +14483,7 @@
       "char-536",
       "char-537",
       "char-535",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-086"
@@ -14746,10 +14770,8 @@
       "char-006",
       "char-007",
       "char-536",
-      "char-538",
       "char-535",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-087"
@@ -15053,10 +15075,7 @@
       "char-005",
       "char-006",
       "char-007",
-      "char-539",
-      "char-540",
       "char-535",
-      "char-541",
       "char-003"
     ],
     "relatedEvents": [
@@ -15337,11 +15356,9 @@
       "char-005",
       "char-006",
       "char-007",
-      "char-541",
       "char-535",
       "char-536",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-089"
@@ -15630,10 +15647,10 @@
       "char-005",
       "char-006",
       "char-007",
-      "char-539",
       "char-535",
       "char-003",
-      "char-008"
+      "char-669",
+      "char-670"
     ],
     "relatedEvents": [
       "event-090"
@@ -15914,8 +15931,7 @@
       "char-006",
       "char-007",
       "char-535",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-091"
@@ -16204,9 +16220,7 @@
       "char-005",
       "char-006",
       "char-007",
-      "char-540",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-092"
@@ -16494,11 +16508,9 @@
     "relatedCharacters": [
       "char-006",
       "char-007",
-      "char-540",
       "char-536",
       "char-534",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-093"
@@ -16770,10 +16782,8 @@
       "char-006",
       "char-007",
       "char-534",
-      "char-538",
       "char-535",
       "char-537",
-      "char-539",
       "char-003"
     ],
     "relatedEvents": [
@@ -17063,9 +17073,7 @@
       "char-006",
       "char-007",
       "char-542",
-      "char-540",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-095"
@@ -17329,10 +17337,8 @@
     "relatedCharacters": [
       "char-006",
       "char-007",
-      "char-539",
       "char-543",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-096"
@@ -17613,10 +17619,8 @@
       "char-006",
       "char-007",
       "char-537",
-      "char-538",
       "char-536",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-097"
@@ -17889,8 +17893,7 @@
       "char-006",
       "char-007",
       "char-535",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-098"
@@ -18138,11 +18141,9 @@
     "relatedCharacters": [
       "char-006",
       "char-007",
-      "char-540",
       "char-535",
       "char-543",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-099"
@@ -18390,9 +18391,7 @@
       "char-006",
       "char-007",
       "char-535",
-      "char-539",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-100"
@@ -18631,11 +18630,9 @@
     "relatedCharacters": [
       "char-006",
       "char-007",
-      "char-538",
       "char-536",
       "char-535",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-101"
@@ -18874,12 +18871,9 @@
     "relatedCharacters": [
       "char-006",
       "char-007",
-      "char-538",
       "char-546",
       "char-543",
-      "char-539",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-102"
@@ -19114,8 +19108,7 @@
       "char-535",
       "char-546",
       "char-534",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-103"
@@ -19317,8 +19310,7 @@
       "char-536",
       "char-537",
       "char-535",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-104"
@@ -19537,8 +19529,7 @@
       "char-544",
       "char-549",
       "char-545",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-105"
@@ -19852,8 +19843,7 @@
       "char-548",
       "char-546",
       "char-551",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-106"
@@ -20132,9 +20122,7 @@
     "relatedCharacters": [
       "char-006",
       "char-534",
-      "char-539",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-107"
@@ -20393,8 +20381,7 @@
       "char-546",
       "char-534",
       "char-551",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-108"
@@ -20631,8 +20618,7 @@
       "char-550",
       "char-543",
       "char-546",
-      "char-003",
-      "char-008"
+      "char-003"
     ],
     "relatedEvents": [
       "event-109"

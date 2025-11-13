@@ -1,0 +1,6059 @@
+[
+  {
+    "id": "char-001",
+    "name": "Nguyễn Trung Trực",
+    "avatar": "/images/characters/nguyen-trung-truc.jpg",
+    "birthYear": 1838,
+    "deathYear": 1868,
+    "biography": "Nguyễn Trung Trực (1838-1868) là anh hùng dân tộc, lãnh đạo nghĩa quân chống Pháp ở Rạch Giá – Hà Tiên. Ông nổi tiếng với chiến công đốt tàu chiến Pháp L'Espérance tại Nhựt Tảo (10/12/1868) – lần đầu tiên trong lịch sử Việt Nam nghĩa quân đốt tàu phương Tây. Bị bắt tháng 10/1868, ông từ chối đầu hàng và bị xử chém tại Rạch Giá ngày 27/10/1868. Trước khi hy sinh, ông để lại câu nói bất hủ: 'Bao giờ Tây nhổ hết cỏ nước Nam, thì mới hết người Nam đánh Tây.' Được dân lập đền thờ khắp Nam Bộ.",
+    "role": "Lãnh tụ nghĩa quân Rạch Giá - Anh hùng dân tộc",
+    "achievements": [
+      "Lãnh đạo nghĩa quân Rạch Giá – Hà Tiên (1861-1868)",
+      "Đốt tàu chiến Pháp L'Espérance tại Nhựt Tảo (10/12/1868)",
+      "Lần đầu tiên nghĩa quân Việt Nam đốt tàu chiến phương Tây",
+      "Để lại câu nói bất hủ về tinh thần kháng chiến",
+      "Được dân lập đền thờ, biểu tượng người nông dân bất khuất"
+    ],
+    "relatedEvents": [
+      "event-003",
+      "event-046",
+      "event-047",
+      "event-048",
+      "event-016",
+      "event-017",
+      "event-043",
+      "event-044",
+      "event-045"
+    ],
+    "journey": [
+      {
+        "eventId": "event-003",
+        "year": 1861,
+        "location": [
+          10.5359,
+          106.4137
+        ],
+        "description": "Khởi nghĩa tại Tân An"
+      },
+      {
+        "eventId": "event-046",
+        "year": 1865,
+        "location": [
+          10.0103,
+          105.0806
+        ],
+        "description": "Hoạt động kháng chiến tại Rạch Giá"
+      },
+      {
+        "eventId": "event-047",
+        "year": 1866,
+        "location": [
+          10.0103,
+          105.0806
+        ],
+        "description": "Mở rộng vùng kiểm soát, chuẩn bị trận lớn"
+      },
+      {
+        "eventId": "event-048",
+        "year": 1868,
+        "location": [
+          10.7769,
+          106.6577
+        ],
+        "description": "Đốt tàu Espérance tại Nhựt Tảo, bị bắt và tuẫn tiết tại Rạch Giá"
+      }
+    ]
+  },
+  {
+    "id": "char-002",
+    "name": "Trương Định",
+    "avatar": "/images/characters/truong-dinh.jpg",
+    "birthYear": 1820,
+    "deathYear": 1864,
+    "biography": "Trương Định là võ quan triều Nguyễn, lãnh tụ nghĩa quân chống Pháp ở Gò Công – Tân Hòa. Sau Hòa ước Nhâm Tuất 1862, ông từ chối lệnh bãi binh, tuyên bố: 'Dân còn, giặc chưa hết, sao thần dám lui!' Ông tự xưng 'Bình Tây Đại Nguyên Soái', dựng căn cứ vững chắc ở Gò Công. Đêm 19/8/1864, bị quân Pháp bao vây tại Tân Phước, ông tự vẫn giữ khí tiết, trở thành biểu tượng lòng trung nghĩa.",
+    "role": "Bình Tây Đại Nguyên Soái",
+    "achievements": [
+      "Từ chối lệnh bãi binh, tiếp tục kháng chiến (1862-1864)",
+      "Tự xưng 'Bình Tây Đại Nguyên Soái', được dân tôn kính",
+      "Dựng căn cứ Gò Công – Tân Hòa vững chắc nhất Nam Kỳ",
+      "Tự vẫn giữ khí tiết (19/8/1864), không chịu đầu hàng",
+      "Được vua Tự Đức truy phong 'Trung dũng tướng quân'"
+    ],
+    "relatedEvents": [
+      "event-016",
+      "event-043",
+      "event-045",
+      "event-054",
+      "event-055",
+      "event-004",
+      "event-044"
+    ],
+    "journey": [
+      {
+        "eventId": "event-016",
+        "year": 1862,
+        "location": [
+          10.38,
+          106.67
+        ],
+        "description": "Từ chối lệnh bãi binh tại Gò Công"
+      },
+      {
+        "eventId": "event-043",
+        "year": 1861,
+        "location": [
+          10.38,
+          106.67
+        ],
+        "description": "Tiếp tục kháng chiến sau trận Kỳ Hòa"
+      },
+      {
+        "eventId": "event-045",
+        "year": 1864,
+        "location": [
+          10.39,
+          106.48
+        ],
+        "description": "Tuẫn tiết tại Tân Phước, Gò Công"
+      }
+    ]
+  },
+  {
+    "id": "char-003",
+    "name": "Vua Hàm Nghi",
+    "avatar": "/images/characters/ham-nghi.jpg",
+    "birthYear": 1872,
+    "deathYear": 1943,
+    "biography": "Vua Hàm Nghi là vị vua thứ 8 của triều Nguyễn. Năm 1885, khi mới 13 tuổi, ông ra chiếu Cần Vương, kêu gọi toàn dân chống Pháp. Sau khi bị bắt năm 1888, ông bị đày sang Algeria.",
+    "role": "Vua triều Nguyễn",
+    "achievements": [
+      "Phát động phong trào Cần Vương (1885)",
+      "Biểu tượng của tinh thần yêu nước hoàng gia",
+      "Kiên trì chống Pháp dù còn rất trẻ"
+    ],
+    "relatedEvents": [
+      "event-008",
+      "event-019",
+      "event-022",
+      "event-024",
+      "event-025",
+      "event-026",
+      "event-029",
+      "event-035",
+      "event-036",
+      "event-037",
+      "event-038",
+      "event-041",
+      "event-042",
+      "event-052",
+      "event-053",
+      "event-054",
+      "event-055",
+      "event-056",
+      "event-057",
+      "event-058",
+      "event-059",
+      "event-060",
+      "event-061",
+      "event-062",
+      "event-063",
+      "event-064",
+      "event-065",
+      "event-066",
+      "event-067",
+      "event-068",
+      "event-069",
+      "event-070",
+      "event-071",
+      "event-072",
+      "event-073",
+      "event-074",
+      "event-075",
+      "event-076",
+      "event-077",
+      "event-078",
+      "event-079",
+      "event-080",
+      "event-081",
+      "event-082",
+      "event-083",
+      "event-084",
+      "event-086",
+      "event-087",
+      "event-088",
+      "event-089",
+      "event-090",
+      "event-091",
+      "event-092",
+      "event-093",
+      "event-094",
+      "event-095",
+      "event-096",
+      "event-097",
+      "event-098",
+      "event-099",
+      "event-100",
+      "event-101",
+      "event-102",
+      "event-103",
+      "event-104",
+      "event-105",
+      "event-106",
+      "event-107",
+      "event-108",
+      "event-109",
+      "event-110"
+    ],
+    "journey": [
+      {
+        "eventId": "event-008",
+        "year": 1885,
+        "location": [
+          16.4637,
+          107.5909
+        ],
+        "description": "Ra chiếu Cần Vương tại Huế"
+      }
+    ]
+  },
+  {
+    "id": "char-004",
+    "name": "Phan Đình Phùng",
+    "avatar": "/images/characters/phan-dinh-phung.jpg",
+    "birthYear": 1847,
+    "deathYear": 1896,
+    "biography": "Phan Đình Phùng là bậc kỳ tài của triều Nguyễn, lãnh đạo nghĩa quân Cần Vương ở Hà Tĩnh. Ông nổi tiếng với ý chí kiên cường, từ chối mọi lời mời chào hàng của Pháp.",
+    "role": "Lãnh đạo nghĩa quân Cần Vương",
+    "achievements": [
+      "Lãnh đạo nghĩa quân Hương Khê (1885-1896)",
+      "Xây dựng căn cứ Vũ Quang vững chắc",
+      "Kiên trì chống Pháp 11 năm"
+    ],
+    "relatedEvents": [
+      "event-008",
+      "event-017",
+      "event-019",
+      "event-021",
+      "event-022",
+      "event-036",
+      "event-043",
+      "event-044",
+      "event-046",
+      "event-047",
+      "event-048",
+      "event-049",
+      "event-050",
+      "event-051",
+      "event-052",
+      "event-053",
+      "event-054",
+      "event-055",
+      "event-056",
+      "event-057",
+      "event-058",
+      "event-059",
+      "event-060",
+      "event-061",
+      "event-062",
+      "event-063",
+      "event-064",
+      "event-065",
+      "event-066",
+      "event-067",
+      "event-068",
+      "event-069",
+      "event-070",
+      "event-071",
+      "event-072",
+      "event-073",
+      "event-074",
+      "event-075",
+      "event-076"
+    ],
+    "journey": [
+      {
+        "eventId": "event-008",
+        "year": 1885,
+        "location": [
+          18.3,
+          105.9
+        ],
+        "description": "Khởi nghĩa tại Hà Tĩnh"
+      }
+    ]
+  },
+  {
+    "id": "char-005",
+    "name": "Hoàng Hoa Thám",
+    "avatar": "/images/characters/hoang-hoa-tham.jpg",
+    "birthYear": 1858,
+    "deathYear": 1913,
+    "biography": "Hoàng Hoa Thám, còn gọi là Đề Đốc Hoàng Hoa Thám, lãnh đạo khởi nghĩa Yên Thế kéo dài 30 năm. Ông sử dụng địa hình hiểm trở của Yên Thế để chống Pháp hiệu quả.",
+    "role": "Đề Đốc nghĩa quân Yên Thế",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Yên Thế 30 năm (1884-1913)",
+      "Xây dựng căn cứ Yên Thế vững chắc",
+      "Biểu tượng của tinh thần kiên trì chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-009",
+      "event-003",
+      "event-017",
+      "event-019",
+      "event-022",
+      "event-035",
+      "event-036",
+      "event-037",
+      "event-038",
+      "event-043",
+      "event-044",
+      "event-046",
+      "event-047",
+      "event-048",
+      "event-049",
+      "event-050",
+      "event-051",
+      "event-052",
+      "event-053",
+      "event-054",
+      "event-055",
+      "event-056",
+      "event-057",
+      "event-058",
+      "event-059",
+      "event-060",
+      "event-061",
+      "event-062",
+      "event-063",
+      "event-064",
+      "event-065",
+      "event-066",
+      "event-067",
+      "event-068",
+      "event-069",
+      "event-070",
+      "event-071",
+      "event-072",
+      "event-073",
+      "event-074",
+      "event-075",
+      "event-076",
+      "event-077",
+      "event-078",
+      "event-079",
+      "event-080",
+      "event-081",
+      "event-082",
+      "event-083",
+      "event-084",
+      "event-085",
+      "event-086",
+      "event-087",
+      "event-088",
+      "event-089",
+      "event-090",
+      "event-091",
+      "event-092",
+      "event-093"
+    ],
+    "journey": [
+      {
+        "eventId": "event-009",
+        "year": 1884,
+        "location": [
+          21.4,
+          106.5
+        ],
+        "description": "Khởi nghĩa tại Yên Thế, Bắc Giang"
+      }
+    ]
+  },
+  {
+    "id": "char-006",
+    "name": "Phan Bội Châu",
+    "avatar": "/images/characters/phan-boi-chau.jpg",
+    "birthYear": 1867,
+    "deathYear": 1940,
+    "biography": "Phan Bội Châu là nhà yêu nước, nhà cách mạng tiền bối. Ông khởi xướng phong trào Đông Du, thành lập Việt Nam Quang Phục Hội, hoạt động cách mạng suốt đời.",
+    "role": "Nhà cách mạng tiền bối",
+    "achievements": [
+      "Khởi xướng phong trào Đông Du (1905)",
+      "Thành lập Việt Nam Quang Phục Hội (1912)",
+      "Tác giả nhiều tác phẩm yêu nước"
+    ],
+    "relatedEvents": [
+      "event-010",
+      "event-013",
+      "event-003",
+      "event-009",
+      "event-017",
+      "event-019",
+      "event-022",
+      "event-024",
+      "event-025",
+      "event-026",
+      "event-029",
+      "event-035",
+      "event-036",
+      "event-037",
+      "event-038",
+      "event-041",
+      "event-042",
+      "event-048",
+      "event-049",
+      "event-050",
+      "event-051",
+      "event-052",
+      "event-053",
+      "event-054",
+      "event-055",
+      "event-056",
+      "event-057",
+      "event-058",
+      "event-059",
+      "event-060",
+      "event-061",
+      "event-062",
+      "event-063",
+      "event-064",
+      "event-065",
+      "event-066",
+      "event-067",
+      "event-068",
+      "event-069",
+      "event-070",
+      "event-071",
+      "event-072",
+      "event-073",
+      "event-074",
+      "event-075",
+      "event-076",
+      "event-077",
+      "event-078",
+      "event-079",
+      "event-080",
+      "event-081",
+      "event-082",
+      "event-083",
+      "event-084",
+      "event-085",
+      "event-086",
+      "event-087",
+      "event-088",
+      "event-089",
+      "event-090",
+      "event-091",
+      "event-092",
+      "event-093",
+      "event-094",
+      "event-095",
+      "event-096",
+      "event-097",
+      "event-098",
+      "event-099",
+      "event-100",
+      "event-101",
+      "event-102",
+      "event-103",
+      "event-104",
+      "event-105",
+      "event-106",
+      "event-107",
+      "event-108",
+      "event-109",
+      "event-110"
+    ],
+    "journey": [
+      {
+        "eventId": "event-010",
+        "year": 1905,
+        "location": [
+          35.6762,
+          139.6503
+        ],
+        "description": "Sang Nhật Bản, khởi xướng Đông Du"
+      },
+      {
+        "eventId": "event-013",
+        "year": 1912,
+        "location": [
+          23.1291,
+          113.2644
+        ],
+        "description": "Thành lập Quang Phục Hội tại Quảng Châu"
+      }
+    ]
+  },
+  {
+    "id": "char-007",
+    "name": "Phan Châu Trinh",
+    "avatar": "/images/characters/phan-chau-trinh.jpg",
+    "birthYear": 1872,
+    "deathYear": 1926,
+    "biography": "Phan Châu Trinh là nhà yêu nước, nhà cải cách xã hội. Ông chủ trương duy tân, cải cách giáo dục, phát triển dân trí. Ông là người sáng lập trường Đông Kinh Nghĩa Thục.",
+    "role": "Nhà cải cách, giáo dục",
+    "achievements": [
+      "Sáng lập Đông Kinh Nghĩa Thục (1907)",
+      "Lãnh đạo phong trào Duy Tân",
+      "Đề xướng cải cách giáo dục, xã hội"
+    ],
+    "relatedEvents": [
+      "event-011",
+      "event-003",
+      "event-019",
+      "event-024",
+      "event-025",
+      "event-026",
+      "event-030",
+      "event-036",
+      "event-037",
+      "event-038",
+      "event-052",
+      "event-053",
+      "event-054",
+      "event-055",
+      "event-056",
+      "event-057",
+      "event-058",
+      "event-059",
+      "event-060",
+      "event-061",
+      "event-062",
+      "event-063",
+      "event-064",
+      "event-065",
+      "event-066",
+      "event-068",
+      "event-069",
+      "event-070",
+      "event-071",
+      "event-072",
+      "event-073",
+      "event-074",
+      "event-075",
+      "event-076",
+      "event-077",
+      "event-078",
+      "event-079",
+      "event-080",
+      "event-081",
+      "event-082",
+      "event-083",
+      "event-084",
+      "event-085",
+      "event-086",
+      "event-087",
+      "event-088",
+      "event-089",
+      "event-090",
+      "event-091",
+      "event-092",
+      "event-093",
+      "event-094",
+      "event-095",
+      "event-096",
+      "event-097",
+      "event-098",
+      "event-099",
+      "event-100",
+      "event-101",
+      "event-102",
+      "event-103",
+      "event-104",
+      "event-105",
+      "event-106"
+    ],
+    "journey": [
+      {
+        "eventId": "event-011",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Mở trường Đông Kinh Nghĩa Thục tại Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": "char-008",
+    "name": "Nguyễn Ái Quốc (Hồ Chí Minh)",
+    "avatar": "/images/characters/ho-chi-minh.jpg",
+    "birthYear": 1890,
+    "deathYear": 1969,
+    "biography": "Nguyễn Ái Quốc, sau này lấy tên Hồ Chí Minh, là lãnh tụ vĩ đại của dân tộc Việt Nam. Ông sáng lập Đảng Cộng sản Việt Nam, lãnh đạo cách mạng giải phóng dân tộc.",
+    "role": "Lãnh tụ cách mạng",
+    "achievements": [
+      "Sáng lập Đảng Cộng sản Việt Nam (1930)",
+      "Lãnh đạo Cách mạng Tháng Tám (1945)",
+      "Chủ tịch nước Việt Nam Dân chủ Cộng hòa"
+    ],
+    "relatedEvents": [
+      "event-014",
+      "event-015",
+      "event-026",
+      "event-027",
+      "event-028",
+      "event-011",
+      "event-012",
+      "event-016",
+      "event-024",
+      "event-025",
+      "event-030",
+      "event-031",
+      "event-032",
+      "event-033",
+      "event-034",
+      "event-036",
+      "event-037",
+      "event-038",
+      "event-041",
+      "event-042",
+      "event-070",
+      "event-071",
+      "event-072",
+      "event-073",
+      "event-074",
+      "event-075",
+      "event-076",
+      "event-077",
+      "event-078",
+      "event-079",
+      "event-080",
+      "event-082",
+      "event-083",
+      "event-084",
+      "event-086",
+      "event-087",
+      "event-088",
+      "event-090",
+      "event-091",
+      "event-092",
+      "event-093",
+      "event-094",
+      "event-096",
+      "event-097",
+      "event-098",
+      "event-099",
+      "event-100",
+      "event-101",
+      "event-102",
+      "event-103",
+      "event-104",
+      "event-105",
+      "event-106",
+      "event-107",
+      "event-108",
+      "event-109",
+      "event-110"
+    ],
+    "journey": [
+      {
+        "eventId": "event-026",
+        "year": 1919,
+        "location": [
+          48.8049,
+          2.1204
+        ],
+        "description": "Gửi Bản yêu sách tại Versailles"
+      },
+      {
+        "eventId": "event-027",
+        "year": 1920,
+        "location": [
+          47.3941,
+          0.6848
+        ],
+        "description": "Tham gia Đảng Cộng sản Pháp tại Tours"
+      },
+      {
+        "eventId": "event-028",
+        "year": 1925,
+        "location": [
+          23.1291,
+          113.2644
+        ],
+        "description": "Thành lập Hội Thanh niên tại Quảng Châu"
+      },
+      {
+        "eventId": "event-014",
+        "year": 1930,
+        "location": [
+          22.3193,
+          114.1694
+        ],
+        "description": "Chủ trì hội nghị thành lập Đảng tại Hương Cảng"
+      }
+    ]
+  },
+  {
+    "id": "char-010",
+    "name": "Đinh Công Tráng",
+    "avatar": "/images/characters/dinh-cong-trang.jpg",
+    "birthYear": 1850,
+    "deathYear": 1887,
+    "biography": "Đinh Công Tráng là võ sinh triều Nguyễn, lãnh đạo khởi nghĩa Ba Đình thuộc phong trào Cần Vương. Ông xây dựng thành Ba Đình kiên cố, chống Pháp kiên cường đến hơi thở cuối cùng.",
+    "role": "Lãnh đạo khởi nghĩa Ba Đình",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Ba Đình (1886-1887)",
+      "Xây dựng thành trì Ba Đình kiên cố",
+      "Hy sinh anh dũng trong chiến đấu"
+    ],
+    "relatedEvents": [
+      "event-020",
+      "event-017",
+      "event-030",
+      "event-043",
+      "event-044",
+      "event-046",
+      "event-047",
+      "event-048",
+      "event-049",
+      "event-050",
+      "event-051",
+      "event-052",
+      "event-053",
+      "event-054",
+      "event-055",
+      "event-056",
+      "event-057",
+      "event-058",
+      "event-059",
+      "event-060",
+      "event-061",
+      "event-062",
+      "event-063",
+      "event-064",
+      "event-065",
+      "event-066"
+    ],
+    "journey": [
+      {
+        "eventId": "event-020",
+        "year": 1886,
+        "location": [
+          19.8,
+          105.8
+        ],
+        "description": "Khởi nghĩa tại Ba Đình, Thanh Hóa"
+      }
+    ]
+  },
+  {
+    "id": "char-012",
+    "name": "Lương Văn Can",
+    "avatar": "/images/characters/luong-van-can.jpg",
+    "birthYear": 1854,
+    "deathYear": 1927,
+    "biography": "Lương Văn Can là nhà giáo dục, nhà cải cách. Ông là người sáng lập trường Đông Kinh Nghĩa Thục, đào tạo thế hệ trẻ yêu nước. Ông cùng Phan Châu Trinh lãnh đạo phong trào duy tân.",
+    "role": "Nhà giáo dục, cải cách",
+    "achievements": [
+      "Sáng lập Đông Kinh Nghĩa Thục (1907)",
+      "Đề xướng dạy chữ quốc ngữ",
+      "Góp phần đánh thức dân trí"
+    ],
+    "relatedEvents": [
+      "event-023",
+      "event-011",
+      "event-012",
+      "event-015",
+      "event-016",
+      "event-017",
+      "event-024",
+      "event-025",
+      "event-026",
+      "event-032",
+      "event-033",
+      "event-034",
+      "event-037",
+      "event-038",
+      "event-041",
+      "event-043",
+      "event-044",
+      "event-046",
+      "event-047",
+      "event-048",
+      "event-049",
+      "event-050",
+      "event-051",
+      "event-052",
+      "event-053",
+      "event-054",
+      "event-055",
+      "event-056",
+      "event-057",
+      "event-058",
+      "event-059",
+      "event-060",
+      "event-062",
+      "event-063",
+      "event-064",
+      "event-065",
+      "event-068",
+      "event-069",
+      "event-070",
+      "event-071",
+      "event-072",
+      "event-076",
+      "event-077",
+      "event-078",
+      "event-079",
+      "event-080",
+      "event-082",
+      "event-084",
+      "event-091",
+      "event-092",
+      "event-093",
+      "event-094",
+      "event-096",
+      "event-097",
+      "event-098",
+      "event-099",
+      "event-100",
+      "event-101",
+      "event-102",
+      "event-105",
+      "event-106",
+      "event-107"
+    ],
+    "journey": [
+      {
+        "eventId": "event-023",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Mở trường Đông Kinh Nghĩa Thục"
+      }
+    ]
+  },
+  {
+    "id": "char-013",
+    "name": "Cao Thắng",
+    "avatar": "/images/characters/cao-thang.jpg",
+    "birthYear": 1860,
+    "deathYear": 1893,
+    "biography": "Cao Thắng là võ tướng tài ba, cánh tay phải của Phan Đình Phùng trong khởi nghĩa Hương Khê. Ông nổi tiếng với tài dũng cảm và lòng trung thành với nghĩa quân Cần Vương.",
+    "role": "Võ tướng nghĩa quân Cần Vương",
+    "achievements": [
+      "Cánh tay phải của Phan Đình Phùng",
+      "Nhiều chiến công chống Pháp",
+      "Hy sinh anh dũng năm 1893"
+    ],
+    "relatedEvents": [
+      "event-021",
+      "event-012",
+      "event-015",
+      "event-016",
+      "event-017",
+      "event-033",
+      "event-034",
+      "event-043",
+      "event-044",
+      "event-046",
+      "event-047",
+      "event-048",
+      "event-049",
+      "event-050",
+      "event-051",
+      "event-052",
+      "event-053",
+      "event-054",
+      "event-055",
+      "event-056",
+      "event-058",
+      "event-059",
+      "event-069",
+      "event-072",
+      "event-073"
+    ],
+    "journey": [
+      {
+        "eventId": "event-021",
+        "year": 1885,
+        "location": [
+          18.3,
+          105.7
+        ],
+        "description": "Tham gia khởi nghĩa Hương Khê"
+      }
+    ]
+  },
+  {
+    "id": "char-014",
+    "name": "Tôn Thất Thuyết",
+    "avatar": "/images/characters/ton-that-thuyet.jpg",
+    "birthYear": 1839,
+    "deathYear": 1913,
+    "biography": "Tôn Thất Thuyết là đại thần triều Nguyễn, người chủ trương chống Pháp kiên quyết. Ông phò vua Hàm Nghi ra chiếu Cần Vương, lãnh đạo phong trào kháng chiến.",
+    "role": "Đại thần triều Nguyễn",
+    "achievements": [
+      "Phò vua Hàm Nghi phát động Cần Vương",
+      "Tổ chức lực lượng kháng chiến",
+      "Kiên trì chống Pháp đến cuối đời"
+    ],
+    "relatedEvents": [
+      "event-008",
+      "event-015",
+      "event-016",
+      "event-017",
+      "event-034",
+      "event-037",
+      "event-038",
+      "event-043",
+      "event-044",
+      "event-046",
+      "event-047",
+      "event-048",
+      "event-049",
+      "event-050",
+      "event-051",
+      "event-064",
+      "event-065",
+      "event-066",
+      "event-077",
+      "event-078",
+      "event-079",
+      "event-092",
+      "event-093"
+    ],
+    "journey": [
+      {
+        "eventId": "event-008",
+        "year": 1885,
+        "location": [
+          16.4637,
+          107.5909
+        ],
+        "description": "Phò vua Hàm Nghi ra chiếu Cần Vương"
+      }
+    ]
+  },
+  {
+    "id": "char-015",
+    "name": "Trần Phú",
+    "avatar": "/images/characters/tran-phu.jpg",
+    "birthYear": 1904,
+    "deathYear": 1931,
+    "biography": "Trần Phú là Tổng Bí thư đầu tiên của Đảng Cộng sản Đông Dương. Ông soạn thảo Luận cương chính trị đầu tiên của Đảng (10/1930), hy sinh khi mới 27 tuổi.",
+    "role": "Tổng Bí thư ĐCSĐD",
+    "achievements": [
+      "Tổng Bí thư đầu tiên của Đảng (1930)",
+      "Soạn thảo Luận cương chính trị",
+      "Lãnh đạo phong trào cách mạng 1930-1931"
+    ],
+    "relatedEvents": [
+      "event-014",
+      "event-015",
+      "event-016",
+      "event-024",
+      "event-025",
+      "event-038",
+      "event-041",
+      "event-042",
+      "event-096",
+      "event-097",
+      "event-099",
+      "event-101",
+      "event-108",
+      "event-109",
+      "event-110"
+    ],
+    "journey": [
+      {
+        "eventId": "event-014",
+        "year": 1930,
+        "location": [
+          2002.3193,
+          114.1694
+        ],
+        "description": "Tham gia thành lập Đảng"
+      }
+    ]
+  },
+  {
+    "id": "char-037",
+    "name": "Đại tá Barbé",
+    "avatar": "/images/characters/barbe.jpg",
+    "birthYear": 1820,
+    "deathYear": 1880,
+    "biography": "Barbé là đại tá quân đội Pháp, chỉ huy chiến dịch đàn áp nghĩa quân Gò Công năm 1864. Ông điều phối 3 cánh quân tấn công từ Tân An, Mỹ Tho và Sài Gòn, bao vây và tiêu diệt căn cứ Trương Định. Chiến thắng này giúp Pháp tạm ổn định được Nam Kỳ.",
+    "role": "Đại tá quân đội Pháp",
+    "achievements": [
+      "Chỉ huy chiến dịch đàn áp Gò Công (1864)",
+      "Điều phối 3 cánh quân bao vây Trương Định",
+      "Góp phần ổn định cai trị Pháp ở Nam Kỳ"
+    ],
+    "relatedEvents": [
+      "event-045",
+      "event-005",
+      "event-006",
+      "event-046",
+      "event-047",
+      "event-049",
+      "event-050",
+      "event-051"
+    ],
+    "journey": [
+      {
+        "eventId": "event-045",
+        "year": 1864,
+        "location": [
+          10.38,
+          106.67
+        ],
+        "description": "Chỉ huy chiến dịch đàn áp Gò Công"
+      }
+    ]
+  },
+  {
+    "id": "char-038",
+    "name": "Thiếu tá Bourdais",
+    "avatar": "/images/characters/bourdais.jpg",
+    "birthYear": 1825,
+    "deathYear": 1885,
+    "biography": "Bourdais là thiếu tá quân đội Pháp, phó chỉ huy chiến dịch đàn áp nghĩa quân Gò Công năm 1864. Ông chỉ huy trực tiếp các trận càn trong rừng Tân Hòa và trận cuối cùng tại Tân Phước khiến Trương Định tuẫn tiết.",
+    "role": "Thiếu tá quân đội Pháp",
+    "achievements": [
+      "Phó chỉ huy chiến dịch Gò Công (1864)",
+      "Chỉ huy trận càn tại Tân Phước",
+      "Đàn áp nghĩa quân Trương Định"
+    ],
+    "relatedEvents": [
+      "event-045"
+    ],
+    "journey": [
+      {
+        "eventId": "event-045",
+        "year": 1864,
+        "location": [
+          10.39,
+          106.48
+        ],
+        "description": "Chỉ huy trận càn Tân Phước"
+      }
+    ]
+  },
+  {
+    "id": "char-041",
+    "name": "Trần Văn Thành",
+    "avatar": "/images/characters/tran-van-thanh.jpg",
+    "birthYear": 1835,
+    "deathYear": 1873,
+    "biography": "Trần Văn Thành (1835-1873) là nghĩa sĩ người Châu Đốc, cùng với Nguyễn Trung Trực và Võ Duy Dương là một trong ba thủ lĩnh lớn miền Tây. Sau năm 1867, ông xây dựng căn cứ Bảy Thưa tại vùng Thất Sơn (Tịnh Biên, An Giang). Dân gọi ông là 'Đức Cố Quản Thành'. Ông liên kết với dân Khmer và Chăm, tập hợp hàng ngàn nghĩa sĩ, lãnh đạo khởi nghĩa 4 năm (1870-1873). Tháng 5/1873, ông bị thương nặng tại Gò Cây Da, tự rút gươm tuẫn tiết để giữ trọn lòng trung nghĩa. Sau khi hi sinh, dân lập miếu thờ, gọi ông là vị thánh cứu dân.",
+    "role": "Nghĩa sĩ Châu Đốc - Thủ lĩnh căn cứ Bảy Thưa",
+    "achievements": [
+      "Xây dựng căn cứ Bảy Thưa tại Thất Sơn (1867-1873)",
+      "Được dân gọi là 'Đức Cố Quản Thành'",
+      "Liên kết với dân Khmer và Chăm chống Pháp",
+      "Lãnh đạo khởi nghĩa Bảy Thưa 4 năm (1870-1873)",
+      "Tự rút gươm tuẫn tiết tại Gò Cây Da (5/1873)",
+      "Được dân lập miếu thờ như vị thánh cứu dân"
+    ],
+    "relatedEvents": [
+      "event-017",
+      "event-046",
+      "event-047",
+      "event-048",
+      "event-049",
+      "event-050",
+      "event-051",
+      "event-052",
+      "event-053"
+    ],
+    "journey": [
+      {
+        "eventId": "event-046",
+        "year": 1865,
+        "location": [
+          10.35,
+          106.35
+        ],
+        "description": "Hoạt động kháng Pháp miền Tây"
+      },
+      {
+        "eventId": "event-047",
+        "year": 1866,
+        "location": [
+          10.35,
+          106.35
+        ],
+        "description": "Cùng phong trào kháng chiến"
+      },
+      {
+        "eventId": "event-017",
+        "year": 1867,
+        "location": [
+          10.7,
+          105.1
+        ],
+        "description": "Xây căn cứ Bảy Thưa sau khi mất Nam Kỳ"
+      },
+      {
+        "eventId": "event-048",
+        "year": 1868,
+        "location": [
+          10.7,
+          105.1
+        ],
+        "description": "Tiếp tục củng cố căn cứ Bảy Thưa"
+      },
+      {
+        "eventId": "event-049",
+        "year": 1869,
+        "location": [
+          10.7,
+          105.1
+        ],
+        "description": "Nghĩa quân Bảy Thưa lớn mạnh, liên kết dân Khmer"
+      },
+      {
+        "eventId": "event-050",
+        "year": 1870,
+        "location": [
+          10.7,
+          105.1
+        ],
+        "description": "Phát động Khởi nghĩa Bảy Thưa lần thứ nhất, dựng cờ 'Bình Tây Sát Tả'"
+      },
+      {
+        "eventId": "event-051",
+        "year": 1871,
+        "location": [
+          10.7,
+          105.1
+        ],
+        "description": "Lập 'Giáo binh đội', biến Bảy Thưa thành 'một quốc gia kháng chiến thu nhỏ'"
+      },
+      {
+        "eventId": "event-052",
+        "year": 1872,
+        "location": [
+          10.7,
+          105.1
+        ],
+        "description": "Chiến đấu trong vòng vây, phản công Châu Đốc, kiên định đến cùng"
+      },
+      {
+        "eventId": "event-053",
+        "year": 1873,
+        "location": [
+          10.7,
+          105.1
+        ],
+        "description": "Trận chiến cuối tại Gò Cây Da, tự rút gươm tuẫn tiết, trở thành 'Đức Cố Quản Thành'"
+      }
+    ]
+  },
+  {
+    "id": "char-042",
+    "name": "Lâm Quang Ky",
+    "avatar": "/images/characters/lam-quang-ky.jpg",
+    "birthYear": 1840,
+    "deathYear": 1870,
+    "biography": "Lâm Quang Ky là phó tướng trung thành của Nguyễn Trung Trực, cùng ông hoạt động kháng Pháp ở vùng Rạch Giá – Hà Tiên. Ông là người chỉ huy trực tiếp trận phục kích đốt tàu Espérance tại Nhựt Tảo (10/12/1868). Sau khi Nguyễn Trung Trực hy sinh, ông tiếp tục đánh du kích cho đến khi bị bắt và xử tử năm 1870.",
+    "role": "Phó tướng nghĩa quân Rạch Giá",
+    "achievements": [
+      "Phó tướng trung thành của Nguyễn Trung Trực",
+      "Chỉ huy trực tiếp trận đốt tàu Espérance (10/12/1868)",
+      "Tiếp tục kháng chiến sau khi Nguyễn Trung Trực mất",
+      "Bị bắt và xử tử năm 1870"
+    ],
+    "relatedEvents": [
+      "event-048",
+      "event-046",
+      "event-047"
+    ],
+    "journey": [
+      {
+        "eventId": "event-046",
+        "year": 1865,
+        "location": [
+          10.0103,
+          105.0806
+        ],
+        "description": "Cùng Nguyễn Trung Trực hoạt động tại Rạch Giá"
+      },
+      {
+        "eventId": "event-047",
+        "year": 1866,
+        "location": [
+          10.0103,
+          105.0806
+        ],
+        "description": "Phó tướng nghĩa quân Rạch Giá"
+      },
+      {
+        "eventId": "event-048",
+        "year": 1868,
+        "location": [
+          10.7769,
+          106.6577
+        ],
+        "description": "Chỉ huy đốt tàu Espérance tại Nhựt Tảo"
+      }
+    ]
+  },
+  {
+    "id": "char-044",
+    "name": "Trần Cao Vân",
+    "avatar": "/images/characters/tran-cao-van.jpg",
+    "birthYear": 1866,
+    "deathYear": 1916,
+    "biography": "Trần Cao Vân là quan triều Nguyễn, thành viên Việt Nam Quang Phục Hội. Ông là một trong hai lãnh đạo chính của vụ mưu khởi nghĩa Duy Tân năm 1916, cùng với Thái Phiên liên lạc với vua Duy Tân để lật đổ thực dân Pháp. Sau khi khởi nghĩa thất bại, ông bị bắt và xử tử.",
+    "role": "Quan triều Nguyễn - Lãnh đạo Quang Phục Hội",
+    "achievements": [
+      "Thành viên tích cực Việt Nam Quang Phục Hội",
+      "Đồng lãnh đạo vụ mưu khởi nghĩa Duy Tân (1916)",
+      "Liên lạc và thuyết phục vua Duy Tân tham gia khởi nghĩa",
+      "Hy sinh vì lý tưởng độc lập dân tộc"
+    ],
+    "relatedEvents": [
+      "event-024"
+    ],
+    "journey": [
+      {
+        "eventId": "event-024",
+        "year": 1916,
+        "location": [
+          16.4637,
+          107.5909
+        ],
+        "description": "Lãnh đạo khởi nghĩa Duy Tân tại Huế"
+      }
+    ]
+  },
+  {
+    "id": "char-045",
+    "name": "Thái Phiên",
+    "avatar": "/images/characters/thai-phien.jpg",
+    "birthYear": 1870,
+    "deathYear": 1916,
+    "biography": "Thái Phiên là thành viên Việt Nam Quang Phục Hội, đồng lãnh đạo vụ mưu khởi nghĩa Duy Tân năm 1916. Ông làm Tổng chỉ huy quân sự của Ủy ban khởi nghĩa, cùng Trần Cao Vân lập kế hoạch chi tiết để lật đổ thực dân Pháp và giải phóng đất nước.",
+    "role": "Tổng chỉ huy quân sự - Lãnh đạo Quang Phục Hội",
+    "achievements": [
+      "Tổng chỉ huy quân sự Ủy ban khởi nghĩa (1916)",
+      "Đồng lãnh đạo vụ mưu khởi nghĩa Duy Tân",
+      "Lập kế hoạch chi tiết cho cuộc khởi nghĩa",
+      "Hy sinh anh dũng vì Tổ quốc"
+    ],
+    "relatedEvents": [
+      "event-024"
+    ],
+    "journey": [
+      {
+        "eventId": "event-024",
+        "year": 1916,
+        "location": [
+          16.4637,
+          107.5909
+        ],
+        "description": "Tổng chỉ huy khởi nghĩa Duy Tân"
+      }
+    ]
+  },
+  {
+    "id": "char-047",
+    "name": "Phạm Hữu Khánh",
+    "avatar": "/images/characters/pham-huu-khanh.jpg",
+    "birthYear": 1885,
+    "deathYear": 1920,
+    "biography": "Phạm Hữu Khánh là thành viên Việt Nam Quang Phục Hội, được bố trí làm tài xế riêng của vua Duy Tân để liên lạc bí mật. Ông đóng vai trò quan trọng trong việc truyền đạt thư từ giữa các lãnh đạo Quang Phục Hội và vua Duy Tân trong vụ mưu khởi nghĩa 1916.",
+    "role": "Thành viên Quang Phục Hội - Người liên lạc",
+    "achievements": [
+      "Thành viên tích cực Việt Nam Quang Phục Hội",
+      "Tài xế riêng của vua Duy Tân",
+      "Truyền đạt thư từ bí mật cho khởi nghĩa 1916",
+      "Đóng vai trò cầu nối quan trọng"
+    ],
+    "relatedEvents": [
+      "event-024",
+      "event-025",
+      "event-099"
+    ],
+    "journey": [
+      {
+        "eventId": "event-024",
+        "year": 1916,
+        "location": [
+          16.4637,
+          107.5909
+        ],
+        "description": "Liên lạc bí mật cho khởi nghĩa Duy Tân"
+      }
+    ]
+  },
+  {
+    "id": "char-055",
+    "name": "Nguyễn Ái Quốc (Hồ Chí Minh)",
+    "avatar": "/images/characters/ho-chi-minh.jpg",
+    "birthYear": 1890,
+    "deathYear": 1969,
+    "biography": "Nguyễn Ái Quốc (sau này là Hồ Chí Minh) là lãnh tụ vĩ đại của dân tộc Việt Nam. Năm 1930, với tư cách phái viên Quốc tế Cộng sản, ông chủ trì Hội nghị thành lập Đảng Cộng sản Việt Nam tại Hồng Kông, hợp nhất các tổ chức cộng sản thành một đảng thống nhất.",
+    "role": "Phái viên Quốc tế Cộng sản - Người sáng lập Đảng",
+    "achievements": [
+      "Chủ trì thành lập Đảng Cộng sản Việt Nam (3/2/1930)",
+      "Phái viên Quốc tế Cộng sản phụ trách Cục phương Nam",
+      "Hợp nhất các tổ chức cộng sản thành đảng thống nhất",
+      "Soạn thảo Cương lĩnh chính trị của Đảng"
+    ],
+    "relatedEvents": [
+      "event-014",
+      "event-025",
+      "event-041",
+      "event-042",
+      "event-108",
+      "event-110"
+    ],
+    "journey": [
+      {
+        "eventId": "event-014",
+        "year": 1930,
+        "location": [
+          22.3193,
+          114.1694
+        ],
+        "description": "Chủ trì thành lập Đảng Cộng sản Việt Nam tại Hồng Kông"
+      }
+    ]
+  },
+  {
+    "id": "char-056",
+    "name": "Trịnh Đình Cửu",
+    "avatar": "/images/characters/trinh-dinh-cuu.jpg",
+    "birthYear": 1900,
+    "deathYear": 1945,
+    "biography": "Trịnh Đình Cửu là đại biểu Đông Dương Cộng sản Đảng tại Hội nghị thành lập Đảng Cộng sản Việt Nam năm 1930. Ông được bầu làm Phụ trách Ban Chấp hành Trung ương lâm thời đầu tiên của Đảng Cộng sản Việt Nam.",
+    "role": "Phụ trách BCH TW lâm thời Đảng Cộng sản Việt Nam",
+    "achievements": [
+      "Đại biểu Đông Dương Cộng sản Đảng",
+      "Phụ trách Ban Chấp hành Trung ương lâm thời đầu tiên",
+      "Tham gia Hội nghị thành lập Đảng (1930)",
+      "Đóng góp xây dựng tổ chức Đảng ban đầu"
+    ],
+    "relatedEvents": [
+      "event-014",
+      "event-041",
+      "event-042",
+      "event-108"
+    ],
+    "journey": [
+      {
+        "eventId": "event-014",
+        "year": 1930,
+        "location": [
+          22.3193,
+          114.1694
+        ],
+        "description": "Tham gia thành lập Đảng Cộng sản Việt Nam"
+      }
+    ]
+  },
+  {
+    "id": "char-057",
+    "name": "Châu Văn Liêm",
+    "avatar": "/images/characters/chau-van-liem.jpg",
+    "birthYear": 1895,
+    "deathYear": 1948,
+    "biography": "Châu Văn Liêm là đại biểu An Nam Cộng sản Đảng tại Hội nghị thành lập Đảng Cộng sản Việt Nam năm 1930. Ông là một trong những người đóng góp quan trọng vào việc hợp nhất các tổ chức cộng sản thành một đảng thống nhất.",
+    "role": "Đại biểu An Nam Cộng sản Đảng",
+    "achievements": [
+      "Đại biểu An Nam Cộng sản Đảng",
+      "Tham gia Hội nghị thành lập Đảng (1930)",
+      "Đóng góp vào việc hợp nhất các tổ chức cộng sản",
+      "Xây dựng phong trào cộng sản ở Nam Kỳ"
+    ],
+    "relatedEvents": [
+      "event-014",
+      "event-041"
+    ],
+    "journey": [
+      {
+        "eventId": "event-014",
+        "year": 1930,
+        "location": [
+          22.3193,
+          114.1694
+        ],
+        "description": "Đại biểu An Nam Cộng sản Đảng"
+      }
+    ]
+  },
+  {
+    "id": "char-058",
+    "name": "Hồ Tùng Mậu",
+    "avatar": "/images/characters/ho-tung-mau.jpg",
+    "birthYear": 1896,
+    "deathYear": 1951,
+    "biography": "Hồ Tùng Mậu là đại biểu nhóm hải ngoại tại Hội nghị thành lập Đảng Cộng sản Việt Nam năm 1930. Ông đại diện cho các cách mạng viên Việt Nam ở nước ngoài, góp phần quan trọng vào việc thành lập đảng thống nhất.",
+    "role": "Đại biểu nhóm hải ngoại",
+    "achievements": [
+      "Đại biểu nhóm hải ngoại tại Hội nghị thành lập Đảng",
+      "Đại diện cách mạng viên Việt Nam ở nước ngoài",
+      "Tham gia xây dựng tổ chức Đảng quốc tế",
+      "Liên kết phong trào cách mạng trong và ngoài nước"
+    ],
+    "relatedEvents": [
+      "event-014"
+    ],
+    "journey": [
+      {
+        "eventId": "event-014",
+        "year": 1930,
+        "location": [
+          22.3193,
+          114.1694
+        ],
+        "description": "Đại biểu nhóm hải ngoại"
+      }
+    ]
+  },
+  {
+    "id": "char-059",
+    "name": "Trương Định",
+    "avatar": "/images/characters/truong-dinh.jpg",
+    "birthYear": 1820,
+    "deathYear": 1864,
+    "biography": "Trương Định (tên thật Trương Công Định) là tướng triều Nguyễn, thủ lĩnh kháng chiến Nam Kỳ. Sau Hòa ước Nhâm Tuất (1862), ông từ chối lệnh bãi binh, tự xưng Trung thiên tướng quân, được dân tôn là Bình Tây Đại Nguyên soái. Ông lấy Gò Công làm căn cứ, tổ chức kháng chiến suốt 3 năm đến khi hy sinh.",
+    "role": "Bình Tây Đại Nguyên soái - Thủ lĩnh kháng chiến Nam Kỳ",
+    "achievements": [
+      "Từ chối lệnh bãi binh sau Hòa ước Nhâm Tuất (1862)",
+      "Tự xưng Trung thiên tướng quân, tổ chức kháng chiến",
+      "Lấy Gò Công làm căn cứ, kháng chiến 3 năm (1862-1864)",
+      "Tấn công đồng loạt 3 tỉnh miền Đông Nam Bộ (16/12/1862)"
+    ],
+    "relatedEvents": [
+      "event-003",
+      "event-004",
+      "event-018"
+    ],
+    "journey": [
+      {
+        "eventId": "event-003",
+        "year": 1862,
+        "location": [
+          10.3833,
+          106.6333
+        ],
+        "description": "Tổ chức kháng chiến tại Gò Công"
+      },
+      {
+        "eventId": "event-018",
+        "year": 1864,
+        "location": [
+          10.3833,
+          106.6333
+        ],
+        "description": "Hy sinh tại Gò Công"
+      }
+    ]
+  },
+  {
+    "id": "char-060",
+    "name": "Nguyễn Trung Trực",
+    "avatar": "/images/characters/nguyen-trung-truc.jpg",
+    "birthYear": 1838,
+    "deathYear": 1868,
+    "biography": "Nguyễn Trung Trực là thủ lĩnh nghĩa quân miền Tây Nam Kỳ, nổi tiếng với việc đốt tàu chiến Pháp Espérance. Ông tổ chức kháng chiến ở vùng Cần Giuộc, An Giang từ 1861-1868. Ông là biểu tượng của tinh thần bất khuất, từ chối hàng thành Pháp và hy sinh anh dũng năm 1868.",
+    "role": "Thủ lĩnh nghĩa quân miền Tây - Anh hùng dân tộc",
+    "achievements": [
+      "Tổ chức nghĩa quân kháng chiến miền Tây (1861-1868)",
+      "Đốt tàu chiến Pháp Espérance tại Nhựt Tảo (10/12/1868)",
+      "Kiểm soát vùng rộng lớn từ Cần Giuộc đến An Giang",
+      "Từ chối hàng thành, hy sinh anh dũng vì Tổ quốc"
+    ],
+    "relatedEvents": [
+      "event-003",
+      "event-019",
+      "event-020"
+    ],
+    "journey": [
+      {
+        "eventId": "event-003",
+        "year": 1861,
+        "location": [
+          10.4167,
+          106.5833
+        ],
+        "description": "Khởi nghĩa tại Cần Giuộc"
+      },
+      {
+        "eventId": "event-020",
+        "year": 1868,
+        "location": [
+          10.4167,
+          106.5833
+        ],
+        "description": "Đốt tàu Espérance và hy sinh"
+      }
+    ]
+  },
+  {
+    "id": "char-061",
+    "name": "Võ Duy Dương",
+    "avatar": "/images/characters/vo-duy-duong.jpg",
+    "birthYear": 1825,
+    "deathYear": 1875,
+    "biography": "Võ Duy Dương là con trai Thoại Ngọc Hầu, thủ lĩnh kháng chiến miền Tây Nam Kỳ. Ông kế thừa tinh thần yêu nước của cha, tổ chức nghĩa quân ở vùng Hà Tiên, An Giang. Ông phối hợp với Nguyễn Trung Trực trong cuộc kháng chiến chống Pháp ở miền Tây từ 1865-1875.",
+    "role": "Thủ lĩnh nghĩa quân Hà Tiên - Con trai Thoại Ngọc Hầu",
+    "achievements": [
+      "Con trai Thoại Ngọc Hầu, kế thừa tinh thần yêu nước",
+      "Tổ chức nghĩa quân ở vùng Hà Tiên, An Giang",
+      "Phối hợp với Nguyễn Trung Trực kháng chiến miền Tây",
+      "Kiên trì kháng chiến suốt 10 năm (1865-1875)"
+    ],
+    "relatedEvents": [
+      "event-019",
+      "event-020"
+    ],
+    "journey": [
+      {
+        "eventId": "event-019",
+        "year": 1865,
+        "location": [
+          10.3833,
+          104.4833
+        ],
+        "description": "Tổ chức kháng chiến tại Hà Tiên"
+      }
+    ]
+  },
+  {
+    "id": "char-064",
+    "name": "Tôn Thất Thuyết",
+    "avatar": "/images/characters/ton-that-thuyet.jpg",
+    "birthYear": 1839,
+    "deathYear": 1913,
+    "biography": "Tôn Thất Thuyết là Thượng thư Bộ Binh, thủ lĩnh phe chủ chiến triều Nguyễn. Ông đưa vua Hàm Nghi ra chiếu Cần Vương (1885), tổ chức hệ thống sơn phòng từ Quảng Trị đến Ninh Bình. Ông thành lập Phấn Nghĩa quân và Đoàn Kiệt quân, là linh hồn của phong trào kháng chiến cuối thế kỷ 19.",
+    "role": "Thượng thư Bộ Binh - Thủ lĩnh phe chủ chiến",
+    "achievements": [
+      "Thượng thư Bộ Binh, nắm giữ quân đội triều Nguyễn",
+      "Đưa vua Hàm Nghi ra chiếu Cần Vương (13/7/1885)",
+      "Tổ chức hệ thống sơn phòng kháng chiến",
+      "Thành lập Phấn Nghĩa quân và Đoàn Kiệt quân"
+    ],
+    "relatedEvents": [
+      "event-009",
+      "event-010",
+      "event-008"
+    ],
+    "journey": [
+      {
+        "eventId": "event-009",
+        "year": 1885,
+        "location": [
+          16.7,
+          107.2
+        ],
+        "description": "Đưa vua Hàm Nghi ra chiếu Cần Vương tại Tân Sở"
+      }
+    ]
+  },
+  {
+    "id": "char-065",
+    "name": "Vua Hàm Nghi",
+    "avatar": "/images/characters/vua-ham-nghi.jpg",
+    "birthYear": 1871,
+    "deathYear": 1944,
+    "biography": "Vua Hàm Nghi (Nguyễn Phúc Ưng Lịch) là hoàng đế thứ 8 triều Nguyễn, lên ngôi năm 1884 khi mới 14 tuổi. Dưới sự hướng dẫn của Tôn Thất Thuyết, ông ra chiếu Cần Vương kêu gọi toàn dân kháng chiến chống Pháp. Ông bị bắt năm 1888 và bị đày sang Algeria.",
+    "role": "Hoàng đế triều Nguyễn - Người ra chiếu Cần Vương",
+    "achievements": [
+      "Hoàng đế thứ 8 triều Nguyễn (1884-1888)",
+      "Ra chiếu Cần Vương lần 1 tại Tân Sở (13/7/1885)",
+      "Ra chiếu Cần Vương lần 2 tại Ấu Sơn (20/9/1885)",
+      "Biểu tượng của tinh thần kháng chiến dân tộc"
+    ],
+    "relatedEvents": [
+      "event-009",
+      "event-010",
+      "event-026"
+    ],
+    "journey": [
+      {
+        "eventId": "event-009",
+        "year": 1885,
+        "location": [
+          16.7,
+          107.2
+        ],
+        "description": "Ra chiếu Cần Vương lần 1 tại Tân Sở"
+      },
+      {
+        "eventId": "event-026",
+        "year": 1888,
+        "location": [
+          18.3,
+          105.9
+        ],
+        "description": "Bị bắt tại Hà Tĩnh"
+      }
+    ]
+  },
+  {
+    "id": "char-066",
+    "name": "Phan Đình Phùng",
+    "avatar": "/images/characters/phan-dinh-phung.jpg",
+    "birthYear": 1847,
+    "deathYear": 1896,
+    "biography": "Phan Đình Phùng là Đình nguyên tiến sĩ, thủ lĩnh khởi nghĩa Hương Khê (1885-1896) - đỉnh cao của phong trào Cần Vương. Ông được vua Hàm Nghi và Tôn Thất Thuyết giao trọng trách tổ chức kháng chiến ở Hà Tĩnh. Ông kiên trì kháng chiến 11 năm đến khi hy sinh, trở thành biểu tượng của tinh thần bất khuất.",
+    "role": "Đình nguyên tiến sĩ - Thủ lĩnh khởi nghĩa Hương Khê",
+    "achievements": [
+      "Đình nguyên tiến sĩ, học giả uyên bác",
+      "Thủ lĩnh khởi nghĩa Hương Khê (1885-1896)",
+      "Kiên trì kháng chiến 11 năm không khuất phục",
+      "Đỉnh cao của phong trào Cần Vương"
+    ],
+    "relatedEvents": [
+      "event-009",
+      "event-011",
+      "event-027",
+      "event-008",
+      "event-021"
+    ],
+    "journey": [
+      {
+        "eventId": "event-011",
+        "year": 1885,
+        "location": [
+          18.3,
+          105.9
+        ],
+        "description": "Khởi nghĩa Hương Khê"
+      },
+      {
+        "eventId": "event-027",
+        "year": 1896,
+        "location": [
+          18.3,
+          105.9
+        ],
+        "description": "Hy sinh tại Hương Khê"
+      }
+    ]
+  },
+  {
+    "id": "char-068",
+    "name": "Đinh Công Tráng",
+    "avatar": "/images/characters/dinh-cong-trang.jpg",
+    "birthYear": 1842,
+    "deathYear": 1887,
+    "biography": "Đinh Công Tráng là thủ lĩnh khởi nghĩa Ba Đình (1886-1887), một trong những cuộc khởi nghĩa tiêu biểu của phong trào Cần Vương. Ông từng là chánh tổng, tham gia trận Cầu Giấy cùng Hoàng Tá Viêm. Ông được coi là linh hồn của khởi nghĩa Ba Đình, kiên trì kháng chiến đến khi hy sinh.",
+    "role": "Thủ lĩnh khởi nghĩa Ba Đình - Linh hồn Cần Vương Thanh Hóa",
+    "achievements": [
+      "Thủ lĩnh khởi nghĩa Ba Đình (1886-1887)",
+      "Tham gia trận Cầu Giấy chống Henri Rivière",
+      "Xây dựng căn cứ Ba Đình kiên cố",
+      "Chiến đấu 32 ngày đêm chống quân Pháp"
+    ],
+    "relatedEvents": [
+      "event-010",
+      "event-020"
+    ],
+    "journey": [
+      {
+        "eventId": "event-010",
+        "year": 1886,
+        "location": [
+          19.8,
+          105.8
+        ],
+        "description": "Khởi nghĩa Ba Đình"
+      }
+    ]
+  },
+  {
+    "id": "char-069",
+    "name": "Phạm Bành",
+    "avatar": "/images/characters/pham-banh.jpg",
+    "birthYear": 1830,
+    "deathYear": 1887,
+    "biography": "Phạm Bành là viên quan chủ chiến, Cán lý quân vụ của khởi nghĩa Ba Đình. Ông quê ở làng Tương Xá (Hậu Lộc, Thanh Hóa), hưởng ứng phong trào Cần Vương đã treo ấn từ quan về quê vận động sĩ phu và nhân dân khởi nghĩa. Ông tự sát khi căn cứ Ba Đình thất thủ.",
+    "role": "Cán lý quân vụ Ba Đình - Quan chủ chiến",
+    "achievements": [
+      "Viên quan chủ chiến, treo ấn từ quan",
+      "Cán lý quân vụ khởi nghĩa Ba Đình",
+      "Vận động sĩ phu và nhân dân khởi nghĩa",
+      "Tự sát để giữ khí tiết khi thất bại"
+    ],
+    "relatedEvents": [
+      "event-010",
+      "event-020"
+    ],
+    "journey": [
+      {
+        "eventId": "event-010",
+        "year": 1886,
+        "location": [
+          19.8,
+          105.8
+        ],
+        "description": "Cán lý quân vụ Ba Đình"
+      }
+    ]
+  },
+  {
+    "id": "char-070",
+    "name": "Hoàng Bật Đạt",
+    "avatar": "/images/characters/hoang-bat-dat.jpg",
+    "birthYear": 1827,
+    "deathYear": 1887,
+    "biography": "Hoàng Bật Đạt là Cử nhân năm 1868, từng làm Giáo thụ và Tri huyện. Ông quê ở làng Bộ Đầu (Hậu Lộc, Thanh Hóa), hưởng ứng chiếu Cần Vương cùng Phạm Bành mộ quân tham gia khởi nghĩa Ba Đình. Ông bị bắt và bị Pháp chém đầu vì tinh thần bất khuất.",
+    "role": "Cử nhân - Đồng lãnh đạo khởi nghĩa Ba Đình",
+    "achievements": [
+      "Cử nhân năm 1868, từng làm Tri huyện",
+      "Đồng lãnh đạo khởi nghĩa Ba Đình",
+      "Mộ quân hưởng ứng chiếu Cần Vương",
+      "Bị chém đầu vì không chịu hàng giặc"
+    ],
+    "relatedEvents": [
+      "event-010",
+      "event-020"
+    ],
+    "journey": [
+      {
+        "eventId": "event-010",
+        "year": 1886,
+        "location": [
+          19.8,
+          105.8
+        ],
+        "description": "Đồng lãnh đạo Ba Đình"
+      }
+    ]
+  },
+  {
+    "id": "char-071",
+    "name": "Nguyễn Đôn Tiết",
+    "avatar": "/images/characters/nguyen-don-tiet.jpg",
+    "birthYear": 1836,
+    "deathYear": 1887,
+    "biography": "Nguyễn Đôn Tiết là Phó bảng năm 1879, từng làm Tri phủ. Ông quê ở làng Thọ Vực (Hoằng Hóa, Thanh Hóa), hưởng ứng dụ Cần Vương về quê chiêu mộ quân tham gia khởi nghĩa Ba Đình. Ông bị bắt tháng 3/1886, đày đi Côn Đảo và mất tại đó năm 1887.",
+    "role": "Phó bảng - Tham gia khởi nghĩa Ba Đình",
+    "achievements": [
+      "Phó bảng năm 1879, từng làm Tri phủ",
+      "Hưởng ứng dụ Cần Vương chiêu mộ quân",
+      "Tham gia khởi nghĩa Ba Đình",
+      "Bị đày Côn Đảo, hy sinh vì lý tưởng"
+    ],
+    "relatedEvents": [
+      "event-010",
+      "event-020"
+    ],
+    "journey": [
+      {
+        "eventId": "event-010",
+        "year": 1886,
+        "location": [
+          19.8,
+          105.8
+        ],
+        "description": "Tham gia khởi nghĩa Ba Đình"
+      }
+    ]
+  },
+  {
+    "id": "char-072",
+    "name": "Hoàng Hoa Thám (Đề Thám)",
+    "avatar": "/images/characters/hoang-hoa-tham.jpg",
+    "birthYear": 1858,
+    "deathYear": 1913,
+    "biography": "Hoàng Hoa Thám (tên thật Trương Văn Nghĩa), còn gọi là Đề Thám hay 'Hùm thiêng Yên Thế', là thủ lĩnh khởi nghĩa Yên Thế chống Pháp (1884-1913) - cuộc kháng chiến dài nhất trong lịch sử Việt Nam. Ông kế thừa Đề Nắm, trở thành thủ lĩnh tối cao phong trào Yên Thế, kiên trì kháng chiến gần 30 năm.",
+    "role": "Hùm thiêng Yên Thế - Thủ lĩnh khởi nghĩa Yên Thế",
+    "achievements": [
+      "Thủ lĩnh khởi nghĩa Yên Thế (1892-1913)",
+      "Kháng chiến gần 30 năm không khuất phục",
+      "Hai lần giảng hòa với Pháp (1894, 1897)",
+      "Biểu tượng tinh thần bất khuất của dân tộc"
+    ],
+    "relatedEvents": [
+      "event-012"
+    ],
+    "journey": [
+      {
+        "eventId": "event-012",
+        "year": 1892,
+        "location": [
+          21.5,
+          106.2
+        ],
+        "description": "Trở thành thủ lĩnh tối cao Yên Thế"
+      }
+    ]
+  },
+  {
+    "id": "char-076",
+    "name": "Cầm Bá Thước",
+    "avatar": "/images/characters/cam-ba-thuoc.jpg",
+    "birthYear": 1858,
+    "deathYear": 1895,
+    "biography": "Cầm Bá Thước là nghĩa sĩ Cần Vương, cộng sự của Tống Duy Tân trong khởi nghĩa Hùng Lĩnh. Ông quê ở Bá Thước, Thanh Hóa, tham gia kháng chiến từ 1886. Sau khi Tống Duy Tân hy sinh, ông vẫn kiên trì hoạt động đến năm 1895. Ông bị bắt và bí mật thủ tiêu vì không chịu quy hàng.",
+    "role": "Nghĩa sĩ Cần Vương - Cộng sự Tống Duy Tân",
+    "achievements": [
+      "Cộng sự của Tống Duy Tân tại Hùng Lĩnh",
+      "Kiên trì kháng chiến sau khi thủ lĩnh hy sinh",
+      "Hoạt động đến năm 1895, 3 năm sau Tống Duy Tân",
+      "Bị thủ tiêu vì không chịu quy hàng"
+    ],
+    "relatedEvents": [
+      "event-014"
+    ],
+    "journey": [
+      {
+        "eventId": "event-014",
+        "year": 1886,
+        "location": [
+          20.0,
+          105.5
+        ],
+        "description": "Tham gia khởi nghĩa Hùng Lĩnh"
+      }
+    ]
+  },
+  {
+    "id": "char-078",
+    "name": "Phan Bội Châu",
+    "avatar": "/images/characters/phan-boi-chau.jpg",
+    "birthYear": 1867,
+    "deathYear": 1940,
+    "biography": "Phan Bội Châu là nhà cách mạng tiền phong, thủ lĩnh phong trào Đông Du và Việt Nam Quang Phục Hội. Ông thành lập Duy Tân Hội (1904), phát động phong trào Đông Du (1905) đưa thanh niên sang Nhật Bản học tập. Ông viết 'Việt Nam vong quốc sử', 'Hải ngoại huyết thư' để tuyên truyền tinh thần yêu nước.",
+    "role": "Thủ lĩnh Đông Du - Chủ tịch Việt Nam Quang Phục Hội",
+    "achievements": [
+      "Thành lập Duy Tân Hội (1904)",
+      "Phát động phong trào Đông Du (1905)",
+      "Thành lập Việt Nam Quang Phục Hội (1912)",
+      "Tác giả 'Việt Nam vong quốc sử' và nhiều tác phẩm yêu nước"
+    ],
+    "relatedEvents": [
+      "event-013",
+      "event-015"
+    ],
+    "journey": [
+      {
+        "eventId": "event-013",
+        "year": 1905,
+        "location": [
+          35.6762,
+          139.6503
+        ],
+        "description": "Sang Nhật Bản phát động Đông Du"
+      },
+      {
+        "eventId": "event-015",
+        "year": 1912,
+        "location": [
+          22.3193,
+          114.1694
+        ],
+        "description": "Thành lập Việt Nam Quang Phục Hội tại Quảng Châu"
+      }
+    ]
+  },
+  {
+    "id": "char-080",
+    "name": "Cường Để",
+    "avatar": "/images/characters/cuong-de.jpg",
+    "birthYear": 1882,
+    "deathYear": 1951,
+    "biography": "Cường Để (Kỳ Ngoại hầu) là hoàng tử triều Nguyễn, cháu 5 đời của Hoàng tử Cảnh. Ông được Phan Bội Châu mời làm Hội chủ Duy Tân Hội (1904), sau đó sang Nhật Bản học tập tại Trường Quân sự Tokyo. Ông là biểu tượng tinh thần của phong trào Đông Du và Việt Nam Quang Phục Hội.",
+    "role": "Kỳ Ngoại hầu - Hội chủ Duy Tân Hội",
+    "achievements": [
+      "Hội chủ Duy Tân Hội (1904)",
+      "Học tập tại Trường Quân sự Tokyo (1906)",
+      "Biểu tượng tinh thần phong trào Đông Du",
+      "Lãnh tụ danh nghĩa Việt Nam Quang Phục Hội"
+    ],
+    "relatedEvents": [
+      "event-013",
+      "event-015"
+    ],
+    "journey": [
+      {
+        "eventId": "event-013",
+        "year": 1904,
+        "location": [
+          15.8801,
+          108.338
+        ],
+        "description": "Thành lập Duy Tân Hội tại Quảng Nam"
+      },
+      {
+        "eventId": "event-015",
+        "year": 1906,
+        "location": [
+          35.6762,
+          139.6503
+        ],
+        "description": "Sang Nhật Bản học tập"
+      }
+    ]
+  },
+  {
+    "id": "char-081",
+    "name": "Đặng Tử Kính",
+    "avatar": "/images/characters/dang-tu-kinh.jpg",
+    "birthYear": 1870,
+    "deathYear": 1924,
+    "biography": "Đặng Tử Kính là cộng sự đắc lực của Phan Bội Châu trong phong trào Đông Du. Ông cùng Phan Bội Châu sang Nhật Bản lần đầu (1905), tham gia thành lập Việt Nam Quang Phục Hội. Ông là một trong những hội viên trọng yếu của Duy Tân Hội, đảm nhận nhiều hoạt động quan trọng của tổ chức.",
+    "role": "Cộng sự Phan Bội Châu - Hội viên trọng yếu Duy Tân",
+    "achievements": [
+      "Hội viên trọng yếu Duy Tân Hội (1904)",
+      "Cùng Phan Bội Châu sang Nhật lần đầu (1905)",
+      "Tham gia thành lập Việt Nam Quang Phục Hội",
+      "Hoạt động tích cực trong phong trào Đông Du"
+    ],
+    "relatedEvents": [
+      "event-013",
+      "event-015"
+    ],
+    "journey": [
+      {
+        "eventId": "event-013",
+        "year": 1905,
+        "location": [
+          35.6762,
+          139.6503
+        ],
+        "description": "Cùng Phan Bội Châu sang Nhật Bản"
+      }
+    ]
+  },
+  {
+    "id": "char-082",
+    "name": "Nguyễn Thức Canh",
+    "avatar": "/images/characters/nguyen-thuc-canh.jpg",
+    "birthYear": 1884,
+    "deathYear": 1945,
+    "biography": "Nguyễn Thức Canh là một trong những thanh niên đầu tiên tham gia phong trào Đông Du. Ông cùng với Nguyễn Điền và Lê Khiết là 3 thanh niên đầu tiên sang Nhật Bản cùng Phan Bội Châu (tháng 10/1905). Ông học tập tại Nhật và trở thành một trong những trí thức tiên phong của phong trào cách mạng.",
+    "role": "Thanh niên tiên phong Đông Du - Học sinh Nhật Bản",
+    "achievements": [
+      "Một trong 3 thanh niên đầu tiên sang Nhật (1905)",
+      "Học tập tại các trường Nhật Bản",
+      "Tham gia tích cực phong trào Đông Du",
+      "Trí thức tiên phong phong trào cách mạng"
+    ],
+    "relatedEvents": [
+      "event-013"
+    ],
+    "journey": [
+      {
+        "eventId": "event-013",
+        "year": 1905,
+        "location": [
+          35.6762,
+          139.6503
+        ],
+        "description": "Sang Nhật Bản học tập"
+      }
+    ]
+  },
+  {
+    "id": "char-088",
+    "name": "Trần Văn Thành (Đức Cố Quản)",
+    "avatar": "/images/characters/tran-van-thanh.jpg",
+    "birthYear": 1820,
+    "deathYear": 1873,
+    "biography": "Trần Văn Thành, được dân gọi là 'Đức Cố Quản Thành', là thủ lĩnh khởi nghĩa Bảy Thưa (1867-1873). Ông là võ quan triều Nguyễn, từng tham gia cùng Trương Định. Sau khi Pháp chiếm An Giang, ông dựng căn cứ tại Bảy Thưa (Thất Sơn), tổ chức nghĩa quân kháng chiến suốt 6 năm đến khi hy sinh.",
+    "role": "Quản cơ triều Nguyễn - Thủ lĩnh nghĩa quân Bảy Thưa",
+    "achievements": [
+      "Thủ lĩnh khởi nghĩa Bảy Thưa (1867-1873)",
+      "Hỗ trợ Nguyễn Trung Trực tại Kiên Giang",
+      "Tổ chức nghĩa quân tại vùng Thất Sơn",
+      "Kháng chiến 6 năm không khuất phục"
+    ],
+    "relatedEvents": [
+      "event-003",
+      "event-049"
+    ],
+    "journey": [
+      {
+        "eventId": "event-003",
+        "year": 1868,
+        "location": [
+          10.2,
+          105.0
+        ],
+        "description": "Hỗ trợ Nguyễn Trung Trực"
+      },
+      {
+        "eventId": "event-049",
+        "year": 1869,
+        "location": [
+          10.7,
+          105.1
+        ],
+        "description": "Dựng căn cứ Bảy Thưa"
+      }
+    ]
+  },
+  {
+    "id": "char-092",
+    "name": "Lê Tuấn",
+    "avatar": "/images/characters/le-tuan.jpg",
+    "birthYear": 1820,
+    "deathYear": 1875,
+    "biography": "Lê Tuấn là Chánh sứ toàn quyền đại thần triều Nguyễn, đồng ký Hiệp ước Giáp Tuất (1874). Ông là một trong ba đại diện chính thức của triều đình trong cuộc đàm phán lịch sử này. Ông phải gánh chịu trách nhiệm nặng nề khi ký hiệp ước thừa nhận mất Nam Kỳ vĩnh viễn và mất chủ quyền ngoại giao.",
+    "role": "Chánh sứ toàn quyền đại thần - Đồng ký Hiệp ước Giáp Tuất",
+    "achievements": [
+      "Chánh sứ toàn quyền đại thần triều Nguyễn",
+      "Đại diện chính thức ký Hiệp ước Giáp Tuất",
+      "Tham gia đàm phán lịch sử với Pháp",
+      "Gánh chịu trách nhiệm của hiệp ước mất nước"
+    ],
+    "relatedEvents": [
+      "event-054"
+    ],
+    "journey": [
+      {
+        "eventId": "event-054",
+        "year": 1874,
+        "location": [
+          16.4637,
+          107.5909
+        ],
+        "description": "Ký Hiệp ước Giáp Tuất tại Huế"
+      }
+    ]
+  },
+  {
+    "id": "char-096",
+    "name": "Trần Tử Bình",
+    "avatar": "/images/characters/tran-tu-binh.jpg",
+    "birthYear": 1905,
+    "deathYear": 1967,
+    "biography": "Trần Tử Bình là lãnh đạo chính của cuộc bãi công Phú Riềng Đỏ (1930). Ông là thành viên Đảng Cộng sản, hoạt động bí mật tại đồn điền cao su Michelin. Ông cùng hai đồng chí khác đã khéo léo đưa ra các yêu cầu của công nhân trong dịp Tết, sau đó lãnh đạo cuộc bãi công lịch sử với hơn 3.000 công nhân tham gia.",
+    "role": "Lãnh đạo bãi công Phú Riềng Đỏ - Thành viên Đảng Cộng sản",
+    "achievements": [
+      "Lãnh đạo cuộc bãi công Phú Riềng Đỏ (1930)",
+      "Tổ chức hơn 3.000 công nhân đồn điền tham gia đấu tranh",
+      "Khéo léo đưa ra yêu cầu của công nhân trong dịp Tết",
+      "Tiên phong phong trào công nhân Việt Nam thập niên 1930"
+    ],
+    "relatedEvents": [
+      "event-033"
+    ],
+    "journey": [
+      {
+        "eventId": "event-033",
+        "year": 1930,
+        "location": [
+          11.7,
+          106.9
+        ],
+        "description": "Lãnh đạo bãi công Phú Riềng Đỏ"
+      }
+    ]
+  },
+  {
+    "id": "char-098",
+    "name": "Đồng chí Hồng",
+    "avatar": "/images/characters/dong-chi-hong.jpg",
+    "birthYear": 1902,
+    "deathYear": 1970,
+    "biography": "Đồng chí Hồng là một trong ba thành viên Đảng Cộng sản hoạt động bí mật tại đồn điền Phú Riềng. Ông cùng Trần Tử Bình và đồng chí Tạ đã chuẩn bị kỹ lưỡng cho cuộc bãi công, thiết lập các kho thực phẩm bí mật và liên kết với các bộ tộc địa phương để đảm bảo họ không làm thợ phá đình công.",
+    "role": "Thành viên Đảng Cộng sản - Đồng tổ chức bãi công Phú Riềng",
+    "achievements": [
+      "Thành viên tổ chức Đảng tại đồn điền Phú Riềng",
+      "Cùng chuẩn bị và tổ chức cuộc bãi công lịch sử",
+      "Thiết lập mạng lưới hỗ trợ với bộ tộc địa phương",
+      "Tham gia đưa ra yêu cầu của công nhân trong dịp Tết"
+    ],
+    "relatedEvents": [
+      "event-033"
+    ],
+    "journey": [
+      {
+        "eventId": "event-033",
+        "year": 1930,
+        "location": [
+          11.7,
+          106.9
+        ],
+        "description": "Đồng tổ chức bãi công Phú Riềng Đỏ"
+      }
+    ]
+  },
+  {
+    "id": "char-099",
+    "name": "Đồng chí Tạ",
+    "avatar": "/images/characters/dong-chi-ta.jpg",
+    "birthYear": 1903,
+    "deathYear": 1972,
+    "biography": "Đồng chí Tạ là thành viên thứ ba trong nhóm lãnh đạo Đảng Cộng sản tại đồn điền Phú Riềng. Ông cùng Trần Tử Bình và đồng chí Hồng đã khéo léo lồng ghép các yêu cầu của công nhân vào lời chúc Tết với ông Soumagnac - quản lý đồn điền, mở đầu cho cuộc đấu tranh lịch sử.",
+    "role": "Thành viên Đảng Cộng sản - Đồng tổ chức bãi công Phú Riềng",
+    "achievements": [
+      "Thành viên tổ chức Đảng tại đồn điền Phú Riềng",
+      "Khéo léo đưa ra yêu cầu trong dịp Tết",
+      "Cùng chuẩn bị và tổ chức cuộc bãi công",
+      "Góp phần tạo nên thành công của phong trào"
+    ],
+    "relatedEvents": [
+      "event-033"
+    ],
+    "journey": [
+      {
+        "eventId": "event-033",
+        "year": 1930,
+        "location": [
+          11.7,
+          106.9
+        ],
+        "description": "Đồng tổ chức bãi công Phú Riềng Đỏ"
+      }
+    ]
+  },
+  {
+    "id": "char-110",
+    "name": "Phan Đình Phùng",
+    "avatar": "/images/characters/phan-dinh-phung.jpg",
+    "birthYear": 1847,
+    "deathYear": 1895,
+    "biography": "Phan Đình Phùng là lãnh tụ phong trào Cần Vương, kiên quyết chống lại việc thành lập Liên bang Đông Dương. Khi Liên bang được thành lập năm 1887, ông đang lãnh đạo nghĩa quân Hương Khê chống Pháp. Ông từ chối mọi lời mời hàng của thực dân, kiên trì đấu tranh đến cùng.",
+    "role": "Lãnh tụ Cần Vương - Chống lại Liên bang Đông Dương",
+    "achievements": [
+      "Lãnh đạo nghĩa quân Hương Khê (1885-1895)",
+      "Kiên quyết chống lại Liên bang Đông Dương",
+      "Từ chối hàng thực dân dù bị đào mộ tổ tiên",
+      "Biểu tượng tinh thần bất khuất dân tộc"
+    ],
+    "relatedEvents": [
+      "event-022",
+      "event-067",
+      "event-021"
+    ],
+    "journey": [
+      {
+        "eventId": "event-022",
+        "year": 1887,
+        "location": [
+          18.3,
+          105.9
+        ],
+        "description": "Chống lại Liên bang từ căn cứ Hương Khê"
+      }
+    ]
+  },
+  {
+    "id": "char-111",
+    "name": "Tôn Thất Thuyết",
+    "avatar": "/images/characters/ton-that-thuyet.jpg",
+    "birthYear": 1839,
+    "deathYear": 1913,
+    "biography": "Tôn Thất Thuyết là Phụ chính triều Nguyễn, lãnh đạo phong trào Cần Vương. Khi Liên bang Đông Dương được thành lập, ông đang lưu vong tại Trung Quốc, tìm cách cầu viện để chống lại thực dân Pháp. Ông kiên quyết không thừa nhận chế độ Liên bang và tiếp tục đấu tranh từ hải ngoại.",
+    "role": "Phụ chính triều Nguyễn - Lãnh đạo Cần Vương lưu vong",
+    "achievements": [
+      "Phụ chính triều Nguyễn dưới vua Hàm Nghi",
+      "Lãnh đạo phong trào Cần Vương",
+      "Lưu vong tại Trung Quốc tìm cách cầu viện",
+      "Không thừa nhận Liên bang Đông Dương"
+    ],
+    "relatedEvents": [
+      "event-022",
+      "event-067",
+      "event-008"
+    ],
+    "journey": [
+      {
+        "eventId": "event-022",
+        "year": 1887,
+        "location": [
+          22.3193,
+          114.1694
+        ],
+        "description": "Lưu vong tại Trung Quốc, chống Liên bang"
+      }
+    ]
+  },
+  {
+    "id": "char-112",
+    "name": "Nguyễn Thiện Thuật",
+    "avatar": "/images/characters/nguyen-thien-thuat.jpg",
+    "birthYear": 1844,
+    "deathYear": 1926,
+    "biography": "Nguyễn Thiện Thuật là lãnh tụ khởi nghĩa Bãi Sậy, một trong những phong trào Cần Vương mạnh mẽ nhất. Khi Liên bang Đông Dương được thành lập năm 1887, ông đang lãnh đạo nghĩa quân tại Bãi Sậy (Hưng Yên) chống lại chính quyền thực dân. Ông kiên trì đấu tranh suốt nhiều năm.",
+    "role": "Lãnh tụ khởi nghĩa Bãi Sậy - Chống Liên bang Đông Dương",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Bãi Sậy (1885-1892)",
+      "Chống lại việc thành lập Liên bang Đông Dương",
+      "Tổ chức nghĩa quân tại vùng đồng bằng Bắc Bộ",
+      "Kiên trì đấu tranh suốt nhiều năm"
+    ],
+    "relatedEvents": [
+      "event-022",
+      "event-067"
+    ],
+    "journey": [
+      {
+        "eventId": "event-022",
+        "year": 1887,
+        "location": [
+          20.8,
+          106.0
+        ],
+        "description": "Lãnh đạo nghĩa quân Bãi Sậy chống Liên bang"
+      }
+    ]
+  },
+  {
+    "id": "char-113",
+    "name": "Cao Thắng",
+    "avatar": "/images/characters/cao-thang.jpg",
+    "birthYear": 1850,
+    "deathYear": 1895,
+    "biography": "Cao Thắng là cộng sự đắc lực của Phan Đình Phùng trong khởi nghĩa Hương Khê. Khi Liên bang Đông Dương được thành lập, ông đang cùng Phan Đình Phùng tổ chức kháng chiến tại vùng núi Hương Khê. Ông là một trong những tướng tài của phong trào Cần Vương, kiên quyết chống lại chế độ thuộc địa.",
+    "role": "Tướng nghĩa quân Hương Khê - Cộng sự Phan Đình Phùng",
+    "achievements": [
+      "Cộng sự đắc lực của Phan Đình Phùng",
+      "Tướng tài của nghĩa quân Hương Khê",
+      "Chống lại Liên bang Đông Dương từ căn cứ núi rừng",
+      "Hy sinh cùng Phan Đình Phùng năm 1895"
+    ],
+    "relatedEvents": [
+      "event-022",
+      "event-067",
+      "event-021"
+    ],
+    "journey": [
+      {
+        "eventId": "event-022",
+        "year": 1887,
+        "location": [
+          18.3,
+          105.9
+        ],
+        "description": "Cùng Phan Đình Phùng chống Liên bang"
+      }
+    ]
+  },
+  {
+    "id": "char-114",
+    "name": "Bùi Quang Chiêu",
+    "avatar": "/images/characters/bui-quang-chieu.jpg",
+    "birthYear": 1872,
+    "deathYear": 1945,
+    "biography": "Bùi Quang Chiêu là kỹ sư canh nông, thành viên Hội đồng quản hạt Nam Kỳ. Ông là Chủ tịch Ủy ban tổ chức lễ quốc táng Phan Chu Trinh năm 1926. Ông đại diện cho khuynh hướng hợp tác với thực dân Pháp, nhưng vẫn tôn trọng và tham gia tổ chức lễ tang cho nhà yêu nước Phan Chu Trinh.",
+    "role": "Chủ tịch Ủy ban tang lễ Phan Chu Trinh - Kỹ sư canh nông",
+    "achievements": [
+      "Chủ tịch Ủy ban tổ chức lễ quốc táng Phan Chu Trinh",
+      "Kỹ sư canh nông, thành viên Hội đồng quản hạt Nam Kỳ",
+      "Tổ chức thành công lễ tang với hơn 60.000 người tham dự",
+      "Đại diện khuynh hướng hợp tác với Pháp"
+    ],
+    "relatedEvents": [
+      "event-040"
+    ],
+    "journey": [
+      {
+        "eventId": "event-040",
+        "year": 1926,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Chủ tịch Ủy ban tang lễ Phan Chu Trinh"
+      }
+    ]
+  },
+  {
+    "id": "char-115",
+    "name": "Huỳnh Thúc Kháng",
+    "avatar": "/images/characters/huynh-thuc-khang.jpg",
+    "birthYear": 1876,
+    "deathYear": 1947,
+    "biography": "Huỳnh Thúc Kháng là nhà yêu nước, bạn thân thiết của Phan Chu Trinh. Ông túc trực bên giường bệnh của Phan Chu Trinh những ngày cuối đời và nghe lời trăn trối cuối cùng. Ông viết bài điếu văn cảm động cho Phan Chu Trinh, phản ánh rõ nét cuộc đời và quan điểm chính trị của ông.",
+    "role": "Bạn thân Phan Chu Trinh - Nhà yêu nước",
+    "achievements": [
+      "Bạn thân thiết và đồng chí của Phan Chu Trinh",
+      "Túc trực bên giường bệnh những ngày cuối",
+      "Viết bài điếu văn cảm động cho Phan Chu Trinh",
+      "Nhà yêu nước theo khuynh hướng dân chủ"
+    ],
+    "relatedEvents": [
+      "event-040"
+    ],
+    "journey": [
+      {
+        "eventId": "event-040",
+        "year": 1926,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Viết điếu văn và tham gia tang lễ"
+      }
+    ]
+  },
+  {
+    "id": "char-116",
+    "name": "Nguyễn An Ninh",
+    "avatar": "/images/characters/nguyen-an-ninh.jpg",
+    "birthYear": 1900,
+    "deathYear": 1943,
+    "biography": "Nguyễn An Ninh là nhà cách mạng trẻ, đưa Phan Chu Trinh từ Pháp về Việt Nam năm 1925. Ông túc trực thường xuyên bên Phan Chu Trinh trong những tháng cuối đời. Ông bị mật thám Pháp bắt vào ngày 24/3/1926, và chính tin này đã làm cho Phan Chu Trinh qua đời trong đêm hôm đó.",
+    "role": "Nhà cách mạng trẻ - Người đưa Phan Chu Trinh về nước",
+    "achievements": [
+      "Đưa Phan Chu Trinh từ Pháp về Việt Nam (1925)",
+      "Túc trực thường xuyên bên Phan Chu Trinh",
+      "Nhà cách mạng trẻ theo khuynh hướng dân chủ",
+      "Bị bắt ngay trước khi Phan Chu Trinh qua đời"
+    ],
+    "relatedEvents": [
+      "event-040"
+    ],
+    "journey": [
+      {
+        "eventId": "event-040",
+        "year": 1926,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Túc trực bên Phan Chu Trinh, bị bắt 24/3"
+      }
+    ]
+  },
+  {
+    "id": "char-117",
+    "name": "Trần Huy Liệu",
+    "avatar": "/images/characters/tran-huy-lieu.jpg",
+    "birthYear": 1901,
+    "deathYear": 1969,
+    "biography": "Trần Huy Liệu là nhà báo, Chủ bút báo Đông Pháp thời báo và là Ủy viên trong Ủy ban tổ chức lễ quốc táng Phan Chu Trinh. Ông đại diện cho thế hệ trí thức trẻ từ Bắc Kỳ đến thăm Phan Chu Trinh. Ông sau này trở thành nhà sử học nổi tiếng của Việt Nam.",
+    "role": "Chủ bút báo Đông Pháp - Ủy viên tang lễ Phan Chu Trinh",
+    "achievements": [
+      "Chủ bút báo Đông Pháp thời báo",
+      "Ủy viên Ủy ban tổ chức lễ quốc táng",
+      "Đại diện thế hệ trí thức trẻ Bắc Kỳ",
+      "Sau này trở thành nhà sử học nổi tiếng"
+    ],
+    "relatedEvents": [
+      "event-040"
+    ],
+    "journey": [
+      {
+        "eventId": "event-040",
+        "year": 1926,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Ủy viên tổ chức tang lễ Phan Chu Trinh"
+      }
+    ]
+  },
+  {
+    "id": "char-118",
+    "name": "Nguyễn Văn Thinh",
+    "avatar": "/images/characters/nguyen-van-thinh.jpg",
+    "birthYear": 1888,
+    "deathYear": 1946,
+    "biography": "Nguyễn Văn Thinh là bác sĩ y khoa, Ủy viên trong Ủy ban tổ chức lễ quốc táng Phan Chu Trinh. Ông là một trong những trí thức Nam Kỳ tham gia tổ chức lễ tang. Sau năm 1945, ông trở thành Thủ tướng Cộng hòa Nam Kỳ tự trị, thể hiện khuynh hướng hợp tác với Pháp.",
+    "role": "Bác sĩ y khoa - Ủy viên tang lễ Phan Chu Trinh",
+    "achievements": [
+      "Bác sĩ y khoa tại Nam Kỳ",
+      "Ủy viên Ủy ban tổ chức lễ quốc táng",
+      "Tham gia tổ chức lễ tang với 60.000 người",
+      "Sau này là Thủ tướng Cộng hòa Nam Kỳ tự trị"
+    ],
+    "relatedEvents": [
+      "event-040"
+    ],
+    "journey": [
+      {
+        "eventId": "event-040",
+        "year": 1926,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Ủy viên tổ chức tang lễ Phan Chu Trinh"
+      }
+    ]
+  },
+  {
+    "id": "char-119",
+    "name": "Nguyễn Phan Long",
+    "avatar": "/images/characters/nguyen-phan-long.jpg",
+    "birthYear": 1889,
+    "deathYear": 1960,
+    "biography": "Nguyễn Phan Long là chủ bút báo La Tribune Indochinoise, thành viên Hội đồng quản hạt Nam Kỳ và Ủy viên trong Ủy ban tổ chức lễ quốc táng Phan Chu Trinh. Ông đại diện cho giới báo chí và trí thức Nam Kỳ. Sau này ông trở thành Thủ tướng Quốc gia Việt Nam năm 1950.",
+    "role": "Chủ bút báo La Tribune - Ủy viên tang lễ Phan Chu Trinh",
+    "achievements": [
+      "Chủ bút báo La Tribune Indochinoise",
+      "Thành viên Hội đồng quản hạt Nam Kỳ",
+      "Ủy viên Ủy ban tổ chức lễ quốc táng",
+      "Thủ tướng Quốc gia Việt Nam (1950)"
+    ],
+    "relatedEvents": [
+      "event-040"
+    ],
+    "journey": [
+      {
+        "eventId": "event-040",
+        "year": 1926,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Ủy viên tổ chức tang lễ Phan Chu Trinh"
+      }
+    ]
+  },
+  {
+    "id": "char-120",
+    "name": "Phan Văn Trường",
+    "avatar": "/images/characters/phan-van-truong.jpg",
+    "birthYear": 1876,
+    "deathYear": 1933,
+    "biography": "Phan Văn Trường là nhà yêu nước, túc trực thường xuyên bên Phan Chu Trinh trong những tháng cuối đời. Ông là một trong những người gần gũi nhất với Phan Chu Trinh, chăm sóc ông khi bệnh tình trở nặng. Ông tham gia tích cực vào việc tổ chức phong trào để tang.",
+    "role": "Nhà yêu nước - Người túc trực bên Phan Chu Trinh",
+    "achievements": [
+      "Túc trực thường xuyên bên Phan Chu Trinh",
+      "Chăm sóc Phan Chu Trinh trong những tháng cuối",
+      "Tham gia tích cực tổ chức phong trào để tang",
+      "Nhà yêu nước theo khuynh hướng dân chủ"
+    ],
+    "relatedEvents": [
+      "event-040"
+    ],
+    "journey": [
+      {
+        "eventId": "event-040",
+        "year": 1926,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Túc trực và tổ chức tang lễ"
+      }
+    ]
+  },
+  {
+    "id": "char-121",
+    "name": "Nguyễn Sinh Sắc",
+    "avatar": "/images/characters/nguyen-sinh-sac.jpg",
+    "birthYear": 1862,
+    "deathYear": 1929,
+    "biography": "Nguyễn Sinh Sắc là cha của Nguyễn Ái Quốc (Hồ Chí Minh), túc trực thường xuyên bên Phan Chu Trinh trong những tháng cuối đời. Ông là nhà nho yêu nước, có mối quan hệ thân thiết với Phan Chu Trinh. Ông tham gia chăm sóc và tổ chức lễ tang cho Phan Chu Trinh.",
+    "role": "Nhà nho yêu nước - Cha Nguyễn Ái Quốc",
+    "achievements": [
+      "Túc trực thường xuyên bên Phan Chu Trinh",
+      "Cha của Nguyễn Ái Quốc (Hồ Chí Minh)",
+      "Nhà nho yêu nước có uy tín",
+      "Tham gia tổ chức phong trào để tang"
+    ],
+    "relatedEvents": [
+      "event-040"
+    ],
+    "journey": [
+      {
+        "eventId": "event-040",
+        "year": 1926,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Túc trực và tham gia tang lễ"
+      }
+    ]
+  },
+  {
+    "id": "char-133",
+    "name": "Phan Văn Trường",
+    "avatar": "/images/characters/phan-van-truong-paris.jpg",
+    "birthYear": 1876,
+    "deathYear": 1933,
+    "biography": "Phan Văn Trường là luật sư, lãnh đạo Hội những người An Nam yêu nước tại Paris. Ông là người viết Bản yêu sách vì lúc đó Nguyễn Ái Quốc chưa viết được tiếng Pháp thành thạo. Ông cùng Phan Chu Trinh và Nguyễn Ái Quốc tạo thành bộ ba lãnh đạo phong trào yêu nước tại Pháp.",
+    "role": "Luật sư - Người viết Bản yêu sách",
+    "achievements": [
+      "Luật sư và lãnh đạo cộng đồng người Việt tại Paris",
+      "Người viết Bản yêu sách cho Nguyễn Ái Quốc",
+      "Lãnh đạo Hội những người An Nam yêu nước",
+      "Cộng sự thân thiết của Phan Chu Trinh"
+    ],
+    "relatedEvents": [
+      "event-026",
+      "event-040"
+    ],
+    "journey": [
+      {
+        "eventId": "event-026",
+        "year": 1919,
+        "location": [
+          48.8566,
+          2.3522
+        ],
+        "description": "Viết Bản yêu sách tại Paris"
+      }
+    ]
+  },
+  {
+    "id": "char-134",
+    "name": "Nguyễn Thế Truyền",
+    "avatar": "/images/characters/nguyen-the-truyen.jpg",
+    "birthYear": 1885,
+    "deathYear": 1960,
+    "biography": "Nguyễn Thế Truyền là thành viên Hội những người An Nam yêu nước tại Paris, tham gia soạn thảo Bản yêu sách cùng Nguyễn Ái Quốc, Phan Chu Trinh và Phan Văn Trường. Ông là một trong những trí thức Việt Nam tiên phong đưa vấn đề độc lập ra diễn đàn quốc tế.",
+    "role": "Thành viên Hội An Nam yêu nước - Đồng tác giả Bản yêu sách",
+    "achievements": [
+      "Thành viên Hội những người An Nam yêu nước",
+      "Đồng tác giả Bản yêu sách với Nguyễn Ái Quốc",
+      "Trí thức tiên phong tại Paris",
+      "Góp phần đưa vấn đề Việt Nam ra quốc tế"
+    ],
+    "relatedEvents": [
+      "event-026"
+    ],
+    "journey": [
+      {
+        "eventId": "event-026",
+        "year": 1919,
+        "location": [
+          48.8566,
+          2.3522
+        ],
+        "description": "Đồng soạn thảo Bản yêu sách tại Paris"
+      }
+    ]
+  },
+  {
+    "id": "char-135",
+    "name": "Phan Chu Trinh (tại Paris)",
+    "avatar": "/images/characters/phan-chu-trinh-paris.jpg",
+    "birthYear": 1872,
+    "deathYear": 1926,
+    "biography": "Phan Chu Trinh tại thời điểm 1919 đang lưu vong tại Paris, là lãnh đạo Hội những người An Nam yêu nước. Ông cùng Nguyễn Ái Quốc và Phan Văn Trường soạn thảo Bản yêu sách. Với uy tín và kinh nghiệm, ông là người định hướng chính cho hoạt động của cộng đồng người Việt tại Pháp.",
+    "role": "Lãnh đạo Hội An Nam yêu nước - Cố vấn Bản yêu sách",
+    "achievements": [
+      "Lãnh đạo Hội những người An Nam yêu nước",
+      "Cố vấn chính cho Bản yêu sách",
+      "Nhà cách mạng kỳ cựu có uy tín",
+      "Định hướng hoạt động cộng đồng Việt tại Pháp"
+    ],
+    "relatedEvents": [
+      "event-026",
+      "event-040"
+    ],
+    "journey": [
+      {
+        "eventId": "event-026",
+        "year": 1919,
+        "location": [
+          48.8566,
+          2.3522
+        ],
+        "description": "Lãnh đạo soạn thảo Bản yêu sách"
+      }
+    ]
+  },
+  {
+    "id": "char-137",
+    "name": "Marcel Cachin",
+    "avatar": "/images/characters/marcel-cachin.jpg",
+    "birthYear": 1869,
+    "deathYear": 1958,
+    "biography": "Marcel Cachin là lãnh đạo Đảng Xã hội Pháp, sau đó trở thành một trong những người sáng lập Đảng Cộng sản Pháp tại Đại hội Tours 1920. Ông là Tổng biên tập báo L'Humanité - tờ báo đăng tác phẩm của Lenin và các bài viết của Nguyễn Ái Quốc. Ông ủng hộ việc gia nhập Quốc tế Cộng sản.",
+    "role": "Lãnh đạo Đảng Cộng sản Pháp - Tổng biên tập L'Humanité",
+    "achievements": [
+      "Đồng sáng lập Đảng Cộng sản Pháp (1920)",
+      "Tổng biên tập báo L'Humanité",
+      "Ủng hộ gia nhập Quốc tế Cộng sản",
+      "Hỗ trợ Nguyễn Ái Quốc trong hoạt động"
+    ],
+    "relatedEvents": [
+      "event-027"
+    ],
+    "journey": [
+      {
+        "eventId": "event-027",
+        "year": 1920,
+        "location": [
+          47.3941,
+          0.6848
+        ],
+        "description": "Đồng sáng lập Đảng Cộng sản Pháp"
+      }
+    ]
+  },
+  {
+    "id": "char-139",
+    "name": "Paul Vaillant-Couturier",
+    "avatar": "/images/characters/paul-vaillant-couturier.jpg",
+    "birthYear": 1892,
+    "deathYear": 1937,
+    "biography": "Paul Vaillant-Couturier là nhà báo, nhà thơ và chính trị gia Pháp, một trong những người sáng lập Đảng Cộng sản Pháp. Ông là đồng nghiệp của Nguyễn Ái Quốc tại báo L'Humanité và Hội Liên hiệp Thuộc địa. Ông ủng hộ mạnh mẽ phong trào giải phóng các thuộc địa và có mối quan hệ thân thiết với Nguyễn Ái Quốc.",
+    "role": "Nhà báo - Đồng nghiệp Nguyễn Ái Quốc tại L'Humanité",
+    "achievements": [
+      "Đồng sáng lập Đảng Cộng sản Pháp",
+      "Nhà báo tại L'Humanité",
+      "Ủng hộ phong trào giải phóng thuộc địa",
+      "Đồng nghiệp thân thiết của Nguyễn Ái Quốc"
+    ],
+    "relatedEvents": [
+      "event-027"
+    ],
+    "journey": [
+      {
+        "eventId": "event-027",
+        "year": 1920,
+        "location": [
+          47.3941,
+          0.6848
+        ],
+        "description": "Sáng lập Đảng Cộng sản Pháp"
+      }
+    ]
+  },
+  {
+    "id": "char-144",
+    "name": "Lê Hồng Sơn",
+    "avatar": "/images/characters/le-hong-son.jpg",
+    "birthYear": 1902,
+    "deathYear": 1942,
+    "biography": "Lê Hồng Sơn là nhà cách mạng, đồng sáng lập Tâm Tâm Xã năm 1923 cùng Phạm Hồng Thái, Hồ Tùng Mậu, Lê Hồng Phong. Ông là người hỗ trợ và khuyến khích Phạm Hồng Thái thực hiện nhiệm vụ ám sát Toàn quyền Merlin. Sau này ông tham gia thành lập Đảng Cộng sản Việt Nam.",
+    "role": "Đồng sáng lập Tâm Tâm Xã - Người hỗ trợ Phạm Hồng Thái",
+    "achievements": [
+      "Đồng sáng lập Tâm Tâm Xã (1923)",
+      "Hỗ trợ Phạm Hồng Thái thực hiện nhiệm vụ ám sát",
+      "Tham gia thành lập Đảng Cộng sản Việt Nam",
+      "Hoạt động cách mạng tại Trung Quốc"
+    ],
+    "relatedEvents": [
+      "event-039"
+    ],
+    "journey": [
+      {
+        "eventId": "event-039",
+        "year": 1924,
+        "location": [
+          23.1291,
+          113.2644
+        ],
+        "description": "Hỗ trợ kế hoạch ám sát Merlin"
+      }
+    ]
+  },
+  {
+    "id": "char-145",
+    "name": "Hồ Tùng Mậu",
+    "avatar": "/images/characters/ho-tung-mau.jpg",
+    "birthYear": 1896,
+    "deathYear": 1951,
+    "biography": "Hồ Tùng Mậu là nhà cách mạng, đồng sáng lập Tâm Tâm Xã năm 1923. Ông cùng Phạm Hồng Thái, Lê Hồng Sơn, Lê Hồng Phong tách ra từ Việt Nam Quang Phục Hội do bất đồng tư tưởng với nhóm cao niên. Ông ủng hộ hành động quyết liệt của Phạm Hồng Thái và sau này trở thành lãnh đạo cộng sản.",
+    "role": "Đồng sáng lập Tâm Tâm Xã - Lãnh đạo cách mạng",
+    "achievements": [
+      "Đồng sáng lập Tâm Tâm Xã (1923)",
+      "Ủng hộ hành động của Phạm Hồng Thái",
+      "Lãnh đạo Việt Nam Thanh niên Cách mạng Đồng chí Hội",
+      "Tham gia thành lập Đảng Cộng sản Việt Nam"
+    ],
+    "relatedEvents": [
+      "event-039"
+    ],
+    "journey": [
+      {
+        "eventId": "event-039",
+        "year": 1923,
+        "location": [
+          23.1291,
+          113.2644
+        ],
+        "description": "Đồng sáng lập Tâm Tâm Xã"
+      }
+    ]
+  },
+  {
+    "id": "char-146",
+    "name": "Lê Hồng Phong",
+    "avatar": "/images/characters/le-hong-phong.jpg",
+    "birthYear": 1902,
+    "deathYear": 1942,
+    "biography": "Lê Hồng Phong là nhà cách mạng cộng sản, đồng sáng lập Tâm Tâm Xã năm 1923 cùng Phạm Hồng Thái. Ông ủng hộ đường lối đấu tranh quyết liệt chống thực dân Pháp. Sau vụ Phạm Hồng Thái, ông tiếp tục hoạt động cách mạng và trở thành lãnh đạo quan trọng của Đảng Cộng sản Việt Nam.",
+    "role": "Đồng sáng lập Tâm Tâm Xã - Lãnh đạo cộng sản",
+    "achievements": [
+      "Đồng sáng lập Tâm Tâm Xã (1923)",
+      "Ủng hộ đường lối đấu tranh quyết liệt",
+      "Lãnh đạo quan trọng Đảng Cộng sản Việt Nam",
+      "Hoạt động cách mạng quốc tế"
+    ],
+    "relatedEvents": [
+      "event-039"
+    ],
+    "journey": [
+      {
+        "eventId": "event-039",
+        "year": 1923,
+        "location": [
+          23.1291,
+          113.2644
+        ],
+        "description": "Đồng sáng lập Tâm Tâm Xã"
+      }
+    ]
+  },
+  {
+    "id": "char-147",
+    "name": "Lâm Đức Thụ",
+    "avatar": "/images/characters/lam-duc-thu.jpg",
+    "birthYear": 1900,
+    "deathYear": 1970,
+    "biography": "Lâm Đức Thụ là nhà cách mạng, thành viên sáng lập Tâm Tâm Xã năm 1923. Ông cùng Phạm Hồng Thái và các đồng chí khác tách ra từ Việt Nam Quang Phục Hội để theo đuổi đường lối cách mạng quyết liệt hơn. Ông ủng hộ kế hoạch ám sát Toàn quyền Merlin của Phạm Hồng Thái.",
+    "role": "Thành viên sáng lập Tâm Tâm Xã - Nhà cách mạng",
+    "achievements": [
+      "Thành viên sáng lập Tâm Tâm Xã (1923)",
+      "Ủng hộ kế hoạch ám sát Merlin",
+      "Theo đuổi đường lối cách mạng quyết liệt",
+      "Hoạt động cách mạng tại Trung Quốc"
+    ],
+    "relatedEvents": [
+      "event-039"
+    ],
+    "journey": [
+      {
+        "eventId": "event-039",
+        "year": 1923,
+        "location": [
+          23.1291,
+          113.2644
+        ],
+        "description": "Thành lập Tâm Tâm Xã"
+      }
+    ]
+  },
+  {
+    "id": "char-151",
+    "name": "Dmitry Manuilsky",
+    "avatar": "/images/characters/dmitry-manuilsky.jpg",
+    "birthYear": 1883,
+    "deathYear": 1959,
+    "biography": "Dmitry Manuilsky là Chủ tịch đoàn Quốc tế Cộng sản, người cử Nguyễn Ái Quốc đến Quảng Châu với nhiệm vụ chuẩn bị thành lập Đảng Cộng sản tại Đông Dương. Ông đại diện cho Bộ phương Đông của Quốc tế Cộng sản, chỉ đạo hoạt động cách mạng tại các nước Đông Nam Á.",
+    "role": "Chủ tịch đoàn Quốc tế Cộng sản - Người chỉ đạo Nguyễn Ái Quốc",
+    "achievements": [
+      "Chủ tịch đoàn Quốc tế Cộng sản",
+      "Cử Nguyễn Ái Quốc đến Quảng Châu",
+      "Chỉ đạo thành lập Đảng Cộng sản Đông Dương",
+      "Đại diện Bộ phương Đông Quốc tế Cộng sản"
+    ],
+    "relatedEvents": [
+      "event-028"
+    ],
+    "journey": [
+      {
+        "eventId": "event-028",
+        "year": 1924,
+        "location": [
+          55.7558,
+          37.6176
+        ],
+        "description": "Cử Nguyễn Ái Quốc đến Quảng Châu"
+      }
+    ]
+  },
+  {
+    "id": "char-152",
+    "name": "Liêu Trọng Khải",
+    "avatar": "/images/characters/lieu-trong-khai.jpg",
+    "birthYear": 1890,
+    "deathYear": 1960,
+    "biography": "Liêu Trọng Khải là Hội trưởng Hội liên hiệp các dân tộc bị áp bức do Đảng Cộng sản Trung Quốc thành lập năm 1925. Nguyễn Ái Quốc làm Bí thư của Hội này. Ông hỗ trợ các phong trào giải phóng dân tộc tại Đông Nam Á, tạo mối liên hệ quốc tế cho Hội Việt Nam Cách mạng Thanh niên.",
+    "role": "Hội trưởng Hội liên hiệp dân tộc bị áp bức - Đồng minh Nguyễn Ái Quốc",
+    "achievements": [
+      "Hội trưởng Hội liên hiệp các dân tộc bị áp bức",
+      "Hỗ trợ phong trào giải phóng Đông Nam Á",
+      "Tạo mối liên hệ quốc tế cho Hội Thanh niên",
+      "Hợp tác với Nguyễn Ái Quốc tại Quảng Châu"
+    ],
+    "relatedEvents": [
+      "event-028"
+    ],
+    "journey": [
+      {
+        "eventId": "event-028",
+        "year": 1925,
+        "location": [
+          23.1291,
+          113.2644
+        ],
+        "description": "Hội trưởng Hội liên hiệp dân tộc"
+      }
+    ]
+  },
+  {
+    "id": "char-162",
+    "name": "Hồ Văn Mịch",
+    "avatar": "/images/characters/ho-van-mich.jpg",
+    "birthYear": 1901,
+    "deathYear": 1930,
+    "biography": "Hồ Văn Mịch là thành viên sáng lập VNQDD năm 1927. Ông tham gia tích cực vào hoạt động tổ chức và tuyên truyền của đảng. Ông cũng tham gia khởi nghĩa Yên Bái và hy sinh năm 1930, góp phần vào lịch sử đấu tranh anh dũng của VNQDD.",
+    "role": "Thành viên sáng lập VNQDD - Nhà tuyên truyền",
+    "achievements": [
+      "Thành viên sáng lập VNQDD (1927)",
+      "Tham gia tổ chức và tuyên truyền",
+      "Tham gia khởi nghĩa Yên Bái",
+      "Hy sinh vì lý tưởng dân tộc (1930)"
+    ],
+    "relatedEvents": [
+      "event-031"
+    ],
+    "journey": [
+      {
+        "eventId": "event-031",
+        "year": 1927,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Sáng lập VNQDD"
+      }
+    ]
+  },
+  {
+    "id": "char-164",
+    "name": "Thám tử Pháp tại Thượng Hải",
+    "avatar": "/images/characters/tham-tu-phap.jpg",
+    "birthYear": 1885,
+    "deathYear": 1950,
+    "biography": "Thám tử Pháp tại Thượng Hải là người thực hiện việc bắt cóc Phan Bội Châu ngày 30/6/1925. Ông làm việc cho mật vụ thực dân Pháp, theo dõi và bắt giữ các nhà cách mạng Việt Nam hoạt động tại Trung Quốc. Vụ bắt Phan Bội Châu là thành công lớn của ông.",
+    "role": "Thám tử mật vụ Pháp - Người bắt Phan Bội Châu",
+    "achievements": [
+      "Thám tử mật vụ thực dân Pháp tại Thượng Hải",
+      "Bắt cóc Phan Bội Châu (30/6/1925)",
+      "Theo dõi các nhà cách mạng Việt Nam",
+      "Thành công lớn trong nghiệp vụ mật vụ"
+    ],
+    "relatedEvents": [
+      "event-029"
+    ],
+    "journey": [
+      {
+        "eventId": "event-029",
+        "year": 1925,
+        "location": [
+          31.2304,
+          121.4737
+        ],
+        "description": "Bắt cóc Phan Bội Châu tại Thượng Hải"
+      }
+    ]
+  },
+  {
+    "id": "char-165",
+    "name": "Toàn quyền Alexandre Varenne",
+    "avatar": "/images/characters/alexandre-varenne.jpg",
+    "birthYear": 1870,
+    "deathYear": 1947,
+    "biography": "Alexandre Varenne là Toàn quyền Đông Dương (1925-1928), người quyết định tha bổng Phan Bội Châu sau khi bị kết án tử hình. Trước sức ép của dư luận, ông đổi án tử hình thành giam lỏng tại Huế. Ông được coi là Toàn quyền ôn hòa hơn so với tiền nhiệm.",
+    "role": "Toàn quyền Đông Dương - Người tha bổng Phan Bội Châu",
+    "achievements": [
+      "Toàn quyền Đông Dương (1925-1928)",
+      "Tha bổng Phan Bội Châu khỏi án tử hình",
+      "Chính sách ôn hòa hơn với trí thức",
+      "Đối phó với sức ép dư luận quốc tế"
+    ],
+    "relatedEvents": [
+      "event-029"
+    ],
+    "journey": [
+      {
+        "eventId": "event-029",
+        "year": 1925,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Tha bổng Phan Bội Châu"
+      }
+    ]
+  },
+  {
+    "id": "char-166",
+    "name": "Chánh án tòa Hà Nội",
+    "avatar": "/images/characters/chanh-an-toa-hanoi.jpg",
+    "birthYear": 1875,
+    "deathYear": 1940,
+    "biography": "Chánh án tòa án thực dân Pháp tại Hà Nội là người tuyên án tử hình Phan Bội Châu năm 1925. Ông đại diện cho hệ thống tư pháp thực dân, thực hiện chính sách đàn áp các nhà yêu nước. Sau đó ông phải thay đổi án tử hình thành giam lỏng do áp lực dư luận.",
+    "role": "Chánh án tòa Hà Nội - Người tuyên án Phan Bội Châu",
+    "achievements": [
+      "Chánh án tòa án thực dân Pháp",
+      "Tuyên án tử hình Phan Bội Châu",
+      "Đại diện hệ thống tư pháp thực dân",
+      "Thay đổi án do áp lực dư luận"
+    ],
+    "relatedEvents": [
+      "event-029"
+    ],
+    "journey": [
+      {
+        "eventId": "event-029",
+        "year": 1925,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Tuyên án tử hình Phan Bội Châu"
+      }
+    ]
+  },
+  {
+    "id": "char-167",
+    "name": "Lương Ngọc Quyến (1925)",
+    "avatar": "/images/characters/luong-ngoc-quyen-1925.jpg",
+    "birthYear": 1878,
+    "deathYear": 1917,
+    "biography": "Lương Ngọc Quyến đã hy sinh năm 1917 nhưng tinh thần của ông vẫn ảnh hưởng đến phong trào đấu tranh năm 1925. Nhiều người biểu tình đòi thả Phan Bội Châu đã nhắc đến tên tuổi và tấm gương hy sinh của ông như một biểu tượng cho tinh thần yêu nước bất khuất.",
+    "role": "Biểu tượng tinh thần - Ảnh hưởng đến phong trào 1925",
+    "achievements": [
+      "Biểu tượng tinh thần yêu nước",
+      "Ảnh hưởng đến phong trào đòi thả Phan Bội Châu",
+      "Tấm gương hy sinh cho hậu thế",
+      "Được nhắc đến trong các cuộc biểu tình"
+    ],
+    "relatedEvents": [
+      "event-029"
+    ],
+    "journey": [
+      {
+        "eventId": "event-029",
+        "year": 1925,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Tinh thần ảnh hưởng phong trào"
+      }
+    ]
+  },
+  {
+    "id": "char-168",
+    "name": "Nhà báo Paul Monet",
+    "avatar": "/images/characters/paul-monet.jpg",
+    "birthYear": 1880,
+    "deathYear": 1945,
+    "biography": "Paul Monet là nhà báo Pháp, ủng hộ việc tha bổng Phan Bội Châu. Ông viết nhiều bài báo phê phán chính sách đàn áp của thực dân Pháp và kêu gọi dư luận quốc tế quan tâm đến vụ việc. Ông đại diện cho tiếng nói tiến bộ trong xã hội Pháp.",
+    "role": "Nhà báo Pháp - Người ủng hộ Phan Bội Châu",
+    "achievements": [
+      "Nhà báo tiến bộ người Pháp",
+      "Ủng hộ việc tha bổng Phan Bội Châu",
+      "Phê phán chính sách đàn áp thực dân",
+      "Kêu gọi dư luận quốc tế quan tâm"
+    ],
+    "relatedEvents": [
+      "event-029"
+    ],
+    "journey": [
+      {
+        "eventId": "event-029",
+        "year": 1925,
+        "location": [
+          48.8566,
+          2.3522
+        ],
+        "description": "Viết bài ủng hộ Phan Bội Châu"
+      }
+    ]
+  },
+  {
+    "id": "char-169",
+    "name": "Trí thức Hà Nội ủng hộ",
+    "avatar": "/images/characters/tri-thuc-hanoi.jpg",
+    "birthYear": 1890,
+    "deathYear": 1960,
+    "biography": "Đại diện cho nhóm trí thức Hà Nội đã tổ chức phong trào đòi thả Phan Bội Châu năm 1925. Họ viết thư, tổ chức biểu tình ôn hòa và vận động dư luận để cứu mạng sống của Phan Bội Châu. Phong trào này thể hiện sự đoàn kết của giới trí thức yêu nước.",
+    "role": "Đại diện trí thức Hà Nội - Người tổ chức phong trào cứu Phan Bội Châu",
+    "achievements": [
+      "Đại diện nhóm trí thức Hà Nội",
+      "Tổ chức phong trào đòi thả Phan Bội Châu",
+      "Viết thư và vận động dư luận",
+      "Thể hiện sự đoàn kết giới trí thức"
+    ],
+    "relatedEvents": [
+      "event-029"
+    ],
+    "journey": [
+      {
+        "eventId": "event-029",
+        "year": 1925,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Tổ chức phong trào cứu Phan Bội Châu"
+      }
+    ]
+  },
+  {
+    "id": "char-170",
+    "name": "Quan chức Trung Quốc",
+    "avatar": "/images/characters/quan-chuc-trung-quoc.jpg",
+    "birthYear": 1885,
+    "deathYear": 1950,
+    "biography": "Quan chức Trung Quốc tại Thượng Hải đã hợp tác với mật vụ Pháp trong việc bắt giữ Phan Bội Châu. Mặc dù Trung Quốc và Pháp có quan hệ phức tạp, nhưng trong vụ này họ đã phối hợp để bắt giữ nhà cách mạng Việt Nam, thể hiện tình hình chính trị quốc tế lúc bấy giờ.",
+    "role": "Quan chức Trung Quốc - Người hợp tác bắt Phan Bội Châu",
+    "achievements": [
+      "Quan chức Trung Quốc tại Thượng Hải",
+      "Hợp tác với mật vụ Pháp",
+      "Tham gia bắt giữ Phan Bội Châu",
+      "Thể hiện quan hệ chính trị quốc tế"
+    ],
+    "relatedEvents": [
+      "event-029"
+    ],
+    "journey": [
+      {
+        "eventId": "event-029",
+        "year": 1925,
+        "location": [
+          31.2304,
+          121.4737
+        ],
+        "description": "Hợp tác bắt Phan Bội Châu"
+      }
+    ]
+  },
+  {
+    "id": "char-171",
+    "name": "Bác sĩ Nguyễn Văn Huyên",
+    "avatar": "/images/characters/nguyen-van-huyen-bs.jpg",
+    "birthYear": 1888,
+    "deathYear": 1975,
+    "biography": "Bác sĩ Nguyễn Văn Huyên là một trong những người chăm sóc Phan Chu Trinh trong những ngày cuối đời tại Paris. Ông là bác sĩ người Việt học tại Pháp, có mối quan hệ thân thiết với Phan Chu Trinh. Ông đã túc trực và chăm sóc ông trong thời gian bệnh nặng.",
+    "role": "Bác sĩ người Việt tại Paris - Người chăm sóc Phan Chu Trinh",
+    "achievements": [
+      "Bác sĩ người Việt học tại Pháp",
+      "Chăm sóc Phan Chu Trinh những ngày cuối",
+      "Túc trực trong thời gian bệnh nặng",
+      "Mối quan hệ thân thiết với Phan Chu Trinh"
+    ],
+    "relatedEvents": [
+      "event-030"
+    ],
+    "journey": [
+      {
+        "eventId": "event-030",
+        "year": 1926,
+        "location": [
+          48.8566,
+          2.3522
+        ],
+        "description": "Chăm sóc Phan Chu Trinh tại Paris"
+      }
+    ]
+  },
+  {
+    "id": "char-172",
+    "name": "Sinh viên Việt Nam tại Paris",
+    "avatar": "/images/characters/sinh-vien-viet-paris.jpg",
+    "birthYear": 1900,
+    "deathYear": 1980,
+    "biography": "Đại diện cho cộng đồng sinh viên Việt Nam tại Paris đã tham gia tổ chức tang lễ Phan Chu Trinh. Họ là những người trẻ tuổi, học tập tại Pháp nhưng vẫn giữ lòng yêu nước. Họ đã góp phần tổ chức tang lễ trang trọng và đưa tin về Việt Nam.",
+    "role": "Sinh viên Việt Nam tại Paris - Người tổ chức tang lễ",
+    "achievements": [
+      "Đại diện cộng đồng sinh viên Việt tại Paris",
+      "Tham gia tổ chức tang lễ Phan Chu Trinh",
+      "Giữ lòng yêu nước khi học tập ở nước ngoài",
+      "Đưa tin về Việt Nam về tang lễ"
+    ],
+    "relatedEvents": [
+      "event-030"
+    ],
+    "journey": [
+      {
+        "eventId": "event-030",
+        "year": 1926,
+        "location": [
+          48.8566,
+          2.3522
+        ],
+        "description": "Tổ chức tang lễ tại Paris"
+      }
+    ]
+  },
+  {
+    "id": "char-173",
+    "name": "Thầy thuốc Đông y Huế",
+    "avatar": "/images/characters/thay-thuoc-dong-y.jpg",
+    "birthYear": 1875,
+    "deathYear": 1950,
+    "biography": "Thầy thuốc Đông y tại Huế đã tham gia tổ chức lễ tưởng niệm Phan Chu Trinh tại quê nhà. Ông đại diện cho y học cổ truyền Việt Nam và có mối quan hệ với gia đình Phan Chu Trinh. Ông đã góp phần tổ chức các nghi lễ truyền thống trong tang lễ.",
+    "role": "Thầy thuốc Đông y - Người tổ chức lễ tưởng niệm tại Huế",
+    "achievements": [
+      "Thầy thuốc Đông y có uy tín tại Huế",
+      "Tổ chức lễ tưởng niệm Phan Chu Trinh",
+      "Đại diện y học cổ truyền Việt Nam",
+      "Góp phần tổ chức nghi lễ truyền thống"
+    ],
+    "relatedEvents": [
+      "event-030"
+    ],
+    "journey": [
+      {
+        "eventId": "event-030",
+        "year": 1926,
+        "location": [
+          16.4637,
+          107.5909
+        ],
+        "description": "Tổ chức lễ tưởng niệm tại Huế"
+      }
+    ]
+  },
+  {
+    "id": "char-174",
+    "name": "Nhà thơ Tản Đà",
+    "avatar": "/images/characters/tan-da.jpg",
+    "birthYear": 1889,
+    "deathYear": 1939,
+    "biography": "Tản Đà (Nguyễn Khắc Hiếu) là nhà thơ nổi tiếng, đã viết những bài thơ tưởng niệm Phan Chu Trinh. Ông thể hiện nỗi đau mất mát của dân tộc qua những vần thơ da diết. Thơ của ông đã lan truyền rộng rãi và góp phần làm nên không khí tang thương toàn quốc.",
+    "role": "Nhà thơ - Người viết thơ tưởng niệm Phan Chu Trinh",
+    "achievements": [
+      "Nhà thơ nổi tiếng thời kỳ đầu thế kỷ 20",
+      "Viết thơ tưởng niệm Phan Chu Trinh",
+      "Thể hiện nỗi đau mất mát của dân tộc",
+      "Thơ lan truyền rộng rãi toàn quốc"
+    ],
+    "relatedEvents": [
+      "event-030"
+    ],
+    "journey": [
+      {
+        "eventId": "event-030",
+        "year": 1926,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Viết thơ tưởng niệm"
+      }
+    ]
+  },
+  {
+    "id": "char-175",
+    "name": "Thương gia Chợ Lớn",
+    "avatar": "/images/characters/thuong-gia-cho-lon.jpg",
+    "birthYear": 1880,
+    "deathYear": 1955,
+    "biography": "Đại diện cho cộng đồng thương gia Chợ Lớn đã đóng góp tiền bạc tổ chức tang lễ Phan Chu Trinh tại Sài Gòn. Họ thể hiện lòng kính trọng đối với nhà yêu nước và sự đoàn kết của cộng đồng người Việt. Sự đóng góp của họ giúp tang lễ được tổ chức trang trọng.",
+    "role": "Thương gia Chợ Lớn - Người đóng góp tổ chức tang lễ",
+    "achievements": [
+      "Đại diện cộng đồng thương gia Chợ Lớn",
+      "Đóng góp tiền bạc tổ chức tang lễ",
+      "Thể hiện lòng kính trọng nhà yêu nước",
+      "Góp phần tổ chức tang lễ trang trọng"
+    ],
+    "relatedEvents": [
+      "event-030"
+    ],
+    "journey": [
+      {
+        "eventId": "event-030",
+        "year": 1926,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Đóng góp tổ chức tang lễ tại Sài Gòn"
+      }
+    ]
+  },
+  {
+    "id": "char-176",
+    "name": "Học sinh trường Quốc học Huế",
+    "avatar": "/images/characters/hoc-sinh-quoc-hoc.jpg",
+    "birthYear": 1908,
+    "deathYear": 1990,
+    "biography": "Đại diện cho học sinh trường Quốc học Huế đã tham gia các hoạt động tưởng niệm Phan Chu Trinh. Họ là thế hệ trẻ được giáo dục theo tinh thần yêu nước, đã tổ chức các buổi lễ tưởng niệm tại trường. Họ thể hiện sự kế thừa tinh thần của các bậc tiền bối.",
+    "role": "Học sinh Quốc học Huế - Thế hệ trẻ tưởng niệm",
+    "achievements": [
+      "Học sinh trường Quốc học Huế",
+      "Tham gia hoạt động tưởng niệm",
+      "Thế hệ trẻ có tinh thần yêu nước",
+      "Kế thừa tinh thần các bậc tiền bối"
+    ],
+    "relatedEvents": [
+      "event-030"
+    ],
+    "journey": [
+      {
+        "eventId": "event-030",
+        "year": 1926,
+        "location": [
+          16.4637,
+          107.5909
+        ],
+        "description": "Tưởng niệm tại trường Quốc học"
+      }
+    ]
+  },
+  {
+    "id": "char-177",
+    "name": "Phóng viên báo chí Pháp",
+    "avatar": "/images/characters/phong-vien-bao-phap.jpg",
+    "birthYear": 1885,
+    "deathYear": 1960,
+    "biography": "Phóng viên báo chí Pháp đã đưa tin về tang lễ Phan Chu Trinh và phong trào tưởng niệm tại Việt Nam. Ông đã viết những bài báo mô tả quy mô và ý nghĩa của phong trào, giúp dư luận quốc tế hiểu được tầm quan trọng của Phan Chu Trinh đối với dân tộc Việt Nam.",
+    "role": "Phóng viên báo chí Pháp - Người đưa tin về tang lễ",
+    "achievements": [
+      "Phóng viên báo chí Pháp tại Việt Nam",
+      "Đưa tin về tang lễ Phan Chu Trinh",
+      "Mô tả quy mô và ý nghĩa phong trào",
+      "Giúp dư luận quốc tế hiểu về Phan Chu Trinh"
+    ],
+    "relatedEvents": [
+      "event-030"
+    ],
+    "journey": [
+      {
+        "eventId": "event-030",
+        "year": 1926,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Đưa tin về phong trào tưởng niệm"
+      }
+    ]
+  },
+  {
+    "id": "char-178",
+    "name": "Trần Phú",
+    "avatar": "/images/characters/tran-phu.jpg",
+    "birthYear": 1904,
+    "deathYear": 1931,
+    "biography": "Trần Phú là lãnh đạo Đông Dương Cộng sản Đảng, một trong ba tổ chức cộng sản ra đời năm 1929. Ông sau này trở thành Tổng Bí thư đầu tiên của Đảng Cộng sản Việt Nam. Ông đại diện cho thế hệ lãnh đạo trẻ, được đào tạo bài bản về lý thuyết Marx-Lenin.",
+    "role": "Lãnh đạo Đông Dương Cộng sản Đảng - Tổng Bí thư đầu tiên",
+    "achievements": [
+      "Lãnh đạo Đông Dương Cộng sản Đảng (1929)",
+      "Tổng Bí thư đầu tiên Đảng Cộng sản Việt Nam",
+      "Được đào tạo bài bản về lý thuyết Marx-Lenin",
+      "Đại diện thế hệ lãnh đạo trẻ"
+    ],
+    "relatedEvents": [
+      "event-042"
+    ],
+    "journey": [
+      {
+        "eventId": "event-042",
+        "year": 1929,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Lãnh đạo Đông Dương Cộng sản Đảng"
+      }
+    ]
+  },
+  {
+    "id": "char-189",
+    "name": "Võ Nguyên Giáp",
+    "avatar": "/images/characters/vo-nguyen-giap.jpg",
+    "birthYear": 1911,
+    "deathYear": 2013,
+    "biography": "Võ Nguyên Giáp là thành viên trẻ tuổi tham gia phong trào cộng sản cuối thập niên 1920. Ông đại diện cho thế hệ học sinh, sinh viên tham gia cách mạng. Ông sau này trở thành Đại tướng và lãnh đạo quân sự của Việt Nam.",
+    "role": "Thành viên trẻ phong trào cộng sản - Tương lai Đại tướng",
+    "achievements": [
+      "Thành viên trẻ phong trào cộng sản",
+      "Đại diện thế hệ học sinh sinh viên",
+      "Đại tướng Việt Nam sau này",
+      "Lãnh đạo quân sự tương lai"
+    ],
+    "relatedEvents": [
+      "event-042"
+    ],
+    "journey": [
+      {
+        "eventId": "event-042",
+        "year": 1929,
+        "location": [
+          16.0544,
+          108.2022
+        ],
+        "description": "Tham gia phong trào cộng sản"
+      }
+    ]
+  },
+  {
+    "id": "char-199",
+    "name": "Lương Văn Can",
+    "avatar": "/images/characters/luong-van-can.jpg",
+    "birthYear": 1854,
+    "deathYear": 1927,
+    "biography": "Lương Văn Can là một trong những người sáng lập Đông Kinh Nghĩa Thục năm 1907. Ông cho mượn căn nhà số 4 phố Hàng Đào để làm trường học đầu tiên. Ông là nhà nho yêu nước, ủng hộ phong trào duy tân và nâng cao dân trí. Ông đại diện cho tầng lớp trí thức tiến bộ.",
+    "role": "Đồng sáng lập Đông Kinh Nghĩa Thục - Nhà nho yêu nước",
+    "achievements": [
+      "Đồng sáng lập Đông Kinh Nghĩa Thục (1907)",
+      "Cho mượn nhà làm trường học đầu tiên",
+      "Ủng hộ phong trào duy tân",
+      "Đại diện trí thức tiến bộ"
+    ],
+    "relatedEvents": [
+      "event-023"
+    ],
+    "journey": [
+      {
+        "eventId": "event-023",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Sáng lập Đông Kinh Nghĩa Thục"
+      }
+    ]
+  },
+  {
+    "id": "char-200",
+    "name": "Nguyễn Quyền",
+    "avatar": "/images/characters/nguyen-quyen.jpg",
+    "birthYear": 1869,
+    "deathYear": 1924,
+    "biography": "Nguyễn Quyền là đồng sáng lập Đông Kinh Nghĩa Thục cùng Lương Văn Can năm 1907. Ông là nhà giáo dục tiến bộ, chủ trương cải cách giáo dục và nâng cao dân trí. Ông tham gia tích cực vào việc xây dựng chương trình giảng dạy và phương pháp giáo dục mới.",
+    "role": "Đồng sáng lập Đông Kinh Nghĩa Thục - Nhà giáo dục tiến bộ",
+    "achievements": [
+      "Đồng sáng lập Đông Kinh Nghĩa Thục (1907)",
+      "Nhà giáo dục tiến bộ",
+      "Cải cách giáo dục và nâng cao dân trí",
+      "Xây dựng chương trình giảng dạy mới"
+    ],
+    "relatedEvents": [
+      "event-023"
+    ],
+    "journey": [
+      {
+        "eventId": "event-023",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Đồng sáng lập trường học"
+      }
+    ]
+  },
+  {
+    "id": "char-201",
+    "name": "Đào Nguyên Phổ",
+    "avatar": "/images/characters/dao-nguyen-pho.jpg",
+    "birthYear": 1875,
+    "deathYear": 1950,
+    "biography": "Đào Nguyên Phổ là thành viên sáng lập Đông Kinh Nghĩa Thục, cùng chí hướng với Lương Văn Can và Nguyễn Quyền. Ông tham gia phong trào cải cách xã hội và nâng cao dân trí. Ông có vai trò quan trọng trong việc phát triển phong trào giáo dục dân tộc.",
+    "role": "Thành viên sáng lập Đông Kinh Nghĩa Thục - Nhà cải cách xã hội",
+    "achievements": [
+      "Thành viên sáng lập Đông Kinh Nghĩa Thục",
+      "Tham gia phong trào cải cách xã hội",
+      "Nâng cao dân trí trong các tầng lớp",
+      "Phát triển phong trào giáo dục dân tộc"
+    ],
+    "relatedEvents": [
+      "event-023"
+    ],
+    "journey": [
+      {
+        "eventId": "event-023",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Tham gia sáng lập trường"
+      }
+    ]
+  },
+  {
+    "id": "char-202",
+    "name": "Nguyễn Văn Vĩnh",
+    "avatar": "/images/characters/nguyen-van-vinh.jpg",
+    "birthYear": 1882,
+    "deathYear": 1936,
+    "biography": "Nguyễn Văn Vĩnh là nhà báo và giáo dục gia, tham gia Đông Kinh Nghĩa Thục. Ông được biết đến với việc cải cách chữ quốc ngữ và phát triển báo chí Việt Nam. Ông có vai trò quan trọng trong việc hiện đại hóa giáo dục và truyền thông.",
+    "role": "Nhà báo và giáo dục gia - Cải cách chữ quốc ngữ",
+    "achievements": [
+      "Tham gia Đông Kinh Nghĩa Thục",
+      "Cải cách chữ quốc ngữ",
+      "Phát triển báo chí Việt Nam",
+      "Hiện đại hóa giáo dục và truyền thông"
+    ],
+    "relatedEvents": [
+      "event-023"
+    ],
+    "journey": [
+      {
+        "eventId": "event-023",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Tham gia phong trào giáo dục"
+      }
+    ]
+  },
+  {
+    "id": "char-203",
+    "name": "Phạm Duy Tốn",
+    "avatar": "/images/characters/pham-duy-ton.jpg",
+    "birthYear": 1883,
+    "deathYear": 1924,
+    "biography": "Phạm Duy Tốn là giáo viên Đông Kinh Nghĩa Thục, tham gia giảng dạy và phát triển chương trình học. Ông là nhà giáo dục tâm huyết, góp phần đào tạo thế hệ trẻ có ý thức dân tộc. Ông thể hiện tinh thần cống hiến của các nhà giáo dục thời kỳ đầu.",
+    "role": "Giáo viên Đông Kinh Nghĩa Thục - Nhà giáo dục tâm huyết",
+    "achievements": [
+      "Giáo viên Đông Kinh Nghĩa Thục",
+      "Tham gia giảng dạy và phát triển chương trình",
+      "Đào tạo thế hệ trẻ có ý thức dân tộc",
+      "Tinh thần cống hiến của nhà giáo dục"
+    ],
+    "relatedEvents": [
+      "event-023"
+    ],
+    "journey": [
+      {
+        "eventId": "event-023",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Giảng dạy tại trường"
+      }
+    ]
+  },
+  {
+    "id": "char-208",
+    "name": "Lương Lập Nham",
+    "avatar": "/images/characters/luong-lap-nham.jpg",
+    "birthYear": 1880,
+    "deathYear": 1957,
+    "biography": "Lương Lập Nham là thành viên Việt Nam Quang Phục Hội, tham gia các hoạt động cách mạng chống Pháp. Ông có vai trò trong việc tổ chức và phát triển các cơ sở của hội tại trong nước. Ông đại diện cho thế hệ cách mạng theo khuynh hướng dân chủ tư sản.",
+    "role": "Thành viên Việt Nam Quang Phục Hội - Tổ chức cơ sở trong nước",
+    "achievements": [
+      "Thành viên Việt Nam Quang Phục Hội",
+      "Tổ chức và phát triển cơ sở trong nước",
+      "Tham gia hoạt động cách mạng chống Pháp",
+      "Đại diện thế hệ cách mạng dân chủ tư sản"
+    ],
+    "relatedEvents": [
+      "event-013"
+    ],
+    "journey": [
+      {
+        "eventId": "event-013",
+        "year": 1912,
+        "location": [
+          23.1291,
+          113.2644
+        ],
+        "description": "Tham gia Việt Nam Quang Phục Hội"
+      }
+    ]
+  },
+  {
+    "id": "char-209",
+    "name": "Trần Hữu Công",
+    "avatar": "/images/characters/tran-huu-cong.jpg",
+    "birthYear": 1885,
+    "deathYear": 1960,
+    "biography": "Trần Hữu Công là ủy viên cục Kiểm tra của Việt Nam Quang Phục Hội, có nhiệm vụ giám sát nhân viên các bộ trong khi thừa hành nghiệp vụ. Ông có vai trò quan trọng trong việc duy trì kỷ luật và hiệu quả hoạt động của tổ chức.",
+    "role": "Ủy viên cục Kiểm tra VNQPH - Giám sát nghiệp vụ",
+    "achievements": [
+      "Ủy viên cục Kiểm tra Việt Nam Quang Phục Hội",
+      "Giám sát nhân viên các bộ",
+      "Duy trì kỷ luật tổ chức",
+      "Đảm bảo hiệu quả hoạt động"
+    ],
+    "relatedEvents": [
+      "event-013"
+    ],
+    "journey": [
+      {
+        "eventId": "event-013",
+        "year": 1912,
+        "location": [
+          23.1291,
+          113.2644
+        ],
+        "description": "Ủy viên cục Kiểm tra"
+      }
+    ]
+  },
+  {
+    "id": "char-210",
+    "name": "Nguyễn Diễn",
+    "avatar": "/images/characters/nguyen-dien.jpg",
+    "birthYear": 1882,
+    "deathYear": 1955,
+    "biography": "Nguyễn Diễn là ủy viên cục Kiểm tra của Việt Nam Quang Phục Hội cùng với Lương Lập Nham và Trần Hữu Công. Ông tham gia vào việc giám sát và kiểm tra hoạt động của các thành viên trong tổ chức, đảm bảo tính nghiêm túc và hiệu quả của phong trào cách mạng.",
+    "role": "Ủy viên cục Kiểm tra VNQPH - Kiểm tra hoạt động",
+    "achievements": [
+      "Ủy viên cục Kiểm tra Việt Nam Quang Phục Hội",
+      "Giám sát hoạt động thành viên",
+      "Đảm bảo tính nghiêm túc tổ chức",
+      "Góp phần hiệu quả phong trào cách mạng"
+    ],
+    "relatedEvents": [
+      "event-013"
+    ],
+    "journey": [
+      {
+        "eventId": "event-013",
+        "year": 1912,
+        "location": [
+          23.1291,
+          113.2644
+        ],
+        "description": "Kiểm tra hoạt động tổ chức"
+      }
+    ]
+  },
+  {
+    "id": "char-211",
+    "name": "Trần Cao Vân",
+    "avatar": "/images/characters/tran-cao-van.jpg",
+    "birthYear": 1866,
+    "deathYear": 1916,
+    "biography": "Trần Cao Vân là nhà yêu nước, tham gia phong trào Duy Tân và có liên hệ với Việt Nam Quang Phục Hội. Ông bị đày đi Côn Đảo vì tham gia các hoạt động chống Pháp. Ông đại diện cho tầng lớp sĩ phu yêu nước thời kỳ đầu thế kỷ 20.",
+    "role": "Nhà yêu nước phong trào Duy Tân - Liên hệ VNQPH",
+    "achievements": [
+      "Tham gia phong trào Duy Tân",
+      "Có liên hệ với Việt Nam Quang Phục Hội",
+      "Bị đày Côn Đảo vì hoạt động chống Pháp",
+      "Đại diện sĩ phu yêu nước"
+    ],
+    "relatedEvents": [
+      "event-013"
+    ],
+    "journey": [
+      {
+        "eventId": "event-013",
+        "year": 1912,
+        "location": [
+          23.1291,
+          113.2644
+        ],
+        "description": "Liên hệ với VNQPH"
+      }
+    ]
+  },
+  {
+    "id": "char-215",
+    "name": "Học sinh Quốc học Huế (1907)",
+    "avatar": "/images/characters/hoc-sinh-quoc-hoc-1907.jpg",
+    "birthYear": 1890,
+    "deathYear": 1970,
+    "biography": "Đại diện cho học sinh trường Quốc học Huế tham gia Đông Kinh Nghĩa Thục năm 1907. Họ là thế hệ trẻ được giáo dục theo tinh thần yêu nước, tiếp thu tư tưởng duy tân. Họ góp phần lan tỏa tinh thần học tập và ý thức dân tộc trong giới trẻ.",
+    "role": "Học sinh Quốc học Huế - Thế hệ trẻ duy tân",
+    "achievements": [
+      "Học sinh trường Quốc học Huế",
+      "Tham gia Đông Kinh Nghĩa Thục (1907)",
+      "Thế hệ trẻ có tinh thần yêu nước",
+      "Lan tỏa ý thức dân tộc trong giới trẻ"
+    ],
+    "relatedEvents": [
+      "event-023"
+    ],
+    "journey": [
+      {
+        "eventId": "event-023",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Tham gia phong trào giáo dục dân tộc"
+      }
+    ]
+  },
+  {
+    "id": "char-216",
+    "name": "Trí thức Hà Nội (1907)",
+    "avatar": "/images/characters/tri-thuc-hanoi-1907.jpg",
+    "birthYear": 1875,
+    "deathYear": 1945,
+    "biography": "Đại diện cho tầng lớp trí thức Hà Nội ủng hộ Đông Kinh Nghĩa Thục năm 1907. Họ là những người có học thức, ý thức được tầm quan trọng của việc nâng cao dân trí. Họ đóng góp tài chính và tinh thần để duy trì hoạt động của trường học.",
+    "role": "Trí thức Hà Nội - Ủng hộ Đông Kinh Nghĩa Thục",
+    "achievements": [
+      "Đại diện tầng lớp trí thức Hà Nội",
+      "Ủng hộ Đông Kinh Nghĩa Thục (1907)",
+      "Ý thức tầm quan trọng nâng cao dân trí",
+      "Đóng góp tài chính và tinh thần"
+    ],
+    "relatedEvents": [
+      "event-023"
+    ],
+    "journey": [
+      {
+        "eventId": "event-023",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Ủng hộ phong trào giáo dục"
+      }
+    ]
+  },
+  {
+    "id": "char-217",
+    "name": "Học giả Đông Kinh Nghĩa Thục",
+    "avatar": "/images/characters/hoc-gia-dong-kinh.jpg",
+    "birthYear": 1880,
+    "deathYear": 1960,
+    "biography": "Đại diện cho các học giả tham gia Đông Kinh Nghĩa Thục, người cuối cùng được thêm vào để hoàn thiện đội ngũ giáo dục. Họ là những người có học thức sâu rộng, tham gia biên soạn giáo trình và phương pháp giảng dạy tiến bộ. Họ góp phần quan trọng vào việc hiện đại hóa giáo dục Việt Nam.",
+    "role": "Học giả Đông Kinh Nghĩa Thục - Biên soạn giáo trình",
+    "achievements": [
+      "Tham gia Đông Kinh Nghĩa Thục",
+      "Biên soạn giáo trình và phương pháp giảng dạy",
+      "Có học thức sâu rộng",
+      "Góp phần hiện đại hóa giáo dục Việt Nam"
+    ],
+    "relatedEvents": [
+      "event-023"
+    ],
+    "journey": [
+      {
+        "eventId": "event-023",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Hoàn thiện đội ngũ giáo dục"
+      }
+    ]
+  },
+  {
+    "id": "char-218",
+    "name": "Nguyễn Thức Canh",
+    "avatar": "/images/characters/nguyen-thuc-canh.jpg",
+    "birthYear": 1888,
+    "deathYear": 1954,
+    "biography": "Nguyễn Thức Canh là một trong 3 thanh niên đầu tiên đi cùng Phan Bội Châu sang Nhật Bản tháng 10/1905 trong phong trào Đông Du. Ông là biểu tượng của thế hệ trẻ Việt Nam tìm kiếm tri thức và phương pháp cứu nước từ Nhật Bản. Ông đại diện cho tinh thần học tập và cầu tiến của thanh niên Việt Nam.",
+    "role": "Thanh niên Đông Du đầu tiên - Biểu tượng học tập cứu nước",
+    "achievements": [
+      "Một trong 3 thanh niên đầu tiên Đông Du (1905)",
+      "Đi cùng Phan Bội Châu sang Nhật Bản",
+      "Biểu tượng thế hệ trẻ tìm kiếm tri thức",
+      "Đại diện tinh thần học tập cứu nước"
+    ],
+    "relatedEvents": [
+      "event-010"
+    ],
+    "journey": [
+      {
+        "eventId": "event-010",
+        "year": 1905,
+        "location": [
+          35.6762,
+          139.6503
+        ],
+        "description": "Đi Đông Du cùng Phan Bội Châu"
+      }
+    ]
+  },
+  {
+    "id": "char-219",
+    "name": "Nguyễn Điền",
+    "avatar": "/images/characters/nguyen-dien-dong-du.jpg",
+    "birthYear": 1890,
+    "deathYear": 1965,
+    "biography": "Nguyễn Điền là một trong 3 thanh niên đầu tiên tham gia phong trào Đông Du cùng Phan Bội Châu năm 1905. Ông thể hiện tinh thần dũng cảm và khát khao học hỏi của thanh niên Việt Nam thời kỳ đầu thế kỷ 20. Ông góp phần mở đầu cho làn sóng du học sinh Việt Nam sang Nhật Bản.",
+    "role": "Thanh niên Đông Du tiên phong - Mở đầu làn sóng du học",
+    "achievements": [
+      "Một trong 3 thanh niên đầu tiên Đông Du",
+      "Thể hiện tinh thần dũng cảm và khát khao học hỏi",
+      "Mở đầu làn sóng du học sinh Việt Nam",
+      "Tiên phong trong phong trào tìm kiếm tri thức"
+    ],
+    "relatedEvents": [
+      "event-010"
+    ],
+    "journey": [
+      {
+        "eventId": "event-010",
+        "year": 1905,
+        "location": [
+          35.6762,
+          139.6503
+        ],
+        "description": "Tiên phong Đông Du"
+      }
+    ]
+  },
+  {
+    "id": "char-232",
+    "name": "Lê Hồng Phong",
+    "avatar": "/images/characters/le-hong-phong.jpg",
+    "birthYear": 1902,
+    "deathYear": 1942,
+    "biography": "Lê Hồng Phong là thành viên trẻ tuổi của Đảng Cộng sản Việt Nam, tham gia từ những ngày đầu thành lập. Ông là lãnh đạo cộng sản có tầm vóc quốc tế, được đào tạo bài bản về lý thuyết Marx-Lenin. Ông có vai trò quan trọng trong việc xây dựng và phát triển Đảng.",
+    "role": "Lãnh đạo cộng sản trẻ tuổi - Tầm vóc quốc tế",
+    "achievements": [
+      "Thành viên trẻ Đảng Cộng sản Việt Nam",
+      "Lãnh đạo cộng sản tầm vóc quốc tế",
+      "Được đào tạo bài bản lý thuyết Marx-Lenin",
+      "Vai trò quan trọng xây dựng phát triển Đảng"
+    ],
+    "relatedEvents": [
+      "event-014"
+    ],
+    "journey": [
+      {
+        "eventId": "event-014",
+        "year": 1930,
+        "location": [
+          22.3193,
+          114.1694
+        ],
+        "description": "Tham gia xây dựng Đảng"
+      }
+    ]
+  },
+  {
+    "id": "char-233",
+    "name": "Nguyễn Văn Cừ",
+    "avatar": "/images/characters/nguyen-van-cu.jpg",
+    "birthYear": 1912,
+    "deathYear": 1941,
+    "biography": "Nguyễn Văn Cừ là thành viên trẻ nhất của Đảng Cộng sản Việt Nam thời kỳ thành lập. Ông đại diện cho thế hệ thanh niên cách mạng, có lý tưởng cao và quyết tâm hy sinh vì Đảng và nhân dân. Ông thể hiện sức trẻ và nhiệt huyết của phong trào cộng sản.",
+    "role": "Thành viên trẻ nhất ĐCSVN - Thế hệ thanh niên cách mạng",
+    "achievements": [
+      "Thành viên trẻ nhất Đảng Cộng sản Việt Nam",
+      "Đại diện thế hệ thanh niên cách mạng",
+      "Có lý tưởng cao và quyết tâm hy sinh",
+      "Thể hiện sức trẻ phong trào cộng sản"
+    ],
+    "relatedEvents": [
+      "event-014"
+    ],
+    "journey": [
+      {
+        "eventId": "event-014",
+        "year": 1930,
+        "location": [
+          22.3193,
+          114.1694
+        ],
+        "description": "Thanh niên cách mạng tham gia Đảng"
+      }
+    ]
+  },
+  {
+    "id": "char-234",
+    "name": "Công nhân cách mạng 1930",
+    "avatar": "/images/characters/cong-nhan-cach-mang-1930.jpg",
+    "birthYear": 1905,
+    "deathYear": 1975,
+    "biography": "Đại diện cho tầng lớp công nhân tham gia thành lập Đảng Cộng sản Việt Nam. Họ là lực lượng nòng cốt của giai cấp vô sản, có ý thức giai cấp cao và tinh thần đoàn kết mạnh mẽ. Họ thể hiện bản chất giai cấp công nhân của Đảng Cộng sản Việt Nam.",
+    "role": "Công nhân cách mạng - Nòng cốt giai cấp vô sản",
+    "achievements": [
+      "Đại diện công nhân tham gia thành lập ĐCSVN",
+      "Lực lượng nòng cốt giai cấp vô sản",
+      "Có ý thức giai cấp cao và tinh thần đoàn kết",
+      "Thể hiện bản chất giai cấp công nhân của Đảng"
+    ],
+    "relatedEvents": [
+      "event-014"
+    ],
+    "journey": [
+      {
+        "eventId": "event-014",
+        "year": 1930,
+        "location": [
+          22.3193,
+          114.1694
+        ],
+        "description": "Nòng cốt thành lập Đảng"
+      }
+    ]
+  },
+  {
+    "id": "char-244",
+    "name": "Nguyễn Thành",
+    "avatar": "/images/characters/nguyen-thanh-duy-tan-hoi.jpg",
+    "birthYear": 1875,
+    "deathYear": 1945,
+    "biography": "Nguyễn Thành là thành viên sáng lập Duy Tân Hội năm 1904 cùng với Phan Bội Châu. Ông là nhà yêu nước có tầm nhìn xa, nhận thức được cần phải học tập phương Tây để cứu nước. Ông có vai trò quan trọng trong việc xây dựng tổ chức và định hướng hoạt động của Hội.",
+    "role": "Thành viên sáng lập Duy Tân Hội - Nhà yêu nước tầm nhìn xa",
+    "achievements": [
+      "Thành viên sáng lập Duy Tân Hội (1904)",
+      "Cùng Phan Bội Châu xây dựng tổ chức",
+      "Nhận thức học tập phương Tây cứu nước",
+      "Vai trò quan trọng định hướng hoạt động"
+    ],
+    "relatedEvents": [
+      "event-037"
+    ],
+    "journey": [
+      {
+        "eventId": "event-037",
+        "year": 1904,
+        "location": [
+          23.1291,
+          113.2644
+        ],
+        "description": "Sáng lập Duy Tân Hội"
+      }
+    ]
+  },
+  {
+    "id": "char-251",
+    "name": "Nhà yêu nước năm 1900",
+    "avatar": "/images/characters/nha-yeu-nuoc-1900.jpg",
+    "birthYear": 1860,
+    "deathYear": 1930,
+    "biography": "Đại diện cho các nhà yêu nước hoạt động năm 1900, thời kỳ chuyển giao từ thế kỷ 19 sang thế kỷ 20. Họ chứng kiến sự thay đổi lớn của thời đại, từ phong trào Cần Vương sang các phong trào duy tân. Họ thể hiện sự kiên trì và bền bỉ trong đấu tranh cứu nước.",
+    "role": "Nhà yêu nước 1900 - Chuyển giao thế kỷ",
+    "achievements": [
+      "Đại diện nhà yêu nước hoạt động năm 1900",
+      "Chứng kiến chuyển giao thế kỷ 19-20",
+      "Từ phong trào Cần Vương sang duy tân",
+      "Thể hiện sự kiên trì bền bỉ cứu nước"
+    ],
+    "relatedEvents": [
+      "event-080",
+      "event-009",
+      "event-035"
+    ],
+    "journey": [
+      {
+        "eventId": "event-080",
+        "year": 1900,
+        "location": [
+          16.0544,
+          108.2022
+        ],
+        "description": "Chuyển giao thế kỷ cứu nước"
+      }
+    ]
+  },
+  {
+    "id": "char-256",
+    "name": "Nhà yêu nước năm 1899",
+    "avatar": "/images/characters/nha-yeu-nuoc-1899.jpg",
+    "birthYear": 1859,
+    "deathYear": 1929,
+    "biography": "Đại diện cho các nhà yêu nước hoạt động năm 1899, thời kỳ cuối thế kỷ 19. Họ chứng kiến sự suy tàn của phong trào Cần Vương và đang tìm kiếm hướng đi mới. Họ thể hiện sự kiên trì và không bỏ cuộc trong đấu tranh cứu nước.",
+    "role": "Nhà yêu nước 1899 - Tìm kiếm hướng đi mới",
+    "achievements": [
+      "Đại diện nhà yêu nước hoạt động năm 1899",
+      "Chứng kiến suy tàn phong trào Cần Vương",
+      "Tìm kiếm hướng đi mới cho cứu nước",
+      "Thể hiện sự kiên trì không bỏ cuộc"
+    ],
+    "relatedEvents": [
+      "event-079"
+    ],
+    "journey": [
+      {
+        "eventId": "event-079",
+        "year": 1899,
+        "location": [
+          16.0544,
+          108.2022
+        ],
+        "description": "Tìm kiếm hướng đi mới"
+      }
+    ]
+  },
+  {
+    "id": "char-261",
+    "name": "Nhà yêu nước năm 1898",
+    "avatar": "/images/characters/nha-yeu-nuoc-1898.jpg",
+    "birthYear": 1858,
+    "deathYear": 1928,
+    "biography": "Đại diện cho các nhà yêu nước hoạt động năm 1898, thời kỳ phong trào Cần Vương đang suy yếu. Họ chứng kiến những thất bại liên tiếp và bắt đầu suy nghĩ về phương pháp mới. Họ thể hiện sự kiên trì và không ngừng tìm tòi.",
+    "role": "Nhà yêu nước 1898 - Kiên trì tìm tòi",
+    "achievements": [
+      "Đại diện nhà yêu nước hoạt động năm 1898",
+      "Chứng kiến phong trào Cần Vương suy yếu",
+      "Suy nghĩ về phương pháp mới",
+      "Thể hiện sự kiên trì không ngừng tìm tòi"
+    ],
+    "relatedEvents": [
+      "event-078"
+    ],
+    "journey": [
+      {
+        "eventId": "event-078",
+        "year": 1898,
+        "location": [
+          16.0544,
+          108.2022
+        ],
+        "description": "Kiên trì tìm tòi phương pháp mới"
+      }
+    ]
+  },
+  {
+    "id": "char-266",
+    "name": "Nhà yêu nước năm 1897",
+    "avatar": "/images/characters/nha-yeu-nuoc-1897.jpg",
+    "birthYear": 1857,
+    "deathYear": 1927,
+    "biography": "Đại diện cho các nhà yêu nước hoạt động năm 1897, thời kỳ phong trào Cần Vương đang trong giai đoạn cuối. Họ chứng kiến những khó khăn và thất bại nhưng vẫn không từ bỏ lý tưởng cứu nước. Họ đang tìm kiếm những phương pháp mới.",
+    "role": "Nhà yêu nước 1897 - Tìm kiếm phương pháp mới",
+    "achievements": [
+      "Đại diện nhà yêu nước hoạt động năm 1897",
+      "Chứng kiến Cần Vương giai đoạn cuối",
+      "Không từ bỏ lý tưởng dù khó khăn",
+      "Tìm kiếm phương pháp mới cứu nước"
+    ],
+    "relatedEvents": [
+      "event-077"
+    ],
+    "journey": [
+      {
+        "eventId": "event-077",
+        "year": 1897,
+        "location": [
+          16.0544,
+          108.2022
+        ],
+        "description": "Tìm kiếm phương pháp mới"
+      }
+    ]
+  },
+  {
+    "id": "char-356",
+    "name": "Nhà yêu nước 1913",
+    "avatar": "/images/characters/nha-yeu-nuoc-1913.jpg",
+    "birthYear": 1863,
+    "deathYear": 1933,
+    "biography": "Đại diện cho các nhà yêu nước hoạt động năm 1913, thời kỳ chuyển giao quan trọng trong lịch sử Việt Nam.",
+    "role": "Nhà yêu nước 1913",
+    "achievements": [
+      "Hoạt động yêu nước 1913",
+      "Chuyển giao tư tưởng"
+    ],
+    "relatedEvents": [
+      "event-093"
+    ],
+    "journey": [
+      {
+        "eventId": "event-093",
+        "year": 1913,
+        "location": [
+          16.0544,
+          108.2022
+        ],
+        "description": "Yêu nước 1913"
+      }
+    ]
+  },
+  {
+    "id": "char-496",
+    "name": "Phan Đình Phùng",
+    "avatar": "/images/characters/phan-dinh-phung.jpg",
+    "birthYear": 1847,
+    "deathYear": 1896,
+    "biography": "Nhà yêu nước, lãnh tụ khởi nghĩa Hương Khê trong phong trào Cần Vương (1885-1896). Ông là một trong những nhà yêu nước kiên cường nhất chống Pháp.",
+    "role": "Lãnh tụ khởi nghĩa Cần Vương",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Hương Khê",
+      "Kháng chiến chống Pháp 11 năm",
+      "Biểu tượng tinh thần bất khuất"
+    ],
+    "relatedEvents": [
+      "event-017",
+      "event-021"
+    ],
+    "journey": [
+      {
+        "eventId": "event-017",
+        "year": 1885,
+        "location": [
+          18.3389,
+          105.9
+        ],
+        "description": "Khởi nghĩa Hương Khê"
+      }
+    ]
+  },
+  {
+    "id": "char-497",
+    "name": "Cao Thắng",
+    "avatar": "/images/characters/cao-thang.jpg",
+    "birthYear": 1850,
+    "deathYear": 1893,
+    "biography": "Nhà yêu nước, đồng lãnh đạo khởi nghĩa Hương Khê cùng Phan Đình Phùng trong phong trào Cần Vương.",
+    "role": "Lãnh tụ khởi nghĩa Cần Vương",
+    "achievements": [
+      "Đồng lãnh đạo khởi nghĩa Hương Khê",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-017",
+      "event-021"
+    ],
+    "journey": [
+      {
+        "eventId": "event-017",
+        "year": 1885,
+        "location": [
+          18.3389,
+          105.9
+        ],
+        "description": "Khởi nghĩa Hương Khê"
+      }
+    ]
+  },
+  {
+    "id": "char-498",
+    "name": "Nguyễn Thiện Thuật",
+    "avatar": "/images/characters/nguyen-thien-thuat.jpg",
+    "birthYear": 1844,
+    "deathYear": 1926,
+    "biography": "Nhà yêu nước, lãnh đạo khởi nghĩa Bãi Sậy (1883-1892) trong phong trào Cần Vương ở Hưng Yên.",
+    "role": "Lãnh tụ khởi nghĩa Bãi Sậy",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Bãi Sậy",
+      "Kháng chiến 9 năm chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-018"
+    ],
+    "journey": [
+      {
+        "eventId": "event-018",
+        "year": 1883,
+        "location": [
+          20.6464,
+          106.0512
+        ],
+        "description": "Khởi nghĩa Bãi Sậy"
+      }
+    ]
+  },
+  {
+    "id": "char-499",
+    "name": "Đinh Công Tráng",
+    "avatar": "/images/characters/dinh-cong-trang.jpg",
+    "birthYear": 1845,
+    "deathYear": 1887,
+    "biography": "Nhà yêu nước, lãnh đạo khởi nghĩa Ba Đình (1886-1887) ở Nga Sơn, Thanh Hóa trong phong trào Cần Vương.",
+    "role": "Lãnh tụ khởi nghĩa Ba Đình",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Ba Đình",
+      "Hy sinh vì độc lập dân tộc"
+    ],
+    "relatedEvents": [
+      "event-019"
+    ],
+    "journey": [
+      {
+        "eventId": "event-019",
+        "year": 1886,
+        "location": [
+          19.8077,
+          105.7851
+        ],
+        "description": "Khởi nghĩa Ba Đình"
+      }
+    ]
+  },
+  {
+    "id": "char-501",
+    "name": "Lương Văn Can",
+    "avatar": "/images/characters/luong-van-can.jpg",
+    "birthYear": 1854,
+    "deathYear": 1927,
+    "biography": "Nhà yêu nước, thục trưởng (hiệu trưởng) Đông Kinh Nghĩa Thục (1907). Ông là người đứng đầu phong trào giáo dục dân tộc, đấu tranh cho việc sử dụng chữ quốc ngữ.",
+    "role": "Thục trưởng Đông Kinh Nghĩa Thục",
+    "achievements": [
+      "Sáng lập Đông Kinh Nghĩa Thục",
+      "Thúc đẩy chữ quốc ngữ",
+      "Phong trào giáo dục dân tộc"
+    ],
+    "relatedEvents": [
+      "event-021"
+    ],
+    "journey": [
+      {
+        "eventId": "event-021",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Thành lập Đông Kinh Nghĩa Thục"
+      }
+    ]
+  },
+  {
+    "id": "char-502",
+    "name": "Đào Nguyên Phổ",
+    "avatar": "/images/characters/dao-nguyen-pho.jpg",
+    "birthYear": 1850,
+    "deathYear": 1908,
+    "biography": "Nhà yêu nước, một trong những sáng lập viên chính của Đông Kinh Nghĩa Thục. Ông tham gia tích cực vào phong trào duy tân giáo dục.",
+    "role": "Sáng lập viên Đông Kinh Nghĩa Thục",
+    "achievements": [
+      "Đồng sáng lập Đông Kinh Nghĩa Thục",
+      "Phong trào duy tân giáo dục"
+    ],
+    "relatedEvents": [
+      "event-021"
+    ],
+    "journey": [
+      {
+        "eventId": "event-021",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Sáng lập Đông Kinh Nghĩa Thục"
+      }
+    ]
+  },
+  {
+    "id": "char-503",
+    "name": "Dương Bá Trạc",
+    "avatar": "/images/characters/duong-ba-trac.jpg",
+    "birthYear": 1852,
+    "deathYear": 1915,
+    "biography": "Nhà yêu nước, sáng lập viên Đông Kinh Nghĩa Thục. Ông là nhà giáo dục tiến bộ, tham gia phong trào duy tân.",
+    "role": "Sáng lập viên Đông Kinh Nghĩa Thục",
+    "achievements": [
+      "Đồng sáng lập Đông Kinh Nghĩa Thục",
+      "Nhà giáo dục tiến bộ"
+    ],
+    "relatedEvents": [
+      "event-021"
+    ],
+    "journey": [
+      {
+        "eventId": "event-021",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Sáng lập Đông Kinh Nghĩa Thục"
+      }
+    ]
+  },
+  {
+    "id": "char-504",
+    "name": "Nguyễn Hữu Cầu",
+    "avatar": "/images/characters/nguyen-huu-cau.jpg",
+    "birthYear": 1851,
+    "deathYear": 1920,
+    "biography": "Nhà nho yêu nước, sáng lập viên Đông Kinh Nghĩa Thục. Ông tham gia tích cực vào phong trào giáo dục dân tộc.",
+    "role": "Sáng lập viên Đông Kinh Nghĩa Thục",
+    "achievements": [
+      "Đồng sáng lập Đông Kinh Nghĩa Thục",
+      "Nhà nho yêu nước"
+    ],
+    "relatedEvents": [
+      "event-021"
+    ],
+    "journey": [
+      {
+        "eventId": "event-021",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Sáng lập Đông Kinh Nghĩa Thục"
+      }
+    ]
+  },
+  {
+    "id": "char-505",
+    "name": "Hoàng Tăng Bí",
+    "avatar": "/images/characters/hoang-tang-bi.jpg",
+    "birthYear": 1849,
+    "deathYear": 1912,
+    "biography": "Nhà yêu nước, sáng lập viên Đông Kinh Nghĩa Thục. Ông đóng góp tích cực vào việc phát triển giáo dục dân tộc.",
+    "role": "Sáng lập viên Đông Kinh Nghĩa Thục",
+    "achievements": [
+      "Đồng sáng lập Đông Kinh Nghĩa Thục",
+      "Phát triển giáo dục dân tộc"
+    ],
+    "relatedEvents": [
+      "event-021"
+    ],
+    "journey": [
+      {
+        "eventId": "event-021",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Sáng lập Đông Kinh Nghĩa Thục"
+      }
+    ]
+  },
+  {
+    "id": "char-506",
+    "name": "Mai Xuân Thưởng",
+    "avatar": "/images/characters/mai-xuan-thuong.jpg",
+    "birthYear": 1860,
+    "deathYear": 1887,
+    "biography": "Nhà yêu nước, cử nhân năm 1885, lãnh đạo khởi nghĩa Cần Vương ở Bình Định. Ông được Đào Doãn Địch cử làm Nguyên soái thay mình trước khi mất.",
+    "role": "Nguyên soái khởi nghĩa Bình Định",
+    "achievements": [
+      "Cử nhân năm 1885",
+      "Lãnh đạo khởi nghĩa Bình Định",
+      "Nguyên soái phong trào Cần Vương"
+    ],
+    "relatedEvents": [
+      "event-022"
+    ],
+    "journey": [
+      {
+        "eventId": "event-022",
+        "year": 1885,
+        "location": [
+          14.1665,
+          109.0395
+        ],
+        "description": "Khởi nghĩa Cần Vương Bình Định"
+      }
+    ]
+  },
+  {
+    "id": "char-507",
+    "name": "Nguyễn Xuân Ôn",
+    "avatar": "/images/characters/nguyen-xuan-on.jpg",
+    "birthYear": 1825,
+    "deathYear": 1889,
+    "biography": "Quan nhà Nguyễn, thủ lĩnh khởi nghĩa chống Pháp ở Nghệ - Tĩnh. Được Tôn Thất Thuyết cử làm An-Tĩnh Hiệp thống quân vụ đại thần trong phong trào Cần Vương.",
+    "role": "An-Tĩnh Hiệp thống quân vụ đại thần",
+    "achievements": [
+      "Quan nhà Nguyễn",
+      "Lãnh đạo khởi nghĩa Nghệ-Tĩnh",
+      "Xây dựng căn cứ Đồng Thông"
+    ],
+    "relatedEvents": [
+      "event-022"
+    ],
+    "journey": [
+      {
+        "eventId": "event-022",
+        "year": 1885,
+        "location": [
+          18.67,
+          105.68
+        ],
+        "description": "Khởi nghĩa Nghệ-Tĩnh"
+      }
+    ]
+  },
+  {
+    "id": "char-508",
+    "name": "Tôn Thất Thuyết",
+    "avatar": "/images/characters/ton-that-thuyet.jpg",
+    "birthYear": 1839,
+    "deathYear": 1913,
+    "biography": "Đại thần nhà Nguyễn, Phụ chính vua Hàm Nghi, người phát động phong trào Cần Vương (1885). Ông là người đứng đầu phe chủ chiến chống Pháp.",
+    "role": "Phụ chính, thủ lĩnh phong trào Cần Vương",
+    "achievements": [
+      "Phụ chính vua Hàm Nghi",
+      "Phát động phong trào Cần Vương",
+      "Thủ lĩnh phe chủ chiến"
+    ],
+    "relatedEvents": [
+      "event-022"
+    ],
+    "journey": [
+      {
+        "eventId": "event-022",
+        "year": 1885,
+        "location": [
+          16.4637,
+          107.5909
+        ],
+        "description": "Phát động Cần Vương"
+      }
+    ]
+  },
+  {
+    "id": "char-509",
+    "name": "Đào Doãn Địch",
+    "avatar": "/images/characters/dao-doan-dich.jpg",
+    "birthYear": 1830,
+    "deathYear": 1885,
+    "biography": "Nguyên Tổng đốc Bình Định, lãnh đạo phong trào Cần Vương ở Bình Định. Ông chiêu mộ được 600 nghĩa quân và phong Mai Xuân Thưởng làm Nguyên soái trước khi mất.",
+    "role": "Tổng đốc, thủ lĩnh Cần Vương Bình Định",
+    "achievements": [
+      "Tổng đốc Bình Định",
+      "Lãnh đạo Cần Vương Bình Định",
+      "Chiêu mộ 600 nghĩa quân"
+    ],
+    "relatedEvents": [
+      "event-022"
+    ],
+    "journey": [
+      {
+        "eventId": "event-022",
+        "year": 1885,
+        "location": [
+          14.1665,
+          109.0395
+        ],
+        "description": "Cần Vương Bình Định"
+      }
+    ]
+  },
+  {
+    "id": "char-510",
+    "name": "Tăng Bạt Hổ",
+    "avatar": "/images/characters/tang-bat-ho.jpg",
+    "birthYear": 1845,
+    "deathYear": 1887,
+    "biography": "Nghĩa sĩ phong trào Cần Vương, tham gia giúp sức Mai Xuân Thưởng trong các trận chiến ở Bình Định. Ông là một trong những tướng tài dưới quyền Mai Xuân Thưởng.",
+    "role": "Nghĩa sĩ Cần Vương",
+    "achievements": [
+      "Tham gia phong trào Cần Vương",
+      "Giúp sức Mai Xuân Thưởng",
+      "Tướng tài kháng Pháp"
+    ],
+    "relatedEvents": [
+      "event-034"
+    ],
+    "journey": [
+      {
+        "eventId": "event-034",
+        "year": 1885,
+        "location": [
+          14.1665,
+          109.0395
+        ],
+        "description": "Kháng chiến Bình Định"
+      }
+    ]
+  },
+  {
+    "id": "char-512",
+    "name": "Trương Quang Ngọc",
+    "avatar": "/images/characters/truong-quang-ngoc.jpg",
+    "birthYear": 1850,
+    "deathYear": 1893,
+    "biography": "Trước đây theo hộ giá vua Hàm Nghi trong phong trào Cần Vương, nhưng sau bị Pháp mua chuộc. Ngày 26/9/1888, ông phản bội và bắt vua Hàm Nghi giao nộp cho thực dân Pháp. Năm 1893 bị nghĩa quân Phan Đình Phùng giết để trả thù.",
+    "role": "Phản thần",
+    "achievements": [
+      "Từng theo hộ giá vua Hàm Nghi",
+      "Phản bội bắt vua Hàm Nghi (1888)",
+      "Bị nghĩa quân trừng phạt (1893)"
+    ],
+    "relatedEvents": [
+      "event-035"
+    ],
+    "journey": [
+      {
+        "eventId": "event-035",
+        "year": 1888,
+        "location": [
+          17.4677,
+          106.6221
+        ],
+        "description": "Phản bội bắt vua Hàm Nghi"
+      }
+    ]
+  },
+  {
+    "id": "char-513",
+    "name": "Huỳnh Công Tấn",
+    "avatar": "/images/characters/huynh-cong-tan.jpg",
+    "birthYear": 1830,
+    "deathYear": 1870,
+    "biography": "Phản bội trong cuộc khởi nghĩa của Trương Định. Ngày 20/4/1864, ông phát hiện địa điểm ẩn náu của Trương Định tại 'đám lá tối trời' (Gia Thuận) và đem quân Pháp bao vây, dẫn đến cái chết bi tráng của anh hùng Trương Định.",
+    "role": "Phản bội",
+    "achievements": [
+      "Phản bội chỉ điểm Trương Định (1864)",
+      "Gây ra cái chết của anh hùng dân tộc"
+    ],
+    "relatedEvents": [
+      "event-045"
+    ],
+    "journey": [
+      {
+        "eventId": "event-045",
+        "year": 1864,
+        "location": [
+          10.3617,
+          106.665
+        ],
+        "description": "Phản bội chỉ điểm Trương Định"
+      }
+    ]
+  },
+  {
+    "id": "char-514",
+    "name": "Phạm Bành",
+    "avatar": "/images/characters/pham-banh.jpg",
+    "birthYear": 1840,
+    "deathYear": 1887,
+    "biography": "Nghĩa sĩ phong trào Cần Vương, đồng lãnh đạo khởi nghĩa Ba Đình cùng Đinh Công Tráng ở Nga Sơn, Thanh Hóa (1886-1887). Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Nghĩa sĩ khởi nghĩa Ba Đình",
+    "achievements": [
+      "Đồng lãnh đạo khởi nghĩa Ba Đình",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-078"
+    ],
+    "journey": [
+      {
+        "eventId": "event-078",
+        "year": 1886,
+        "location": [
+          19.8077,
+          105.7851
+        ],
+        "description": "Khởi nghĩa Ba Đình"
+      }
+    ]
+  },
+  {
+    "id": "char-515",
+    "name": "Nguyễn Văn Giáp",
+    "avatar": "/images/characters/nguyen-van-giap.jpg",
+    "birthYear": 1845,
+    "deathYear": 1887,
+    "biography": "Thủ lĩnh khởi nghĩa ở Sơn Tây và Tây Bắc (1883-1887) trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Thủ lĩnh khởi nghĩa Sơn Tây",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Sơn Tây",
+      "Kháng chiến Tây Bắc 4 năm"
+    ],
+    "relatedEvents": [
+      "event-079"
+    ],
+    "journey": [
+      {
+        "eventId": "event-079",
+        "year": 1883,
+        "location": [
+          21.3273,
+          105.3405
+        ],
+        "description": "Khởi nghĩa Sơn Tây"
+      }
+    ]
+  },
+  {
+    "id": "char-516",
+    "name": "Nguyễn Duy Hiệu",
+    "avatar": "/images/characters/nguyen-duy-hieu.jpg",
+    "birthYear": 1842,
+    "deathYear": 1890,
+    "biography": "Lãnh đạo Nghĩa hội Quảng Nam trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Lãnh đạo Nghĩa hội Quảng Nam",
+    "achievements": [
+      "Thành lập Nghĩa hội Quảng Nam",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-017"
+    ],
+    "journey": [
+      {
+        "eventId": "event-017",
+        "year": 1885,
+        "location": [
+          15.5394,
+          108.0191
+        ],
+        "description": "Nghĩa hội Quảng Nam"
+      }
+    ]
+  },
+  {
+    "id": "char-517",
+    "name": "Lê Trực",
+    "avatar": "/images/characters/le-truc.jpg",
+    "birthYear": 1848,
+    "deathYear": 1892,
+    "biography": "Thủ lĩnh khởi nghĩa ở Quảng Bình cùng Nguyễn Phạm Tuân trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Thủ lĩnh khởi nghĩa Quảng Bình",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Quảng Bình",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-017"
+    ],
+    "journey": [
+      {
+        "eventId": "event-017",
+        "year": 1885,
+        "location": [
+          17.4677,
+          106.6221
+        ],
+        "description": "Khởi nghĩa Quảng Bình"
+      }
+    ]
+  },
+  {
+    "id": "char-518",
+    "name": "Nguyễn Phạm Tuân",
+    "avatar": "/images/characters/nguyen-pham-tuan.jpg",
+    "birthYear": 1846,
+    "deathYear": 1891,
+    "biography": "Đồng lãnh đạo khởi nghĩa ở Quảng Bình cùng Lê Trực trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Nghĩa sĩ khởi nghĩa Quảng Bình",
+    "achievements": [
+      "Đồng lãnh đạo khởi nghĩa Quảng Bình",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-044"
+    ],
+    "journey": [
+      {
+        "eventId": "event-044",
+        "year": 1885,
+        "location": [
+          17.4677,
+          106.6221
+        ],
+        "description": "Khởi nghĩa Quảng Bình"
+      }
+    ]
+  },
+  {
+    "id": "char-519",
+    "name": "Hoàng Đình Kinh",
+    "avatar": "/images/characters/hoang-dinh-kinh.jpg",
+    "birthYear": 1844,
+    "deathYear": 1888,
+    "biography": "Thủ lĩnh khởi nghĩa ở vùng Lạng Sơn, Bắc Giang trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Thủ lĩnh khởi nghĩa Lạng Sơn",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Lạng Sơn",
+      "Kháng chiến vùng biên giới"
+    ],
+    "relatedEvents": [
+      "event-044"
+    ],
+    "journey": [
+      {
+        "eventId": "event-044",
+        "year": 1885,
+        "location": [
+          21.8537,
+          106.761
+        ],
+        "description": "Khởi nghĩa Lạng Sơn"
+      }
+    ]
+  },
+  {
+    "id": "char-520",
+    "name": "Lê Trung Đình",
+    "avatar": "/images/characters/le-trung-dinh.jpg",
+    "birthYear": 1847,
+    "deathYear": 1889,
+    "biography": "Thủ lĩnh khởi nghĩa ở Quảng Ngãi cùng Nguyễn Tự Tân trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Thủ lĩnh khởi nghĩa Quảng Ngãi",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Quảng Ngãi",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-049"
+    ],
+    "journey": [
+      {
+        "eventId": "event-049",
+        "year": 1885,
+        "location": [
+          15.1214,
+          108.8044
+        ],
+        "description": "Khởi nghĩa Quảng Ngãi"
+      }
+    ]
+  },
+  {
+    "id": "char-521",
+    "name": "Nguyễn Tự Tân",
+    "avatar": "/images/characters/nguyen-tu-tan.jpg",
+    "birthYear": 1849,
+    "deathYear": 1890,
+    "biography": "Đồng lãnh đạo khởi nghĩa ở Quảng Ngãi cùng Lê Trung Đình trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Nghĩa sĩ khởi nghĩa Quảng Ngãi",
+    "achievements": [
+      "Đồng lãnh đạo khởi nghĩa Quảng Ngãi",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-049"
+    ],
+    "journey": [
+      {
+        "eventId": "event-049",
+        "year": 1885,
+        "location": [
+          15.1214,
+          108.8044
+        ],
+        "description": "Khởi nghĩa Quảng Ngãi"
+      }
+    ]
+  },
+  {
+    "id": "char-522",
+    "name": "Trương Đình Hội",
+    "avatar": "/images/characters/truong-dinh-hoi.jpg",
+    "birthYear": 1843,
+    "deathYear": 1887,
+    "biography": "Thủ lĩnh khởi nghĩa ở Quảng Trị cùng Nguyễn Tự Như trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Thủ lĩnh khởi nghĩa Quảng Trị",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Quảng Trị",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-049"
+    ],
+    "journey": [
+      {
+        "eventId": "event-049",
+        "year": 1885,
+        "location": [
+          16.7943,
+          107.1852
+        ],
+        "description": "Khởi nghĩa Quảng Trị"
+      }
+    ]
+  },
+  {
+    "id": "char-523",
+    "name": "Nguyễn Tự Như",
+    "avatar": "/images/characters/nguyen-tu-nhu.jpg",
+    "birthYear": 1845,
+    "deathYear": 1888,
+    "biography": "Đồng lãnh đạo khởi nghĩa ở Quảng Trị cùng Trương Đình Hội trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Nghĩa sĩ khởi nghĩa Quảng Trị",
+    "achievements": [
+      "Đồng lãnh đạo khởi nghĩa Quảng Trị",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-050"
+    ],
+    "journey": [
+      {
+        "eventId": "event-050",
+        "year": 1885,
+        "location": [
+          16.7943,
+          107.1852
+        ],
+        "description": "Khởi nghĩa Quảng Trị"
+      }
+    ]
+  },
+  {
+    "id": "char-524",
+    "name": "Cù Hoàng Địch",
+    "avatar": "/images/characters/cu-hoang-dich.jpg",
+    "birthYear": 1841,
+    "deathYear": 1889,
+    "biography": "Thủ lĩnh khởi nghĩa ở Nghệ Tĩnh trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Thủ lĩnh khởi nghĩa Nghệ Tĩnh",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Nghệ Tĩnh",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-050"
+    ],
+    "journey": [
+      {
+        "eventId": "event-050",
+        "year": 1885,
+        "location": [
+          18.67,
+          105.68
+        ],
+        "description": "Khởi nghĩa Nghệ Tĩnh"
+      }
+    ]
+  },
+  {
+    "id": "char-525",
+    "name": "Nguyễn Quang Bích",
+    "avatar": "/images/characters/nguyen-quang-bich.jpg",
+    "birthYear": 1846,
+    "deathYear": 1890,
+    "biography": "Thủ lĩnh khởi nghĩa Hưng Hóa ở Phú Thọ và Yên Bái trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Thủ lĩnh khởi nghĩa Hưng Hóa",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Hưng Hóa",
+      "Kháng chiến Phú Thọ - Yên Bái"
+    ],
+    "relatedEvents": [
+      "event-050"
+    ],
+    "journey": [
+      {
+        "eventId": "event-050",
+        "year": 1885,
+        "location": [
+          21.3273,
+          105.2201
+        ],
+        "description": "Khởi nghĩa Hưng Hóa"
+      }
+    ]
+  },
+  {
+    "id": "char-526",
+    "name": "Đốc Ngữ",
+    "avatar": "/images/characters/doc-ngu.jpg",
+    "birthYear": 1844,
+    "deathYear": 1892,
+    "biography": "Tên thật Nguyễn Đức Ngữ, thủ lĩnh khởi nghĩa Thanh Sơn (1885-1892) ở Hòa Bình trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Thủ lĩnh khởi nghĩa Thanh Sơn",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Thanh Sơn 7 năm",
+      "Kháng chiến Hòa Bình"
+    ],
+    "relatedEvents": [
+      "event-066"
+    ],
+    "journey": [
+      {
+        "eventId": "event-066",
+        "year": 1885,
+        "location": [
+          20.6861,
+          105.338
+        ],
+        "description": "Khởi nghĩa Thanh Sơn"
+      }
+    ]
+  },
+  {
+    "id": "char-527",
+    "name": "Trịnh Phong",
+    "avatar": "/images/characters/trinh-phong.jpg",
+    "birthYear": 1842,
+    "deathYear": 1886,
+    "biography": "Thủ lĩnh khởi nghĩa ở Khánh Hòa (1885-1886) trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Thủ lĩnh khởi nghĩa Khánh Hòa",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Khánh Hòa",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-066"
+    ],
+    "journey": [
+      {
+        "eventId": "event-066",
+        "year": 1885,
+        "location": [
+          12.2388,
+          109.1967
+        ],
+        "description": "Khởi nghĩa Khánh Hòa"
+      }
+    ]
+  },
+  {
+    "id": "char-528",
+    "name": "Lê Thành Phương",
+    "avatar": "/images/characters/le-thanh-phuong.jpg",
+    "birthYear": 1848,
+    "deathYear": 1887,
+    "biography": "Thủ lĩnh khởi nghĩa ở Phú Yên (1885-1887) trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Thủ lĩnh khởi nghĩa Phú Yên",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Phú Yên",
+      "Kháng chiến 2 năm chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-066"
+    ],
+    "journey": [
+      {
+        "eventId": "event-066",
+        "year": 1885,
+        "location": [
+          13.0882,
+          109.0929
+        ],
+        "description": "Khởi nghĩa Phú Yên"
+      }
+    ]
+  },
+  {
+    "id": "char-529",
+    "name": "Tạ Hiện",
+    "avatar": "/images/characters/ta-hien.jpg",
+    "birthYear": 1843,
+    "deathYear": 1888,
+    "biography": "Thủ lĩnh phong trào kháng chiến ở Thái Bình - Nam Định cùng Phạm Huy Quang trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Thủ lĩnh kháng chiến Thái Bình",
+    "achievements": [
+      "Lãnh đạo kháng chiến Thái Bình - Nam Định",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-019"
+    ],
+    "journey": [
+      {
+        "eventId": "event-019",
+        "year": 1885,
+        "location": [
+          20.4501,
+          106.3365
+        ],
+        "description": "Kháng chiến Thái Bình"
+      }
+    ]
+  },
+  {
+    "id": "char-530",
+    "name": "Phạm Huy Quang",
+    "avatar": "/images/characters/pham-huy-quang.jpg",
+    "birthYear": 1845,
+    "deathYear": 1889,
+    "biography": "Đồng lãnh đạo phong trào kháng chiến ở Thái Bình - Nam Định cùng Tạ Hiện trong phong trào Cần Vương. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Nghĩa sĩ kháng chiến Nam Định",
+    "achievements": [
+      "Đồng lãnh đạo kháng chiến Nam Định",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-019"
+    ],
+    "journey": [
+      {
+        "eventId": "event-019",
+        "year": 1885,
+        "location": [
+          20.4388,
+          106.1621
+        ],
+        "description": "Kháng chiến Nam Định"
+      }
+    ]
+  },
+  {
+    "id": "char-531",
+    "name": "Lê Đại",
+    "avatar": "/images/characters/le-dai.jpg",
+    "birthYear": 1853,
+    "deathYear": 1910,
+    "biography": "Sáng lập viên Đông Kinh Nghĩa Thục, tham gia phong trào giáo dục dân tộc năm 1907. Nguồn: Wikipedia Đông Kinh Nghĩa Thục.",
+    "role": "Sáng lập viên Đông Kinh Nghĩa Thục",
+    "achievements": [
+      "Đồng sáng lập Đông Kinh Nghĩa Thục",
+      "Phong trào giáo dục dân tộc"
+    ],
+    "relatedEvents": [
+      "event-020",
+      "event-019"
+    ],
+    "journey": [
+      {
+        "eventId": "event-020",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Sáng lập Đông Kinh Nghĩa Thục"
+      }
+    ]
+  },
+  {
+    "id": "char-532",
+    "name": "Nguyễn Quyền",
+    "avatar": "/images/characters/nguyen-quyen.jpg",
+    "birthYear": 1851,
+    "deathYear": 1915,
+    "biography": "Sáng lập viên Đông Kinh Nghĩa Thục, tham gia phong trào giáo dục dân tộc năm 1907. Nguồn: Wikipedia Đông Kinh Nghĩa Thục.",
+    "role": "Sáng lập viên Đông Kinh Nghĩa Thục",
+    "achievements": [
+      "Đồng sáng lập Đông Kinh Nghĩa Thục",
+      "Phong trào giáo dục dân tộc"
+    ],
+    "relatedEvents": [
+      "event-020"
+    ],
+    "journey": [
+      {
+        "eventId": "event-020",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Sáng lập Đông Kinh Nghĩa Thục"
+      }
+    ]
+  },
+  {
+    "id": "char-533",
+    "name": "Phan Tuấn Phong",
+    "avatar": "/images/characters/phan-tuan-phong.jpg",
+    "birthYear": 1850,
+    "deathYear": 1912,
+    "biography": "Sáng lập viên Đông Kinh Nghĩa Thục, tham gia phong trào giáo dục dân tộc năm 1907. Nguồn: Wikipedia Đông Kinh Nghĩa Thục.",
+    "role": "Sáng lập viên Đông Kinh Nghĩa Thục",
+    "achievements": [
+      "Đồng sáng lập Đông Kinh Nghĩa Thục",
+      "Phong trào giáo dục dân tộc"
+    ],
+    "relatedEvents": [
+      "event-046",
+      "event-020"
+    ],
+    "journey": [
+      {
+        "eventId": "event-046",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Sáng lập Đông Kinh Nghĩa Thục"
+      }
+    ]
+  },
+  {
+    "id": "char-534",
+    "name": "Phan Bội Châu",
+    "avatar": "/images/characters/phan-boi-chau.jpg",
+    "birthYear": 1867,
+    "deathYear": 1940,
+    "biography": "Nhà cách mạng, lãnh tụ phong trào Đông Du và Việt Nam Quang Phục Hội. Nguồn: Wikipedia Phan Bội Châu.",
+    "role": "Lãnh tụ phong trào Đông Du",
+    "achievements": [
+      "Sáng lập Việt Nam Quang Phục Hội",
+      "Phong trào Đông Du",
+      "Tác giả Việt Nam vong quốc sử"
+    ],
+    "relatedEvents": [
+      "event-001",
+      "event-010",
+      "event-036",
+      "event-063",
+      "event-068",
+      "event-073",
+      "event-085",
+      "event-094",
+      "event-095",
+      "event-104",
+      "event-108",
+      "event-109"
+    ],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1905,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Phong trào Đông Du"
+      }
+    ]
+  },
+  {
+    "id": "char-535",
+    "name": "Phan Chu Trinh",
+    "avatar": "/images/characters/phan-chu-trinh.jpg",
+    "birthYear": 1872,
+    "deathYear": 1926,
+    "biography": "Nhà cách mạng, lãnh tụ phong trào Duy Tân, chủ trương cải cách và dân chủ. Nguồn: Wikipedia Phan Chu Trinh.",
+    "role": "Lãnh tụ phong trào Duy Tân",
+    "achievements": [
+      "Phong trào Duy Tân",
+      "Chủ trương dân chủ",
+      "Cải cách xã hội"
+    ],
+    "relatedEvents": [
+      "event-001",
+      "event-010",
+      "event-036",
+      "event-068",
+      "event-069",
+      "event-074",
+      "event-077",
+      "event-080",
+      "event-081",
+      "event-087",
+      "event-088",
+      "event-089",
+      "event-090",
+      "event-091",
+      "event-092",
+      "event-095",
+      "event-099",
+      "event-100",
+      "event-101",
+      "event-102",
+      "event-104",
+      "event-105"
+    ],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1906,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Phong trào Duy Tân"
+      }
+    ]
+  },
+  {
+    "id": "char-536",
+    "name": "Cường Để",
+    "avatar": "/images/characters/cuong-de.jpg",
+    "birthYear": 1882,
+    "deathYear": 1951,
+    "biography": "Hoàng tử nhà Nguyễn, tham gia phong trào Đông Du cùng Phan Bội Châu. Nguồn: Wikipedia Cường Để.",
+    "role": "Hoàng tử cách mạng",
+    "achievements": [
+      "Tham gia phong trào Đông Du",
+      "Lãnh đạo Việt Nam Quang Phục Hội"
+    ],
+    "relatedEvents": [
+      "event-002",
+      "event-010",
+      "event-084",
+      "event-085",
+      "event-086",
+      "event-087",
+      "event-088",
+      "event-090",
+      "event-094",
+      "event-098",
+      "event-102",
+      "event-105"
+    ],
+    "journey": [
+      {
+        "eventId": "event-002",
+        "year": 1905,
+        "location": [
+          35.6762,
+          139.6503
+        ],
+        "description": "Đông Du Nhật Bản"
+      }
+    ]
+  },
+  {
+    "id": "char-537",
+    "name": "Nguyễn Thành",
+    "avatar": "/images/characters/nguyen-thanh.jpg",
+    "birthYear": 1860,
+    "deathYear": 1925,
+    "biography": "Học giả, tham gia phong trào Đông Kinh Nghĩa Thục. Nguồn: Wikipedia Đông Kinh Nghĩa Thục.",
+    "role": "Học giả Đông Kinh Nghĩa Thục",
+    "achievements": [
+      "Giảng dạy tại Đông Kinh Nghĩa Thục",
+      "Phổ biến chữ quốc ngữ"
+    ],
+    "relatedEvents": [
+      "event-002",
+      "event-021",
+      "event-060",
+      "event-075",
+      "event-076",
+      "event-082",
+      "event-083",
+      "event-087",
+      "event-095",
+      "event-098",
+      "event-105"
+    ],
+    "journey": [
+      {
+        "eventId": "event-002",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Đông Kinh Nghĩa Thục"
+      }
+    ]
+  },
+  {
+    "id": "char-538",
+    "name": "Đặng Tử Kính",
+    "avatar": "/images/characters/dang-tu-kinh.jpg",
+    "birthYear": 1865,
+    "deathYear": 1923,
+    "biography": "Sáng lập viên Đông Kinh Nghĩa Thục, nhà giáo dục tiến bộ. Nguồn: Wikipedia Đông Kinh Nghĩa Thục.",
+    "role": "Sáng lập viên Đông Kinh Nghĩa Thục",
+    "achievements": [
+      "Đồng sáng lập Đông Kinh Nghĩa Thục",
+      "Nhà giáo dục tiến bộ"
+    ],
+    "relatedEvents": [
+      "event-003",
+      "event-006",
+      "event-007",
+      "event-008",
+      "event-061",
+      "event-066",
+      "event-070",
+      "event-071",
+      "event-074",
+      "event-075",
+      "event-081",
+      "event-088",
+      "event-095",
+      "event-098",
+      "event-102",
+      "event-103"
+    ],
+    "journey": [
+      {
+        "eventId": "event-003",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Sáng lập Đông Kinh Nghĩa Thục"
+      }
+    ]
+  },
+  {
+    "id": "char-539",
+    "name": "Nguyễn Văn Vĩnh",
+    "avatar": "/images/characters/nguyen-van-vinh.jpg",
+    "birthYear": 1882,
+    "deathYear": 1936,
+    "biography": "Nhà báo, nhà văn, người đầu tiên sử dụng chữ quốc ngữ làm báo. Nguồn: Wikipedia Nguyễn Văn Vĩnh.",
+    "role": "Nhà báo tiên phong",
+    "achievements": [
+      "Báo Đông Dương tạp chí",
+      "Tiên phong chữ quốc ngữ",
+      "Dịch thuật văn học"
+    ],
+    "relatedEvents": [
+      "event-003",
+      "event-080",
+      "event-081",
+      "event-082",
+      "event-085",
+      "event-086",
+      "event-089",
+      "event-091",
+      "event-095",
+      "event-097",
+      "event-101",
+      "event-103",
+      "event-108"
+    ],
+    "journey": [
+      {
+        "eventId": "event-003",
+        "year": 1907,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Báo chí quốc ngữ"
+      }
+    ]
+  },
+  {
+    "id": "char-540",
+    "name": "Phạm Duy Tốn",
+    "avatar": "/images/characters/pham-duy-ton.jpg",
+    "birthYear": 1883,
+    "deathYear": 1924,
+    "biography": "Cách mạng gia, thành viên Việt Nam Quang Phục Hội, tham gia vụ Hà Nội đầu độc. Nguồn: Wikipedia Việt Nam Quang Phục Hội.",
+    "role": "Cách mạng gia Quang Phục Hội",
+    "achievements": [
+      "Thành viên Việt Nam Quang Phục Hội",
+      "Vụ Hà Nội đầu độc 1913"
+    ],
+    "relatedEvents": [
+      "event-004",
+      "event-081",
+      "event-085",
+      "event-086",
+      "event-089",
+      "event-093",
+      "event-094",
+      "event-096",
+      "event-100"
+    ],
+    "journey": [
+      {
+        "eventId": "event-004",
+        "year": 1912,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Việt Nam Quang Phục Hội"
+      }
+    ]
+  },
+  {
+    "id": "char-541",
+    "name": "Đàm Phong",
+    "avatar": "/images/characters/dam-phong.jpg",
+    "birthYear": 1885,
+    "deathYear": 1914,
+    "biography": "Cách mạng gia, thành viên Việt Nam Quang Phục Hội, tham gia vụ Hà Nội đầu độc. Nguồn: Wikipedia Việt Nam Quang Phục Hội.",
+    "role": "Cách mạng gia Quang Phục Hội",
+    "achievements": [
+      "Thành viên Việt Nam Quang Phục Hội",
+      "Vụ Hà Nội đầu độc 1913"
+    ],
+    "relatedEvents": [
+      "event-004",
+      "event-083",
+      "event-084",
+      "event-085",
+      "event-089",
+      "event-090"
+    ],
+    "journey": [
+      {
+        "eventId": "event-004",
+        "year": 1913,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Vụ Hà Nội đầu độc"
+      }
+    ]
+  },
+  {
+    "id": "char-542",
+    "name": "Lương Ngọc Quyến",
+    "avatar": "/images/characters/luong-ngoc-quyen.jpg",
+    "birthYear": 1887,
+    "deathYear": 1917,
+    "biography": "Cách mạng gia, thành viên Việt Nam Quang Phục Hội. Nguồn: Wikipedia Việt Nam Quang Phục Hội.",
+    "role": "Cách mạng gia Quang Phục Hội",
+    "achievements": [
+      "Thành viên Việt Nam Quang Phục Hội",
+      "Hoạt động cách mạng"
+    ],
+    "relatedEvents": [
+      "event-005",
+      "event-083",
+      "event-096"
+    ],
+    "journey": [
+      {
+        "eventId": "event-005",
+        "year": 1912,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Hoạt động cách mạng"
+      }
+    ]
+  },
+  {
+    "id": "char-543",
+    "name": "Trần Huy Liệu",
+    "avatar": "/images/characters/tran-huy-lieu.jpg",
+    "birthYear": 1901,
+    "deathYear": 1969,
+    "biography": "Nhà sử học, cách mạng gia, thành viên Đảng Cộng sản Việt Nam. Nguồn: Wikipedia Trần Huy Liệu.",
+    "role": "Nhà sử học cách mạng",
+    "achievements": [
+      "Thành viên Đảng Cộng sản Việt Nam",
+      "Nhà sử học nổi tiếng"
+    ],
+    "relatedEvents": [
+      "event-005",
+      "event-097",
+      "event-100",
+      "event-103",
+      "event-109",
+      "event-110"
+    ],
+    "journey": [
+      {
+        "eventId": "event-005",
+        "year": 1930,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Đảng Cộng sản Việt Nam"
+      }
+    ]
+  },
+  {
+    "id": "char-544",
+    "name": "Võ Nguyên Giáp",
+    "avatar": "/images/characters/vo-nguyen-giap.jpg",
+    "birthYear": 1911,
+    "deathYear": 2013,
+    "biography": "Đại tướng, Tổng tư lệnh Quân đội nhân dân Việt Nam. Nguồn: Wikipedia Võ Nguyên Giáp.",
+    "role": "Đại tướng",
+    "achievements": [
+      "Tổng tư lệnh QĐND Việt Nam",
+      "Chiến thắng Điện Biên Phủ"
+    ],
+    "relatedEvents": [
+      "event-006",
+      "event-106"
+    ],
+    "journey": [
+      {
+        "eventId": "event-006",
+        "year": 1944,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Thành lập Quân đội"
+      }
+    ]
+  },
+  {
+    "id": "char-545",
+    "name": "Phạm Văn Đồng",
+    "avatar": "/images/characters/pham-van-dong.jpg",
+    "birthYear": 1906,
+    "deathYear": 2000,
+    "biography": "Thủ tướng Chính phủ Việt Nam Dân chủ Cộng hòa và Cộng hòa Xã hội chủ nghĩa Việt Nam. Nguồn: Wikipedia Phạm Văn Đồng.",
+    "role": "Thủ tướng Chính phủ",
+    "achievements": [
+      "Thủ tướng CHXHCN Việt Nam",
+      "Nhà lãnh đạo cách mạng"
+    ],
+    "relatedEvents": [
+      "event-006",
+      "event-106"
+    ],
+    "journey": [
+      {
+        "eventId": "event-006",
+        "year": 1930,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Hoạt động cách mạng"
+      }
+    ]
+  },
+  {
+    "id": "char-546",
+    "name": "Lê Duẩn",
+    "avatar": "/images/characters/le-duan.jpg",
+    "birthYear": 1907,
+    "deathYear": 1986,
+    "biography": "Tổng Bí thư Đảng Cộng sản Việt Nam. Nguồn: Wikipedia Lê Duẩn.",
+    "role": "Tổng Bí thư Đảng",
+    "achievements": [
+      "Tổng Bí thư Đảng Cộng sản Việt Nam",
+      "Lãnh đạo thống nhất đất nước"
+    ],
+    "relatedEvents": [
+      "event-007",
+      "event-103",
+      "event-104",
+      "event-107",
+      "event-109",
+      "event-110"
+    ],
+    "journey": [
+      {
+        "eventId": "event-007",
+        "year": 1930,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Đảng Cộng sản Việt Nam"
+      }
+    ]
+  },
+  {
+    "id": "char-547",
+    "name": "Trường Chinh",
+    "avatar": "/images/characters/truong-chinh.jpg",
+    "birthYear": 1907,
+    "deathYear": 1988,
+    "biography": "Tổng Bí thư Đảng Cộng sản Việt Nam, Chủ tịch nước. Nguồn: Wikipedia Trường Chinh.",
+    "role": "Tổng Bí thư Đảng, Chủ tịch nước",
+    "achievements": [
+      "Tổng Bí thư Đảng Cộng sản Việt Nam",
+      "Chủ tịch nước CHXHCN Việt Nam"
+    ],
+    "relatedEvents": [
+      "event-007",
+      "event-104",
+      "event-107"
+    ],
+    "journey": [
+      {
+        "eventId": "event-007",
+        "year": 1930,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Đảng Cộng sản Việt Nam"
+      }
+    ]
+  },
+  {
+    "id": "char-548",
+    "name": "Lê Đức Thọ",
+    "avatar": "/images/characters/le-duc-tho.jpg",
+    "birthYear": 1911,
+    "deathYear": 1990,
+    "biography": "Ủy viên Bộ Chính trị Đảng Cộng sản Việt Nam, đồng đoạt giải Nobel Hòa bình 1973. Nguồn: Wikipedia Lê Đức Thọ.",
+    "role": "Ủy viên Bộ Chính trị",
+    "achievements": [
+      "Ủy viên Bộ Chính trị",
+      "Giải Nobel Hòa bình 1973"
+    ],
+    "relatedEvents": [
+      "event-010",
+      "event-107"
+    ],
+    "journey": [
+      {
+        "eventId": "event-010",
+        "year": 1930,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Đảng Cộng sản Việt Nam"
+      }
+    ]
+  },
+  {
+    "id": "char-549",
+    "name": "Nguyễn Thị Minh Khai",
+    "avatar": "/images/characters/nguyen-thi-minh-khai.jpg",
+    "birthYear": 1910,
+    "deathYear": 1941,
+    "biography": "Nữ cách mạng gia, thành viên Trung ương Đảng Cộng sản Việt Nam. Nguồn: Wikipedia Nguyễn Thị Minh Khai.",
+    "role": "Nữ cách mạng gia",
+    "achievements": [
+      "Thành viên Trung ương Đảng",
+      "Nữ cách mạng tiêu biểu"
+    ],
+    "relatedEvents": [
+      "event-010",
+      "event-106"
+    ],
+    "journey": [
+      {
+        "eventId": "event-010",
+        "year": 1930,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Đảng Cộng sản Việt Nam"
+      }
+    ]
+  },
+  {
+    "id": "char-550",
+    "name": "Hà Huy Tập",
+    "avatar": "/images/characters/ha-huy-tap.jpg",
+    "birthYear": 1906,
+    "deathYear": 1941,
+    "biography": "Cách mạng gia, thành viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam. Nguồn: Wikipedia Hà Huy Tập.",
+    "role": "Cách mạng gia",
+    "achievements": [
+      "Thành viên Ban Chấp hành Trung ương",
+      "Liệt sĩ cách mạng"
+    ],
+    "relatedEvents": [
+      "event-011",
+      "event-110"
+    ],
+    "journey": [
+      {
+        "eventId": "event-011",
+        "year": 1930,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Đảng Cộng sản Việt Nam"
+      }
+    ]
+  },
+  {
+    "id": "char-551",
+    "name": "Nguyễn Văn Cừ",
+    "avatar": "/images/characters/nguyen-van-cu.jpg",
+    "birthYear": 1912,
+    "deathYear": 1941,
+    "biography": "Cách mạng gia, Tổng Bí thư Đảng Cộng sản Việt Nam (1938-1940). Nguồn: Wikipedia Nguyễn Văn Cừ.",
+    "role": "Tổng Bí thư Đảng",
+    "achievements": [
+      "Tổng Bí thư Đảng Cộng sản Việt Nam",
+      "Liệt sĩ cách mạng"
+    ],
+    "relatedEvents": [
+      "event-011",
+      "event-107",
+      "event-109"
+    ],
+    "journey": [
+      {
+        "eventId": "event-011",
+        "year": 1938,
+        "location": [
+          21.0285,
+          105.8542
+        ],
+        "description": "Tổng Bí thư Đảng"
+      }
+    ]
+  },
+  {
+    "id": "char-600",
+    "name": "Hoàng Hoa Thám",
+    "avatar": "/images/characters/hoang-hoa-tham.jpg",
+    "birthYear": 1858,
+    "deathYear": 1913,
+    "biography": "Tên thật Trương Văn Nghĩa, thủ lĩnh khởi nghĩa Yên Thế chống thực dân Pháp (1884-1913). Được dân gian tôn xưng là 'Hùm thiêng Yên Thế'. Nguồn: Wikipedia Hoàng Hoa Thám.",
+    "role": "Thủ lĩnh khởi nghĩa Yên Thế",
+    "achievements": [
+      "Lãnh đạo khởi nghĩa Yên Thế 29 năm",
+      "Hùm thiêng Yên Thế",
+      "Chiến tranh du kích xuất sắc"
+    ],
+    "relatedEvents": [
+      "event-009",
+      "event-061"
+    ],
+    "journey": [
+      {
+        "eventId": "event-009",
+        "year": 1884,
+        "location": [
+          21.5,
+          106.0
+        ],
+        "description": "Khởi nghĩa Yên Thế"
+      }
+    ]
+  },
+  {
+    "id": "char-601",
+    "name": "Trương Quang Ngọc",
+    "avatar": "/images/characters/truong-quang-ngoc.jpg",
+    "birthYear": 1850,
+    "deathYear": 1893,
+    "biography": "Trước đây theo hộ giá vua Hàm Nghi trong phong trào Cần Vương, nhưng sau bị Pháp mua chuộc. Ngày 26/9/1888, ông phản bội và bắt vua Hàm Nghi giao nộp cho thực dân Pháp. Nguồn: Wikipedia Trương Quang Ngọc.",
+    "role": "Phản thần",
+    "achievements": [
+      "Từng theo hộ giá vua Hàm Nghi",
+      "Phản bội bắt vua Hàm Nghi (1888)",
+      "Bị nghĩa quân trừng phạt (1893)"
+    ],
+    "relatedEvents": [
+      "event-035",
+      "event-062"
+    ],
+    "journey": [
+      {
+        "eventId": "event-035",
+        "year": 1888,
+        "location": [
+          17.4677,
+          106.6221
+        ],
+        "description": "Phản bội bắt vua Hàm Nghi"
+      }
+    ]
+  },
+  {
+    "id": "char-602",
+    "name": "Huỳnh Công Tấn",
+    "avatar": "/images/characters/huynh-cong-tan.jpg",
+    "birthYear": 1830,
+    "deathYear": 1870,
+    "biography": "Phản bội trong cuộc khởi nghĩa của Trương Định. Ngày 20/4/1864, ông phát hiện địa điểm ẩn náu của Trương Định tại 'đám lá tối trời' (Gia Thuận) và đem quân Pháp bao vây. Nguồn: Wikipedia Trương Định.",
+    "role": "Phản bội",
+    "achievements": [
+      "Phản bội chỉ điểm Trương Định (1864)",
+      "Gây ra cái chết của anh hùng dân tộc"
+    ],
+    "relatedEvents": [
+      "event-045"
+    ],
+    "journey": [
+      {
+        "eventId": "event-045",
+        "year": 1864,
+        "location": [
+          10.3617,
+          106.665
+        ],
+        "description": "Phản bội chỉ điểm Trương Định"
+      }
+    ]
+  },
+  {
+    "id": "char-603",
+    "name": "Tống Duy Tân",
+    "avatar": "/images/characters/tong-duy-tan.jpg",
+    "birthYear": 1838,
+    "deathYear": 1892,
+    "biography": "Tống Duy Tân là thủ lĩnh khởi nghĩa Ba Đình (Thanh Hóa) trong phong trào Cần Vương (1886-1892). Ông cùng Đinh Công Tráng xây dựng thành trì Ba Đình kiên cố, trở thành biểu tượng kháng chiến. Ông hy sinh năm 1892 với lời nói bất hủ: 'Thà chết vì nước, còn hơn sống nhục với giặc'. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Thủ lĩnh khởi nghĩa Ba Đình",
+    "achievements": [
+      "Đồng lãnh đạo khởi nghĩa Ba Đình (1886-1892)",
+      "Xây dựng thành trì Ba Đình kiên cố",
+      "Biểu tượng tinh thần kháng chiến Cần Vương",
+      "Hy sinh vì lý tưởng giải phóng dân tộc"
+    ],
+    "relatedEvents": [
+      "event-020",
+      "event-066",
+      "event-070",
+      "event-071",
+      "event-072"
+    ],
+    "journey": [
+      {
+        "eventId": "event-020",
+        "year": 1886,
+        "location": [
+          19.8067,
+          105.7851
+        ],
+        "description": "Khởi nghĩa Ba Đình"
+      },
+      {
+        "eventId": "event-066",
+        "year": 1886,
+        "location": [
+          19.8067,
+          105.7851
+        ],
+        "description": "Cần Vương lan rộng"
+      },
+      {
+        "eventId": "event-070",
+        "year": 1890,
+        "location": [
+          19.8067,
+          105.7851
+        ],
+        "description": "Đỉnh cao kháng chiến"
+      },
+      {
+        "eventId": "event-071",
+        "year": 1891,
+        "location": [
+          19.8067,
+          105.7851
+        ],
+        "description": "Ba Đình thất thủ"
+      },
+      {
+        "eventId": "event-072",
+        "year": 1892,
+        "location": [
+          19.8067,
+          105.7851
+        ],
+        "description": "Hy sinh tại Ba Đình"
+      }
+    ]
+  },
+  {
+    "id": "char-604",
+    "name": "Đinh Công Tráng",
+    "avatar": "/images/characters/dinh-cong-trang.jpg",
+    "birthYear": 1845,
+    "deathYear": 1887,
+    "biography": "Lãnh đạo khởi nghĩa Ba Đình cùng Tống Duy Tân trong phong trào Cần Vương. Ông xây dựng thành trì Ba Đình kiên cố, chống Pháp đến cùng. Nguồn: Wikipedia Phong trào Cần Vương.",
+    "role": "Lãnh đạo khởi nghĩa Ba Đình",
+    "achievements": [
+      "Đồng lãnh đạo khởi nghĩa Ba Đình",
+      "Xây dựng thành trì Ba Đình",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-020"
+    ],
+    "journey": [
+      {
+        "eventId": "event-020",
+        "year": 1886,
+        "location": [
+          19.8077,
+          105.7851
+        ],
+        "description": "Khởi nghĩa Ba Đình"
+      }
+    ]
+  },
+  {
+    "id": "char-605",
+    "name": "Nguyễn Đình Chiểu",
+    "avatar": "/images/characters/nguyen-dinh-chieu.jpg",
+    "birthYear": 1822,
+    "deathYear": 1888,
+    "biography": "Nhà thơ, nhà văn lớn thế kỷ XIX, tác giả 'Lục Vân Tiên' và 'Cung Oán Ngâm Khúc'. Ông ủng hộ tinh thần chống Pháp qua các tác phẩm văn học. Nguồn: Wikipedia Nguyễn Đình Chiểu.",
+    "role": "Nhà thơ yêu nước",
+    "achievements": [
+      "Tác giả Lục Vân Tiên",
+      "Cung Oán Ngâm Khúc",
+      "Văn học yêu nước"
+    ],
+    "relatedEvents": [
+      "event-007",
+      "event-057"
+    ],
+    "journey": [
+      {
+        "eventId": "event-007",
+        "year": 1883,
+        "location": [
+          10.3617,
+          106.665
+        ],
+        "description": "Văn học yêu nước"
+      }
+    ]
+  },
+  {
+    "id": "char-606",
+    "name": "Nguyễn Hữu Huân",
+    "avatar": "/images/characters/nguyen-huu-huan.jpg",
+    "birthYear": 1830,
+    "deathYear": 1875,
+    "biography": "Thủ khoa Huân, lãnh đạo nghĩa quân chống Pháp ở An Giang và Hà Tiên (1862-1875). Ông liên kết với Trương Định và các thủ lĩnh khác. Nguồn: Wikipedia Nguyễn Hữu Huân.",
+    "role": "Thủ khoa Huân",
+    "achievements": [
+      "Lãnh đạo nghĩa quân An Giang",
+      "Liên kết với Trương Định",
+      "Kháng chiến 13 năm"
+    ],
+    "relatedEvents": [
+      "event-018"
+    ],
+    "journey": [
+      {
+        "eventId": "event-018",
+        "year": 1862,
+        "location": [
+          10.3617,
+          106.665
+        ],
+        "description": "Nghĩa quân An Giang"
+      }
+    ]
+  },
+  {
+    "id": "char-607",
+    "name": "Võ Duy Dương",
+    "avatar": "/images/characters/vo-duy-duong.jpg",
+    "birthYear": 1828,
+    "deathYear": 1876,
+    "biography": "Thiên Hộ Dương, lãnh đạo nghĩa quân chống Pháp ở miền Tây Nam Kỳ cùng Trương Định và Nguyễn Hữu Huân. Nguồn: Wikipedia Võ Duy Dương.",
+    "role": "Thiên Hộ Dương",
+    "achievements": [
+      "Lãnh đạo nghĩa quân miền Tây",
+      "Liên minh với Trương Định",
+      "Kháng chiến chống Pháp"
+    ],
+    "relatedEvents": [
+      "event-021"
+    ],
+    "journey": [
+      {
+        "eventId": "event-021",
+        "year": 1862,
+        "location": [
+          10.3617,
+          106.665
+        ],
+        "description": "Nghĩa quân miền Tây"
+      }
+    ]
+  },
+  {
+    "id": "char-016",
+    "name": "Vua Tự Đức",
+    "avatar": "/images/characters/vua-tu-duc.jpg",
+    "birthYear": 1829,
+    "deathYear": 1883,
+    "biography": "Vua thứ 4 triều Nguyễn (1847-1883), trị vì trong thời kỳ Pháp xâm lược. Ông ban hành nhiều sắc lệnh chống đạo Thiên Chúa, dẫn đến cớ để Pháp xâm lược. Nguồn: Wikipedia Tự Đức.",
+    "role": "Hoàng đế triều Nguyễn",
+    "achievements": [
+      "Trị vì 36 năm",
+      "Chống xâm lược Pháp",
+      "Cải cách hành chính"
+    ],
+    "relatedEvents": [
+      "event-001",
+      "event-002"
+    ],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1858,
+        "location": [
+          16.0755,
+          108.224
+        ],
+        "description": "Chỉ đạo kháng chiến Đà Nẵng"
+      },
+      {
+        "eventId": "event-002",
+        "year": 1859,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Mất thành Gia Định"
+      }
+    ]
+  },
+  {
+    "id": "char-017",
+    "name": "Nguyễn Tri Phương",
+    "avatar": "/images/characters/nguyen-tri-phuong.jpg",
+    "birthYear": 1800,
+    "deathYear": 1873,
+    "biography": "Tướng lĩnh triều Nguyễn, nổi tiếng với chiến thuật vây lỏng quân Pháp tại Đà Nẵng (1858). Ông tổ chức phòng thủ kiên cường, khiến quân Pháp sa lầy 6 tháng. Nguồn: Wikipedia Nguyễn Tri Phương.",
+    "role": "Tướng lĩnh triều Nguyễn",
+    "achievements": [
+      "Vây lỏng quân Pháp tại Đà Nẵng",
+      "Chiến thuật 'vườn không nhà trống'",
+      "Anh hùng kháng Pháp"
+    ],
+    "relatedEvents": [
+      "event-001",
+      "event-002"
+    ],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1858,
+        "location": [
+          16.0755,
+          108.224
+        ],
+        "description": "Tổ chức vây lỏng Đà Nẵng"
+      },
+      {
+        "eventId": "event-002",
+        "year": 1859,
+        "location": [
+          16.0755,
+          108.224
+        ],
+        "description": "Tiếp tục vây lỏng Tourane"
+      }
+    ]
+  },
+  {
+    "id": "char-018",
+    "name": "Rigault de Genouilly",
+    "avatar": "/images/characters/rigault-de-genouilly.jpg",
+    "birthYear": 1807,
+    "deathYear": 1873,
+    "biography": "Đô đốc Pháp, tổng chỉ huy cuộc tấn công Đà Nẵng (1858) và Gia Định (1859). Ông là người khởi đầu cuộc xâm lược Việt Nam của Pháp. Nguồn: Wikipedia Rigault de Genouilly.",
+    "role": "Đô đốc Pháp",
+    "achievements": [
+      "Tổng chỉ huy liên quân Pháp-Tây Ban Nha",
+      "Chiếm Đà Nẵng và Gia Định",
+      "Khởi đầu xâm lược Việt Nam"
+    ],
+    "relatedEvents": [
+      "event-001",
+      "event-002"
+    ],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1858,
+        "location": [
+          16.0755,
+          108.224
+        ],
+        "description": "Tấn công Đà Nẵng"
+      },
+      {
+        "eventId": "event-002",
+        "year": 1859,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Chuyển hướng chiếm Gia Định"
+      }
+    ]
+  },
+  {
+    "id": "char-019",
+    "name": "Phan Thanh Giản",
+    "avatar": "/images/characters/phan-thanh-gian.jpg",
+    "birthYear": 1796,
+    "deathYear": 1867,
+    "biography": "Đại thần triều Nguyễn, Tổng đốc Nam Kỳ. Ông phải đối mặt với cuộc xâm lược Pháp và sau này buộc phải ký hiệp ước nhượng Nam Kỳ. Nguồn: Wikipedia Phan Thanh Giản.",
+    "role": "Tổng đốc Nam Kỳ",
+    "achievements": [
+      "Tổng đốc Nam Kỳ",
+      "Đại thần triều Nguyễn",
+      "Bi kịch nhượng Nam Kỳ"
+    ],
+    "relatedEvents": [
+      "event-002"
+    ],
+    "journey": [
+      {
+        "eventId": "event-002",
+        "year": 1859,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Chỉ đạo phòng thủ Nam Kỳ"
+      }
+    ]
+  },
+  {
+    "id": "char-020",
+    "name": "Napoleon III",
+    "avatar": "/images/characters/napoleon-iii.jpg",
+    "birthYear": 1808,
+    "deathYear": 1873,
+    "biography": "Hoàng đế Pháp (1852-1870), người ra lệnh xâm lược Việt Nam. Ông muốn mở rộng ảnh hưởng Pháp ở châu Á và lấy cớ bảo vệ giáo sĩ. Nguồn: Wikipedia Napoleon III.",
+    "role": "Hoàng đế Pháp",
+    "achievements": [
+      "Hoàng đế Pháp Đệ nhị",
+      "Chính sách bành trướng châu Á",
+      "Ra lệnh xâm lược Việt Nam"
+    ],
+    "relatedEvents": [
+      "event-001",
+      "event-002"
+    ],
+    "journey": [
+      {
+        "eventId": "event-001",
+        "year": 1858,
+        "location": [
+          48.8566,
+          2.3522
+        ],
+        "description": "Ra lệnh xâm lược từ Paris"
+      },
+      {
+        "eventId": "event-002",
+        "year": 1859,
+        "location": [
+          48.8566,
+          2.3522
+        ],
+        "description": "Chỉ đạo chiến dịch Nam Kỳ"
+      }
+    ]
+  },
+  {
+    "id": "char-021",
+    "name": "Võ Duy Ninh",
+    "avatar": "/images/characters/vo-duy-ninh.jpg",
+    "birthYear": 1790,
+    "deathYear": 1864,
+    "biography": "Tổng đốc Gia Định, chỉ huy phòng thủ thành Gia Định khi Pháp tấn công (1859). Ông tổ chức kháng cự nhưng không thể chống nổi hỏa lực hiện đại. Nguồn: Wikipedia Võ Duy Ninh.",
+    "role": "Tổng đốc Gia Định",
+    "achievements": [
+      "Tổng đốc Gia Định",
+      "Chỉ huy phòng thủ 1859",
+      "Tổ chức kháng cự"
+    ],
+    "relatedEvents": [
+      "event-002"
+    ],
+    "journey": [
+      {
+        "eventId": "event-002",
+        "year": 1859,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Phòng thủ thành Gia Định"
+      }
+    ]
+  },
+  {
+    "id": "char-022",
+    "name": "Lê Đình Dương",
+    "avatar": "/images/characters/le-dinh-duong.jpg",
+    "birthYear": 1815,
+    "deathYear": 1870,
+    "biography": "Quan lại triều Nguyễn tại Nam Kỳ, tham gia tổ chức phòng thủ chống quân Pháp. Ông là một trong những người chứng kiến sự sụp đổ của thành Gia Định. Nguồn: Lịch sử triều Nguyễn.",
+    "role": "Quan lại triều Nguyễn",
+    "achievements": [
+      "Quan lại Nam Kỳ",
+      "Tham gia phòng thủ",
+      "Chứng kiến thất thủ Gia Định"
+    ],
+    "relatedEvents": [
+      "event-002"
+    ],
+    "journey": [
+      {
+        "eventId": "event-002",
+        "year": 1859,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Tham gia phòng thủ Gia Định"
+      }
+    ]
+  },
+  {
+    "id": "char-023",
+    "name": "Trần Bá Lộc",
+    "avatar": "/images/characters/tran-ba-loc.jpg",
+    "birthYear": 1820,
+    "deathYear": 1885,
+    "biography": "Quan lại triều Nguyễn, tham gia tổ chức kháng chiến sau khi Pháp chiếm Gia Định. Ông sau này tham gia phong trào Cần Vương. Nguồn: Lịch sử phong trào Cần Vương.",
+    "role": "Quan lại kháng Pháp",
+    "achievements": [
+      "Quan lại triều Nguyễn",
+      "Tổ chức kháng chiến",
+      "Tham gia Cần Vương"
+    ],
+    "relatedEvents": [
+      "event-002"
+    ],
+    "journey": [
+      {
+        "eventId": "event-002",
+        "year": 1859,
+        "location": [
+          10.8231,
+          106.6297
+        ],
+        "description": "Tổ chức kháng chiến sau thất thủ"
+      }
+    ]
+  }
+]
