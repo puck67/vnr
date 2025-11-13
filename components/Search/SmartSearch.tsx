@@ -23,6 +23,7 @@ export default function SmartSearch({ events, characters = [] }: SmartSearchProp
   const router = useRouter();
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
   const [results, setResults] = useState<SearchResult[]>([]);
   const [recentSearches, setRecentSearches] = useState<string[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -120,24 +121,30 @@ export default function SmartSearch({ events, characters = [] }: SmartSearchProp
       } else if (e.key === 'Escape') {
         setIsOpen(false);
         inputRef.current?.blur();
+        if (!query.trim()) {
+          setIsExpanded(false);
+        }
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [isOpen, results, selectedIndex]);
+  }, [isOpen, results, selectedIndex, query]);
 
   // Click outside to close
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (searchRef.current && !searchRef.current.contains(e.target as Node)) {
         setIsOpen(false);
+        if (!query.trim()) {
+          setIsExpanded(false);
+        }
       }
     };
 
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, []);
+  }, [query]);
 
   const handleSelectResult = (result: SearchResult) => {
     // Save to recent searches
@@ -151,11 +158,28 @@ export default function SmartSearch({ events, characters = [] }: SmartSearchProp
     router.push(result.url);
     setIsOpen(false);
     setQuery('');
+    setIsExpanded(false);
   };
 
   const handleRecentClick = (searchTerm: string) => {
     setQuery(searchTerm);
+    setIsExpanded(true);
     inputRef.current?.focus();
+  };
+
+  const handleExpandSearch = () => {
+    setIsExpanded(true);
+    setIsOpen(true);
+    setTimeout(() => {
+      inputRef.current?.focus();
+    }, 100);
+  };
+
+  const handleCollapseSearch = () => {
+    if (!query.trim()) {
+      setIsExpanded(false);
+      setIsOpen(false);
+    }
   };
 
   const clearRecent = () => {
@@ -179,31 +203,57 @@ export default function SmartSearch({ events, characters = [] }: SmartSearchProp
   };
 
   return (
-    <div ref={searchRef} className="relative w-full max-w-2xl">
+    <div ref={searchRef} className={`relative transition-all duration-300 ${isExpanded ? 'w-full max-w-2xl' : 'w-auto'}`}>
       {/* Search Input */}
-      <div className="relative">
-        <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
-        <input
-          ref={inputRef}
-          type="text"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          onFocus={() => setIsOpen(true)}
-          placeholder="Tìm kiếm sự kiện, nhân vật, địa điểm..."
-          className="w-full pl-12 pr-12 py-4 bg-white border-2 border-gray-200 rounded-2xl focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition text-lg shadow-lg"
-        />
-        {query && (
-          <button
-            onClick={() => setQuery('')}
-            className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
-          >
-            <X className="w-5 h-5" />
-          </button>
-        )}
-      </div>
+      {!isExpanded ? (
+        // Compact search icon
+        <button
+          onClick={handleExpandSearch}
+          className="p-3 bg-white/90 backdrop-blur-sm border border-white/20 rounded-full hover:bg-white hover:border-blue-200 transition-all duration-200 shadow-lg hover:shadow-xl group"
+        >
+          <Search className="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-colors" />
+        </button>
+      ) : (
+        // Full search bar
+        <div className="relative">
+          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+          <input
+            ref={inputRef}
+            type="text"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            onFocus={() => setIsOpen(true)}
+            onBlur={handleCollapseSearch}
+            placeholder="Tìm kiếm sự kiện, nhân vật, địa điểm..."
+            className="w-full pl-12 pr-12 py-4 bg-white border-2 border-gray-200 rounded-2xl focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition text-lg shadow-lg"
+          />
+          {query ? (
+            <button
+              onClick={() => {
+                setQuery('');
+                setIsExpanded(false);
+                setIsOpen(false);
+              }}
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
+            >
+              <X className="w-5 h-5" />
+            </button>
+          ) : (
+            <button
+              onClick={() => {
+                setIsExpanded(false);
+                setIsOpen(false);
+              }}
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
+            >
+              <X className="w-5 h-5" />
+            </button>
+          )}
+        </div>
+      )}
 
       {/* Search Results Dropdown */}
-      {isOpen && (
+      {isOpen && isExpanded && (
         <div className="absolute top-full mt-2 w-full bg-white border-2 border-gray-100 rounded-2xl shadow-2xl max-h-[500px] overflow-y-auto z-50 animate-slide-in-up">
           {/* Results */}
           {results.length > 0 ? (

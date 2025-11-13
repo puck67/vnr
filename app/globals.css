@@ -21,6 +21,12 @@ body {
 /* Leaflet CSS overrides */
 .leaflet-container {
   font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+/* Reset any global impacts */
+body, html {
+  overflow: visible !important;
 }
 
 .leaflet-popup-content-wrapper {
@@ -31,6 +37,115 @@ body {
   margin: 12px;
 }
 
+/* Fix popup z-index issues */
+.leaflet-popup-pane {
+  z-index: 10000 !important;
+}
+
+.leaflet-popup {
+  z-index: 10000 !important;
+}
+
+.leaflet-popup-content-wrapper {
+  z-index: 10000 !important;
+}
+
+.leaflet-popup-tip {
+  z-index: 10000 !important;
+}
+
+.custom-popup {
+  z-index: 10000 !important;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+  z-index: 10000 !important;
+}
+
+/* Ensure interactive elements are clickable */
+.leaflet-popup-content button,
+.leaflet-popup button {
+  pointer-events: auto !important;
+  z-index: 10001 !important;
+  position: relative;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Fix for hidden clickable elements - only in leaflet context */
+.leaflet-container button, 
+.leaflet-container a, 
+.leaflet-container [onclick] {
+  position: relative;
+}
+
+/* Ensure popup content is interactive */
+.leaflet-popup-content {
+  pointer-events: auto !important;
+}
+
+/* Force popup visibility over all other elements */
+.leaflet-popup-pane > * {
+  z-index: 10000 !important;
+}
+
+/* Override any overlay that might hide popups */
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip-container {
+  z-index: 10000 !important;
+  position: relative !important;
+}
+
+/* Ensure all popup child elements are visible */
+.leaflet-popup-content * {
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* Force button visibility in popups */
+.leaflet-popup button,
+.leaflet-popup-content button {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: auto !important;
+  width: 100% !important;
+  position: relative !important;
+  z-index: 10001 !important;
+  pointer-events: auto !important;
+  background-color: #3b82f6 !important;
+  color: white !important;
+  border: none !important;
+  padding: 6px 12px !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  font-size: 12px !important;
+  margin-top: 8px !important;
+}
+
+/* Hover effect for popup buttons */
+.leaflet-popup button:hover,
+.leaflet-popup-content button:hover {
+  background-color: #2563eb !important;
+  transform: none !important;
+}
+
+/* Override any CSS that might hide buttons */
+.leaflet-popup [style*="display: none"],
+.leaflet-popup [style*="visibility: hidden"],
+.leaflet-popup [style*="opacity: 0"] {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Ensure popup content container doesn't hide buttons */
+.leaflet-popup-content {
+  overflow: visible !important;
+  max-height: none !important;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
@@ -39,6 +154,40 @@ body {
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
+}
+
+/* Welcome page animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0%, 100% {
+    background-size: 200% 200%;
+    background-position: left center;
+  }
+  50% {
+    background-size: 200% 200%;
+    background-position: right center;
+  }
+}
+
+.animate-gradient {
+  animation: gradient 8s ease infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(59, 130, 246, 0.6), 0 0 60px rgba(147, 51, 234, 0.4); }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -186,4 +335,98 @@ body {
 
 .animate-bounce-in {
   animation: bounce-in 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Timeline Animations */
+@keyframes timeline-event-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes timeline-year-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.4);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(99, 102, 241, 0);
+  }
+}
+
+@keyframes timeline-line-draw {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
+  }
+}
+
+.animate-timeline-appear {
+  animation: timeline-event-appear 0.6s ease-out forwards;
+}
+
+.animate-year-pulse {
+  animation: timeline-year-pulse 2s ease-in-out infinite;
+}
+
+.animate-line-draw {
+  animation: timeline-line-draw 2s ease-out;
+}
+
+.animate-float-gentle {
+  animation: float-gentle 3s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* Timeline Scrollbar */
+.timeline-scroll-container {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(148, 163, 184, 0.6) rgba(241, 245, 249, 0.3);
+}
+
+.timeline-scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.timeline-scroll-container::-webkit-scrollbar-track {
+  background: rgba(241, 245, 249, 0.3);
+  border-radius: 4px;
+}
+
+.timeline-scroll-container::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.6);
+  border-radius: 4px;
+}
+
+.timeline-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.8);
 }

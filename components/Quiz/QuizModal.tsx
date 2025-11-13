@@ -1,9 +1,12 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { X, Check, XCircle, Trophy } from 'lucide-react';
-import { QuizQuestion, QuizResult } from '@/types';
+import { QuizQuestion, QuizResult, QuizAnswer } from '@/types';
+import { GamificationService, getLevel } from '@/lib/gamification';
+import { QuizHistoryService } from '@/lib/quiz-history';
 import quizData from '@/data/quiz-questions.json';
+import eventsData from '@/data/events.json';
 
 interface QuizModalProps {
   isOpen: boolean;
@@ -17,7 +20,10 @@ export default function QuizModal({ isOpen, onClose, eventId }: QuizModalProps) 
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
   const [answers, setAnswers] = useState<boolean[]>([]);
+  const [quizAnswers, setQuizAnswers] = useState<QuizAnswer[]>([]);
   const [isFinished, setIsFinished] = useState(false);
+  const [pointsAwarded, setPointsAwarded] = useState(false);
+  const startTimeRef = useRef<number>(Date.now());
 
   useEffect(() => {
     if (isOpen) {
@@ -37,7 +43,10 @@ export default function QuizModal({ isOpen, onClose, eventId }: QuizModalProps) 
       setSelectedAnswer(null);
       setShowExplanation(false);
       setAnswers([]);
+      setQuizAnswers([]);
       setIsFinished(false);
+      setPointsAwarded(false);
+      startTimeRef.current = Date.now();
     }
   }, [isOpen, eventId]);
 
@@ -54,7 +63,22 @@ export default function QuizModal({ isOpen, onClose, eventId }: QuizModalProps) 
   const handleNext = () => {
     if (selectedAnswer === null) return;
 
-    setAnswers([...answers, isCorrect]);
+    // Lưu câu trả lời hiện tại
+    const currentAnswer: QuizAnswer = {
+      questionId: currentQuestion.id,
+      selectedAnswer: selectedAnswer,
+      isCorrect: isCorrect,
+      question: currentQuestion.question,
+      options: currentQuestion.options,
+      correctAnswer: currentQuestion.correctAnswer,
+      explanation: currentQuestion.explanation
+    };
+
+    const newAnswers = [...answers, isCorrect];
+    const newQuizAnswers = [...quizAnswers, currentAnswer];
+    
+    setAnswers(newAnswers);
+    setQuizAnswers(newQuizAnswers);
     setShowExplanation(false);
     setSelectedAnswer(null);
 
@@ -62,6 +86,69 @@ export default function QuizModal({ isOpen, onClose, eventId }: QuizModalProps) 
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
       setIsFinished(true);
+      
+      // Tính toán kết quả
+      const correctCount = newAnswers.filter(a => a).length;
+      const result: QuizResult = {
+        totalQuestions: questions.length,
+        correctAnswers: correctCount,
+        score: Math.round((correctCount / questions.length) * 100)
+      };
+
+      // Lưu lịch sử quiz
+      if (eventId) {
+        const events = (eventsData || []) as any[];
+        const event = events.find(e => e.id === eventId);
+        const eventName = event ? event.name : 'Sự kiện không xác định';
+        
+        const timeTaken = Math.round((Date.now() - startTimeRef.current) / 1000);
+        
+        QuizHistoryService.saveQuizResult(
+          eventId,
+          eventName,
+          newQuizAnswers,
+          result,
+          timeTaken
+        );
+      }
+      
+      // Award points when quiz is completed
+      if (!pointsAwarded && eventId) {
+        const { newBadges, pointsEarned } = GamificationService.addCompletedQuiz(
+          eventId, 
+          correctCount, 
+          questions.length
+        );
+        
+        if (pointsEarned > 0) {
+          // Dispatch points earned event
+          window.dispatchEvent(new CustomEvent('points-earned', { 
+            detail: { points: pointsEarned } 
+          }));
+
+          // Check for level up
+          const progress = GamificationService.getProgress();
+          const oldLevel = getLevel(progress.points - pointsEarned);
+          const newLevel = getLevel(progress.points);
+          
+          if (newLevel > oldLevel) {
+            window.dispatchEvent(new CustomEvent('level-up', { 
+              detail: { level: newLevel } 
+            }));
+          }
+        }
+
+        // Dispatch badge unlocks
+        newBadges.forEach(badge => {
+          window.dispatchEvent(new CustomEvent('badge-unlocked', { 
+            detail: { badge } 
+          }));
+        });
+
+        // Update gamification UI
+        window.dispatchEvent(new Event('gamification-update'));
+        setPointsAwarded(true);
+      }
     }
   };
 
@@ -75,7 +162,10 @@ export default function QuizModal({ isOpen, onClose, eventId }: QuizModalProps) 
     setSelectedAnswer(null);
     setShowExplanation(false);
     setAnswers([]);
+    setQuizAnswers([]);
     setIsFinished(false);
+    setPointsAwarded(false);
+    startTimeRef.current = Date.now();
   };
 
   const result: QuizResult = {

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1763028353617",
+    "username": "Admin",
+    "email": "admin@example.com",
+    "password": "MTIzNDU2",
+    "createdAt": "2025-11-13T10:05:53.618Z",
+    "profile": {
+      "points": 0,
+      "level": 1,
+      "badges": [],
+      "completedQuizzes": [],
+      "viewedEvents": [],
+      "achievements": []
+    }
+  },
+  {
+    "id": "1763038723857",
+    "username": "ss",
+    "email": "phucnguyen5640@gmail.com",
+    "password": "MTIzNDU2",
+    "createdAt": "2025-11-13T12:58:43.858Z",
+    "profile": {
+      "points": 0,
+      "level": 1,
+      "badges": [],
+      "completedQuizzes": [],
+      "viewedEvents": [],
+      "achievements": []
+    }
+  }
+]

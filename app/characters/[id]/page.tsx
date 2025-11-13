@@ -1,5 +1,8 @@
-import { notFound } from 'next/navigation';
+'use client';
+
+import { notFound, useRouter } from 'next/navigation';
 import Link from 'next/link';
+import { use } from 'react';
 import { ArrowLeft, User, Award, BookOpen, Calendar, MapPin, Shield, Swords } from 'lucide-react';
 import charactersData from '@/data/characters.json';
 import eventsData from '@/data/events.json';
@@ -10,8 +13,9 @@ interface PageProps {
   params: Promise<{ id: string }>;
 }
 
-export default async function CharacterPage({ params }: PageProps) {
-  const { id } = await params;
+export default function CharacterPage({ params }: PageProps) {
+  const { id } = use(params);
+  const router = useRouter();
   const characters = charactersData as unknown as Character[];
   const events = eventsData as unknown as HistoricalEvent[];
   
@@ -34,13 +38,13 @@ export default async function CharacterPage({ params }: PageProps) {
       {/* Header */}
       <div className={`bg-gradient-to-br ${isForeign ? 'from-red-900 to-red-800' : 'from-blue-900 to-blue-800'} text-white py-16`}>
         <div className="max-w-7xl mx-auto px-4">
-          <Link
-            href="/"
+          <button
+            onClick={() => router.back()}
             className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition"
           >
             <ArrowLeft size={20} />
-            <span>Quay lại bản đồ</span>
-          </Link>
+            <span>Quay lại</span>
+          </button>
 
           <div className="flex items-start gap-8">
             {/* Avatar */}
@@ -183,11 +187,4 @@ export default async function CharacterPage({ params }: PageProps) {
   );
 }
 
-// Generate static params
-export async function generateStaticParams() {
-  const characters = charactersData as unknown as Character[];
-  return characters.map(character => ({
-    id: character.id,
-  }));
-}
 

@@ -38,3 +38,5 @@ next-env.d.ts
 
 # Google Cloud credentials - KHÔNG COMMIT FILE NÀY
 google-cloud-credentials.json
+
+.vercel

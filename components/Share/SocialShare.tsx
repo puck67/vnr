@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Share2, Facebook, Twitter, Link as LinkIcon, Check, Download } from 'lucide-react';
 import { HistoricalEvent } from '@/types';
 import { GamificationService } from '@/lib/gamification';
@@ -12,6 +12,7 @@ interface SocialShareProps {
 export default function SocialShare({ event }: SocialShareProps) {
   const [copied, setCopied] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const buttonRef = useRef<HTMLButtonElement>(null);
 
   const url = typeof window !== 'undefined' ? window.location.href : '';
   const title = `${event.name} - Lịch sử Việt Nam`;
@@ -64,6 +65,7 @@ export default function SocialShare({ event }: SocialShareProps) {
     <div className="relative">
       {/* Main Share Button */}
       <button
+        ref={buttonRef}
         onClick={() => setIsOpen(!isOpen)}
         className="group flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full hover:from-blue-600 hover:to-purple-700 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
       >
@@ -76,12 +78,12 @@ export default function SocialShare({ event }: SocialShareProps) {
         <>
           {/* Backdrop */}
           <div 
-            className="fixed inset-0 z-40"
+            className="fixed inset-0 z-[999]"
             onClick={() => setIsOpen(false)}
           />
 
           {/* Share Menu */}
-          <div className="absolute top-full mt-3 right-0 z-50 bg-white rounded-2xl shadow-2xl border-2 border-gray-100 p-4 min-w-[320px] animate-slide-in-up">
+          <div className="absolute top-full mt-2 left-0 z-[1000] bg-white rounded-2xl shadow-2xl border-2 border-gray-100 p-4 w-[280px] animate-slide-in-up">
             <h4 className="font-bold text-lg mb-4 text-gray-900">Chia sẻ sự kiện</h4>
             
             <div className="space-y-2">

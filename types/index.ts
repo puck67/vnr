@@ -117,6 +117,178 @@ export interface QuizResult {
   score: number;  // Phần trăm
 }
 
+// Câu trả lời của user trong quiz
+export interface QuizAnswer {
+  questionId: string;
+  questionText: string;
+  selectedAnswer: number;
+  correctAnswer: number;
+  isCorrect: boolean;
+  timeSpent: number; // seconds
+}
+
+export interface QuizHistory {
+  id: string;
+  eventId: string;
+  eventName: string;
+  answers: QuizAnswer[];
+  result: QuizResult;
+  completedAt: string; // ISO date
+  timeTaken: number; // total seconds
+}
+
+// Mini Games types
+export type GameType = 'timeline-puzzle' | 'map-conquest' | 'character-matching' | 'historical-trivia';
+
+export interface GameRoom {
+  id: string;
+  code: string; // 6-digit room code
+  gameType: GameType;
+  hostId: string;
+  players: GamePlayer[];
+  status: 'waiting' | 'playing' | 'finished';
+  settings: GameSettings;
+  gameData: any; // Specific to each game type
+  createdAt: string;
+  startedAt?: string;
+  finishedAt?: string;
+}
+
+export interface GamePlayer {
+  id: string;
+  name: string;
+  avatar?: string;
+  score: number;
+  isReady: boolean;
+  isHost: boolean;
+  joinedAt: string;
+}
+
+export interface GameSettings {
+  maxPlayers: number;
+  timeLimit: number; // seconds per question/round
+  difficulty: 'easy' | 'medium' | 'hard';
+  rounds: number;
+}
+
+// Timeline Puzzle Game
+export interface TimelinePuzzleData {
+  events: TimelineEvent[];
+  currentRound: number;
+  roundStartTime: number;
+}
+
+export interface TimelineEvent {
+  id: string;
+  name: string;
+  year: number;
+  month: number;
+  day: number;
+  description: string;
+}
+
+export interface TimelinePuzzleAnswer {
+  playerId: string;
+  orderedEventIds: string[];
+  submitTime: number;
+  score: number;
+}
+
+// Character Matching Game  
+export interface CharacterMatchingData {
+  pairs: CharacterEventPair[];
+  currentRound: number;
+  roundStartTime: number;
+}
+
+export interface CharacterEventPair {
+  characterId: string;
+  characterName: string;
+  eventId: string;
+  eventName: string;
+  isCorrect: boolean;
+}
+
+export interface CharacterMatchingAnswer {
+  playerId: string;
+  matches: { characterId: string; eventId: string }[];
+  submitTime: number;
+  score: number;
+}
+
+// Historical Trivia Game
+export interface HistoricalTriviaData {
+  questions: TriviaQuestion[];
+  currentQuestionIndex: number;
+  questionStartTime: number;
+}
+
+export interface TriviaQuestion {
+  id: string;
+  question: string;
+  options: string[];
+  correctAnswer: number;
+  category: string;
+  difficulty: 'easy' | 'medium' | 'hard';
+  timeLimit: number;
+}
+
+export interface TriviaAnswer {
+  playerId: string;
+  questionId: string;
+  selectedAnswer: number;
+  submitTime: number;
+  timeSpent: number;
+  isCorrect: boolean;
+  points: number;
+}
+
+// Game Results & Leaderboard
+export interface GameResult {
+  roomId: string;
+  gameType: GameType;
+  players: PlayerResult[];
+  duration: number;
+  completedAt: string;
+}
+
+export interface PlayerResult {
+  playerId: string;
+  playerName: string;
+  finalScore: number;
+  rank: number;
+  badges: Badge[];
+  pointsEarned: number;
+}
+
+export interface Badge {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+  rarity: 'common' | 'rare' | 'epic' | 'legendary';
+  unlockedAt: string;
+}
+
+// Leaderboard
+export interface Leaderboard {
+  gameType: GameType;
+  period: 'daily' | 'weekly' | 'monthly' | 'all-time';
+  entries: LeaderboardEntry[];
+  lastUpdated: string;
+}
+
+export interface LeaderboardEntry {
+  rank: number;
+  playerId: string;
+  playerName: string;
+  avatar?: string;
+  totalScore: number;
+  gamesPlayed: number;
+  winRate: number;
+  badges: Badge[];
+}
+
 // Dữ liệu Q&A cho chatbot
 export interface ChatbotQA {
   id: string;

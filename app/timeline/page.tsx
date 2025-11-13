@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Clock, BookOpen, Star } from 'lucide-react';
 import Link from 'next/link';
 import eventsData from '@/data/events.json';
 import { HistoricalEvent } from '@/types';
@@ -10,24 +10,38 @@ export default function TimelinePage() {
   const events = eventsData as unknown as HistoricalEvent[];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
+    <div className="min-h-screen bg-slate-50">
       {/* Header */}
-      <div className="bg-white border-b-2 border-gray-100 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 py-6">
+      <div className="bg-white border-b border-slate-200 shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 py-8">
           <Link 
-            href="/"
-            className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 transition mb-4"
+            href="/map"
+            className="inline-flex items-center gap-2 text-slate-600 hover:text-indigo-600 transition-colors mb-6 group"
           >
-            <ArrowLeft className="w-5 h-5" />
-            <span className="font-medium">Quay lại trang chủ</span>
+            <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+            <span className="font-medium">Quay lại bản đồ</span>
           </Link>
           
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Dòng thời gian lịch sử Việt Nam
-          </h1>
-          <p className="text-gray-600 mt-2">
-            1858 - 1930: Từ cuộc kháng chiến chống Pháp đến thành lập Đảng
-          </p>
+          <div className="flex items-center gap-4 mb-4">
+            <div className="w-12 h-12 bg-indigo-600 rounded-2xl flex items-center justify-center">
+              <Clock className="w-6 h-6 text-white" />
+            </div>
+            <div>
+              <h1 className="text-4xl font-bold text-slate-900">
+                Dòng thời gian lịch sử Việt Nam
+              </h1>
+              <div className="flex items-center gap-6 mt-2 text-slate-600">
+                <div className="flex items-center gap-2">
+                  <BookOpen className="w-4 h-4" />
+                  <span>1858 - 1930: Từ cuộc kháng chiến chống Pháp đến thành lập Đảng</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Star className="w-4 h-4 text-amber-500" />
+                  <span>{events.length} sự kiện lịch sử</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

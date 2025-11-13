@@ -26,17 +26,17 @@ export default function BadgesGrid() {
   if (!isClient) return null;
 
   const getColorClasses = (color: string, unlocked: boolean) => {
-    if (!unlocked) return 'bg-gray-100 border-gray-300 text-gray-400';
+    if (!unlocked) return 'bg-gray-50 border-gray-200 text-gray-400';
     
     const colors: Record<string, string> = {
-      green: 'bg-gradient-to-br from-green-50 to-emerald-100 border-green-300 text-green-700',
-      blue: 'bg-gradient-to-br from-blue-50 to-cyan-100 border-blue-300 text-blue-700',
-      purple: 'bg-gradient-to-br from-purple-50 to-violet-100 border-purple-300 text-purple-700',
-      yellow: 'bg-gradient-to-br from-yellow-50 to-amber-100 border-yellow-400 text-yellow-800',
-      pink: 'bg-gradient-to-br from-pink-50 to-rose-100 border-pink-300 text-pink-700',
-      red: 'bg-gradient-to-br from-red-50 to-rose-100 border-red-300 text-red-700',
-      orange: 'bg-gradient-to-br from-orange-50 to-amber-100 border-orange-300 text-orange-700',
-      cyan: 'bg-gradient-to-br from-cyan-50 to-sky-100 border-cyan-300 text-cyan-700',
+      green: 'bg-green-50 border-green-200 text-green-700',
+      blue: 'bg-blue-50 border-blue-200 text-blue-700',
+      purple: 'bg-purple-50 border-purple-200 text-purple-700',
+      yellow: 'bg-yellow-50 border-yellow-200 text-yellow-800',
+      pink: 'bg-pink-50 border-pink-200 text-pink-700',
+      red: 'bg-red-50 border-red-200 text-red-700',
+      orange: 'bg-orange-50 border-orange-200 text-orange-700',
+      cyan: 'bg-cyan-50 border-cyan-200 text-cyan-700',
     };
     
     return colors[color] || colors.blue;
@@ -45,39 +45,43 @@ export default function BadgesGrid() {
   const renderBadge = (badge: Badge, unlocked: boolean) => (
     <div
       key={badge.id}
-      className={`group relative rounded-xl border-2 p-6 transition-all duration-300 ${
+      className={`group relative rounded-2xl border-2 p-6 transition-all duration-300 ${
         getColorClasses(badge.color, unlocked)
-      } ${unlocked ? 'hover:scale-105 hover:shadow-xl cursor-pointer' : 'opacity-60'}`}
+      } ${unlocked ? 'hover:scale-105 hover:shadow-lg cursor-pointer' : 'opacity-60'}`}
     >
       {/* Lock overlay for locked badges */}
       {!unlocked && (
-        <div className="absolute inset-0 flex items-center justify-center bg-gray-200/50 rounded-xl backdrop-blur-sm">
-          <Lock className="w-8 h-8 text-gray-500" />
+        <div className="absolute inset-0 flex items-center justify-center bg-white/80 rounded-2xl">
+          <div className="text-center">
+            <Lock className="w-10 h-10 text-gray-400 mx-auto mb-2" />
+            <p className="text-xs text-gray-500 font-medium">Chưa mở khóa</p>
+          </div>
         </div>
       )}
 
       {/* Badge content */}
       <div className="text-center">
-        <div className={`text-5xl mb-3 transition-transform ${unlocked ? 'group-hover:scale-110' : 'grayscale'}`}>
+        <div className={`text-6xl mb-4 transition-transform ${unlocked ? 'group-hover:scale-110' : 'grayscale'}`}>
           {badge.icon}
         </div>
         <h4 className="font-bold text-lg mb-2">{badge.name}</h4>
-        <p className="text-sm opacity-80">{badge.description}</p>
+        <p className="text-sm opacity-90 leading-relaxed">{badge.description}</p>
         
         {unlocked && (
           <div className="mt-4 pt-4 border-t border-current/20">
-            <div className="inline-block px-3 py-1 bg-white/50 rounded-full text-xs font-semibold">
-              ✓ Đã mở khóa
+            <div className="inline-flex items-center gap-1 px-3 py-1.5 bg-white/70 border border-current/20 rounded-full text-xs font-semibold">
+              <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+              Đã mở khóa
             </div>
           </div>
         )}
       </div>
 
-      {/* Sparkle effect for unlocked */}
+      {/* Achievement indicator for unlocked */}
       {unlocked && (
-        <div className="absolute -top-1 -right-1">
-          <div className="w-6 h-6 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg animate-pulse">
-            <span className="text-xs">✨</span>
+        <div className="absolute -top-2 -right-2">
+          <div className="w-8 h-8 bg-green-500 border-2 border-white rounded-full flex items-center justify-center shadow-lg">
+            <span className="text-sm">✓</span>
           </div>
         </div>
       )}

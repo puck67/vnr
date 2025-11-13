@@ -14,6 +14,7 @@ import FunFacts from '@/components/EventDetail/FunFacts';
 import VideoSection from '@/components/EventDetail/VideoSection';
 import VoiceNarration from '@/components/EventDetail/VoiceNarration';
 import QuizModal from '@/components/Quiz/QuizModal';
+import QuizHistory from '@/components/Quiz/QuizHistory';
 import SocialShare from '@/components/Share/SocialShare';
 import { GamificationService, getLevel } from '@/lib/gamification';
 import { BookCheck, Map, Play } from 'lucide-react';
@@ -35,8 +36,8 @@ export default function EventDetailPage({ params }: PageProps) {
   const [isQuizOpen, setIsQuizOpen] = useState(false);
   const [isAnimationOpen, setIsAnimationOpen] = useState(false);
 
-  const events = eventsData as unknown as HistoricalEvent[];
-  const characters = charactersData as unknown as Character[];
+  const events = (eventsData || []) as HistoricalEvent[];
+  const characters = (charactersData || []) as Character[];
 
   // Track event view and add gamification points
   useEffect(() => {
@@ -71,6 +72,20 @@ export default function EventDetailPage({ params }: PageProps) {
     window.dispatchEvent(new Event('gamification-update'));
   }, [id]);
 
+  // Handle retake quiz event
+  useEffect(() => {
+    const handleRetakeQuiz = (event: CustomEvent) => {
+      if (event.detail.eventId === id) {
+        setIsQuizOpen(true);
+      }
+    };
+
+    window.addEventListener('retake-quiz', handleRetakeQuiz as EventListener);
+    return () => {
+      window.removeEventListener('retake-quiz', handleRetakeQuiz as EventListener);
+    };
+  }, [id]);
+
   const event = events.find(e => e.id === id);
 
   if (!event) {
@@ -93,11 +108,6 @@ export default function EventDetailPage({ params }: PageProps) {
       <EventHeader event={event} />
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-        {/* Social Share Button */}
-        <div className="flex justify-end mb-6">
-          <SocialShare event={event} />
-        </div>
-
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main content */}
           <div className="lg:col-span-2 space-y-8">
@@ -152,12 +162,8 @@ export default function EventDetailPage({ params }: PageProps) {
             )}
 
             {/* Video Section */}
-            {event.images && event.images.length > 0 && (
-              <div className="space-y-4">
-                {event.images.map((videoUrl, index) => (
-                  <VideoSection key={index} videoUrl={videoUrl} eventName={event.name} />
-                ))}
-              </div>
+            {event.videoUrl && (
+              <VideoSection videoUrl={event.videoUrl} eventName={event.name} />
             )}
 
             {/* Fun Facts */}
@@ -183,6 +189,12 @@ export default function EventDetailPage({ params }: PageProps) {
 
           {/* Sidebar */}
           <div className="space-y-6">
+            {/* Social Share */}
+            <div className="bg-white rounded-lg shadow-lg p-4">
+              <h3 className="font-bold text-lg mb-4">Chia sẻ sự kiện</h3>
+              <SocialShare event={event} />
+            </div>
+
             {/* Mini Map */}
             <div className="bg-white rounded-lg shadow-lg p-4">
               <h3 className="font-bold text-lg mb-4">Vị trí</h3>
@@ -191,6 +203,11 @@ export default function EventDetailPage({ params }: PageProps) {
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 10c0 7-10 12-10 12s-10-5-10-12a10 10 0 0 1 20 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                 {event.location.name}
               </p>
+            </div>
+
+            {/* Quiz History */}
+            <div className="bg-white rounded-lg shadow-lg p-4">
+              <QuizHistory eventId={event.id} limit={5} />
             </div>
 
             {/* Related Events */}
