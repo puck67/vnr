@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { ArrowLeft, Search, Calendar, Trophy, Clock, BarChart3 } from 'lucide-react';
 import Link from 'next/link';
-import QuizHistory from '@/components/Quiz/QuizHistory';
+// import QuizHistory from '@/components/Quiz/QuizHistory';
 import { QuizHistoryService } from '@/lib/quiz-history';
 
 export default function QuizHistoryPage() {
@@ -180,7 +180,9 @@ export default function QuizHistoryPage() {
           </div>
         ) : (
           <div className="bg-white rounded-2xl shadow-lg p-6">
-            <QuizHistory />
+            <div className="text-center text-gray-500">
+              Quiz History component temporarily disabled
+            </div>
           </div>
         )}
       </div>

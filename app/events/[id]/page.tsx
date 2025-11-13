@@ -14,7 +14,7 @@ import FunFacts from '@/components/EventDetail/FunFacts';
 import VideoSection from '@/components/EventDetail/VideoSection';
 import VoiceNarration from '@/components/EventDetail/VoiceNarration';
 import QuizModal from '@/components/Quiz/QuizModal';
-import QuizHistory from '@/components/Quiz/QuizHistory';
+// import QuizHistory from '@/components/Quiz/QuizHistory';
 import SocialShare from '@/components/Share/SocialShare';
 import { GamificationService, getLevel } from '@/lib/gamification';
 import { BookCheck, Map, Play } from 'lucide-react';
@@ -205,10 +205,10 @@ export default function EventDetailPage({ params }: PageProps) {
               </p>
             </div>
 
-            {/* Quiz History */}
-            <div className="bg-white rounded-lg shadow-lg p-4">
+            {/* Quiz History - Temporarily disabled */}
+            {/* <div className="bg-white rounded-lg shadow-lg p-4">
               <QuizHistory eventId={event.id} limit={5} />
-            </div>
+            </div> */}
 
             {/* Related Events */}
             {relatedEvents.length > 0 && (

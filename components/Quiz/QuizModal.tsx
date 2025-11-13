@@ -66,12 +66,11 @@ export default function QuizModal({ isOpen, onClose, eventId }: QuizModalProps) 
     // Lưu câu trả lời hiện tại
     const currentAnswer: QuizAnswer = {
       questionId: currentQuestion.id,
+      questionText: currentQuestion.question,
       selectedAnswer: selectedAnswer,
-      isCorrect: isCorrect,
-      question: currentQuestion.question,
-      options: currentQuestion.options,
       correctAnswer: currentQuestion.correctAnswer,
-      explanation: currentQuestion.explanation
+      isCorrect: isCorrect,
+      timeSpent: 5 // approximate time
     };
 
     const newAnswers = [...answers, isCorrect];

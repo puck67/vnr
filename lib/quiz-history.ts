@@ -42,7 +42,7 @@ export class QuizHistoryService {
       id: `quiz_${eventId}_${Date.now()}`,
       eventId,
       eventName,
-      completedAt: new Date(),
+      completedAt: new Date().toISOString(),
       answers,
       result,
       timeTaken
@@ -126,7 +126,7 @@ export class QuizHistoryService {
     return history.filter(quiz => 
       quiz.eventName.toLowerCase().includes(lowerQuery) ||
       quiz.answers.some(answer => 
-        answer.question.toLowerCase().includes(lowerQuery)
+        answer.questionText.toLowerCase().includes(lowerQuery)
       )
     );
   }
@@ -135,8 +135,9 @@ export class QuizHistoryService {
   static getHistoryByDateRange(startDate: Date, endDate: Date): QuizHistory[] {
     const history = this.getQuizHistory();
     
-    return history.filter(quiz => 
-      quiz.completedAt >= startDate && quiz.completedAt <= endDate
-    );
+    return history.filter(quiz => {
+      const quizDate = new Date(quiz.completedAt);
+      return quizDate >= startDate && quizDate <= endDate;
+    });
   }
 }
