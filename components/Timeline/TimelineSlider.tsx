@@ -68,8 +68,8 @@ export default function TimelineSlider({
   };
 
   return (
-    <motion.div 
-      className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-white rounded-lg shadow-lg p-4 z-[1000] w-[90%] max-w-3xl"
+    <motion.div
+      className="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-white rounded-lg shadow-lg p-4 z-[1000] w-[80vw] max-w-3xl"
       whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.2 }}
     >
@@ -106,7 +106,7 @@ export default function TimelineSlider({
           </div>
 
           {/* Slider track */}
-          <div 
+          <div
             className="relative h-3 bg-gray-200 rounded-full group"
             onMouseMove={handleMouseMove}
             onMouseLeave={() => setMouseX(null)}
@@ -124,53 +124,52 @@ export default function TimelineSlider({
             {eventYears.map(year => {
               const yearPercentage = ((year - minYear) / (maxYear - minYear)) * 100;
               const isPast = year <= currentYear;
-              
+
               // Tính hiệu ứng "lens magnification" - giãn điểm gần con trỏ chuột
               let scale = 1;
               let offset = 0;
-              
+
               if (mouseX !== null) {
                 // Tính khoảng cách từ điểm đến vị trí chuột (0-100)
                 const distance = Math.abs(yearPercentage - mouseX);
-                
+
                 // Nếu trong vùng ảnh hưởng (20% timeline - giảm từ 30% xuống)
                 const influenceRadius = 20;
                 if (distance < influenceRadius) {
                   // Tính độ mạnh của hiệu ứng (1 = gần nhất, 0 = xa nhất)
                   const strength = 1 - (distance / influenceRadius);
-                  
+
                   // Scale: điểm gần chuột phóng to lên 1.8x (giảm từ 2x)
                   scale = 1 + strength * 0.8;
-                  
+
                   // Offset: đẩy điểm ra xa khỏi vị trí chuột (giảm mạnh từ 15 xuống 3)
                   const direction = yearPercentage > mouseX ? 1 : -1;
                   offset = direction * strength * strength * 3;
                 }
               }
-              
+
               const finalPosition = Math.max(0, Math.min(100, yearPercentage + offset));
-              
+
               return (
                 <motion.div
                   key={year}
                   className="absolute top-1/2 transform -translate-y-1/2 group/marker z-20"
-                  animate={{ 
+                  animate={{
                     left: `${finalPosition}%`
                   }}
-                  transition={{ 
-                    type: "spring", 
-                    stiffness: 300, 
-                    damping: 20 
+                  transition={{
+                    type: "spring",
+                    stiffness: 300,
+                    damping: 20
                   }}
                 >
                   <motion.div
-                    className={`w-4 h-4 rounded-full border-2 border-white cursor-pointer shadow-md ${
-                      isPast ? 'bg-red-500' : 'bg-gray-400'
-                    }`}
-                    animate={{ 
+                    className={`w-4 h-4 rounded-full border-2 border-white cursor-pointer shadow-md ${isPast ? 'bg-red-500' : 'bg-gray-400'
+                      }`}
+                    animate={{
                       scale: scale
                     }}
-                    whileHover={{ 
+                    whileHover={{
                       scale: scale * 1.5
                     }}
                     transition={{ type: "spring", stiffness: 400, damping: 17 }}
