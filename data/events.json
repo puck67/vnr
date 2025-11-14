@@ -25,15 +25,19 @@
     },
     "images": [],
     "relatedCharacters": [
+      "char-605",
+      "char-606",
+      "char-607",
+      "char-608",
+      "char-609",
+      "char-014",
       "char-017",
-      "char-016",
-      "char-018",
-      "char-019",
-      "char-020",
-      "char-021",
-      "char-022",
-      "char-023",
-      "char-024"
+      "char-610",
+      "char-611",
+      "char-710",
+      "char-711",
+      "char-712",
+      "char-713"
     ],
     "relatedEvents": [
       "event-002"
@@ -77,9 +81,12 @@
     },
     "images": [],
     "relatedCharacters": [
+      "char-612",
+      "char-613",
       "char-017",
-      "char-016",
-      "char-018"
+      "char-614",
+      "char-615",
+      "char-710"
     ],
     "relatedEvents": [
       "event-001",
@@ -376,10 +383,15 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-001"
+      "char-001",
+      "char-616",
+      "char-002",
+      "char-617",
+      "char-618",
+      "char-715"
     ],
     "relatedEvents": [
-      "event-002"
+      "event-080"
     ],
     "funFacts": [
       "Nguyễn Trung Trực từng là võ sinh triều Nguyễn",
@@ -413,7 +425,9 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-002"
+      "char-629",
+      "char-630",
+      "char-716"
     ],
     "relatedEvents": [
       "event-003"
@@ -451,7 +465,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-016"
+      "char-635",
+      "char-636",
+      "char-017",
+      "char-637",
+      "char-717"
     ],
     "relatedEvents": [
       "event-006"
@@ -489,7 +507,9 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017"
+      "char-017",
+      "char-049",
+      "char-050"
     ],
     "relatedEvents": [
       "event-005",
@@ -525,11 +545,16 @@
       "causes": "Pháp chiếm Hà Nội, đe dọa triều đình Huế, buộc phải ký hiệp ước bất bình đẳng.",
       "events": "Ngày 25/8/1883, triều đình Huế ký Hiệp ước Hác-măng, công nhận Pháp bảo hộ Bắc Kỳ và Trung Kỳ.",
       "results": "Việt Nam mất độc lập, trở thành thuộc địa và bảo hộ của Pháp.",
-      "significance": "Đánh dấu sự sụp đổ hoàn toàn của chủ quyền triều Nguyễn, mở đầu thời kỳ Pháp thuộc."
+      "significance": "Đánh dấu sự sụp đổ hoàn toàn của chủ quyền triều Nguyễn, mở đầu thởi kỳ Pháp thuộc."
     },
     "images": [],
     "relatedCharacters": [
-      "char-017"
+      "char-605",
+      "char-017",
+      "char-051",
+      "char-052",
+      "char-014",
+      "char-003"
     ],
     "relatedEvents": [
       "event-006",
@@ -567,8 +592,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-003",
-      "char-004"
+      "char-004",
+      "char-013",
+      "char-646",
+      "char-066"
     ],
     "relatedEvents": [
       "event-007",
@@ -606,7 +633,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005"
+      "char-005",
+      "char-641",
+      "char-642",
+      "char-643",
+      "char-600"
     ],
     "relatedEvents": [
       "event-008"
@@ -643,7 +674,14 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-006"
+      "char-006",
+      "char-534",
+      "char-535",
+      "char-536",
+      "char-537",
+      "char-661",
+      "char-662",
+      "char-663"
     ],
     "relatedEvents": [
       "event-011"
@@ -680,7 +718,14 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-007"
+      "char-007",
+      "char-011",
+      "char-012",
+      "char-658",
+      "char-664",
+      "char-665",
+      "char-666",
+      "char-667"
     ],
     "relatedEvents": [
       "event-010",
@@ -717,7 +762,11 @@
       "significance": "Thể hiện sức mạnh của quần chúng nông dân, mở đầu cho các phong trào đấu tranh quần chúng sau này."
     },
     "images": [],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "char-668",
+      "char-007",
+      "char-658"
+    ],
     "relatedEvents": [
       "event-011"
     ],
@@ -753,7 +802,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-006"
+      "char-006",
+      "char-536",
+      "char-671",
+      "char-663",
+      "char-672"
     ],
     "relatedEvents": [
       "event-010"
@@ -792,7 +845,8 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008"
+      "char-056",
+      "char-687"
     ],
     "relatedEvents": [
       "event-015"
@@ -831,7 +885,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008"
+      "char-015",
+      "char-700",
+      "char-701",
+      "char-702",
+      "char-703"
     ],
     "relatedEvents": [
       "event-014"
@@ -870,15 +928,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017",
-      "char-030",
-      "char-031",
-      "char-032",
-      "char-002",
-      "char-001",
-      "char-028",
-      "char-029",
-      "char-033"
+      "char-620",
+      "char-621",
+      "char-619",
+      "char-622",
+      "char-714",
+      "char-713"
     ],
     "relatedEvents": [
       "event-002",
@@ -1244,12 +1299,9 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-030",
-      "char-017",
-      "char-039",
-      "char-001",
-      "char-040",
-      "char-041"
+      "char-619",
+      "char-622",
+      "char-714"
     ],
     "relatedEvents": [
       "event-016",
@@ -1500,7 +1552,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017"
+      "char-638",
+      "char-639",
+      "char-640",
+      "char-718"
     ],
     "relatedEvents": [
       "event-005",
@@ -1540,7 +1595,8 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-003",
+      "char-644",
+      "char-645",
       "char-014"
     ],
     "relatedEvents": [
@@ -1579,7 +1635,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-010"
+      "char-010",
+      "char-648",
+      "char-649",
+      "char-650",
+      "char-604"
     ],
     "relatedEvents": [
       "event-008"
@@ -1617,7 +1677,11 @@
     "images": [],
     "relatedCharacters": [
       "char-004",
-      "char-013"
+      "char-537",
+      "char-013",
+      "char-066",
+      "char-607",
+      "char-075"
     ],
     "relatedEvents": [
       "event-008"
@@ -1655,7 +1719,11 @@
       "significance": "Hoàn tất hệ thống cai trị thuộc địa của Pháp ở Đông Dương."
     },
     "images": [],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "char-651",
+      "char-652",
+      "char-653"
+    ],
     "relatedEvents": [
       "event-019"
     ],
@@ -1691,7 +1759,18 @@
       "significance": "Mở đầu phong trào duy tân giáo dục, góp phần đánh thức dân trí."
     },
     "images": [],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "char-003",
+      "char-005",
+      "char-006",
+      "char-007",
+      "char-658",
+      "char-012",
+      "char-664",
+      "char-665",
+      "char-666",
+      "char-667"
+    ],
     "relatedEvents": [
       "event-011"
     ],
@@ -1727,7 +1806,13 @@
       "significance": "Thể hiện tinh thần chống Pháp của triều đình và sĩ phu yêu nước."
     },
     "images": [],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "char-003",
+      "char-006",
+      "char-007",
+      "char-675",
+      "char-668"
+    ],
     "relatedEvents": [
       "event-025"
     ],
@@ -1764,7 +1849,15 @@
       "significance": "Khởi nghĩa lớn nhất trong Thế chiến I, thể hiện tinh thần chống Pháp của quân nhân Việt Nam."
     },
     "images": [],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "char-003",
+      "char-006",
+      "char-007",
+      "char-676",
+      "char-542",
+      "char-677",
+      "char-678"
+    ],
     "relatedEvents": [
       "event-024"
     ],
@@ -1801,7 +1894,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008"
+      "char-003",
+      "char-006",
+      "char-007",
+      "char-679"
     ],
     "relatedEvents": [
       "event-027"
@@ -1839,7 +1935,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008"
+      "char-080",
+      "char-081",
+      "char-679",
+      "char-680",
+      "char-681"
     ],
     "relatedEvents": [
       "event-026",
@@ -1878,7 +1978,13 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008"
+      "char-009",
+      "char-082",
+      "char-083",
+      "char-661",
+      "char-684",
+      "char-686",
+      "char-687"
     ],
     "relatedEvents": [
       "event-027",
@@ -1917,7 +2023,8 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-006"
+      "char-006",
+      "char-003"
     ],
     "relatedEvents": [
       "event-030"
@@ -1955,7 +2062,13 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-007"
+      "char-007",
+      "char-009",
+      "char-010",
+      "char-084",
+      "char-085",
+      "char-006",
+      "char-688"
     ],
     "relatedEvents": [
       "event-011"
@@ -1993,7 +2106,17 @@
       "significance": "Tổ chức cách mạng quan trọng theo khuynh hướng quốc gia dân chủ."
     },
     "images": [],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "char-011",
+      "char-086",
+      "char-087",
+      "char-689",
+      "char-690",
+      "char-691",
+      "char-692",
+      "char-693",
+      "char-694"
+    ],
     "relatedEvents": [
       "event-032"
     ],
@@ -2030,7 +2153,15 @@
       "significance": "Khởi nghĩa thất bại nhưng thể hiện tinh thần cách mạng của thanh niên yêu nước."
     },
     "images": [],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "char-001",
+      "char-002",
+      "char-003",
+      "char-005",
+      "char-689",
+      "char-690",
+      "char-692"
+    ],
     "relatedEvents": [
       "event-031",
       "event-014"
@@ -2067,7 +2198,11 @@
       "significance": "Cuộc bãi công tiêu biểu của giai cấp công nhân, mở đầu phong trào công nhân 1930."
     },
     "images": [],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "char-704",
+      "char-705",
+      "char-706"
+    ],
     "relatedEvents": [
       "event-014"
     ],
@@ -2105,8 +2240,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-016",
-      "char-017"
+      "char-605",
+      "char-017",
+      "char-610",
+      "char-710"
     ],
     "relatedEvents": [
       "event-001",
@@ -2442,11 +2579,13 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-003"
+      "char-003",
+      "char-654",
+      "char-655"
     ],
     "relatedEvents": [
-      "event-008",
-      "event-021"
+      "event-079",
+      "event-078"
     ],
     "funFacts": [
       "Vua Hàm Nghi lúc bị bắt mới 16 tuổi, đã trốn chạy 3 năm",
@@ -2484,7 +2623,14 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-004"
+      "char-004",
+      "char-535",
+      "char-534",
+      "char-003",
+      "char-005",
+      "char-006",
+      "char-007",
+      "char-013"
     ],
     "relatedEvents": [
       "event-008",
@@ -2524,7 +2670,13 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-006"
+      "char-006",
+      "char-003",
+      "char-005",
+      "char-007",
+      "char-536",
+      "char-660",
+      "char-537"
     ],
     "relatedEvents": [
       "event-010"
@@ -2565,7 +2717,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005"
+      "char-005",
+      "char-003",
+      "char-006",
+      "char-007",
+      "char-673",
+      "char-674"
     ],
     "relatedEvents": [
       "event-009"
@@ -2605,7 +2762,16 @@
       "significance": "Phạm Hồng Thái là biểu tượng của lòng dũng cảm, sẵn sàng hy sinh vì tổ quốc. Câu nói 'Sống làm anh hùng, chết làm liệt sĩ' được gán cho anh."
     },
     "images": [],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "char-031",
+      "char-088",
+      "char-089",
+      "char-682",
+      "char-683",
+      "char-661",
+      "char-684",
+      "char-685"
+    ],
     "relatedEvents": [
       "event-028"
     ],
@@ -2640,17 +2806,17 @@
     "fullContent": {
       "causes": "Phan Chu Trinh - nhà yêu nước, lãnh tụ phong trào Duy Tân - qua đời tháng 3/1926 tại Sài Gòn. Nhân dân khắp nơi tự phát tổ chức lễ tang để tưởng nhớ.",
       "events": "Tháng 3/1926: Hàng chục vạn người tham gia đưa tang Phan Chu Trinh tại Sài Gòn, Hà Nội, Huế và nhiều tỉnh thành. Học sinh, công nhân, trí thức cùng tham gia. Pháp cấm nhưng không dẹp nổi.",
-      "results": "Phong trào lan rộng thành biểu tình chống Pháp ở nhiều nơi. Pháp phải thả Phan Bội Châu (đang bị giam) để xoa dịu dư luận.",
-      "significance": "Thể hiện tinh thần yêu nước và khát vọng độc lập của nhân dân. Mở đầu cao trào đấu tranh quần chúng cuối những năm 1920."
+      "results": "Lễ tang tại Sài Gòn có hơn 60.000 người tham dự. Đây là phong trào quần chúng lớn nhất từ sau phong trào Cần Vương.",
+      "significance": "Pháp buộc phải thả Phan Bội Châu để tránh phong trào lan rộng hơn. Thể hiện sức mạnh của tinh thần yêu nước."
     },
     "images": [],
     "relatedCharacters": [
+      "char-003",
+      "char-006",
       "char-007",
-      "char-006"
+      "char-012"
     ],
-    "relatedEvents": [
-      "event-011"
-    ],
+    "relatedEvents": [],
     "funFacts": [
       "Lễ tang tại Sài Gòn có hơn 60.000 người tham dự",
       "Đây là phong trào quần chúng lớn nhất từ sau phong trào Cần Vương",
@@ -2685,7 +2851,10 @@
       "significance": "VNQĐ là đảng chính trị đầu tiên của Việt Nam có tổ chức và cương lĩnh rõ ràng. Thể hiện khuynh hướng dân chủ tư sản trong phong trào cách mạng."
     },
     "images": [],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "char-003",
+      "char-006"
+    ],
     "relatedEvents": [
       "event-032"
     ],
@@ -2723,7 +2892,16 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-008"
+      "char-003",
+      "char-006",
+      "char-695",
+      "char-696",
+      "char-697",
+      "char-687",
+      "char-698",
+      "char-699",
+      "char-661",
+      "char-684"
     ],
     "relatedEvents": [
       "event-028",
@@ -2765,15 +2943,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-016",
+      "char-619",
+      "char-612",
+      "char-613",
       "char-017",
-      "char-025",
-      "char-026",
-      "char-027",
-      "char-001",
-      "char-002",
-      "char-028",
-      "char-029"
+      "char-002"
     ],
     "relatedEvents": [
       "event-002",
@@ -3193,12 +3367,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017",
-      "char-030",
-      "char-034",
-      "char-035",
-      "char-032",
-      "char-036"
+      "char-625",
+      "char-622",
+      "char-714",
+      "char-623",
+      "char-624"
     ],
     "relatedEvents": [
       "event-016",
@@ -3476,12 +3649,8 @@
     "images": [],
     "relatedCharacters": [
       "char-002",
-      "char-017",
-      "char-030",
-      "char-037",
-      "char-038",
-      "char-001",
-      "char-028"
+      "char-626",
+      "char-627"
     ],
     "relatedEvents": [
       "event-016",
@@ -3796,10 +3965,9 @@
     "images": [],
     "relatedCharacters": [
       "char-001",
-      "char-028",
-      "char-017",
-      "char-030",
-      "char-033"
+      "char-621",
+      "char-628",
+      "char-715"
     ],
     "relatedEvents": [
       "event-045",
@@ -4097,11 +4265,9 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-028",
       "char-001",
-      "char-017",
-      "char-030",
-      "char-039"
+      "char-041",
+      "char-715"
     ],
     "relatedEvents": [
       "event-046",
@@ -4396,10 +4562,7 @@
     "images": [],
     "relatedCharacters": [
       "char-001",
-      "char-039",
-      "char-028",
-      "char-041",
-      "char-042"
+      "char-631"
     ],
     "relatedEvents": [
       "event-017",
@@ -4626,9 +4789,9 @@
     "images": [],
     "relatedCharacters": [
       "char-041",
-      "char-040",
-      "char-039",
-      "char-017"
+      "char-632",
+      "char-633",
+      "char-634"
     ],
     "relatedEvents": [
       "event-048",
@@ -4878,9 +5041,9 @@
     "images": [],
     "relatedCharacters": [
       "char-041",
-      "char-040",
-      "char-039",
-      "char-043"
+      "char-632",
+      "char-633",
+      "char-634"
     ],
     "relatedEvents": [
       "event-049",
@@ -5218,8 +5381,9 @@
     "images": [],
     "relatedCharacters": [
       "char-041",
-      "char-044",
-      "char-045"
+      "char-632",
+      "char-633",
+      "char-634"
     ],
     "relatedEvents": [
       "event-050",
@@ -5533,7 +5697,9 @@
     "images": [],
     "relatedCharacters": [
       "char-041",
-      "char-044"
+      "char-632",
+      "char-633",
+      "char-634"
     ],
     "relatedEvents": [
       "event-051",
@@ -5870,8 +6036,7 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-041",
-      "char-044"
+      "char-041"
     ],
     "relatedEvents": [
       "event-052",
@@ -6194,8 +6359,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017",
-      "char-046"
+      "char-003",
+      "char-004",
+      "char-005",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-053",
@@ -6444,8 +6612,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017",
-      "char-044"
+      "char-003",
+      "char-004",
+      "char-005",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-054"
@@ -6669,8 +6840,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017",
-      "char-044"
+      "char-003",
+      "char-004",
+      "char-005",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-055"
@@ -6926,7 +7100,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017"
+      "char-605",
+      "char-003",
+      "char-004",
+      "char-005",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-056",
@@ -7191,8 +7370,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017",
-      "char-044"
+      "char-003",
+      "char-004",
+      "char-005",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-057",
@@ -7457,7 +7639,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017"
+      "char-003",
+      "char-004",
+      "char-005",
+      "char-006",
+      "char-007",
+      "char-014"
     ],
     "relatedEvents": [
       "event-058",
@@ -7730,7 +7917,13 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017"
+      "char-537",
+      "char-003",
+      "char-004",
+      "char-005",
+      "char-006",
+      "char-007",
+      "char-014"
     ],
     "relatedEvents": [
       "event-059",
@@ -7979,7 +8172,13 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017"
+      "char-600",
+      "char-003",
+      "char-004",
+      "char-005",
+      "char-006",
+      "char-007",
+      "char-014"
     ],
     "relatedEvents": [
       "event-060",
@@ -8213,7 +8412,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017"
+      "char-601",
+      "char-003",
+      "char-004",
+      "char-005",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-061",
@@ -8452,7 +8656,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-017"
+      "char-534",
+      "char-003",
+      "char-004",
+      "char-005",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-062",
@@ -8679,7 +8888,10 @@
     "images": [],
     "relatedCharacters": [
       "char-003",
-      "char-014"
+      "char-004",
+      "char-005",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-063",
@@ -8898,7 +9110,10 @@
     "images": [],
     "relatedCharacters": [
       "char-003",
-      "char-014"
+      "char-004",
+      "char-005",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-064",
@@ -9123,10 +9338,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-003",
-      "char-014",
       "char-004",
-      "char-005"
+      "char-005",
+      "char-003",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-065",
@@ -9391,7 +9607,12 @@
       "significance": "1887 là năm định hình cấu trúc thuộc địa cho cả thế kỷ sau. Pháp biến Việt Nam từ quốc gia độc lập thành một bộ phận hành chính của đế quốc Pháp. Mặc dù vậy, chính việc chia cắt này lại thúc đẩy tinh thần dân tộc, khiến người Việt dần nhận ra: 'Chỉ có đoàn kết toàn dân tộc mới cứu được nước.' Năm Việt Nam bị chia làm ba, nhưng lòng người thì vẫn một. Giữa đêm thuộc địa vừa bắt đầu, đã có những đốm lửa kháng chiến rực lên."
     },
     "images": [],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "char-003",
+      "char-004",
+      "char-005",
+      "char-006"
+    ],
     "relatedEvents": [
       "event-066",
       "event-065"
@@ -9632,7 +9853,13 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-003"
+      "char-003",
+      "char-534",
+      "char-535",
+      "char-004",
+      "char-005",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-067",
@@ -9859,7 +10086,14 @@
     "images": [],
     "relatedCharacters": [
       "char-004",
-      "char-013"
+      "char-535",
+      "char-003",
+      "char-005",
+      "char-006",
+      "char-007",
+      "char-013",
+      "char-656",
+      "char-603"
     ],
     "relatedEvents": [
       "event-068",
@@ -10077,7 +10311,11 @@
     "images": [],
     "relatedCharacters": [
       "char-004",
-      "char-005"
+      "char-005",
+      "char-003",
+      "char-006",
+      "char-007",
+      "char-603"
     ],
     "relatedEvents": [
       "event-069",
@@ -10335,7 +10573,12 @@
     "images": [],
     "relatedCharacters": [
       "char-004",
-      "char-005"
+      "char-005",
+      "char-003",
+      "char-006",
+      "char-007",
+      "char-603",
+      "char-648"
     ],
     "relatedEvents": [
       "event-070",
@@ -10545,7 +10788,7 @@
   },
   {
     "id": "event-072",
-    "name": "Phản công Hương Khê - Tống Duy Tân hy sinh: 'Thà chết vì nước, còn hơn sống nhục với giặc'",
+    "name": "Phản công Ba Đình - Tống Duy Tân hy sinh: 'Thà chết vì nước, còn hơn sống nhục với giặc'",
     "type": "resistance_movement",
     "date": {
       "year": 1892,
@@ -10553,23 +10796,28 @@
       "day": 5
     },
     "location": {
-      "name": "Hương Khê - Thanh Hóa",
+      "name": "Ba Đình, Thanh Hóa",
       "coordinates": [
-        18.3,
-        105.9
+        19.8067,
+        105.7851
       ],
-      "region": "trung_ky"
+      "region": "bac_ky"
     },
-    "shortDescription": "Năm 1892, phong trào Cần Vương phản công mạnh nhất. Hương Khê: Phan Đình Phùng chia quân 3 đạo, đánh 17 trận, thắng đồn Phú Gia. 5/7/1892: Tống Duy Tân bị bắt và xử chém tại Thanh Hóa, nói: 'Thà chết vì nước, còn hơn sống nhục với giặc.' Cao Thắng tự đúc 200 khẩu súng. Năm phản công quyết liệt.",
+    "shortDescription": "Năm 1892, Tống Duy Tân lãnh đạo phản công cuối cùng tại Ba Đình (Thanh Hóa). Thành trì Ba Đình thất thủ, Tống Duy Tân hy sinh với lời nói bất hủ: 'Thà chết vì nước, còn hơn sống nhục với giặc'. Kết thúc khởi nghĩa Ba Đình.",
     "fullContent": {
       "causes": "Sau thất bại ở Ba Đình năm 1891, thực dân Pháp tin rằng phong trào Cần Vương sắp tàn. Nhưng Phan Đình Phùng – lãnh tụ Hương Khê – lại biến miền Tây Nghệ Tĩnh thành pháo đài kháng chiến. Hàng nghìn nghĩa quân tập hợp dưới cờ của ông, trong đó có nhiều thủ lĩnh mới từ Quảng Bình, Quảng Trị, Thanh Hóa kéo đến. Pháp lo sợ phong trào phục hồi nên mở chiến dịch 'truy diệt Hương Khê' với quy mô lớn nhất từ trước đến nay, dựng thêm hàng trăm đồn binh ở Nghệ – Tĩnh – Quảng Bình, ra lệnh bắt toàn bộ thân nhân, gia đình nghĩa sĩ, cướp lương thực để triệt đường tiếp tế. Tuy nhiên, chính sách tàn bạo này lại khiến lòng dân càng sục sôi căm giận.",
-      "events": "Tháng 1-4/1892 - Hương Khê mở đợt phản công đầu tiên: Phan Đình Phùng chia quân làm ba đạo: Đạo Đông (tấn công Nghệ An, do Cao Thắng chỉ huy), Đạo Tây (đánh Quảng Bình, do Nguyễn Tất Tố chỉ huy), Đạo Trung tâm (do chính Phan Đình Phùng chỉ huy, phòng thủ Hương Khê). Nghĩa quân đánh liên hoàn 17 trận lớn nhỏ, tập kích các đồn Pháp ở Hương Sơn, Đức Thọ, Minh Cầm. Thắng lợi vang dội nhất là trận đánh đồn Phú Gia (Hà Tĩnh), tiêu diệt hàng chục lính Pháp, thu nhiều súng. Pháp bị bất ngờ, phải rút quân về tập trung ở thành Vinh và Đồng Hới.\n\n5/7/1892 - Sự hy sinh của Tống Duy Tân: Sau khi Ba Đình thất thủ, Tống Duy Tân rút về vùng Trà Lý – Yên Định (Thanh Hóa), tiếp tục tổ chức nghĩa quân nhỏ, kết hợp với dân làng đánh du kích. Pháp tung quân bao vây suốt nhiều tháng. Ngày 5 tháng 7 năm 1892, Tống Duy Tân bị bắt sau một trận phục kích. Trước khi bị xử chém tại Thanh Hóa, ông bình tĩnh nói: 'Thà chết vì nước, còn hơn sống nhục với giặc.' Sự hy sinh của ông khiến dân chúng cả miền Bắc thương tiếc, gọi ông là 'vị quan không khuất phục.'\n\nTháng 9-12/1892 - Pháp phản công, nghĩa quân cầm cự: Pháp tung chiến dịch mùa đông 1892, mang theo đại bác, bao vây vùng Hương Khê, hòng tiêu diệt toàn bộ nghĩa quân. Phan Đình Phùng chủ trương chia nhỏ lực lượng, rút sâu vào rừng Vũ Quang, vừa đánh vừa lui, chờ thời cơ. Cao Thắng, học trò xuất sắc của ông, tự đúc được hơn 200 khẩu súng theo mẫu Lebel, giúp nghĩa quân có thể chống trả tốt hơn. Dù chịu tổn thất, phong trào vẫn đứng vững, khiến Pháp phải kéo dài chiến dịch sang năm 1893.",
-      "results": "Phong trào Cần Vương chịu tổn thất nặng: Tống Duy Tân hi sinh, nhiều căn cứ bị tàn phá. Tuy nhiên, Hương Khê vẫn đứng vững, tiếp tục giữ vai trò trung tâm đến năm 1895. Pháp không thể 'bình định' miền Trung như kế hoạch. Pháp phải thay đổi chiến thuật: từ tấn công trực diện sang 'chia rẽ và phong tỏa kinh tế.' Phong trào Cần Vương dần chuyển sang giai đoạn cầm cự và phân tán (1893–1895). Tư tưởng 'yêu nước bằng hành động, không cần vua' bắt đầu nảy nở, mở đường cho các phong trào Duy Tân và Đông Du đầu thế kỷ XX.",
-      "significance": "Cái chết của Tống Duy Tân là minh chứng cho tinh thần trung nghĩa của sĩ phu Việt Nam cuối thế kỷ XIX. Hương Khê chứng minh rằng ý chí nhân dân mạnh hơn vũ khí xâm lược. 1892 trở thành một trong những năm kháng chiến quyết liệt nhất của Cần Vương. Năm phản công - những con người bình dị (thầy đồ, nông dân, quan lại) đã làm nên một bản hùng ca bi tráng. 'Thà chết vì nước, còn hơn sống nhục với giặc.'"
+      "events": "Năm 1892, sau 6 năm kháng chiến kiên cường, thành trì Ba Đình bị Pháp vây hãm khốc liệt. Tống Duy Tân tổ chức phản công cuối cùng nhưng lực lượng quá mỏng. Thành Ba Đình thất thủ, Tống Duy Tân hy sinh anh dũng với lời nói bất hủ: 'Thà chết vì nước, còn hơn sống nhục với giặc'. Đinh Công Tráng đã hy sinh từ năm 1887.",
+      "results": "Khởi nghĩa Ba Đình chính thức kết thúc. Tống Duy Tân trở thành biểu tượng của tinh thần bất khuất, kiên trì chống giặc ngoại xâm. Thành trì Ba Đình bị phá hủy hoàn toàn.",
+      "significance": "Tống Duy Tân là biểu tượng của lòng yêu nước và tinh thần hy sinh. Câu nói 'Thà chết vì nước, còn hơn sống nhục với giặc' trở thành khẩu hiệu bất hủ của phong trào Cần Vương."
     },
     "images": [],
     "relatedCharacters": [
-      "char-004"
+      "char-004",
+      "char-003",
+      "char-005",
+      "char-006",
+      "char-007",
+      "char-603"
     ],
     "relatedEvents": [
       "event-071",
@@ -10771,7 +11019,12 @@
     "images": [],
     "relatedCharacters": [
       "char-004",
-      "char-013"
+      "char-013",
+      "char-534",
+      "char-003",
+      "char-005",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-072",
@@ -10988,7 +11241,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-004"
+      "char-004",
+      "char-535",
+      "char-003",
+      "char-005",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-073",
@@ -11197,7 +11455,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-004"
+      "char-004",
+      "char-537",
+      "char-003",
+      "char-005",
+      "char-006",
+      "char-007"
     ],
     "relatedEvents": [
       "event-074",
@@ -11416,7 +11679,10 @@
     "relatedCharacters": [
       "char-004",
       "char-006",
-      "char-005"
+      "char-005",
+      "char-537",
+      "char-003",
+      "char-007"
     ],
     "relatedEvents": [
       "event-075",
@@ -11649,7 +11915,14 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-006"
+      "char-006",
+      "char-535",
+      "char-003",
+      "char-005",
+      "char-007",
+      "char-657",
+      "char-658",
+      "char-659"
     ],
     "relatedEvents": [
       "event-076",
@@ -11883,7 +12156,9 @@
     "images": [],
     "relatedCharacters": [
       "char-005",
-      "char-006"
+      "char-006",
+      "char-003",
+      "char-007"
     ],
     "relatedEvents": [
       "event-077",
@@ -12125,7 +12400,10 @@
     "images": [],
     "relatedCharacters": [
       "char-005",
-      "char-006"
+      "char-006",
+      "char-003",
+      "char-007",
+      "char-657"
     ],
     "relatedEvents": [
       "event-078",
@@ -12370,12 +12648,16 @@
       "causes": "Sau ba năm nắm quyền, Paul Doumer biến Đông Dương thành một 'bộ máy khai thác hoàn chỉnh' phục vụ nước Pháp. Hệ thống hành chính và thuế khóa được củng cố. Các công trình hạ tầng (cầu, đường, mỏ, đồn điền) mọc lên khắp nơi. Dân phu bị bắt đi làm đường, đào mỏ, dựng cầu. Cùng lúc, khởi nghĩa Yên Thế dưới sự chỉ huy của Hoàng Hoa Thám phát triển cực mạnh ở Bắc Giang, Bắc Ninh, Thái Nguyên. Ở miền Trung, sĩ phu yêu nước bắt đầu liên kết, bàn cách 'khai dân trí, chấn dân khí'. 1900 là năm giao thoa giữa gươm súng và cây bút, giữa chiến đấu và canh tân.",
       "events": "Đầu năm 1900 – Yên Thế nổi dậy dữ dội: Hoàng Hoa Thám tập hợp hơn 3.000 nghĩa quân, xây dựng căn cứ kiên cố ở Phồn Xương – Hương Vĩ – Tam Đảo. Nghĩa quân chia làm ba đạo: Đạo Bắc (Giữ phòng tuyến sông Cầu, ngăn Pháp từ Bắc Ninh), Đạo Nam (Bảo vệ đường tiếp tế từ Yên Thế về Thái Nguyên), Đạo Trung tâm (Trực tiếp do Đề Thám chỉ huy, trấn thủ Phồn Xương). Họ dùng chiến thuật 'rừng là thành, dân là quân' – vừa trồng lúa, vừa rèn vũ khí. Tháng 3/1900, nghĩa quân đánh úp đồn Pháp ở Hương Vĩ, diệt hơn 50 lính, cướp nhiều vũ khí. Pháp cho rằng Yên Thế là 'ổ kháng chiến dai dẳng nhất Đông Dương.'\n\nGiữa năm 1900 – Pháp mở chiến dịch 'Vòng kẹp Bắc Kỳ': Toàn quyền Paul Doumer huy động hơn 10.000 quân mở chiến dịch bao vây Yên Thế. Pháp dùng chiến thuật 'lấy đồn làm gọng kìm', dựng hơn 40 đồn quanh khu rừng. Nghĩa quân rút sâu vào rừng, phản công bằng mìn, bẫy tre, gậy tẩm độc. Trận đánh lớn nhất là trận Phồn Xương (tháng 7/1900): Pháp dùng pháo công kích suốt ba ngày. Nghĩa quân cố thủ, phản công ban đêm, gây thiệt hại nặng. Cuối cùng họ rút an toàn lên Hương Vĩ – chứng tỏ khả năng chiến đấu kiên cường và linh hoạt.\n\nCuối năm 1900 – Chính sách 'khai thác' lan khắp Đông Dương: Paul Doumer tuyên bố hoàn thành cầu Long Biên – cây cầu thép dài nhất châu Á thời đó. Ông mở tuyến đường sắt Hà Nội – Hải Phòng, đường Hà Nội – Lạng Sơn, và đường Sài Gòn – Mỹ Tho. Pháp lập thêm Ngân hàng Đông Dương chi nhánh Sài Gòn, Hà Nội, Hải Phòng, kiểm soát toàn bộ tiền tệ Việt Nam. Dân gọi Doumer là 'ông Tây hút máu' vì chính sách thuế nặng và bắt phu khổ sai: 'Phu làm đường, chết như rạ. Thuế thân nộp rồi vẫn nộp tiếp.' Ở Nghệ – Tĩnh, Phan Bội Châu mở rộng liên lạc, quy tụ sĩ phu như Huỳnh Thúc Kháng, Trần Quý Cáp, chuẩn bị cho Hội Duy Tân. Tư tưởng 'Cứu nước bằng học, không bằng súng' dần lan rộng.",
       "results": "Yên Thế vẫn đứng vững – Hoàng Hoa Thám trở thành biểu tượng kháng Pháp sống. Pháp củng cố hệ thống thuộc địa, đưa Đông Dương vào kỷ nguyên khai thác. Khai thác than, mỏ, cao su, lúa gạo quy mô lớn. Pháp thu gần 100 triệu franc mỗi năm từ Đông Dương. Hình thành tầng lớp địa chủ – quan lại tay sai giàu có, đối lập với dân nghèo. Bóc lột phu phen, đói khát, dịch bệnh lan rộng. Tầng lớp công nhân đầu tiên ra đời – chủ yếu ở mỏ than, cảng, nhà máy rượu, cầu đường. Trí thức bắt đầu phản tỉnh về con đường cứu nước, từ bạo động sang du học, canh tân, học phương Tây. Báo chí, sách chữ quốc ngữ xuất hiện nhiều hơn – khơi dậy ý thức dân tộc. Đặt nền cho phong trào Duy Tân (1905), Đông Du (1907), và sau này là Phong trào công nhân Việt Nam (1911–1930).",
-      "significance": "1900 là năm mở đầu thế kỷ XX đầy biến động – nơi hai con đường yêu nước cùng tồn tại: Kháng chiến bằng vũ lực (Yên Thế) và Cải cách bằng trí tuệ (Duy Tân). Xã hội Việt Nam bước sang thời kỳ ý thức dân tộc hiện đại. Năm chuyển giao thế kỷ - Cầu Long Biên hoàn thành (biểu tượng thuộc địa), Yên Thế kháng chiến (biểu tượng dân tộc), Phan Bội Châu viết 'Việt Nam vong quốc sử'. Phan Bội Châu: 'Nếu nước còn người yêu nước, thì nước chưa mất.' Một thời đại mới đang mở ra – Thời đại của thức tỉnh dân tộc. Năm đầu tiên của thế kỷ mới, nơi nước Việt nhỏ bé vẫn thoi thóp trong vòng xiềng, nhưng ngọn lửa tự do đã bắt đầu bén."
+      "significance": "1900 là năm mở đầu thế kỷ XX đầy biến động – nơi hai con đường yêu nước cùng tồn tại: Kháng chiến bằng vũ lực (Yên Thế) và Cải cách bằng trí tuệ (Duy Tân). Xã hội Việt Nam bước sang thởi kỳ ý thức dân tộc hiện đại. Năm chuyển giao thế kỷ - Cầu Long Biên hoàn thành (biểu tượng thuộc địa), Yên Thế kháng chiến (biểu tượng dân tộc), Phan Bội Châu viết 'Việt Nam vong quốc sử'. Phan Bội Châu: 'Nếu nước còn người yêu nước, thì nước chưa mất.' Một thởi đại mới đang mở ra – Thời đại của thức tỉnh dân tộc. Năm đầu tiên của thế kỷ mới, nơi nước Việt nhỏ bé vẫn thoi thóp trong vòng xiềng, nhưng ngọn lửa tự do đã bắt đầu bén."
     },
     "images": [],
     "relatedCharacters": [
       "char-005",
-      "char-006"
+      "char-006",
+      "char-535",
+      "char-003",
+      "char-007",
+      "char-657"
     ],
     "relatedEvents": [
       "event-079",
@@ -12383,7 +12665,7 @@
     ],
     "funFacts": [
       "Năm 1900 - Chuyển giao thế kỷ XIX sang XX",
-      "Hoàn thành cầu Long Biên - cây cầu thép dài nhất châu Á thời đó",
+      "Hoàn thành cầu Long Biên - cây cầu thép dài nhất châu Á thởi đó",
       "Hoàng Hoa Thám chỉ huy 3.000 nghĩa quân",
       "Pháp huy động 10.000 quân, dựng 40 đồn 'Vòng kẹp Bắc Kỳ'",
       "Trận Phồn Xương (tháng 7): Kéo dài 3 ngày",
@@ -12587,7 +12869,9 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-535",
+      "char-003"
     ],
     "relatedEvents": [
       "event-080"
@@ -12823,7 +13107,9 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-537",
+      "char-003"
     ],
     "relatedEvents": [
       "event-081"
@@ -13092,7 +13378,10 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-542",
+      "char-537",
+      "char-003"
     ],
     "relatedEvents": [
       "event-082"
@@ -13385,7 +13674,9 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-536",
+      "char-003"
     ],
     "relatedEvents": [
       "event-083"
@@ -13647,7 +13938,9 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-534",
+      "char-536"
     ],
     "relatedEvents": [
       "event-084"
@@ -13891,7 +14184,9 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-536",
+      "char-003"
     ],
     "relatedEvents": [
       "event-085"
@@ -14185,7 +14480,11 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-536",
+      "char-537",
+      "char-535",
+      "char-003"
     ],
     "relatedEvents": [
       "event-086"
@@ -14470,7 +14769,10 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-536",
+      "char-535",
+      "char-003"
     ],
     "relatedEvents": [
       "event-087"
@@ -14773,7 +15075,9 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-535",
+      "char-003"
     ],
     "relatedEvents": [
       "event-088"
@@ -15052,7 +15356,10 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-535",
+      "char-536",
+      "char-003"
     ],
     "relatedEvents": [
       "event-089"
@@ -15340,7 +15647,11 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-535",
+      "char-003",
+      "char-669",
+      "char-670"
     ],
     "relatedEvents": [
       "event-090"
@@ -15619,7 +15930,9 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-535",
+      "char-003"
     ],
     "relatedEvents": [
       "event-091"
@@ -15907,7 +16220,8 @@
     "relatedCharacters": [
       "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-003"
     ],
     "relatedEvents": [
       "event-092"
@@ -16193,9 +16507,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-536",
+      "char-534",
+      "char-003"
     ],
     "relatedEvents": [
       "event-093"
@@ -16464,9 +16780,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-534",
+      "char-535",
+      "char-537",
+      "char-003"
     ],
     "relatedEvents": [
       "event-094"
@@ -16752,9 +17071,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-542",
+      "char-003"
     ],
     "relatedEvents": [
       "event-095"
@@ -17016,9 +17336,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-543",
+      "char-003"
     ],
     "relatedEvents": [
       "event-096"
@@ -17296,9 +17617,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-537",
+      "char-536",
+      "char-003"
     ],
     "relatedEvents": [
       "event-097"
@@ -17568,9 +17891,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-535",
+      "char-003"
     ],
     "relatedEvents": [
       "event-098"
@@ -17816,9 +18140,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-535",
+      "char-543",
+      "char-003"
     ],
     "relatedEvents": [
       "event-099"
@@ -18063,9 +18389,10 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-535",
+      "char-003"
     ],
     "relatedEvents": [
       "event-100"
@@ -18302,9 +18629,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-536",
+      "char-535",
+      "char-003"
     ],
     "relatedEvents": [
       "event-101"
@@ -18541,9 +18870,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-546",
+      "char-543",
+      "char-003"
     ],
     "relatedEvents": [
       "event-102"
@@ -18772,9 +19103,13 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-547",
+      "char-535",
+      "char-546",
+      "char-534",
+      "char-003"
     ],
     "relatedEvents": [
       "event-103"
@@ -18971,9 +19306,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-536",
+      "char-537",
+      "char-535",
+      "char-003"
     ],
     "relatedEvents": [
       "event-104"
@@ -19187,9 +19525,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-007",
+      "char-544",
+      "char-549",
+      "char-545",
+      "char-003"
     ],
     "relatedEvents": [
       "event-105"
@@ -19498,9 +19839,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-547",
+      "char-548",
+      "char-546",
+      "char-551",
+      "char-003"
     ],
     "relatedEvents": [
       "event-106"
@@ -19777,9 +20121,9 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-534",
+      "char-003"
     ],
     "relatedEvents": [
       "event-107"
@@ -20033,9 +20377,12 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-543",
+      "char-546",
+      "char-534",
+      "char-551",
+      "char-003"
     ],
     "relatedEvents": [
       "event-108"
@@ -20266,9 +20613,11 @@
     },
     "images": [],
     "relatedCharacters": [
-      "char-005",
       "char-006",
-      "char-007"
+      "char-550",
+      "char-543",
+      "char-546",
+      "char-003"
     ],
     "relatedEvents": [
       "event-109"

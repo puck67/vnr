@@ -1,0 +1,165 @@
+CHARACTER ANALYSIS REPORT - VIETNAM 1858-1930
+==================================================
+
+Total characters analyzed: 178
+Direct participants (main figures): 52
+Indirect participants (secondary): 126
+
+DIRECT PARTICIPANTS:
+--------------------
+Nguyễn Trung Trực (1838-1868)
+  Direct participant - Events: 9, Key events: ['event-017']
+
+Trương Định (1820-1864)
+  Direct participant - Events: 7, Key events: ['event-016']
+
+Vua Hàm Nghi (1872-1943)
+  Direct participant - Events: 71, Key events: ['event-008']
+
+Phan Đình Phùng (1847-1896)
+  Direct participant - Events: 39, Key events: ['event-021']
+
+Hoàng Hoa Thám (1858-1913)
+  Direct participant - Events: 59, Key events: ['event-009']
+
+Phan Bội Châu (1867-1940)
+  Direct participant - Events: 80, Key events: ['event-010']
+
+Phan Châu Trinh (1872-1926)
+  Direct participant - Events: 64, Key events: ['event-011']
+
+Nguyễn Ái Quốc (Hồ Chí Minh) (1890-1969)
+  Direct participant - Events: 57, Key events: ['event-014']
+
+Đinh Công Tráng (1850-1887)
+  Direct participant - Events: 26, Key events: ['event-020']
+
+Lương Văn Can (1854-1927)
+  Direct participant - Events: 62, Key events: ['event-011']
+
+Cao Thắng (1860-1893)
+  Direct participant - Events: 25, Key events: ['event-021']
+
+Tôn Thất Thuyết (1839-1913)
+  Direct participant - Events: 23, Key events: ['event-008']
+
+Trần Phú (1904-1931)
+  Direct participant - Events: 15, Key events: ['event-014']
+
+Đại tá Barbé (1820-1880)
+  Direct participant - Events: 8, Key events: []
+
+Trần Văn Thành (1835-1873)
+  Direct participant - Events: 9, Key events: []
+
+Lâm Quang Ky (1840-1870)
+  Direct participant - Events: 3, Key events: []
+
+Phạm Hữu Khánh (1885-1920)
+  Direct participant - Events: 3, Key events: []
+
+Nguyễn Ái Quốc (Hồ Chí Minh) (1890-1969)
+  Direct participant - Events: 6, Key events: ['event-014']
+
+Trịnh Đình Cửu (1900-1945)
+  Direct participant - Events: 4, Key events: []
+
+Trương Định (1820-1864)
+  Direct participant - Events: 3, Key events: []
+
+Nguyễn Trung Trực (1838-1868)
+  Direct participant - Events: 3, Key events: []
+
+Tôn Thất Thuyết (1839-1913)
+  Direct participant - Events: 3, Key events: ['event-008']
+
+Vua Hàm Nghi (1871-1944)
+  Direct participant - Events: 3, Key events: []
+
+Phan Đình Phùng (1847-1896)
+  Direct participant - Events: 5, Key events: ['event-021']
+
+Đinh Công Tráng (1842-1887)
+  Direct participant - Events: 2, Key events: ['event-020']
+
+Hoàng Hoa Thám (Đề Thám) (1858-1913)
+  Direct participant - Events: 1, Key events: []
+
+Phan Bội Châu (1867-1940)
+  Direct participant - Events: 2, Key events: []
+
+Phan Đình Phùng (1847-1895)
+  Direct participant - Events: 3, Key events: ['event-021']
+
+Tôn Thất Thuyết (1839-1913)
+  Direct participant - Events: 3, Key events: ['event-008']
+
+Cao Thắng (1850-1895)
+  Direct participant - Events: 3, Key events: ['event-021']
+
+Trần Phú (1904-1931)
+  Direct participant - Events: 1, Key events: []
+
+Lương Văn Can (1854-1927)
+  Direct participant - Events: 1, Key events: []
+
+Nhà yêu nước năm 1900 (1860-1930)
+  Direct participant - Events: 3, Key events: []
+
+Phan Đình Phùng (1847-1896)
+  Direct participant - Events: 2, Key events: ['event-021']
+
+Cao Thắng (1850-1893)
+  Direct participant - Events: 2, Key events: ['event-021']
+
+Đinh Công Tráng (1845-1887)
+  Direct participant - Events: 1, Key events: []
+
+Lương Văn Can (1854-1927)
+  Direct participant - Events: 1, Key events: []
+
+Tôn Thất Thuyết (1839-1913)
+  Direct participant - Events: 1, Key events: []
+
+Phan Bội Châu (1867-1940)
+  Direct participant - Events: 12, Key events: ['event-010']
+
+Phan Chu Trinh (1872-1926)
+  Direct participant - Events: 22, Key events: []
+
+Cường Để (1882-1951)
+  Direct participant - Events: 12, Key events: []
+
+Nguyễn Thành (1860-1925)
+  Direct participant - Events: 11, Key events: []
+
+Đặng Tử Kính (1865-1923)
+  Direct participant - Events: 16, Key events: []
+
+Nguyễn Văn Vĩnh (1882-1936)
+  Direct participant - Events: 13, Key events: []
+
+Phạm Duy Tốn (1883-1924)
+  Direct participant - Events: 9, Key events: []
+
+Đàm Phong (1885-1914)
+  Direct participant - Events: 6, Key events: []
+
+Lương Ngọc Quyến (1887-1917)
+  Direct participant - Events: 3, Key events: []
+
+Hoàng Hoa Thám (1858-1913)
+  Direct participant - Events: 2, Key events: ['event-009']
+
+Tống Duy Tân (1838-1892)
+  Direct participant - Events: 5, Key events: []
+
+Đinh Công Tráng (1845-1887)
+  Direct participant - Events: 1, Key events: ['event-020']
+
+Nguyễn Tri Phương (1800-1873)
+  Direct participant - Events: 2, Key events: ['event-001', 'event-002']
+
+Rigault de Genouilly (1807-1873)
+  Direct participant - Events: 2, Key events: ['event-001', 'event-002']
+
