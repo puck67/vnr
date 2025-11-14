@@ -23,6 +23,7 @@ export default function SmartSearch({ events, characters = [] }: SmartSearchProp
   const router = useRouter();
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
   const [results, setResults] = useState<SearchResult[]>([]);
   const [recentSearches, setRecentSearches] = useState<string[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -179,28 +180,50 @@ export default function SmartSearch({ events, characters = [] }: SmartSearchProp
   };
 
   return (
-    <div ref={searchRef} className="relative w-full max-w-2xl">
-      {/* Search Input */}
-      <div className="relative">
-        <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
-        <input
-          ref={inputRef}
-          type="text"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          onFocus={() => setIsOpen(true)}
-          placeholder="Tìm kiếm sự kiện, nhân vật, địa điểm..."
-          className="w-full pl-12 pr-12 py-4 bg-white border-2 border-gray-200 rounded-2xl focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition text-lg shadow-lg"
-        />
-        {query && (
-          <button
-            onClick={() => setQuery('')}
-            className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
-          >
-            <X className="w-5 h-5" />
-          </button>
-        )}
-      </div>
+    <div ref={searchRef} className="relative">
+      {/* Compact Search Button */}
+      {!isExpanded ? (
+        <button
+          onClick={() => {
+            setIsExpanded(true);
+            setTimeout(() => inputRef.current?.focus(), 100);
+          }}
+          className="p-3 bg-white/80 backdrop-blur-sm border border-white/20 rounded-xl hover:bg-white hover:shadow-lg transition-all duration-200"
+        >
+          <Search className="w-5 h-5 text-slate-600" />
+        </button>
+      ) : (
+        /* Expanded Search Input */
+        <div className="relative w-full max-w-2xl">
+          <div className="relative">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+            <input
+              ref={inputRef}
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              onFocus={() => setIsOpen(true)}
+              onBlur={() => {
+                if (!query.trim()) {
+                  setTimeout(() => setIsExpanded(false), 200);
+                }
+              }}
+              placeholder="Tìm kiếm sự kiện, nhân vật, địa điểm..."
+              className="w-full pl-12 pr-12 py-4 bg-white border-2 border-gray-200 rounded-2xl focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition text-lg shadow-lg"
+            />
+            <button
+              onClick={() => {
+                setQuery('');
+                setIsExpanded(false);
+                setIsOpen(false);
+              }}
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
+            >
+              <X className="w-5 h-5" />
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Search Results Dropdown */}
       {isOpen && (

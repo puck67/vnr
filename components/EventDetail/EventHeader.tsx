@@ -24,7 +24,7 @@ export default function EventHeader({ event }: EventHeaderProps) {
       <div className="max-w-7xl mx-auto px-4">
         {/* Back button */}
         <Link
-          href="/"
+          href="/map"
           className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition"
         >
           <ArrowLeft size={20} />

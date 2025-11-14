@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { ArrowLeft, User, Award, BookOpen, Calendar, MapPin, Shield, Swords } from 'lucide-react';
 import charactersData from '@/data/characters.json';
 import eventsData from '@/data/events.json';
@@ -10,8 +11,11 @@ interface PageProps {
   params: Promise<{ id: string }>;
 }
 
-export default async function CharacterPage({ params }: PageProps) {
+export default async function CharacterPage({ params, searchParams }: { params: Promise<{ id: string }>, searchParams?: Promise<{ from?: string }> }) {
   const { id } = await params;
+  const sp = await searchParams;
+  const fromEvent = sp?.from;
+  
   const characters = charactersData as unknown as Character[];
   const events = eventsData as unknown as HistoricalEvent[];
   
@@ -28,6 +32,10 @@ export default async function CharacterPage({ params }: PageProps) {
 
   // Kiểm tra nhân vật nước ngoài
   const isForeign = character.name.includes('Rigault') || character.name.includes('Lanzarote');
+  
+  // Quyết định back URL
+  const backUrl = fromEvent ? `/events/${fromEvent}` : '/map';
+  const backText = fromEvent ? 'Quay lại sự kiện' : 'Quay lại bản đồ';
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -35,11 +43,11 @@ export default async function CharacterPage({ params }: PageProps) {
       <div className={`bg-gradient-to-br ${isForeign ? 'from-red-900 to-red-800' : 'from-blue-900 to-blue-800'} text-white py-16`}>
         <div className="max-w-7xl mx-auto px-4">
           <Link
-            href="/"
+            href={backUrl}
             className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition"
           >
             <ArrowLeft size={20} />
-            <span>Quay lại bản đồ</span>
+            <span>{backText}</span>
           </Link>
 
           <div className="flex items-start gap-8">

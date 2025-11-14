@@ -77,6 +77,7 @@ export default function EventDetailPage({ params }: PageProps) {
     notFound();
   }
 
+
   // Lấy thông tin nhân vật liên quan
   const relatedCharacters = characters.filter(c =>
     event.relatedCharacters.includes(c.id)
@@ -152,12 +153,8 @@ export default function EventDetailPage({ params }: PageProps) {
             )}
 
             {/* Video Section */}
-            {event.images && event.images.length > 0 && (
-              <div className="space-y-4">
-                {event.images.map((videoUrl, index) => (
-                  <VideoSection key={index} videoUrl={videoUrl} eventName={event.name} />
-                ))}
-              </div>
+            {event.videoUrl && (
+              <VideoSection videoUrl={event.videoUrl} eventName={event.name} />
             )}
 
             {/* Fun Facts */}

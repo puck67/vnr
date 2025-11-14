@@ -1,11 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import qaData from '@/data/chatbot-qa.json';
 import eventsData from '@/data/events.json';
 import charactersData from '@/data/characters.json';
-import { ChatbotQA } from '@/types';
-
-const qas = qaData as ChatbotQA[];
 
 // Khởi tạo Gemini AI (nếu có API key)
 const genAI = process.env.GEMINI_API_KEY
@@ -23,29 +19,33 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Thử tìm câu trả lời từ rule-based trước
-    const matchedQA = findMatchingQA(message.toLowerCase());
-
-    if (matchedQA) {
-      // Luôn dùng câu trả lời chi tiết
-      return NextResponse.json({ response: matchedQA.detailedAnswer });
+    // Chỉ sử dụng Gemini AI - không có rule-based fallback
+    if (!genAI) {
+      return NextResponse.json(
+        { error: 'Gemini API chưa được cấu hình' },
+        { status: 500 }
+      );
     }
 
-    // Nếu có Gemini API key, sử dụng AI
-    if (genAI) {
-      try {
-        const aiResponse = await getAIResponse(message);
-        return NextResponse.json({ response: aiResponse });
-      } catch (aiError) {
-        console.error('Lỗi Gemini AI:', aiError);
-        // Fallback to default response
+    try {
+      const aiResponse = await getAIResponse(message);
+      return NextResponse.json({ response: aiResponse });
+    } catch (aiError: any) {
+      console.error('Lỗi Gemini AI:', aiError);
+
+      // Trả về lỗi trực tiếp cho user
+      if (aiError?.message?.includes('rate limit exceeded')) {
+        return NextResponse.json({
+          response: `⚠️ **Hệ thống AI tạm thời quá tải**\n\n${aiError.message}\n\nVui lòng đợi vài phút rồi thử lại.`,
+          isAIError: true
+        });
       }
+
+      return NextResponse.json({
+        response: `❌ **Lỗi AI**: ${aiError?.message || 'Không thể kết nối đến Gemini AI'}.\n\nVui lòng thử lại sau.`,
+        isAIError: true
+      });
     }
-
-    // Nếu không tìm thấy, trả về câu trả lời mặc định chi tiết
-    const defaultResponse = 'Xin lỗi, tôi chưa có thông tin chi tiết về câu hỏi này. Tôi có thể giúp bạn tìm hiểu về:\n\n- Các cuộc xâm lược của Pháp (1858-1884)\n- Phong trào Cần Vương (1885-1896)\n- Phong trào Đông Du và Duy Tân (1905-1908)\n- Thành lập Đảng Cộng sản Việt Nam (1930)\n- Các nhân vật lịch sử như Phan Bội Châu, Phan Châu Trinh, Hoàng Hoa Thám\n\nBạn muốn tìm hiểu về chủ đề nào?';
-
-    return NextResponse.json({ response: defaultResponse });
   } catch (error) {
     console.error('Lỗi chatbot API:', error);
     return NextResponse.json(
@@ -55,35 +55,33 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// Hàm tìm QA phù hợp
-function findMatchingQA(message: string): ChatbotQA | null {
-  let bestMatch: ChatbotQA | null = null;
-  let maxMatches = 0;
+// Bỏ hàm findMatchingQA - chỉ dùng Gemini AI
 
-  for (const qa of qas) {
-    let matches = 0;
-
-    for (const keyword of qa.keywords) {
-      if (message.includes(keyword.toLowerCase())) {
-        matches++;
-      }
-    }
-
-    if (matches > maxMatches) {
-      maxMatches = matches;
-      bestMatch = qa;
-    }
-  }
-
-  // Chỉ trả về nếu có ít nhất 1 keyword match
-  return maxMatches > 0 ? bestMatch : null;
+// Utility functions cho retry mechanism
+function delay(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// Hàm gọi Gemini AI
+function isRateLimitError(error: any): boolean {
+  return error?.status === 429 ||
+    error?.message?.includes('429') ||
+    error?.message?.includes('Too Many Requests') ||
+    error?.message?.includes('Resource exhausted');
+}
+
+// Hàm gọi Gemini AI với retry mechanism
 async function getAIResponse(message: string): Promise<string> {
   if (!genAI) throw new Error('Gemini API not configured');
 
-  const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
+  const model = genAI.getGenerativeModel({
+    model: 'gemini-2.0-flash',
+    generationConfig: {
+      temperature: 0.7,
+      topK: 40,
+      topP: 0.95,
+      maxOutputTokens: 1024,
+    },
+  });
 
   // Tạo context từ dữ liệu - chỉ lấy thông tin cần thiết
   const eventsContext = eventsData.map(e => ({
@@ -91,39 +89,73 @@ async function getAIResponse(message: string): Promise<string> {
     date: e.date,
     location: e.location.name,
     description: e.shortDescription,
-  })).slice(0, 15);
-  
+  })).slice(0, 10); // Giảm xuống 10 để tiết kiệm tokens
+
   const charactersContext = charactersData.map(c => ({
     name: c.name,
     role: c.role,
     period: `${c.birthYear}-${c.deathYear || 'nay'}`,
-    bio: c.biography,
-  })).slice(0, 10);
+    bio: c.biography?.substring(0, 100) + '...', // Rút gọn bio
+  })).slice(0, 8); // Giảm xuống 8
 
-  const systemPrompt = `Bạn là chuyên gia lịch sử Việt Nam về giai đoạn 1858-1945 (thời kỳ kháng chiến chống Pháp).
+  const systemPrompt = `Bạn là trợ lý lịch sử Việt Nam chuyên về giai đoạn 1858-1930 (thời kỳ kháng chiến chống Pháp và các phong trào yêu nước).
 
-PHONG CÁCH:
-- Trả lời chi tiết, dễ hiểu
-- Cấu trúc rõ ràng: Nguyên nhân → Diễn biến → Kết quả → Ý nghĩa
-- Dẫn chứng cụ thể về thời gian, địa điểm, nhân vật
-- Giải thích theo cách sinh động, hấp dẫn
+Hãy trả lời một cách tự nhiên, thân thiện như đang trò chuyện. Bạn có thể:
+- Giải thích chi tiết hoặc ngắn gọn tùy theo câu hỏi
+- Kể chuyện lịch sử một cách sinh động, hấp dẫn  
+- Đưa ra những thông tin thú vị, ít người biết
+- Liên kết các sự kiện với nhau
+- Trả lời bằng tiếng Việt tự nhiên, dễ hiểu
 
-DỮ LIỆU SỰ KIỆN:
-${JSON.stringify(eventsContext, null, 2)}
+Dữ liệu tham khảo (không bắt buộc phải dùng hết):
+${JSON.stringify({ events: eventsContext, characters: charactersContext }, null, 2).substring(0, 800)}`;
 
-DỮ LIỆU NHÂN VẬT:
-${JSON.stringify(charactersContext, null, 2)}
+  const prompt = `${systemPrompt}\n\nCâu hỏi: ${message}`;
 
-QUAN TRỌNG:
-- Ưu tiên trả lời dựa trên dữ liệu đã cho
-- Có thể bổ sung kiến thức lịch sử chung nhưng phải chính xác
-- Luôn trả lời bằng tiếng Việt
-- Nếu không chắc chắn, nói rõ "Thông tin này cần được xác minh thêm"`;
+  // Retry mechanism với exponential backoff
+  const maxRetries = 3;
+  const baseDelay = 1000; // 1 second
 
-  const prompt = `${systemPrompt}\n\n===\nCÂU HỎI: ${message}\n\nTRẢ LỜI:`;
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      console.log(`Gemini AI attempt ${attempt}/${maxRetries}`);
 
-  const result = await model.generateContent(prompt);
-  const response = await result.response;
-  return response.text();
+      const result = await model.generateContent(prompt);
+      const response = await result.response;
+
+      if (!response) {
+        throw new Error('Empty response from Gemini');
+      }
+
+      const text = response.text();
+      if (!text || text.trim().length === 0) {
+        throw new Error('Empty text response from Gemini');
+      }
+
+      console.log('Gemini AI success');
+      return text;
+
+    } catch (error: any) {
+      console.error(`Gemini AI attempt ${attempt} failed:`, error?.message || error);
+
+      // Nếu là lỗi rate limit và còn retry
+      if (isRateLimitError(error) && attempt < maxRetries) {
+        const delayTime = baseDelay * Math.pow(2, attempt - 1); // Exponential backoff
+        console.log(`Rate limit hit, retrying in ${delayTime}ms...`);
+        await delay(delayTime);
+        continue;
+      }
+
+      // Nếu hết retry hoặc lỗi khác
+      if (attempt === maxRetries) {
+        if (isRateLimitError(error)) {
+          throw new Error('Gemini API rate limit exceeded. Hệ thống tạm thời quá tải, vui lòng thử lại sau vài phút.');
+        }
+        throw new Error(`Gemini API error after ${maxRetries} attempts: ${error?.message || 'Unknown error'}`);
+      }
+    }
+  }
+
+  throw new Error('Unexpected error in retry loop');
 }
 

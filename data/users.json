@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1763045033996",
+    "username": "phucnguyen5640@gmail.com",
+    "email": "phucnguyen5640@gmail.com",
+    "password": "$2b$12$xyzR6Fmja/9iLh6wPBpygOJImuNKVqfRZ8Irfy8LJHdOx4wMx8bny",
+    "createdAt": "2025-11-13T14:43:53.996Z",
+    "profile": {
+      "points": 0,
+      "level": 1,
+      "badges": [],
+      "completedQuizzes": [],
+      "viewedEvents": [],
+      "achievements": []
+    }
+  },
+  {
+    "id": "1763054208616",
+    "username": "phucnvse180213@fpt.edu.vn",
+    "email": "Phucnvse180213@fpt.edu.vn",
+    "password": "$2b$12$SNMwcr/LYFUSNp6zuKUE/.9GycJXpZgXJM0Ie43ztNizMubYkv9Nm",
+    "createdAt": "2025-11-13T17:16:48.616Z",
+    "profile": {
+      "points": 0,
+      "level": 1,
+      "badges": [],
+      "completedQuizzes": [],
+      "viewedEvents": [],
+      "achievements": []
+    }
+  }
+]

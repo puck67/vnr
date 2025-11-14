@@ -214,8 +214,8 @@ export default function InteractiveMap({
 
       // Popup
       const popupContent = `
-        <div style="min-width: 200px;">
-          <h3 style="margin: 0 0 8px 0; font-size: 16px; font-weight: bold;">
+        <div style="min-width: 200px; max-width: 300px; padding: 4px;">
+          <h3 style="margin: 0 0 8px 0; font-size: 16px; font-weight: bold; color: #1f2937; line-height: 1.3;">
             ${event.name}
           </h3>
           <p style="margin: 0 0 4px 0; font-size: 12px; color: #666; display: flex; align-items: center; gap: 4px;">
@@ -226,23 +226,54 @@ export default function InteractiveMap({
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M20 10c0 7-10 12-10 12s-10-5-10-12a10 10 0 0 1 20 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
             ${event.location.name}
           </p>
-          <p style="margin: 0 0 12px 0; font-size: 14px;">
+          <p style="margin: 0 0 12px 0; font-size: 14px; color: #374151; line-height: 1.4;">
             ${event.shortDescription}
           </p>
           <button 
             onclick="window.dispatchEvent(new CustomEvent('event-click', { detail: '${event.id}' }))"
             style="
-              background-color: ${color};
-              color: white;
-              border: none;
-              padding: 6px 12px;
-              border-radius: 4px;
-              cursor: pointer;
-              font-size: 12px;
-              width: 100%;
+              background: #3b82f6;
+              color: #ffffff !important;
+              border: none !important;
+              padding: 14px 20px !important;
+              border-radius: 12px !important;
+              cursor: pointer !important;
+              font-size: 14px !important;
+              font-weight: 600 !important;
+              width: 100% !important;
+              box-sizing: border-box !important;
+              transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+              display: flex !important;
+              align-items: center !important;
+              justify-content: center !important;
+              gap: 8px !important;
+              text-decoration: none !important;
+              outline: none !important;
+              box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3), 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+              text-shadow: 0 1px 2px rgba(0,0,0,0.1) !important;
+              letter-spacing: 0.3px !important;
+              position: relative !important;
+              overflow: hidden !important;
+            "
+            onmouseover="
+              this.style.transform='translateY(-2px) scale(1.02)'; 
+              this.style.boxShadow='0 8px 25px rgba(59, 130, 246, 0.4), 0 4px 12px rgba(0, 0, 0, 0.15)';
+              this.style.background='#2563eb';
+            "
+            onmouseout="
+              this.style.transform='translateY(0) scale(1)'; 
+              this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.3), 0 2px 4px rgba(0, 0, 0, 0.1)';
+              this.style.background='#3b82f6';
             "
           >
-            Xem chi tiết →
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="21 21l-4.35-4.35"></path>
+            </svg>
+            <span>Xem chi tiết</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;">
+              <polyline points="9,18 15,12 9,6"></polyline>
+            </svg>
           </button>
         </div>
       `;

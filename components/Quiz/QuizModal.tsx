@@ -1,8 +1,11 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { X, Check, XCircle, Trophy } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { X, Check, XCircle, Trophy, RotateCcw, Eye } from 'lucide-react';
 import { QuizQuestion, QuizResult } from '@/types';
+import { QuizHistoryService, QuizAnswer, QuizHistory } from '@/lib/quiz-history';
+import { GamificationService } from '@/lib/gamification';
+import eventsData from '@/data/events.json';
 import quizData from '@/data/quiz-questions.json';
 
 interface QuizModalProps {
@@ -17,10 +20,32 @@ export default function QuizModal({ isOpen, onClose, eventId }: QuizModalProps) 
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
   const [answers, setAnswers] = useState<boolean[]>([]);
+  const [quizAnswers, setQuizAnswers] = useState<QuizAnswer[]>([]);
   const [isFinished, setIsFinished] = useState(false);
+  const [pointsAwarded, setPointsAwarded] = useState(false);
+  const [showHistory, setShowHistory] = useState(false);
+  const [existingHistory, setExistingHistory] = useState<QuizHistory | null>(null);
+  const startTimeRef = useRef<number>(Date.now());
 
   useEffect(() => {
     if (isOpen) {
+      // Reset states
+      setCurrentQuestionIndex(0);
+      setSelectedAnswer(null);
+      setShowExplanation(false);
+      setAnswers([]);
+      setQuizAnswers([]);
+      setIsFinished(false);
+      setPointsAwarded(false);
+      setShowHistory(false);
+      startTimeRef.current = Date.now();
+
+      // Check existing history
+      if (eventId) {
+        const history = QuizHistoryService.getQuizHistoryByEvent(eventId);
+        setExistingHistory(history);
+      }
+
       // Lấy câu hỏi liên quan đến event hoặc random
       let filteredQuestions = quizData as QuizQuestion[];
       
@@ -33,11 +58,6 @@ export default function QuizModal({ isOpen, onClose, eventId }: QuizModalProps) 
       // Lấy 10 câu hỏi ngẫu nhiên
       const shuffled = [...filteredQuestions].sort(() => Math.random() - 0.5);
       setQuestions(shuffled.slice(0, 10));
-      setCurrentQuestionIndex(0);
-      setSelectedAnswer(null);
-      setShowExplanation(false);
-      setAnswers([]);
-      setIsFinished(false);
     }
   }, [isOpen, eventId]);
 
@@ -54,13 +74,73 @@ export default function QuizModal({ isOpen, onClose, eventId }: QuizModalProps) 
   const handleNext = () => {
     if (selectedAnswer === null) return;
 
+    // Save detailed answer
+    const quizAnswer: QuizAnswer = {
+      questionId: currentQuestion.id,
+      question: currentQuestion.question,
+      options: currentQuestion.options,
+      selectedAnswer,
+      correctAnswer: currentQuestion.correctAnswer,
+      isCorrect,
+      explanation: currentQuestion.explanation,
+      timeSpent: 5 // Approximate time per question
+    };
+
     setAnswers([...answers, isCorrect]);
+    setQuizAnswers([...quizAnswers, quizAnswer]);
     setShowExplanation(false);
     setSelectedAnswer(null);
 
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
+      // Finish quiz and save history
+      const totalTimeSpent = Math.floor((Date.now() - startTimeRef.current) / 1000);
+      const finalAnswers = [...answers, isCorrect];
+      const finalQuizAnswers = [...quizAnswers, quizAnswer];
+      
+      if (eventId) {
+        const events = eventsData as any[];
+        const event = events.find(e => e.id === eventId);
+        
+        const history: QuizHistory = {
+          id: QuizHistoryService.generateQuizId(eventId),
+          eventId,
+          eventName: event?.name || 'Sự kiện không xác định',
+          playedAt: new Date().toISOString(),
+          totalQuestions: questions.length,
+          correctAnswers: finalAnswers.filter(a => a).length,
+          score: Math.round((finalAnswers.filter(a => a).length / questions.length) * 100),
+          timeSpent: totalTimeSpent,
+          answers: finalQuizAnswers,
+          canRetake: true
+        };
+        
+        QuizHistoryService.saveQuizHistory(history);
+        
+        // Add gamification points
+        const { newBadges, pointsEarned } = GamificationService.addCompletedQuiz(
+          eventId, 
+          finalAnswers.filter(a => a).length, 
+          questions.length
+        );
+        
+        // Dispatch gamification events
+        if (pointsEarned > 0) {
+          window.dispatchEvent(new CustomEvent('points-earned', { 
+            detail: { points: pointsEarned } 
+          }));
+        }
+        
+        newBadges.forEach(badge => {
+          window.dispatchEvent(new CustomEvent('badge-unlocked', { 
+            detail: { badge } 
+          }));
+        });
+        
+        window.dispatchEvent(new Event('gamification-update'));
+      }
+      
       setIsFinished(true);
     }
   };
@@ -75,7 +155,18 @@ export default function QuizModal({ isOpen, onClose, eventId }: QuizModalProps) 
     setSelectedAnswer(null);
     setShowExplanation(false);
     setAnswers([]);
+    setQuizAnswers([]);
     setIsFinished(false);
+    setShowHistory(false);
+    startTimeRef.current = Date.now();
+    
+    // Generate new questions
+    let filteredQuestions = quizData as QuizQuestion[];
+    if (eventId) {
+      filteredQuestions = filteredQuestions.filter(q => q.relatedEventId === eventId);
+    }
+    const shuffled = [...filteredQuestions].sort(() => Math.random() - 0.5);
+    setQuestions(shuffled.slice(0, 10));
   };
 
   const result: QuizResult = {
@@ -212,10 +303,20 @@ export default function QuizModal({ isOpen, onClose, eventId }: QuizModalProps) 
               <div className="flex gap-3">
                 <button
                   onClick={handleRestart}
-                  className="flex-1 py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition font-semibold"
+                  className="flex-1 py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition font-semibold flex items-center justify-center gap-2"
                 >
+                  <RotateCcw className="w-4 h-4" />
                   Làm lại
                 </button>
+                {existingHistory && (
+                  <button
+                    onClick={() => setShowHistory(!showHistory)}
+                    className="flex-1 py-3 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition font-semibold flex items-center justify-center gap-2"
+                  >
+                    <Eye className="w-4 h-4" />
+                    Xem lịch sử
+                  </button>
+                )}
                 <button
                   onClick={onClose}
                   className="flex-1 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
@@ -223,6 +324,73 @@ export default function QuizModal({ isOpen, onClose, eventId }: QuizModalProps) 
                   Đóng
                 </button>
               </div>
+
+              {/* Quiz History */}
+              {showHistory && existingHistory && (
+                <div className="mt-6 bg-gray-50 rounded-lg p-4">
+                  <h4 className="font-bold text-lg mb-4 flex items-center gap-2">
+                    <Trophy className="w-5 h-5 text-amber-500" />
+                    Lịch sử bài quiz
+                  </h4>
+                  
+                  <div className="mb-4 p-3 bg-white rounded border">
+                    <div className="flex justify-between items-center mb-2">
+                      <span className="font-semibold">Lần làm trước:</span>
+                      <span className="text-sm text-gray-500">
+                        {new Date(existingHistory.playedAt).toLocaleString('vi-VN')}
+                      </span>
+                    </div>
+                    <div className="text-2xl font-bold text-blue-600">
+                      {existingHistory.score}% ({existingHistory.correctAnswers}/{existingHistory.totalQuestions})
+                    </div>
+                  </div>
+
+                  <div className="space-y-3 max-h-60 overflow-y-auto">
+                    {existingHistory.answers.map((answer, index) => (
+                      <div 
+                        key={index} 
+                        className={`p-3 rounded border-l-4 ${
+                          answer.isCorrect 
+                            ? 'bg-green-50 border-green-500' 
+                            : 'bg-red-50 border-red-500'
+                        }`}
+                      >
+                        <div className="font-semibold mb-2">{answer.question}</div>
+                        <div className="text-sm space-y-1">
+                          {answer.options.map((option, optIndex) => (
+                            <div 
+                              key={optIndex}
+                              className={`p-2 rounded ${
+                                optIndex === answer.correctAnswer 
+                                  ? 'bg-green-100 text-green-800' 
+                                  : optIndex === answer.selectedAnswer && !answer.isCorrect
+                                  ? 'bg-red-100 text-red-800'
+                                  : 'bg-gray-100'
+                              }`}
+                            >
+                              <span className="font-semibold mr-2">
+                                {String.fromCharCode(65 + optIndex)}.
+                              </span>
+                              {option}
+                              {optIndex === answer.correctAnswer && (
+                                <span className="ml-2 text-green-600">✓ Đúng</span>
+                              )}
+                              {optIndex === answer.selectedAnswer && !answer.isCorrect && (
+                                <span className="ml-2 text-red-600">✗ Bạn chọn</span>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                        {answer.explanation && (
+                          <div className="mt-2 p-2 bg-blue-50 rounded text-sm text-blue-800">
+                            <strong>Giải thích:</strong> {answer.explanation}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           )}
         </div>

@@ -76,12 +76,12 @@ export default function SocialShare({ event }: SocialShareProps) {
         <>
           {/* Backdrop */}
           <div 
-            className="fixed inset-0 z-40"
+            className="fixed inset-0 z-[9998]"
             onClick={() => setIsOpen(false)}
           />
 
           {/* Share Menu */}
-          <div className="absolute top-full mt-3 right-0 z-50 bg-white rounded-2xl shadow-2xl border-2 border-gray-100 p-4 min-w-[320px] animate-slide-in-up">
+          <div className="absolute top-full mt-3 right-0 z-[9999] bg-white rounded-2xl shadow-2xl border-2 border-gray-100 p-4 min-w-[320px] animate-slide-in-up">
             <h4 className="font-bold text-lg mb-4 text-gray-900">Chia sẻ sự kiện</h4>
             
             <div className="space-y-2">

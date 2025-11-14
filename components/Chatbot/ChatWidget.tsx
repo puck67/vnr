@@ -11,12 +11,14 @@ export default function ChatWidget() {
     {
       id: '1',
       role: 'assistant',
-      content: 'Xin chào! Tôi là trợ lý lịch sử. Bạn muốn tìm hiểu về sự kiện hoặc nhân vật nào?',
+      content: 'Xin chào! Tôi là trợ lý lịch sử Việt Nam (1858-1930). Bạn muốn tìm hiểu về sự kiện hoặc nhân vật nào?',
       timestamp: new Date(),
     },
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [lastRequestTime, setLastRequestTime] = useState<number>(0);
+  const [requestCount, setRequestCount] = useState<number>(0);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   // Auto scroll to bottom
@@ -26,6 +28,40 @@ export default function ChatWidget() {
 
   const handleSend = async () => {
     if (!input.trim()) return;
+
+    // Client-side rate limiting
+    const now = Date.now();
+    const timeSinceLastRequest = now - lastRequestTime;
+    const minInterval = 2000; // 2 seconds between requests
+    
+    // Reset request count every minute
+    if (timeSinceLastRequest > 60000) {
+      setRequestCount(0);
+    }
+    
+    // Check rate limits
+    if (timeSinceLastRequest < minInterval) {
+      const waitTime = Math.ceil((minInterval - timeSinceLastRequest) / 1000);
+      const rateLimitMessage: ChatMessage = {
+        id: Date.now().toString(),
+        role: 'assistant',
+        content: `⏱️ Vui lòng đợi ${waitTime} giây trước khi gửi câu hỏi tiếp theo để tránh quá tải hệ thống.`,
+        timestamp: new Date(),
+      };
+      setMessages(prev => [...prev, rateLimitMessage]);
+      return;
+    }
+    
+    if (requestCount >= 10) {
+      const rateLimitMessage: ChatMessage = {
+        id: Date.now().toString(),
+        role: 'assistant',
+        content: '⚠️ Bạn đã gửi quá nhiều câu hỏi trong 1 phút. Vui lòng đợi một chút trước khi tiếp tục.',
+        timestamp: new Date(),
+      };
+      setMessages(prev => [...prev, rateLimitMessage]);
+      return;
+    }
 
     const userMessage: ChatMessage = {
       id: Date.now().toString(),
@@ -37,6 +73,8 @@ export default function ChatWidget() {
     setMessages(prev => [...prev, userMessage]);
     setInput('');
     setIsLoading(true);
+    setLastRequestTime(now);
+    setRequestCount(prev => prev + 1);
 
     try {
       const response = await fetch('/api/chatbot', {
@@ -50,17 +88,20 @@ export default function ChatWidget() {
       const assistantMessage: ChatMessage = {
         id: (Date.now() + 1).toString(),
         role: 'assistant',
-        content: data.response,
+        content: data.response || 'Xin lỗi, tôi không thể trả lời câu hỏi này.',
         timestamp: new Date(),
       };
 
       setMessages(prev => [...prev, assistantMessage]);
+      
+      // Không hiển thị gợi ý cứng - để Gemini AI tự nhiên
+      
     } catch (error) {
       console.error('Lỗi khi gọi chatbot:', error);
       const errorMessage: ChatMessage = {
         id: (Date.now() + 1).toString(),
         role: 'assistant',
-        content: 'Xin lỗi, đã có lỗi xảy ra. Vui lòng thử lại sau.',
+        content: '❌ Không thể kết nối đến server. Vui lòng kiểm tra kết nối mạng và thử lại sau.',
         timestamp: new Date(),
       };
       setMessages(prev => [...prev, errorMessage]);

@@ -74,18 +74,31 @@ export default function VideoSection({ videoUrl, eventName }: VideoSectionProps)
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
         </div>
         
-        {/* External link button - chỉ hiện cho VTV */}
-        {isVTVVideo && (
-          <a
-            href={videoUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full py-3 px-4 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition font-semibold flex items-center justify-center gap-2 group"
-          >
-            <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            <span>Mở trên VTV.vn</span>
-          </a>
-        )}
+        {/* Action buttons */}
+        <div className="flex gap-3">
+          {/* External link button - chỉ hiện cho VTV */}
+          {isVTVVideo && (
+            <a
+              href={videoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 py-3 px-4 bg-red-600 text-white rounded-xl hover:bg-red-700 transition font-semibold flex items-center justify-center gap-2 group shadow-lg"
+            >
+              <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <span>Xem trên VTV</span>
+            </a>
+          )}
+          
+          {/* Preview button for VTV videos */}
+          {isVTVVideo && (
+            <button
+              onClick={() => setIsModalOpen(true)}
+              className="px-4 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition font-semibold flex items-center justify-center gap-2 shadow-lg"
+            >
+              <Video className="w-5 h-5" />
+            </button>
+          )}
+        </div>
         
         {/* Play button cho YouTube */}
         {isYouTubeVideo && (
@@ -100,7 +113,7 @@ export default function VideoSection({ videoUrl, eventName }: VideoSectionProps)
       </div>
 
       {/* Fullscreen Modal */}
-      {isModalOpen && embedUrl && (
+      {isModalOpen && (
         <div className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-2 sm:p-4">
           <div className="relative w-full h-full max-h-screen flex flex-col">
             <button
@@ -113,12 +126,25 @@ export default function VideoSection({ videoUrl, eventName }: VideoSectionProps)
             
             <div className="flex-1 flex items-center justify-center pt-16">
               <div className="relative w-full h-full max-w-[1400px] max-h-[800px]">
-                <iframe
-                  src={embedUrl}
-                  className="w-full h-full rounded-lg shadow-2xl"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+                {isVTVVideo ? (
+                  <div className="w-full h-full bg-white rounded-lg shadow-2xl overflow-hidden">
+                    <iframe
+                      src={videoUrl}
+                      className="w-full h-full"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      title={`Video: ${eventName}`}
+                    />
+                  </div>
+                ) : embedUrl ? (
+                  <iframe
+                    src={embedUrl}
+                    className="w-full h-full rounded-lg shadow-2xl"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    title={`Video: ${eventName}`}
+                  />
+                ) : null}
               </div>
             </div>
           </div>
