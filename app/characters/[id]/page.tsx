@@ -1,8 +1,5 @@
-'use client';
-
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
 import { ArrowLeft, User, Award, BookOpen, Calendar, MapPin, Shield, Swords } from 'lucide-react';
 import charactersData from '@/data/characters.json';
 import eventsData from '@/data/events.json';
