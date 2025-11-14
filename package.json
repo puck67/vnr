@@ -24,8 +24,8 @@
     "msedge-tts": "^2.0.2",
     "next": "15.0.3",
     "postcss": "^8",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-leaflet": "^5.0.0",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^3.3.0"
