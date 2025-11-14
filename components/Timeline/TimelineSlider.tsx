@@ -69,7 +69,7 @@ export default function TimelineSlider({
 
   return (
     <motion.div
-      className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg p-4 z-[1000] w-[80vw] max-w-3xl"
+      className="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-white rounded-lg shadow-lg p-4 z-[1000] w-[80vw] max-w-3xl"
       whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.2 }}
     >
@@ -125,30 +125,26 @@ export default function TimelineSlider({
               const yearPercentage = ((year - minYear) / (maxYear - minYear)) * 100;
               const isPast = year <= currentYear;
 
-              // Tính hiệu ứng "lens magnification" - giãn điểm gần con trỏ chuột
+              // Tính hiệu ứng "lens magnification" - chỉ phóng to, không dịch chuyển vị trí
               let scale = 1;
-              let offset = 0;
 
               if (mouseX !== null) {
                 // Tính khoảng cách từ điểm đến vị trí chuột (0-100)
                 const distance = Math.abs(yearPercentage - mouseX);
 
-                // Nếu trong vùng ảnh hưởng (20% timeline - giảm từ 30% xuống)
-                const influenceRadius = 20;
+                // Nếu trong vùng ảnh hưởng (15% timeline)
+                const influenceRadius = 15;
                 if (distance < influenceRadius) {
                   // Tính độ mạnh của hiệu ứng (1 = gần nhất, 0 = xa nhất)
                   const strength = 1 - (distance / influenceRadius);
 
-                  // Scale: điểm gần chuột phóng to lên 1.8x (giảm từ 2x)
-                  scale = 1 + strength * 0.8;
-
-                  // Offset: đẩy điểm ra xa khỏi vị trí chuột (giảm mạnh từ 15 xuống 3)
-                  const direction = yearPercentage > mouseX ? 1 : -1;
-                  offset = direction * strength * strength * 3;
+                  // Chỉ scale, không offset để tránh markers bị dịch chuyển
+                  scale = 1 + strength * 0.5;
                 }
               }
 
-              const finalPosition = Math.max(0, Math.min(100, yearPercentage + offset));
+              // Giữ vị trí gốc, không dịch chuyển
+              const finalPosition = yearPercentage;
 
               return (
                 <motion.div
