@@ -1,27 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    turbo: {
-      rules: {
-        // Handle Tailwind CSS with Turbopack
-        '*.css': {
-          loaders: [
-            {
-              loader: 'postcss-loader',
-              options: {
-                postcssOptions: {
-                  plugins: [
-                    'tailwindcss',
-                    'autoprefixer',
-                  ],
-                },
-              },
-            },
-          ],
-        },
-      },
-    },
-  },
+  // Tắt Turbopack để sử dụng webpack cũ (tương thích tốt hơn)
+  experimental: {},
+  
   webpack: (config, { isServer }) => {
     // Fallback for Node.js modules in client-side
     if (!isServer) {
@@ -32,6 +13,7 @@ const nextConfig = {
         os: false,
         crypto: false,
         module: false,
+        perf_hooks: false,
       };
     }
     return config;
