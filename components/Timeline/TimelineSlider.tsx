@@ -69,7 +69,7 @@ export default function TimelineSlider({
 
   return (
     <motion.div
-      className="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-white rounded-lg shadow-lg p-4 z-[1000] w-[80vw] max-w-3xl"
+      className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg p-4 z-[1000] w-[80vw] max-w-3xl"
       whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.2 }}
     >
